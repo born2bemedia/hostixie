@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 
 import { cn } from '@/shared/lib/utils/cn';
+import { Header } from '@/shared/ui/components/header';
 
 import './globals.css';
 
@@ -21,7 +22,10 @@ export default async function RootLayout({
   return (
     <html lang={(await params).locale ?? 'en'}>
       <body className={cn(inter.variable, 'antialiased')}>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <Header />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
