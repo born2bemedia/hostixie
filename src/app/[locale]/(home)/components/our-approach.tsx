@@ -6,6 +6,9 @@ import { useTranslations } from 'next-intl';
 import { GreyDot } from '@/shared/ui/components/grey-dot';
 import { HeroTitle } from '@/shared/ui/components/hero-title';
 import { VerticalSlider } from '@/shared/ui/components/vertical-slider';
+import { ConnectedWorldIcon } from '@/shared/ui/icons/connected-world';
+import { DevWorldIcon } from '@/shared/ui/icons/dev-world';
+import { SupportWorldIcon } from '@/shared/ui/icons/support-world';
 import { WorldIcon } from '@/shared/ui/icons/world';
 import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
@@ -21,7 +24,7 @@ const getSlides = (t: ReturnType<typeof useTranslations>) => [
     }),
   },
   {
-    icon: WorldIcon,
+    icon: ConnectedWorldIcon,
     title: t('slides.1.title', { fallback: 'Planning & Strategy' }),
     text: t('slides.1.text', {
       fallback:
@@ -29,7 +32,7 @@ const getSlides = (t: ReturnType<typeof useTranslations>) => [
     }),
   },
   {
-    icon: WorldIcon,
+    icon: DevWorldIcon,
     title: t('slides.2.title', { fallback: 'Development' }),
     text: t('slides.2.text', {
       fallback:
@@ -37,7 +40,7 @@ const getSlides = (t: ReturnType<typeof useTranslations>) => [
     }),
   },
   {
-    icon: WorldIcon,
+    icon: SupportWorldIcon,
     title: t('slides.3.title', { fallback: 'Launch & Support' }),
     text: t('slides.3.text', {
       fallback:
