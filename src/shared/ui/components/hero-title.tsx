@@ -1,5 +1,6 @@
 'use client';
 
+import { cn } from '@/shared/lib/utils/cn';
 import { LineUpIcon } from '@/shared/ui/icons/line-up';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
@@ -10,15 +11,21 @@ export const HeroTitle = ({
   subtitle,
   color = 'white',
   additionalContent,
+  titleClassName,
 }: {
   title: string;
   subtitle: string;
   text: string;
   color?: 'white' | 'black';
   additionalContent?: React.ReactNode;
+  titleClassName?: string;
 }) => (
   <section className="flex flex-col gap-20">
-    <Title uppercase color={color} className="text-[112px] max-md:text-[40px]">
+    <Title
+      uppercase
+      color={color}
+      className={cn('text-[112px] max-md:text-[40px]', titleClassName)}
+    >
       {title}
     </Title>
     <div className="flex items-end justify-between">

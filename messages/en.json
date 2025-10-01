@@ -187,5 +187,227 @@
       "text": "We’re here to help you bring your digital presence to life. Whether you need web hosting or a custom-built website, our team is ready to support you.",
       "button": "Let’s Make It Happen"
     }
+  },
+  "webHosting": {
+    "hero": {
+      "title": "Web Hosting Solutions",
+      "subtitle": "Awaken Your Website’s Potential with Hostixie Hosting",
+      "text": "Web hosting is the digital conduit that empowers businesses and entrepreneurs to showcase their websites to a vast online audience. Whether you’re building a personal blog or a high-performance site for your project, our web hosting solutions are designed to meet your needs."
+    },
+    "vps": {
+      "title": "VPS Hosting",
+      "description": "A more robust and scalable option for websites that require dedicated resources. Enjoy the benefits of a dedicated server at a fraction of the cost.",
+      "items": {
+        "0": {
+          "name": "Foundation Plan",
+          "description": "A reliable solution for small websites or growing ventures that need more control, power, and scalability.",
+          "includes": {
+            "0": "2GB RAM",
+            "1": "2 Core CPU",
+            "2": "120 GB SSD",
+            "3": "Unmetered bandwidth",
+            "4": "cPanel License Fee Included"
+          }
+        },
+        "1": {
+          "name": "Elevate Plan",
+          "description": "Designed for high-traffic websites that require additional resources and improved performance.",
+          "includes": {
+            "0": "4GB RAM",
+            "1": "2 Core CPU",
+            "2": "165 GB SSD",
+            "3": "Unmetered bandwidth",
+            "4": "cPanel License Fee Included"
+          }
+        },
+        "2": {
+          "name": "Supreme Plan",
+          "description": "Tailored for large websites or resource-intensive applications that demand top-tier speed.",
+          "includes": {
+            "0": "8GB RAM",
+            "1": "4 Core CPU",
+            "2": "240 GB SSD",
+            "3": "Unmetered bandwidth",
+            "4": "cPanel License Fee Included"
+          }
+        }
+      }
+    },
+    "shared": {
+      "title": "Shared Hosting",
+      "description": "Great for small websites and businesses, offering a cost-effective and reliable way to establish an online presence quickly and efficiently.",
+      "items": {
+        "0": {
+          "name": "Basic Plan",
+          "description": "Perfect for small business websites and blogs that require reliable hosting with essential features.",
+          "includes": {
+            "0": "1 Website",
+            "1": "10 GB SSD Storage",
+            "2": "Free SSL",
+            "3": "Free CDN",
+            "4": "Professional Email - Free Trial",
+            "5": "Daily Website Backup - Free 1st Year"
+          }
+        },
+        "1": {
+          "name": "Advanced Plan",
+          "description": "Ideal for small projects or growing websites that need more flexibility and resources.",
+          "includes": {
+            "0": "3 Websites",
+            "1": "40 GB SSD Storage",
+            "2": "Free SSL",
+            "3": "Free CDN",
+            "4": "Free Domain 1st Year",
+            "5": "Professional Email - Free Trial",
+            "6": "Daily Website Backup - Free 1st Year"
+          }
+        },
+        "2": {
+          "name": "E-Commerce Plan",
+          "description": "Best suited for online stores, featuring enhanced security features and in-depth store analytics.",
+          "includes": {
+            "0": "3 Websites",
+            "1": "40 GB SSD Storage",
+            "2": "Free SSL",
+            "3": "Free CDN",
+            "4": "Free Domain 1st Year",
+            "5": "Professional Email - Free Trial",
+            "6": "Daily Website Backup - Free 1st Year",
+            "7": "Store Analytics"
+          }
+        }
+      }
+    },
+    "dedicatedHosting": {
+      "title": "Dedicated Hosting",
+      "description": "Complete control over your hosting environment. Perfect for high-traffic websites, e-commerce platforms, or businesses that require top-tier performance.",
+      "items": {
+        "0": {
+          "name": "Starter Plan",
+          "description": "A cost-effective hosting solution for small to medium businesses needing exclusive server resources.",
+          "includes": {
+            "0": "4 Core / 8 Thread",
+            "1": "8 GB RAM",
+            "2": "1 TB HDD Storage",
+            "3": "Unmetered bandwidth",
+            "4": "Linux OS",
+            "5": "cPanel with Root Access"
+          }
+        },
+        "1": {
+          "name": "Progressive Plan",
+          "description": "For companies that require more performance and resources with elevated hosting experience.",
+          "includes": {
+            "0": "3 Websites",
+            "1": "8 Core / 16 Thread",
+            "2": "16 GB RAM",
+            "3": "2 TB HDD Storage",
+            "4": "Unmetered bandwidth",
+            "5": "Linux OS",
+            "6": "cPanel with Root Access"
+          }
+        },
+        "2": {
+          "name": "Elite Plan",
+          "description": "The ultimate plan for businesses demanding the best in performance, security, and uptime.",
+          "includes": {
+            "0": "8 Core / 16 Thread",
+            "1": "30 GB RAM",
+            "2": "2 TB HDD Storage",
+            "3": "Unmetered bandwidth",
+            "4": "Linux OS",
+            "5": "cPanel with Root Access"
+          }
+        }
+      }
+    },
+    "cloud": {
+      "title": "Cloud Hosting",
+      "description": "Scalable and flexible cloud-based hosting solutions for dynamic websites that need to adapt quickly to increasing traffic or complex demands.",
+      "items": {
+        "0": {
+          "name": "Cloud Essentials Plan",
+          "description": "Ideal for medium-sized businesses seeking flexible cloud hosting that delivers reliable performance.",
+          "includes": {
+            "0": "50 GB SSD Storage",
+            "1": "2 GB RAM",
+            "2": "Unmetered bandwidth",
+            "3": "Free SSL",
+            "4": "Free CDN"
+          }
+        },
+        "1": {
+          "name": "Cloud Pro Plan",
+          "description": "For growing projects or high-traffic sites, providing more resources and enhanced flexibility is crucial.",
+          "includes": {
+            "0": "100 GB SSD Storage",
+            "1": "4 GB RAM",
+            "2": "Unmetered bandwidth",
+            "3": "Free SSL",
+            "4": "Free CDN",
+            "5": "Daily Backups"
+          }
+        },
+        "2": {
+          "name": "Cloud Ultimate Plan",
+          "description": "The best choice for high-performance sites that require the highest levels of scalability and resources.",
+          "includes": {
+            "0": "200 GB SSD Storage",
+            "1": "8 GB RAM",
+            "2": "Unmetered bandwidth",
+            "3": "Free SSL",
+            "4": "Free CDN",
+            "5": "Daily Backups",
+            "6": "Enhanced Security"
+          }
+        }
+      }
+    },
+    "wordpress": {
+      "title": "Managed WordPress Hosting",
+      "description": "Optimized hosting designed specifically for WordPress websites, with automatic updates, daily backups, and enhanced security.",
+      "items": {
+        "0": {
+          "name": "Basic WP Plan",
+          "description": "For small WordPress websites that need easy management, fast performance, and reliable uptime.",
+          "includes": {
+            "0": "1 Website",
+            "1": "10 GB SSD Storage",
+            "2": "Free SSL",
+            "3": "Free CDN",
+            "4": "Free Domain 1st Year"
+          }
+        },
+        "1": {
+          "name": "Advanced WP Plan",
+          "description": "For established WordPress sites requiring advanced performance, security, and resources.",
+          "includes": {
+            "0": "5 Websites",
+            "1": "80 GB SSD Storage",
+            "2": "Free SSL",
+            "3": "Free CDN",
+            "4": "Free Domain 1st Year"
+          }
+        },
+        "2": {
+          "name": "Enterprise WP Plan",
+          "description": "For large WordPress sites requiring the highest levels of performance, security, and resources.",
+          "includes": {
+            "0": "10 Websites",
+            "1": "120 GB SSD Storage",
+            "2": "Free SSL",
+            "3": "Free CDN",
+            "4": "Free Domain 1st Year",
+            "5": "Daily Backups"
+          }
+        }
+      }
+    },
+    "getInTouch": {
+      "title": "Ready to Choose a Plan?",
+      "subtitle": "Get Expert Guidance",
+      "text": "If you’re unsure which plan best suits your project’s needs or would like more information about our hosting options, please get in touch with our specialists today.",
+      "button": "Contact Us for More Details"
+    }
   }
 }

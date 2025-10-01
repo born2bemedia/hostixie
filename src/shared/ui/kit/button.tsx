@@ -54,7 +54,7 @@ export const Button = ({
     <button
       className={cn(
         btnVariants({ variant, size }),
-        fullWidth ? 'w-full' : 'w-max',
+        fullWidth ? 'w-full justify-center' : 'w-max',
         className,
       )}
       onClick={onClick}
