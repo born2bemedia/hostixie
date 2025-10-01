@@ -23,6 +23,7 @@ const textVariants = cva('transition duration-300 ease-in-out', {
       black: 'text-black',
       primary: 'text-primary',
       sand: 'text-[#76705B]',
+      grey: 'text-[#A4A189]',
     },
     weight: {
       300: 'font-light',

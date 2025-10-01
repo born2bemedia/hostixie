@@ -11,11 +11,13 @@ const btnVariants = cva(
     variants: {
       variant: {
         primary:
-          'bg-primary border border-primary text-black font-bold hover:bg-primary/80 hover:border-primary/80',
+          'bg-primary border border-primary text-black font-bold hover:bg-[rgba(254,95,5,0.5)] hover:border-[rgba(254,95,5,0.5)]',
         secondary:
-          'bg-white border border-white text-black hover:bg-[#f7f7f7] hover:border-[#f7f7f7]',
+          'bg-white border border-white text-black font-medium hover:bg-[#f7f7f7] hover:border-[#f7f7f7]',
         ghost:
-          'bg-transparent border border-black text-black hover:border-black/80 hover:text-black/80',
+          'bg-transparent border border-black text-black font-medium hover:border-black/80 hover:text-black/80',
+        glass:
+          'bg-transparent border border-transparent text-[#FFF4E1] font-bold hover:bg-[rgba(255,255,255,0.05)] active:bg-[rgba(255,255,255,0.10)]',
       },
       size: {
         sm: 'px-2 py-1 text-sm',

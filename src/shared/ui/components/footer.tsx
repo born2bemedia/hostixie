@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 import { Link as NavLink } from '@/i18n/navigation';
 
@@ -9,6 +10,8 @@ import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
 
 export const Footer = () => {
+  const t = useTranslations('footer');
+
   return (
     <footer className="flex flex-col bg-[#FFF4E1]">
       <section className="container flex flex-col gap-[80px] py-[40px] pb-[60px]">
@@ -16,11 +19,14 @@ export const Footer = () => {
         <section className="flex justify-between max-md:flex-col max-md:gap-[67px]">
           <nav className="flex gap-20 max-md:grid max-md:grid-cols-2 max-md:gap-[60px]">
             <NavColumn
-              title="What We Do"
+              title={t('whatWeDo', { fallback: 'What We Do' })}
               items={[
-                { label: 'Web Hosting', href: '/web-hosting' },
                 {
-                  label: 'Web Development',
+                  label: t('webHosting', { fallback: 'Web Hosting' }),
+                  href: '/web-hosting',
+                },
+                {
+                  label: t('webDevelopment', { fallback: 'Web Development' }),
                   href: '/web-development',
                 },
               ]}
@@ -28,20 +34,32 @@ export const Footer = () => {
             <NavColumn
               title="About"
               items={[
-                { label: 'Company Overview', href: '/company-overview' },
                 {
-                  label: 'Careers',
+                  label: t('companyOverview', { fallback: 'Company Overview' }),
+                  href: '/company-overview',
+                },
+                {
+                  label: t('careers', { fallback: 'Careers' }),
                   href: '/careers',
                 },
-                { label: 'Contact', href: '/contact' },
+                {
+                  label: t('contact', { fallback: 'Contact' }),
+                  href: '/contact',
+                },
               ]}
             />
             <NavColumn
               title="Vision"
               items={[
-                { label: 'Our Approach', href: '/our-approach' },
-                { label: 'Clients', href: '/clients' },
-                { label: 'News', href: '/news' },
+                {
+                  label: t('ourApproach', { fallback: 'Our Approach' }),
+                  href: '/our-approach',
+                },
+                {
+                  label: t('clients', { fallback: 'Clients' }),
+                  href: '/clients',
+                },
+                { label: t('news', { fallback: 'News' }), href: '/news' },
               ]}
             />
           </nav>
@@ -62,30 +80,35 @@ export const Footer = () => {
             <div className="flex gap-8 max-md:flex-col">
               <NavLink href="/terms-and-conditions">
                 <Text size="xs" color="sand">
-                  Terms and Conditions
+                  {t('termsAndConditions', {
+                    fallback: 'Terms and Conditions',
+                  })}
                 </Text>
               </NavLink>
               <NavLink href="/terms-and-conditions">
                 <Text size="xs" color="sand">
-                  Privacy Policy
+                  {t('privacyPolicy', { fallback: 'Privacy Policy' })}
                 </Text>
               </NavLink>
             </div>
             <div className="flex gap-8 max-md:flex-col">
               <NavLink href="/terms-and-conditions">
                 <Text size="xs" color="sand">
-                  Cookie Policy
+                  {t('cookiePolicy', { fallback: 'Cookie Policy' })}
                 </Text>
               </NavLink>
               <NavLink href="/terms-and-conditions">
                 <Text size="xs" color="sand">
-                  Refund Policy
+                  {t('refundPolicy', { fallback: 'Refund Policy' })}
                 </Text>
               </NavLink>
             </div>
           </nav>
           <Text size="xs" color="sand">
-            © 2025 Company Name. All Legal Rights Reserved.
+            © {new Date().getFullYear()} Company Name.{' '}
+            {t('allLegalRightsReserved', {
+              fallback: 'All Legal Rights Reserved',
+            })}
           </Text>
         </section>
       </section>
