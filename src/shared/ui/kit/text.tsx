@@ -12,11 +12,11 @@ const textVariants = cva('transition duration-300 ease-in-out', {
       sm: 'text-sm',
       base: 'text-base',
       lg: 'text-lg',
-      xl: 'text-xl',
+      xl: 'text-xl max-md:text-base',
       '2xl': 'text-2xl',
       '3xl': 'text-3xl',
       '4xl': 'text-4xl',
-      '5xl': 'text-5xl',
+      '5xl': 'text-5xl max-md:text-xl',
     },
     color: {
       white: 'text-[#FFF4E1]',
@@ -51,12 +51,14 @@ export const Text = ({
   capitalize = false,
   uppercase = false,
   underline = false,
+  lineThrough = false,
 }: PropsWithChildren<
   TextVariants & {
     className?: string;
     capitalize?: boolean;
     uppercase?: boolean;
     underline?: boolean;
+    lineThrough?: boolean;
   }
 >) => (
   <p
@@ -67,6 +69,7 @@ export const Text = ({
       uppercase && 'uppercase',
       underline &&
         'decoration-skip-ink-none underline-position-from-font underline decoration-solid underline-offset-auto',
+      lineThrough && 'line-through',
     )}
   >
     {children}
