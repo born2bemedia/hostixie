@@ -11,19 +11,21 @@ export const GetInTouch = ({
   title,
   titleClassName,
   layoutClassName,
+  color = 'black',
 }: {
   title: string;
-  subtitle: string;
+  subtitle?: string;
   text: string;
   button: string;
   titleClassName?: string;
   layoutClassName?: string;
+  color?: 'white' | 'black';
 }) => {
   return (
     <div className={cn('bg-[#FFF4E1]', layoutClassName)}>
       <section className="container">
         <HeroTitle
-          color="black"
+          color={color}
           title={title}
           subtitle={subtitle}
           text={text}
