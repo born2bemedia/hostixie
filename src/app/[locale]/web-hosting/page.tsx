@@ -4,9 +4,8 @@ import { getTranslations } from 'next-intl/server';
 import type { WebHostingCardDef } from '@/features/web-hosting/model/types';
 import { WebHostingList } from '@/features/web-hosting/ui/web-hosting-list';
 
+import { FeatureHero } from '@/shared/ui/components/feature-hero';
 import { GetInTouch } from '@/shared/ui/components/get-in-touch';
-
-import { Hero } from './components';
 
 const getSharedHosting = (
   t: Awaited<ReturnType<typeof getTranslations>>,
@@ -343,7 +342,16 @@ export default async function WebHosting() {
 
   return (
     <main>
-      <Hero />
+      <FeatureHero
+        title={t('hero.title', { fallback: 'Web Hosting Solutions' })}
+        subtitle={t('hero.subtitle', {
+          fallback: 'Awaken Your Website’s Potential with Hostixie Hosting',
+        })}
+        text={t('hero.text', {
+          fallback:
+            'Web hosting is the digital conduit that empowers businesses and entrepreneurs to showcase their websites to a vast online audience. Whether you’re building a personal blog or a high-performance site for your project, our web hosting solutions are designed to meet your needs.',
+        })}
+      />
       <WebHostingList
         title={t('shared.title', { fallback: 'Shared Hosting' })}
         description={t('shared.description', {

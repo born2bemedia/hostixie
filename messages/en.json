@@ -409,5 +409,524 @@
       "text": "If you’re unsure which plan best suits your project’s needs or would like more information about our hosting options, please get in touch with our specialists today.",
       "button": "Contact Us for More Details"
     }
+  },
+  "webDevelopment": {
+    "hero": {
+      "title": "Web Development That Delivers",
+      "subtitle": "Transform Your Project with Expert Web Development",
+      "text": "At Hostixie, we specialize in crafting custom web development solutions tailored to your unique company needs. From building a business card website to launching an e-commerce platform or developing a custom web application, we offer services designed to meet your goals and grow with your projects."
+    },
+    "yourPartner": {
+      "title": "Why We're Your Perfect Digital Partner",
+      "text": "We don’t just build websites; we create digital experiences that elevate your brand and drive results. Here’s why we’re the right choice for your project:",
+      "cards": {
+        "0": {
+          "title": "Expert Craftsmanship",
+          "text": "Our team combines years of expertise with innovative design to deliver solutions that are both functional and beautiful."
+        },
+        "1": {
+          "title": "Innovation at Our Core",
+          "text": "We utilize cutting-edge tools and technology to ensure your website stays ahead of the curve, delivering the best possible user experience."
+        },
+        "2": {
+          "title": "Tailored to Perfection",
+          "text": "No templates, no cookie-cutter solutions — each project is custom-built to suit your unique vision and goals."
+        },
+        "3": {
+          "title": "Partnership Beyond Development",
+          "text": "We believe in long-term relationships. From the first consultation to ongoing support, we’re committed to your digital growth."
+        }
+      }
+    },
+    "ourPath": {
+      "title": "Our Proven Path to Digital Success",
+      "text": "We believe in transparency, collaboration, and excellence. Our approach is carefully crafted to ensure that every website we develop meets your needs, exceeds your expectations, and drives measurable success.",
+      "cards": {
+        "0": {
+          "title": "Discovery & Vision Mapping",
+          "text": "We kick off by understanding your business, goals, and challenges. Your vision drives the project’s direction — no surprises, just straightforward, actionable steps."
+        },
+        "1": {
+          "title": "Strategic Blueprint Creation",
+          "text": "After understanding your needs, we design a customized roadmap for success, outlining design, functionality, and timelines."
+        },
+        "2": {
+          "title": "Designing Your Digital Masterpiece",
+          "text": "Our designers and developers collaborate to build a website that’s visually stunning, intuitive, and optimized for a seamless user experience."
+        },
+        "3": {
+          "title": "Launch With Confidence",
+          "text": "We thoroughly test everything to ensure your website functions flawlessly across all devices and platforms, then launch with precision."
+        },
+        "4": {
+          "title": "Continuous Evolution",
+          "text": "Our commitment doesn’t end at launch. With ongoing support, maintenance, and performance monitoring, we ensure your website stays at the top of its game."
+        },
+        "5": {
+          "title": "Continuous Evolution",
+          "text": "Our commitment doesn’t end at launch. With ongoing support, maintenance, and performance monitoring, we ensure your website stays at the top of its game."
+        }
+      }
+    },
+    "ourFullRange": {
+      "title": "Our Full Range of Web Development Services",
+      "text": "We offer a comprehensive suite of web development services designed to bring your business objectives to life. From custom websites and scalable e-commerce platforms to robust web applications and seamless integrations, we provide everything you need to build a high-performing online presence for your company.",
+      "slider": {
+        "hide": "Hide",
+        "show": "Show",
+        "allServices": "all services",
+        "0": {
+          "title": "Custom Website Development",
+          "text": "We design and develop tailored websites to suit your specific business goals and digital vision.",
+          "includes": {
+            "0": {
+              "title": "Bespoke Web Design",
+              "text": "Create a unique design that aligns with your brand identity and user expectations."
+            },
+            "1": {
+              "title": "Responsive Layout",
+              "text": "Build flexible websites that adapt seamlessly to all screen sizes, ensuring an optimal experience across devices."
+            },
+            "2": {
+              "title": "User-Centric Development",
+              "text": "We design with the user in mind to ensure intuitive navigation and engagement."
+            },
+            "3": {
+              "title": "Scalable Solutions",
+              "text": "Websites built with scalability in mind to grow alongside your project."
+            },
+            "4": {
+              "title": "Performance Optimization",
+              "text": "Ensure fast load times and smooth functionality by optimizing site performance."
+            },
+            "5": {
+              "title": "SEO-Ready Development",
+              "text": "Develop websites with SEO best practices integrated, allowing for better visibility on search engines."
+            },
+            "6": {
+              "title": "Content Management Integration",
+              "text": "Implement a user-friendly CMS like WordPress, Joomla, and more for easy content updates."
+            },
+            "7": {
+              "title": "API Integration",
+              "text": "Seamlessly integrate third-party services such as payment gateways or CRM systems."
+            },
+            "8": {
+              "title": "E-Commerce Development",
+              "text": "Build secure and scalable online stores that provide smooth shopping experiences."
+            },
+            "9": {
+              "title": "Security Integration",
+              "text": "Add top-tier security features, such as SSL certificates and data encryption, to ensure your site is secure."
+            }
+          }
+        },
+        "1": {
+          "title": "E-commerce Development",
+          "text": "Empower your online store with a seamless, feature-rich, and secure e-commerce platform.",
+          "includes": {
+            "0": {
+              "title": "Custom E-Commerce Solutions",
+              "text": "Tailored solutions for your online store that suit your specific industry and needs."
+            },
+            "1": {
+              "title": "User-Friendly Shopping Experience",
+              "text": "Crafting a seamless, intuitive shopping process from browsing to checkout."
+            },
+            "2": {
+              "title": "Secure Payment Integration",
+              "text": "Implement secure, reliable payment gateways that protect sensitive customer data."
+            },
+            "3": {
+              "title": "Mobile-Optimized E-Commerce",
+              "text": "Develop e-commerce platforms with mobile-first designs to enhance usability across all devices and platforms, ensuring seamless user experiences."
+            },
+            "4": {
+              "title": "Inventory Management",
+              "text": "Integrate sophisticated inventory management systems to streamline stock management and order processing."
+            },
+            "5": {
+              "title": "Product Variations & Options",
+              "text": "Customize product pages with options such as size, color, and quantity for improved user selection."
+            },
+            "6": {
+              "title": "Shipping & Tax Calculators",
+              "text": "Implement automated tools for calculating shipping and taxes during the checkout process."
+            },
+            "7": {
+              "title": "Customer Account Features",
+              "text": "Allow users to create accounts for easier ordering, tracking, and returning."
+            },
+            "8": {
+              "title": "Order Tracking & Management",
+              "text": "Develop systems to manage and track customer orders efficiently."
+            },
+            "9": {
+              "title": "Promotions & Discount Codes",
+              "text": "Enable special offers and discount features to boost sales and customer retention."
+            }
+          }
+        },
+        "2": {
+          "title": "Responsive Web Design",
+          "text": "Creating websites that look great and function seamlessly on any device.",
+          "includes": {
+            "0": {
+              "title": "Mobile-First Design",
+              "text": "Design with mobile users in mind first, ensuring seamless functionality on smaller screens."
+            },
+            "1": {
+              "title": "Cross-Device Compatibility",
+              "text": "Ensure your site works perfectly across various devices and screen sizes."
+            },
+            "2": {
+              "title": "Flexible Grid Layouts",
+              "text": "Implement flexible layouts that automatically adapt to the user's device and screen size."
+            },
+            "3": {
+              "title": "Optimized Image Rendering",
+              "text": "Use image sizes and formats that automatically adjust based on device type."
+            },
+            "4": {
+              "title": "Touchscreen Optimization",
+              "text": "Optimize your site for touchscreens to provide a seamless user experience on mobile devices."
+            },
+            "5": {
+              "title": "Fast Loading Speed",
+              "text": "Optimize your website's speed for mobile devices, ensuring fast load times on any network."
+            },
+            "6": {
+              "title": "Viewport Adjustments",
+              "text": "Ensure content and design elements scale properly to fit the user's screen size with responsive viewports."
+            },
+            "7": {
+              "title": "Adaptive Menus",
+              "text": "Implement menus that adapt to different devices, such as dropdowns for mobile users."
+            },
+            "8": {
+              "title": "Mobile-Specific Features",
+              "text": "Add mobile-specific features, such as click-to-call or geolocation, to enhance the user experience."
+            },
+            "9": {
+              "title": "Device Testing",
+              "text": "Conduct extensive cross-device testing to ensure consistent performance on all devices."
+            }
+          }
+        },
+        "3": {
+          "title": "Content Management Systems (CMS)",
+          "text": "Manage and update your website with ease using a powerful content management system.",
+          "includes": {
+            "0": {
+              "title": "WordPress Development",
+              "text": "Build custom WordPress websites with advanced features tailored to your needs."
+            },
+            "1": {
+              "title": "Joomla & Drupal Development",
+              "text": "Expert development and customization for other popular CMS platforms like Joomla and Drupal."
+            },
+            "2": {
+              "title": "User-Friendly Dashboards",
+              "text": "Implement easy-to-use dashboards that allow users to update content without technical knowledge."
+            },
+            "3": {
+              "title": "Custom CMS Features",
+              "text": "Develop unique CMS features tailored to your specific business operations."
+            },
+            "4": {
+              "title": "Multilingual CMS Support",
+              "text": "Integrate multi-language options into your CMS for a global reach."
+            },
+            "5": {
+              "title": "Security Features",
+              "text": "Implement built-in security protocols to safeguard your CMS against hacking and data breaches."
+            },
+            "6": {
+              "title": "SEO-Ready CMS",
+              "text": "Optimize CMS pages for SEO to improve their ranking in search engines."
+            },
+            "7": {
+              "title": "Media Management",
+              "text": "Integrate media libraries and content management features that streamline content creation."
+            },
+            "8": {
+              "title": "Role-Based Access Control",
+              "text": "Set up different access levels for users to control who can edit or update content."
+            },
+            "9": {
+              "title": "CMS Maintenance & Support",
+              "text": "Provide ongoing support and maintenance for your CMS, ensuring it's always up-to-date."
+            }
+          }
+        },
+        "4": {
+          "title": "Web Application Development",
+          "text": "Develop powerful, customized web applications designed to streamline your business processes.",
+          "includes": {
+            "0": {
+              "title": "Custom Web Applications",
+              "text": "Build web applications that are fully customized to your project needs and workflow."
+            },
+            "1": {
+              "title": "Database Integration",
+              "text": "Integrate robust databases to store, retrieve, and manage data efficiently."
+            },
+            "2": {
+              "title": "Enterprise Solutions",
+              "text": "Develop large-scale web applications that streamline operations and enhance efficiency."
+            },
+            "3": {
+              "title": "Data Analytics & Reporting",
+              "text": "Build web apps that provide real-time data analytics and reporting."
+            },
+            "4": {
+              "title": "Mobile Web Apps",
+              "text": "Design and develop web apps that work seamlessly on both desktop and mobile devices."
+            },
+            "5": {
+              "title": "API Integrations",
+              "text": "Integrate third-party APIs into your web apps for enhanced functionality."
+            },
+            "6": {
+              "title": "Security & Authentication",
+              "text": "Implement secure user authentication and data protection protocols."
+            },
+            "7": {
+              "title": "Payment Gateway Integration",
+              "text": "Set up secure, reliable payment systems within your web applications."
+            },
+            "8": {
+              "title": "CRM Web Applications",
+              "text": "Develop web applications that integrate with customer relationship management (CRM) systems to enhance customer interactions and streamline business processes."
+            },
+            "9": {
+              "title": "Continuous Support & Maintenance",
+              "text": "Offer ongoing maintenance and updates to ensure your web app remains fully functional."
+            }
+          }
+        },
+        "5": {
+          "title": "SEO Web Development",
+          "text": "Optimize your website for search engines right from the development phase.",
+          "includes": {
+            "0": {
+              "title": "On-Page SEO Optimization",
+              "text": "Ensure your website is fully optimized for search engines with keyword-focused content."
+            },
+            "1": {
+              "title": "Meta Tag Implementation",
+              "text": "Add necessary meta tags, such as title, description, and keywords, to help search engines index your site correctly."
+            },
+            "2": {
+              "title": "SEO-Friendly URLs",
+              "text": "Structure URLs in an SEO-friendly manner to improve search engine visibility."
+            },
+            "3": {
+              "title": "Mobile SEO",
+              "text": "Optimize your site for mobile searches to ensure visibility on mobile devices."
+            },
+            "4": {
+              "title": "Site Speed Optimization",
+              "text": "Improve your website's loading speed, a key factor for SEO rankings."
+            },
+            "5": {
+              "title": "Structured Data Markup",
+              "text": "Implement schema markup to help search engines better understand your content and improve its visibility."
+            },
+            "6": {
+              "title": "Internal Linking Strategies",
+              "text": "Establish a robust internal linking structure to enhance both SEO and user navigation."
+            },
+            "7": {
+              "title": "Content Optimization",
+              "text": "Optimize your web content with relevant keywords and best SEO practices to achieve higher search engine rankings."
+            },
+            "8": {
+              "title": "Backlink Strategy",
+              "text": "Develop strategies to build high-quality backlinks and enhance your website's domain authority."
+            },
+            "9": {
+              "title": "Ongoing SEO Monitoring",
+              "text": "Provide continuous SEO monitoring and adjustments to ensure your site remains optimized."
+            }
+          }
+        },
+        "6": {
+          "title": "Website Maintenance & Support",
+          "text": "Ensure your website performs optimally with ongoing support and regular updates.",
+          "includes": {
+            "0": {
+              "title": "Regular Software Updates",
+              "text": "Keep all your website software up to date to avoid security vulnerabilities."
+            },
+            "1": {
+              "title": "Security Monitoring",
+              "text": "Implement continuous security scans to detect and prevent threats."
+            },
+            "2": {
+              "title": "Backup Solutions",
+              "text": "Ensure regular backups are taken to prevent data loss."
+            },
+            "3": {
+              "title": "Performance Monitoring",
+              "text": "Regularly check your website's performance to ensure it's running at peak efficiency."
+            },
+            "4": {
+              "title": "Content Updates",
+              "text": "Offer timely content updates to keep your website relevant and engaging."
+            },
+            "5": {
+              "title": "Bug Fixing",
+              "text": "Resolve issues quickly to ensure your website remains fully functional."
+            },
+            "6": {
+              "title": "Hosting Support",
+              "text": "Provide troubleshooting and assistance with hosting-related issues."
+            },
+            "7": {
+              "title": "SEO Maintenance",
+              "text": "Continuously monitor and update your website's SEO to stay competitive."
+            },
+            "8": {
+              "title": "Compliance Updates",
+              "text": "Keep your website up to date with legal and industry-specific regulations."
+            },
+            "9": {
+              "title": "Technical Support",
+              "text": "Provide ongoing technical support to resolve issues efficiently and effectively."
+            }
+          }
+        },
+        "7": {
+          "title": "UX/UI Design",
+          "text": "Deliver exceptional user experiences through custom-designed, intuitive user interfaces.",
+          "includes": {
+            "0": {
+              "title": "User Research",
+              "text": "Conduct thorough user research to understand their needs and preferences."
+            },
+            "1": {
+              "title": "Wireframing & Prototyping",
+              "text": "Create detailed wireframes and prototypes to visualize design concepts before they are developed."
+            },
+            "2": {
+              "title": "Responsive UI Design",
+              "text": "Ensure your interface works smoothly across all screen sizes, providing a seamless user experience."
+            },
+            "3": {
+              "title": "Interactive Design",
+              "text": "Develop engaging and interactive UI elements that keep users engaged and motivated."
+            },
+            "4": {
+              "title": "Usability Testing",
+              "text": "Conduct usability testing to refine the user experience and ensure ease of use."
+            },
+            "5": {
+              "title": "Brand Identity Integration",
+              "text": "Design interfaces that align with your brand's aesthetic and values."
+            },
+            "6": {
+              "title": "Cross-Platform UI",
+              "text": "Ensure consistency in design and functionality across multiple platforms."
+            },
+            "7": {
+              "title": "Intuitive Navigation",
+              "text": "Create easy-to-navigate designs that enhance user experience and reduce bounce rates."
+            },
+            "8": {
+              "title": "Conversion-Oriented Design",
+              "text": "Design interfaces that guide users toward desired actions, such as purchasing or subscribing."
+            },
+            "9": {
+              "title": "UI Optimization for Performance",
+              "text": "Ensure all UI elements are optimized for performance and quick loading times."
+            }
+          }
+        }
+      }
+    },
+    "downloadPrice": {
+      "title": "Need Our Pricing in PDF?",
+      "text": "While all our prices are available on the website, we understand you might prefer a convenient, downloadable version. Get our complete pricing details in PDF format, neatly organized for easy reference and comparison.",
+      "button": "Download Full Pricing PDF"
+    },
+    "webPackages": {
+      "title": "Our Web Development Packages",
+      "text": "Discover our comprehensive range of web development packages, each tailored to meet the distinct needs of your business. From simple, cost-effective plans to advanced, feature-rich packages, we have everything you need to create a stunning, high-performance website.",
+      "items": {
+        "0": {
+          "title": "Spark Starter Plan",
+          "description": "Ideal for small projects or websites that require a stable foundation. This package covers the essentials to get your website online with a professional look and feel.",
+          "includes": {
+            "0": "Custom Website Design",
+            "1": "Mobile Responsiveness",
+            "2": "SEO Optimization",
+            "3": "Basic Content Management System (CMS)",
+            "4": "1 Year of Hosting",
+            "5": "Basic Analytics Setup",
+            "6": "Basic Website Security",
+            "7": "Content Upload (Up to 10 Pages)",
+            "8": "Social Media Integration",
+            "9": "Contact Form Integration"
+          }
+        },
+        "1": {
+          "title": "Growth Accelerator Plan",
+          "description": "This plan is perfect for companies looking to expand their digital presence. It includes advanced features and customizations to enhance user engagement and boost performance.",
+          "includes": {
+            "0": "Advanced Custom Website Design",
+            "1": "E-commerce Functionality",
+            "2": "Enhanced SEO Optimization",
+            "3": "CMS with Advanced Features",
+            "4": "User Experience (UX) Design",
+            "5": "2 Years of Hosting",
+            "6": "Analytics & Tracking Setup",
+            "7": "SSL Certificate & Basic Security",
+            "8": "Content Upload (Up to 25 Pages)",
+            "9": "Social Media Sharing & Analytics Integration"
+          }
+        },
+        "2": {
+          "title": "Powerhouse Pro Plan",
+          "description": "For growing businesses with higher demands, this plan offers comprehensive features, integrations, and an optimized web application to deliver a world-class digital experience.",
+          "includes": {
+            "0": "Custom Web Application Development",
+            "1": "Full E-commerce Store with Payment Integration",
+            "2": "Complete SEO & Mobile Optimization",
+            "3": "Advanced UX/UI Design",
+            "4": "API Integrations",
+            "5": "3 Years of Hosting",
+            "6": "Full Security Suite & Malware Protection",
+            "7": "Website Analytics & Reporting Dashboard",
+            "8": "Content Upload (Up to 50 Pages)",
+            "9": "Email Marketing Integration"
+          }
+        },
+        "3": {
+          "title": "Digital Empire Plan",
+          "price": "Individual",
+          "description": "Our top-tier, custom-tailored solution is for large enterprises or complex websites. This package offers everything you need, from cutting-edge web applications to full-service digital marketing integrations. Ideal for enterprises seeking a fully customized solution and ongoing partnership.",
+          "includes": {
+            "0": "Completely Custom Web Application Development",
+            "1": "Full-Scale E-commerce with Custom Features",
+            "2": "Advanced User Experience & Interface Design",
+            "3": "Integration with Third-Party APIs and Tools",
+            "4": "Dedicated Server Hosting & Load Balancing",
+            "5": "5+ Years of Hosting & Ongoing Maintenance",
+            "6": "Full-Spectrum Digital Marketing Strategy & Execution",
+            "7": "24/7 Dedicated Support & Security Monitoring",
+            "8": "Detailed Analytics and Business Insights Dashboard",
+            "9": "Unlimited Content Uploads & Social Media Features"
+          }
+        }
+      }
+    }
+  },
+  "webDevCard": {
+    "price": "Price:",
+    "from": "from",
+    "choosePackage": "Choose Package",
+    "showLess": "show less",
+    "showMore": "show more"
   }
 }

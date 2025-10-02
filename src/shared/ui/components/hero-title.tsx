@@ -14,7 +14,7 @@ export const HeroTitle = ({
   titleClassName,
 }: {
   title: string;
-  subtitle: string;
+  subtitle?: string;
   text: string;
   color?: 'white' | 'black';
   additionalContent?: React.ReactNode;
@@ -32,9 +32,11 @@ export const HeroTitle = ({
       <LineUpIcon />
       <div className="flex w-[70%] flex-col gap-10 max-md:gap-8">
         <div className="flex flex-col gap-2.5">
-          <Title as="h3" size="5xl" color={color}>
-            {subtitle}
-          </Title>
+          {subtitle && (
+            <Title as="h3" size="3xl" color={color}>
+              {subtitle}
+            </Title>
+          )}
           <Text
             size="xl"
             color={color}

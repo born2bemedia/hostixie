@@ -13,7 +13,7 @@ const btnVariants = cva(
         primary:
           'bg-primary border border-primary text-black font-bold hover:bg-[rgba(254,95,5,0.5)] hover:border-[rgba(254,95,5,0.5)]',
         secondary:
-          'bg-white border border-white text-black font-medium hover:bg-[#f7f7f7] hover:border-[#f7f7f7]',
+          'bg-[#FFF4E1] border border-[#FFF4E1] text-black font-medium hover:bg-[#FFF4E1]/80 hover:border-[#FFF4E1]/80',
         ghost:
           'bg-transparent border border-black text-black font-medium hover:border-black/80 hover:text-black/80',
         glass:
@@ -24,6 +24,7 @@ const btnVariants = cva(
       size: {
         sm: 'px-2 py-1 text-sm',
         md: 'px-4 h-10 text-sm',
+        lg: 'h-[62px] text-lg px-10',
       },
     },
     defaultVariants: {

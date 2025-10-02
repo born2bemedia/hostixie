@@ -48,7 +48,7 @@ export const VerticalSlider = ({
   );
 };
 
-const ArrowRight = () => (
+export const ArrowRight = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="18"
@@ -77,7 +77,7 @@ const ArrowRight = () => (
   </svg>
 );
 
-const ArrowLeft = () => (
+export const ArrowLeft = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="18"
