@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 import { useForm } from '@/shared/lib/forms';
 import { FormColumn } from '@/shared/ui/components/form-column';
@@ -23,6 +24,8 @@ export const RequestPackageForm = ({
   onCancel: () => void;
 }) => {
   const [isSuccess, setIsSuccess] = useState(false);
+
+  const t = useTranslations('requestPackageForm');
 
   const { Field, Subscribe, handleSubmit } = useForm({
     defaultValues: {
@@ -65,8 +68,10 @@ export const RequestPackageForm = ({
             {field => (
               <TextField
                 name={field.name}
-                label="First Name:"
-                placeholder="Enter your first name"
+                label={t('firstName.label', { fallback: 'First Name:' })}
+                placeholder={t('firstName.placeholder', {
+                  fallback: 'Enter your first name',
+                })}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -81,8 +86,10 @@ export const RequestPackageForm = ({
             {field => (
               <TextField
                 name={field.name}
-                label="Last Name:"
-                placeholder="Enter your last name"
+                label={t('lastName.label', { fallback: 'Last Name:' })}
+                placeholder={t('lastName.placeholder', {
+                  fallback: 'Enter your last name',
+                })}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -98,8 +105,10 @@ export const RequestPackageForm = ({
               <TextField
                 name={field.name}
                 type="email"
-                label="Email:"
-                placeholder="Enter your email"
+                label={t('email.label', { fallback: 'Email:' })}
+                placeholder={t('email.placeholder', {
+                  fallback: 'Enter your email',
+                })}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -114,7 +123,10 @@ export const RequestPackageForm = ({
             {field => (
               <PhoneField
                 name={field.name}
-                label="Phone:"
+                label={t('phone.label', { fallback: 'Phone:' })}
+                placeholder={t('phone.placeholder', {
+                  fallback: 'Enter your phone',
+                })}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={value => field.handleChange(value)}
@@ -129,8 +141,10 @@ export const RequestPackageForm = ({
           <Field name="timeline">
             {field => (
               <Select
-                label="Timeline:"
-                placeholder="Select your timeline"
+                label={t('timeline.label', { fallback: 'Timeline:' })}
+                placeholder={t('timeline.placeholder', {
+                  fallback: 'Select your timeline',
+                })}
                 values={[
                   { label: 'Short Term (1-3 months)', value: '1-3 months' },
                   { label: 'Medium Term (3-6 months)', value: '3-6 months' },
@@ -147,8 +161,10 @@ export const RequestPackageForm = ({
             {field => (
               <TextArea
                 name={field.name}
-                label="Message:"
-                placeholder="Enter your message"
+                label={t('message.label', { fallback: 'Message:' })}
+                placeholder={t('message.placeholder', {
+                  fallback: 'Enter your message',
+                })}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -168,7 +184,7 @@ export const RequestPackageForm = ({
           onClick={onCancel}
           className="max-md:w-full max-md:justify-center"
         >
-          Cancel
+          {t('cancel', { fallback: 'Cancel' })}
         </Button>
         <Subscribe selector={state => [state.canSubmit, state.isSubmitting]}>
           {([canSubmit, isSubmitting]) => (
@@ -179,7 +195,9 @@ export const RequestPackageForm = ({
               disabled={!canSubmit}
               className="max-md:w-full max-md:justify-center"
             >
-              {isSubmitting ? 'Submitting...' : 'Submit'}
+              {isSubmitting
+                ? t('submitting', { fallback: 'Submitting...' })
+                : t('submit', { fallback: 'Submit' })}
             </Button>
           )}
         </Subscribe>
@@ -197,12 +215,13 @@ export const RequestPackageForm = ({
       />
       <div className="flex flex-col gap-2">
         <Title as="h3" size="5xl" color="black" weight={700}>
-          Thank you!
+          {t('thankYou', { fallback: 'Thank you!' })}
         </Title>
         <Text size="xl" color="black" weight={500}>
-          Your service package request has been successfully received. Our team
-          is reviewing the details and will contact you shortly to discuss the
-          next steps and how we can assist with your project.
+          {t('thankYouDescription', {
+            fallback:
+              'Your service package request has been successfully received. Our team is reviewing the details and will contact you shortly to discuss the next steps and how we can assist with your project.',
+          })}
         </Text>
       </div>
       <Button
@@ -211,7 +230,7 @@ export const RequestPackageForm = ({
         onClick={onCloseHandle}
         className="ml-auto"
       >
-        Close
+        {t('close', { fallback: 'Close' })}
       </Button>
     </section>
   );

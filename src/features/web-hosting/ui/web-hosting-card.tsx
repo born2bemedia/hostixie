@@ -1,12 +1,16 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
+
+import { RequestPackageForm } from '@/features/request-package/ui/request-package-form';
 
 import { cn } from '@/shared/lib/utils/cn';
 import { GreyDot } from '@/shared/ui/components/grey-dot';
 import { ChevronDownIcon } from '@/shared/ui/icons/chevron-down';
 import { PlanetsIcon } from '@/shared/ui/icons/planets';
 import { Button } from '@/shared/ui/kit/button';
+import { useDialogStore } from '@/shared/ui/kit/dialog';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
@@ -21,6 +25,19 @@ export const WebHostingCard = ({
   price,
 }: WebHostingCardDef) => {
   const [isShowMore, setIsShowMore] = useState(false);
+
+  const t = useTranslations('webHostingCard');
+
+  const { setIsOpen, registerContent } = useDialogStore();
+
+  const onRequestPackageHandle = () => {
+    registerContent({
+      content: (
+        <RequestPackageForm title={name} onCancel={() => setIsOpen(false)} />
+      ),
+    });
+    setIsOpen(true);
+  };
 
   return (
     <article className="flex h-max flex-1 flex-col gap-5 rounded-xl border border-[#A4A189] p-6">
@@ -38,7 +55,7 @@ export const WebHostingCard = ({
         </div>
         <div className="flex flex-col gap-2">
           <Text size="xs" color="primary" weight={700}>
-            {discount}% Off!
+            {discount}% {t('off', { fallback: 'Off!' })}
           </Text>
           <div className="flex gap-2">
             <span className="flex items-end gap-1">
@@ -46,7 +63,7 @@ export const WebHostingCard = ({
                 €{price}
               </Title>
               <Text size="xs" weight={700}>
-                /month
+                /{t('month', { fallback: 'month' })}
               </Text>
             </span>
             <Text size="lg" color="grey" lineThrough>
@@ -55,9 +72,12 @@ export const WebHostingCard = ({
           </div>
         </div>
       </section>
-      <button className="flex h-[62px] cursor-pointer items-center justify-center rounded bg-[#FFF4E1]/10 transition-all duration-300 ease-in-out hover:bg-[#FFF4E1]/20">
+      <button
+        className="flex h-[62px] cursor-pointer items-center justify-center rounded bg-[#FFF4E1]/10 transition-all duration-300 ease-in-out hover:bg-[#FFF4E1]/20"
+        onClick={onRequestPackageHandle}
+      >
         <Text size="lg" weight={700}>
-          Choose Plan
+          {t('choosePlan', { fallback: 'Choose Plan' })}
         </Text>
       </button>
       <Text size="base" color="grey">
@@ -69,7 +89,7 @@ export const WebHostingCard = ({
           onClick={() => setIsShowMore(prev => !prev)}
           fullWidth
         >
-          show more <ChevronDownIcon />
+          {t('showMore', { fallback: 'show more' })} <ChevronDownIcon />
         </Button>
         <div
           className={cn(
@@ -79,7 +99,7 @@ export const WebHostingCard = ({
         >
           <div className="flex flex-col gap-2 px-10 pt-3.5 pb-10">
             <Text size="xs" weight={700}>
-              Includes:
+              {t('includes', { fallback: 'Includes:' })}
             </Text>
             {includes.map(include => (
               <span key={include} className="flex items-center gap-2.5">
