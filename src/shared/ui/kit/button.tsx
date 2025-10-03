@@ -20,7 +20,7 @@ const btnVariants = cva(
           'bg-transparent border border-transparent text-[#FFF4E1] font-bold hover:bg-[rgba(255,255,255,0.05)] active:bg-[rgba(255,255,255,0.10)]',
         outline:
           'bg-transparent border border-[#FFF4E1] disabled:opacity-30 disabled:cursor-not-allowed text-white font-medium hover:border-[#FFF4E1]/80 hover:text-[#FFF4E1]/80',
-        flat: 'bg-black/10 text-black border border-black/10 font-medium hover:bg-black/20 hover:border-black/20 hover:text-black/80',
+        flat: 'bg-black/10 text-black font-medium hover:bg-black/20 hover:border-black/20 hover:text-black/80',
       },
       size: {
         sm: 'px-2 py-1 text-sm',

@@ -58,7 +58,7 @@ export const Select = ({
         type="button"
         onClick={() => setOpen(prev => !prev)}
         className={cn(
-          'flex w-full items-center justify-between gap-2 rounded-[6px] border border-[#A4A189] p-4 text-sm font-medium text-[rgba(164,161,137,1)] outline-0',
+          'flex w-full cursor-pointer items-center justify-between gap-2 rounded-[6px] border border-[#A4A189] p-4 text-sm font-medium text-[rgba(164,161,137,1)] outline-0',
           hint && 'border-danger',
         )}
       >

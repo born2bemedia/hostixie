@@ -130,6 +130,7 @@ export const RequestPackageForm = ({
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={value => field.handleChange(value)}
+                intent={field.state.meta.errors.length ? 'danger' : 'primary'}
                 hint={field.state.meta.errors
                   .map(err => err?.message)
                   .join(', ')}
@@ -204,9 +205,9 @@ export const RequestPackageForm = ({
       </section>
     </form>
   ) : (
-    <section className="relative flex flex-col gap-10 px-20 py-10 max-md:px-4">
+    <section className="relative flex flex-col gap-10 px-20 pt-[100px] pb-10 max-md:px-4">
       <Image
-        className="absolute top-0 left-0 z-0 opacity-90"
+        className="absolute top-0 left-0 z-0 opacity-50"
         src="/images/thanks.svg"
         alt="thanks"
         width={743}
@@ -214,10 +215,16 @@ export const RequestPackageForm = ({
         unoptimized
       />
       <div className="flex flex-col gap-2">
-        <Title as="h3" size="5xl" color="black" weight={700}>
+        <Title
+          as="h3"
+          size="5xl"
+          className="max-md:text-[45px]"
+          color="black"
+          weight={500}
+        >
           {t('thankYou', { fallback: 'Thank you!' })}
         </Title>
-        <Text size="xl" color="black" weight={500}>
+        <Text size="xl" color="black" weight={400}>
           {t('thankYouDescription', {
             fallback:
               'Your service package request has been successfully received. Our team is reviewing the details and will contact you shortly to discuss the next steps and how we can assist with your project.',
@@ -228,7 +235,7 @@ export const RequestPackageForm = ({
         variant="flat"
         size="lg"
         onClick={onCloseHandle}
-        className="ml-auto"
+        className="ml-auto max-md:w-full max-md:justify-center"
       >
         {t('close', { fallback: 'Close' })}
       </Button>
