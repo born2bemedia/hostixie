@@ -6,7 +6,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import { cn } from '@/shared/lib/utils/cn';
 
 const btnVariants = cva(
-  'transition disabled:cursor-not-allowed disabled:opacity-50 rounded-lg duration-300 ease-in-out cursor-pointer flex items-center gap-1.5',
+  'transition disabled:cursor-not-allowed outline-0 disabled:opacity-50 rounded-lg duration-300 ease-in-out cursor-pointer flex items-center gap-1.5',
   {
     variants: {
       variant: {
@@ -20,6 +20,7 @@ const btnVariants = cva(
           'bg-transparent border border-transparent text-[#FFF4E1] font-bold hover:bg-[rgba(255,255,255,0.05)] active:bg-[rgba(255,255,255,0.10)]',
         outline:
           'bg-transparent border border-[#FFF4E1] disabled:opacity-30 disabled:cursor-not-allowed text-white font-medium hover:border-[#FFF4E1]/80 hover:text-[#FFF4E1]/80',
+        flat: 'bg-black/10 text-black border border-black/10 font-medium hover:bg-black/20 hover:border-black/20 hover:text-black/80',
       },
       size: {
         sm: 'px-2 py-1 text-sm',
