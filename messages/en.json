@@ -928,5 +928,44 @@
     "choosePackage": "Choose Package",
     "showLess": "show less",
     "showMore": "show more"
+  },
+  "requestPackageForm": {
+    "firstName": {
+      "label": "First Name:",
+      "placeholder": "Enter your first name"
+    },
+    "lastName": {
+      "label": "Last Name:",
+      "placeholder": "Enter your last name"
+    },
+    "email": {
+      "label": "Email:",
+      "placeholder": "Enter your email"
+    },
+    "phone": {
+      "label": "Phone:",
+      "placeholder": "Enter your phone"
+    },
+    "timeline": {
+      "label": "Timeline:",
+      "placeholder": "Select your timeline"
+    },
+    "message": {
+      "label": "Message:",
+      "placeholder": "Enter your message"
+    },
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "thankYou": "Thank you!",
+    "close": "Close",
+    "thankYouDescription": "Your service package request has been successfully received. Our team is reviewing the details and will contact you shortly to discuss the next steps and how we can assist with your project."
+  },
+  "webHostingCard": {
+    "off": "Off!",
+    "month": "month",
+    "choosePlan": "Choose Plan",
+    "showMore": "show more",
+    "includes": "Includes:"
   }
 }
