@@ -204,14 +204,14 @@ export const WebPackages = () => {
           })}
         />
         <section className="flex flex-col gap-5">
-          <div className="flex items-start gap-5">
+          <div className="flex items-start gap-5 max-md:flex-col max-md:items-start">
             {getPackages(t)
               .slice(0, 2)
               .map(p => (
                 <WebDevelopmentCard key={p.title} {...p} />
               ))}
           </div>
-          <div className="flex items-start gap-5">
+          <div className="flex items-start gap-5 max-md:flex-col max-md:items-start">
             {getPackages(t)
               .slice(2, 4)
               .map(p => (

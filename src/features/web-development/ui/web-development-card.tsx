@@ -1,16 +1,26 @@
 'use client';
 
 import { useState } from 'react';
+import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 import { cn } from '@/shared/lib/utils/cn';
 import { ChevronDownIcon } from '@/shared/ui/icons/chevron-down';
 import { Button } from '@/shared/ui/kit/button';
+import { useDialogStore } from '@/shared/ui/kit/dialog';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
 import type { WebDevPackage } from '../model/types';
+
+const RequestPackageForm = dynamic(
+  () =>
+    import('@/features/request-package/ui/request-package-form').then(
+      mod => mod.RequestPackageForm,
+    ),
+  { ssr: false },
+);
 
 export const WebDevelopmentCard = ({
   title,
@@ -23,9 +33,19 @@ export const WebDevelopmentCard = ({
   const [isShowMore, setIsShowMore] = useState(false);
 
   const t = useTranslations('webDevCard');
+  const { setIsOpen, registerContent } = useDialogStore();
+
+  const onRequestPackageHandle = () => {
+    registerContent({
+      content: (
+        <RequestPackageForm title={title} onCancel={() => setIsOpen(false)} />
+      ),
+    });
+    setIsOpen(true);
+  };
 
   return (
-    <article className="relative flex min-h-[495px] w-1/2 flex-col justify-between gap-20 rounded-[12px] border border-[rgba(163,161,137,0.8)] bg-[rgba(163,161,137,0.8)] px-6 pt-[100px] pb-6">
+    <article className="relative flex min-h-[495px] w-1/2 flex-col justify-between gap-20 rounded-[12px] border border-[rgba(163,161,137,0.8)] bg-[rgba(163,161,137,0.8)] px-6 pt-[100px] pb-6 max-md:w-full">
       <Image
         className="absolute top-0 right-0 z-0 opacity-30"
         src={imgUrl}
@@ -43,8 +63,8 @@ export const WebDevelopmentCard = ({
         </Text>
       </section>
       <section className="z-10 flex flex-col gap-5">
-        <section className="flex justify-between gap-4">
-          <div className="flex w-1/2 flex-col gap-1">
+        <section className="flex justify-between gap-4 max-md:flex-col">
+          <div className="flex w-1/2 flex-col gap-1 max-md:w-full">
             <Text size="xs" color="black" className="opacity-50">
               {t('price', { fallback: 'Price:' })}
             </Text>
@@ -64,8 +84,14 @@ export const WebDevelopmentCard = ({
               </Text>
             </span>
           </div>
-          <div className="w-1/2">
-            <Button variant="secondary" size="lg" fullWidth>
+          <div className="w-1/2 max-md:w-full">
+            <Button
+              variant="secondary"
+              size="lg"
+              onClick={onRequestPackageHandle}
+              className="max-md:w-full"
+              fullWidth
+            >
               {t('choosePackage', { fallback: 'Choose Package' })}
             </Button>
           </div>

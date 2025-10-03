@@ -3,11 +3,13 @@
 :root {
   --background-color: #000;
   --color-primary: #fe5f05;
+  --color-danger: #c83939;
 }
 
 @theme inline {
   --font-inter: var(--font-inter);
   --color-primary: var(--color-primary);
+  --color-danger: var(--color-danger);
 }
 
 body {
