@@ -1,12 +1,15 @@
 'use client';
 
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
 export const ThankYou = ({ onClose }: { onClose: () => void }) => {
+  const t = useTranslations('contactForm.thankYou');
+
   return (
     <section className="relative flex flex-col gap-10 px-20 pt-[100px] pb-10 max-md:px-4">
       <Image
@@ -25,13 +28,13 @@ export const ThankYou = ({ onClose }: { onClose: () => void }) => {
           color="black"
           weight={500}
         >
-          We’re Excited to Connect!
+          {t('title', { fallback: 'We’re Excited to Connect!' })}
         </Title>
         <Text size="xl" color="black" weight={400}>
-          We appreciate you taking the time to share your details with us. We’re
-          excited to work together and start the journey toward achieving your
-          digital goals. One of our team members will be in touch with you
-          shortly.
+          {t('text', {
+            fallback:
+              'We appreciate you taking the time to share your details with us. We’re excited to work together and start the journey toward achieving your digital goals. One of our team members will be in touch with you shortly.',
+          })}
         </Text>
       </div>
       <Button
@@ -40,7 +43,7 @@ export const ThankYou = ({ onClose }: { onClose: () => void }) => {
         onClick={onClose}
         className="ml-auto max-md:w-full max-md:justify-center"
       >
-        Close
+        {t('close', { fallback: 'Close' })}
       </Button>
     </section>
   );

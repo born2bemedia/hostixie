@@ -1,11 +1,14 @@
 'use client';
 
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
 export const Hero = () => {
+  const t = useTranslations('contact.hero');
+
   return (
     <section className="relative h-[440px] max-[1280px]:h-[600px] max-md:h-[400px]">
       <div className="z-10 container flex flex-col gap-[80px]">
@@ -14,7 +17,7 @@ export const Hero = () => {
           className="text-[112px] leading-[80%] tracking-[1.12px] max-md:text-[60px] max-md:leading-[54px] max-md:tracking-[1.12px]"
           uppercase
         >
-          Let’s Connect
+          {t('title', { fallback: 'Let’s Connect' })}
         </Title>
         <section className="flex items-end justify-between gap-10">
           <svg
@@ -37,8 +40,10 @@ export const Hero = () => {
             color="solidWhite"
             className="w-[800px] max-lg:w-full"
           >
-            Hostixie provides straightforward support, teamwork, and tangible
-            success.
+            {t('text', {
+              fallback:
+                'Hostixie provides straightforward support, teamwork, and tangible success.',
+            })}
           </Text>
         </section>
       </div>

@@ -20,7 +20,7 @@ export const HeroTitle = ({
   additionalContent?: React.ReactNode;
   titleClassName?: string;
 }) => (
-  <section className="flex flex-col gap-20">
+  <section className="flex flex-col gap-20 max-md:gap-10">
     <Title
       uppercase
       color={color}
@@ -33,15 +33,11 @@ export const HeroTitle = ({
       <div className="flex w-[70%] flex-col gap-10 max-md:gap-8">
         <div className="flex flex-col gap-2.5">
           {subtitle && (
-            <Title as="h3" size="3xl" color={color}>
+            <Title as="h3" size="3xl" color={color} className="max-md:text-xl">
               {subtitle}
             </Title>
           )}
-          <Text
-            size="xl"
-            color={color}
-            className="opacity-30 max-md:text-[16px]"
-          >
+          <Text size="xl" color={color} className="opacity-30 max-md:text-base">
             {text}
           </Text>
         </div>

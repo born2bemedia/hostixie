@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useTranslations } from 'next-intl';
 import { useForm } from '@tanstack/react-form';
 
 import { FormColumn } from '@/shared/ui/components/form-column';
@@ -16,12 +16,7 @@ import { ThankYou } from './thank-you';
 export const ContactForm = () => {
   const { setIsOpen, registerContent } = useDialogStore();
 
-  useEffect(() => {
-    registerContent({
-      content: <ThankYou onClose={() => setIsOpen(false)} />,
-    });
-    setIsOpen(true);
-  }, [setIsOpen, registerContent]);
+  const t = useTranslations('contactForm');
 
   const { Field, Subscribe, handleSubmit, reset } = useForm({
     defaultValues: {
@@ -39,10 +34,10 @@ export const ContactForm = () => {
     },
     onSubmit: async data => {
       console.log(data);
-      reset();
       registerContent({
         content: <ThankYou onClose={() => setIsOpen(false)} />,
       });
+      reset();
       setIsOpen(true);
     },
   });
@@ -62,8 +57,10 @@ export const ContactForm = () => {
             {field => (
               <TextField
                 name={field.name}
-                label="First Name:"
-                placeholder="Enter your first name"
+                label={t('firstName.label', { fallback: 'First Name:' })}
+                placeholder={t('firstName.placeholder', {
+                  fallback: 'Enter your first name',
+                })}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -78,8 +75,10 @@ export const ContactForm = () => {
             {field => (
               <TextField
                 name={field.name}
-                label="Last Name:"
-                placeholder="Enter your last name"
+                label={t('lastName.label', { fallback: 'Last Name:' })}
+                placeholder={t('lastName.placeholder', {
+                  fallback: 'Enter your last name',
+                })}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -94,9 +93,11 @@ export const ContactForm = () => {
             {field => (
               <TextField
                 name={field.name}
-                label="Email:"
+                label={t('email.label', { fallback: 'Email:' })}
                 type="email"
-                placeholder="Enter your email"
+                placeholder={t('email.placeholder', {
+                  fallback: 'Enter your email',
+                })}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -111,8 +112,10 @@ export const ContactForm = () => {
             {field => (
               <PhoneField
                 name={field.name}
-                label="Phone:"
-                placeholder="Enter your phone"
+                label={t('phone.label', { fallback: 'Phone:' })}
+                placeholder={t('phone.placeholder', {
+                  fallback: 'Enter your phone',
+                })}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={value => field.handleChange(value)}
@@ -129,8 +132,10 @@ export const ContactForm = () => {
             {field => (
               <TextField
                 name={field.name}
-                label="Company Name:"
-                placeholder="Enter your company name"
+                label={t('companyName.label', { fallback: 'Company Name:' })}
+                placeholder={t('companyName.placeholder', {
+                  fallback: 'Enter your company name',
+                })}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -144,12 +149,29 @@ export const ContactForm = () => {
           <Field name="projectType">
             {field => (
               <Select
-                label="Project Type:"
-                placeholder="Choose your project type"
+                label={t('projectType.label', { fallback: 'Project Type:' })}
+                placeholder={t('projectType.placeholder', {
+                  fallback: 'Choose your project type',
+                })}
                 values={[
-                  { label: 'Web Hosting', value: 'Web Hosting' },
-                  { label: 'Web Development', value: 'Web Development' },
-                  { label: 'Custom Solutions', value: 'Custom Solutions' },
+                  {
+                    label: t('projectTypeValues.0', {
+                      fallback: 'Web Hosting',
+                    }),
+                    value: 'Web Hosting',
+                  },
+                  {
+                    label: t('projectTypeValues.1', {
+                      fallback: 'Web Development',
+                    }),
+                    value: 'Web Development',
+                  },
+                  {
+                    label: t('projectTypeValues.2', {
+                      fallback: 'Custom Solutions',
+                    }),
+                    value: 'Custom Solutions',
+                  },
                 ]}
                 onSelect={value => field.handleChange(value)}
                 hint={field.state.meta.errors
@@ -161,12 +183,25 @@ export const ContactForm = () => {
           <Field name="budget">
             {field => (
               <Select
-                label="Budget:"
-                placeholder="Choose your budget"
+                label={t('budget.label', { fallback: 'Budget:' })}
+                placeholder={t('budget.placeholder', {
+                  fallback: 'Choose your budget',
+                })}
                 values={[
-                  { label: '€500 - €2,000', value: '€500 - €2,000' },
-                  { label: '€2,001 - €5,000', value: '€2,001 - €5,000' },
-                  { label: '€5,001 - €10,000', value: '€5,001 - €10,000' },
+                  {
+                    label: t('budgetValues.0', { fallback: '€500 - €2,000' }),
+                    value: '€500 - €2,000',
+                  },
+                  {
+                    label: t('budgetValues.1', { fallback: '€2,001 - €5,000' }),
+                    value: '€2,001 - €5,000',
+                  },
+                  {
+                    label: t('budgetValues.2', {
+                      fallback: '€5,001 - €10,000',
+                    }),
+                    value: '€5,001 - €10,000',
+                  },
                 ]}
                 onSelect={value => field.handleChange(value)}
                 hint={field.state.meta.errors
@@ -178,12 +213,29 @@ export const ContactForm = () => {
           <Field name="timeline">
             {field => (
               <Select
-                label="Timeline:"
-                placeholder="Select your timeline"
+                label={t('timeline.label', { fallback: 'Timeline:' })}
+                placeholder={t('timeline.placeholder', {
+                  fallback: 'Select your timeline',
+                })}
                 values={[
-                  { label: 'Short Term (1-3 months)', value: '1-3 months' },
-                  { label: 'Medium Term (3-6 months)', value: '3-6 months' },
-                  { label: 'Long Term (6+ months)', value: '6+ months' },
+                  {
+                    label: t('timelineValues.0', {
+                      fallback: 'Short Term (1-3 months)',
+                    }),
+                    value: '1-3 months',
+                  },
+                  {
+                    label: t('timelineValues.1', {
+                      fallback: 'Medium Term (3-6 months)',
+                    }),
+                    value: '3-6 months',
+                  },
+                  {
+                    label: t('timelineValues.2', {
+                      fallback: 'Long Term (6+ months)',
+                    }),
+                    value: '6+ months',
+                  },
                 ]}
                 onSelect={value => field.handleChange(value)}
                 hint={field.state.meta.errors
@@ -202,7 +254,9 @@ export const ContactForm = () => {
             type="submit"
             disabled={!canSubmit}
           >
-            {isSubmitting ? 'Submitting...' : 'Submit Application'}
+            {isSubmitting
+              ? t('submitting', { fallback: 'Submitting...' })
+              : t('submit', { fallback: 'Submit Application' })}
           </Button>
         )}
       </Subscribe>
