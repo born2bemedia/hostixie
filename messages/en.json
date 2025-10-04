@@ -967,5 +967,74 @@
     "choosePlan": "Choose Plan",
     "showMore": "show more",
     "includes": "Includes:"
+  },
+  "contact": {
+    "hero": {
+      "title": "Let’s Connect",
+      "text": "Hostixie provides straightforward support, teamwork, and tangible success."
+    },
+    "startConversation": {
+      "title": {
+        "0": "Start a",
+        "1": "Conversation"
+      },
+      "text": "Share your details below, and our digital experts will reach out soon to tailor the perfect hosting or development solution for you."
+    }
+  },
+  "contactForm": {
+    "firstName": {
+      "label": "First Name:",
+      "placeholder": "Enter your first name"
+    },
+    "lastName": {
+      "label": "Last Name:",
+      "placeholder": "Enter your last name"
+    },
+    "email": {
+      "label": "Email:",
+      "placeholder": "Enter your email"
+    },
+    "phone": {
+      "label": "Phone:",
+      "placeholder": "Enter your phone"
+    },
+    "companyName": {
+      "label": "Company Name:",
+      "placeholder": "Enter your company name"
+    },
+    "projectType": {
+      "label": "Project Type:",
+      "placeholder": "Choose your project type"
+    },
+    "budget": {
+      "label": "Budget:",
+      "placeholder": "Choose your budget"
+    },
+    "timeline": {
+      "label": "Timeline:",
+      "placeholder": "Select your timeline"
+    },
+    "timelineValues": {
+      "0": "Short Term (1-3 months)",
+      "1": "Medium Term (3-6 months)",
+      "2": "Long Term (6+ months)"
+    },
+    "budgetValues": {
+      "0": "€500 - €2,000",
+      "1": "€2,001 - €5,000",
+      "2": "€5,001 - €10,000"
+    },
+    "projectTypeValues": {
+      "0": "Web Hosting",
+      "1": "Web Development",
+      "2": "Custom Solutions"
+    },
+    "submit": "Submit Application",
+    "submitting": "Submitting...",
+    "thankYou": {
+      "title": "We’re Excited to Connect!",
+      "text": "We appreciate you taking the time to share your details with us. We’re excited to work together and start the journey toward achieving your digital goals. One of our team members will be in touch with you shortly.",
+      "close": "Close"
+    }
   }
 }
