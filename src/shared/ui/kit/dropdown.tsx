@@ -52,7 +52,7 @@ export const Dropdown = ({
       </Button>
       {open && (
         <div className="absolute top-10 left-0 z-[999] flex w-[330px] flex-col">
-          <section className="flex flex-col gap-6 bg-black p-5">
+          <section className="flex flex-col gap-2 bg-black p-5">
             {typeof children === 'function' ? children({ setOpen }) : children}
           </section>
           <DropdownContentLine />
@@ -74,11 +74,10 @@ export const DropdownItem = ({
   <div
     onClick={onClick}
     className={cn(
-      'group flex cursor-pointer items-center gap-1.5 outline-0',
+      'flex cursor-pointer items-center gap-2 rounded-xl p-2 outline-0 transition duration-300 ease-in-out hover:bg-[rgba(255,255,255,0.05)]',
       className,
     )}
   >
-    <ArrowBottomIcon classNames="hidden group-hover:flex" />
     {children}
   </div>
 );

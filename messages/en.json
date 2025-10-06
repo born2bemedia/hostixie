@@ -6,7 +6,10 @@
     "clients": "Clients",
     "news": "News",
     "store": "Store",
-    "menu": "menu"
+    "webHosting": "Web Hosting",
+    "webDevelopment": "Web Development",
+    "companyOverview": "Company Overview",
+    "careers": "Careers"
   },
   "footer": {
     "whatWeDo": "What We Do",
