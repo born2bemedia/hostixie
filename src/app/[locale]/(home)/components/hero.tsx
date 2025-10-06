@@ -3,12 +3,24 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
+import { RequestForm } from '@/features/request-form/ui/request-form';
+
 import { Button } from '@/shared/ui/kit/button';
+import { useDialogStore } from '@/shared/ui/kit/dialog';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
 export const Hero = () => {
   const t = useTranslations('home.hero');
+
+  const { setIsOpen, registerContent } = useDialogStore();
+
+  const displayRequestFormHandle = () => {
+    registerContent({
+      content: <RequestForm />,
+    });
+    setIsOpen(true);
+  };
 
   return (
     <section className="relative flex h-[800px] flex-col">
@@ -26,7 +38,11 @@ export const Hero = () => {
             })}
           </Text>
         </div>
-        <Button variant="secondary" className="z-10 shrink-0">
+        <Button
+          variant="secondary"
+          className="z-10 shrink-0"
+          onClick={displayRequestFormHandle}
+        >
           {t('button', {
             fallback: 'Start Your Journey Today',
           })}
