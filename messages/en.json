@@ -9,7 +9,8 @@
     "webHosting": "Web Hosting",
     "webDevelopment": "Web Development",
     "companyOverview": "Company Overview",
-    "careers": "Careers"
+    "careers": "Careers",
+    "contact": "Contact"
   },
   "footer": {
     "whatWeDo": "What We Do",
@@ -414,6 +415,12 @@
     }
   },
   "webDevelopment": {
+    "needHelp": {
+      "title": "Need Help Choosing a Service or Package?",
+      "subtitle": "Not sure which service or package is right for your business? No problem!",
+      "text": "Our team is here to guide you through every step of the process. Whether you need advice on a custom website, e-commerce platform, or anything in between, we’re happy to provide personalized recommendations based on your brand ambitions. Reach out today and let’s explore how we can bring your vision to life with the ideal solution for your business needs.",
+      "button": "Get in Touch"
+    },
     "hero": {
       "title": "Web Development That Delivers",
       "subtitle": "Transform Your Project with Expert Web Development",
@@ -1034,6 +1041,8 @@
     },
     "submit": "Submit Application",
     "submitting": "Submitting...",
+    "cancel": "Cancel",
+    "nextStep": "Next Step",
     "thankYou": {
       "title": "We’re Excited to Connect!",
       "text": "We appreciate you taking the time to share your details with us. We’re excited to work together and start the journey toward achieving your digital goals. One of our team members will be in touch with you shortly.",
@@ -1124,6 +1133,46 @@
       "subtitle": "Do you have questions, or are you ready to begin your project?",
       "text": "Our team is here to assist you every step of the way. Whether you want to learn more about our approach or discuss your ideas, we’re ready to bring your vision to life. Let’s make your project a success!",
       "button": "Let’s Make It Happen"
+    }
+  },
+  "requestForm": {
+    "title": {
+      "0": "Your Path to Digital",
+      "1": "Success Begins Here"
+    },
+    "text": "Please fill out the form below, and our team will contact you to discuss your project and how we can support your digital goals.",
+    "secondStep": {
+      "additionalInfo": {
+        "title": "Additional Information:",
+        "text": "What specific features or functionalities do you require? (e.g., e-commerce, custom design, SEO, etc.)",
+        "placeholder": "Enter specific features"
+      },
+      "preferredTechnology": {
+        "title": "Preferred Technology:",
+        "text": "If you have any preferences for your website’s platform (WordPress, Shopify, custom build, etc.), let us know!",
+        "placeholder": "Enter preferred technology"
+      },
+      "currentWebsite": {
+        "title": "Current Website (If Any):",
+        "text": "Please enter your website URL, if you have one, so we can better understand your current digital presence.",
+        "placeholder": "Enter your current website"
+      },
+      "designInspiration": {
+        "title": "Design Inspiration:",
+        "text": "Do you have any design inspirations or websites you like? Please share reference links.",
+        "placeholder": "Provide reference links"
+      },
+      "cancel": "Cancel",
+      "submit": "Submit Form",
+      "submitting": "Submitting..."
+    },
+    "thankYou": {
+      "title": {
+        "0": "We’re Excited to",
+        "1": "Connect!"
+      },
+      "text": "We appreciate you taking the time to share your details with us. We’re excited to work together and start the journey toward achieving your digital goals. One of our team members will be in touch with you shortly.",
+      "close": "Close"
     }
   }
 }

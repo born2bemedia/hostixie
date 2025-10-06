@@ -132,13 +132,13 @@ const BurgerContentNav = () => {
           </Button>
         </NavLink>
       </MenuBtnLayout>
-      <NavLink href="/store">
+      <NavLink href="/contact">
         <Button
           variant="primary"
           className="h-[51px] cursor-pointer justify-start text-xl outline-0"
           fullWidth
         >
-          {t('store', { fallback: 'Store' })}
+          {t('contact', { fallback: 'Contact' })}
         </Button>
       </NavLink>
     </section>

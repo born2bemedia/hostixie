@@ -1,5 +1,6 @@
 'use client';
 
+import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
@@ -13,8 +14,14 @@ import { DataIcon } from '../icons/data';
 import { HostingIcon } from '../icons/hosting';
 import { PeopleIcon } from '../icons/people';
 import { Dropdown, DropdownItem } from '../kit/dropdown';
-import { BurgerMenu } from './burger-menu';
 import { IconLayout } from './icon-layout';
+
+const BurgerMenu = dynamic(
+  () => import('./burger-menu').then(mod => mod.BurgerMenu),
+  {
+    ssr: false,
+  },
+);
 
 export const Header = () => {
   const t = useTranslations('header');
@@ -96,8 +103,10 @@ export const Header = () => {
         <Link href="/news">
           <Button variant="glass">{t('news', { fallback: 'News' })}</Button>
         </Link>
-        <Link href="/store">
-          <Button variant="primary">{t('store', { fallback: 'Store' })}</Button>
+        <Link href="/contact">
+          <Button variant="primary">
+            {t('contact', { fallback: 'Contact' })}
+          </Button>
         </Link>
       </section>
       <section className="hidden max-md:flex">

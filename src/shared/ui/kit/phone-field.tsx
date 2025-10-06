@@ -60,10 +60,7 @@ export const PhoneField = ({
             ? country
             : 'gb'
         }
-        className={cn(
-          '!h-[54px]',
-          intent === 'danger' && '!border !border-[#FF4141]',
-        )}
+        className={cn('!h-[54px]')}
         inputClassName={cn(
           phoneFieldVariants({
             variant,
@@ -76,6 +73,7 @@ export const PhoneField = ({
         countrySelectorStyleProps={{
           buttonClassName: cn(
             '!h-full !bg-transparent !border !border-[#A4A189] !rounded-l-[6px] !pr-3 !pl-2.5',
+            intent === 'danger' && '!border-danger',
           ),
           dropdownStyleProps: {
             className: '!outline-none',
