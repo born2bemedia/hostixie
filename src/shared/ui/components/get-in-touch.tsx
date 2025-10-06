@@ -10,6 +10,7 @@ export const GetInTouch = ({
   text,
   title,
   titleClassName,
+  subtitleClassName,
   layoutClassName,
   color = 'black',
   onClickButton,
@@ -20,6 +21,7 @@ export const GetInTouch = ({
   button: string;
   titleClassName?: string;
   layoutClassName?: string;
+  subtitleClassName?: string;
   color?: 'white' | 'black';
   onClickButton?: () => void;
 }) => {
@@ -33,6 +35,7 @@ export const GetInTouch = ({
           text={text}
           additionalContent={<Button onClick={onClickButton}>{button}</Button>}
           titleClassName={titleClassName}
+          subtitleClassName={subtitleClassName}
         />
       </section>
     </div>

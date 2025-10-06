@@ -1174,5 +1174,106 @@
       "text": "We appreciate you taking the time to share your details with us. We’re excited to work together and start the journey toward achieving your digital goals. One of our team members will be in touch with you shortly.",
       "close": "Close"
     }
+  },
+  "companyOverview": {
+    "hero": {
+      "title": {
+        "0": "Company Overview:",
+        "1": "Shaping Your",
+        "2": "Brand’s Digital Success"
+      },
+      "subtitle": "A Trusted Partner for Businesses Seeking Scalable, High-Impact Web Solutions",
+      "text": "At Hostixie, our strategy combines industry expertise with cutting-edge technology to create seamless, scalable solutions that drive results. From startups to established enterprises, we collaborate with our clients to help them achieve their digital goals and enhance their online presence. Here’s an inside look at who we are, what we do, and how we can help your project thrive in the digital landscape."
+    },
+    "ourStory": {
+      "0": {
+        "title": "Our Story",
+        "subtitle": "From Humble Beginnings to Digital Leaders",
+        "text": "Every company has a beginning. Our vision was to deliver reliable web solutions to businesses that needed high-performing websites. Over the years, we’ve grown into a trusted partner for companies of all sizes, continuously adapting to the ever-evolving digital landscape. Our journey has been fueled by dedication, innovation, and a relentless pursuit of excellence. Today, we’re proud to provide industry-leading web development services to businesses looking to thrive online."
+      },
+      "1": {
+        "title": "Our Mission & Vision",
+        "subtitle": "Driving Digital Transformation",
+        "text": "Our mission is straightforward: to empower businesses with cutting-edge web solutions that drive growth, enhance user engagement, and establish a lasting digital presence. We aim to be the leading provider of web development and hosting services that not only meet but exceed our clients’ expectations. Our vision is to shape the future of the digital world by delivering innovative, scalable, and secure solutions that help our clients succeed."
+      }
+    },
+    "coreValues": {
+      "title": "Core Values",
+      "subtitle": "The Heartbeat of Our Success",
+      "text": "At Hostixie, our values aren’t just principles — they’re the foundation of everything we do. They guide us in delivering exceptional results, building strong relationships, and continuously evolving in the digital world. Here’s what drives us:",
+      "cards": {
+        "0": {
+          "title": "The Foundation of Trust",
+          "text": "We believe in honesty, openness, and doing the right thing, even when no one’s watching. Trust is the cornerstone of every partnership."
+        },
+        "1": {
+          "title": "Pushing Boundaries, Setting Trends",
+          "text": "We’re not just keeping up with trends — we’re setting them. We push the limits of technology to deliver groundbreaking solutions that keep you ahead of the competition."
+        },
+        "2": {
+          "title": "Building Together, Succeeding Together",
+          "text": "We’re not just service providers; we’re partners. By working closely with you, we bring your vision to life, creating solutions that truly reflect your objectives."
+        },
+        "3": {
+          "title": "Your Success is Our Success",
+          "text": "Your success is our success. We’re committed to understanding your needs and ensuring every project is tailored to help you achieve your vision."
+        },
+        "4": {
+          "title": "Striving for Perfection in Every Detail",
+          "text": "Mediocrity has no place here. We deliver flawless execution in every detail, creating work that’s not only functional but exceptional in every way."
+        }
+      }
+    },
+    "ourTeam": {
+      "title": "Our Team",
+      "subtitle": "The Experts Behind Your Success",
+      "text": "At Hostixie, we have a talented team of experts who bring their knowledge, creativity, and passion to every project. From skilled web developers and innovative designers to marketing specialists and customer support professionals, our team works seamlessly together to deliver high-quality, tailored solutions. We are committed to pushing the boundaries of what’s possible, ensuring that each client receives personalized service and outstanding results every time."
+    },
+    "ourImpact": {
+      "title": "Our Impact",
+      "subtitle": {
+        "0": "Shaping the Digital World,",
+        "1": "One Project at a Time"
+      },
+      "text": "We’re not just building websites — we’re helping businesses grow, innovate, and thrive in the digital world. From increasing traffic and conversions to enhancing user engagement and delivering long-term digital solutions, our work makes a tangible difference for our clients. We take pride in knowing that our solutions help our clients achieve measurable success and drive real business results."
+    },
+    "achievments": {
+      "title": "Achievements & Milestones",
+      "subtitle": "Reflecting Our Growth and Progress",
+      "text": "Throughout our journey, we’ve reached several key milestones that demonstrate our commitment to delivering exceptional web development solutions. These accomplishments underscore our ongoing commitment to creating impactful digital experiences and cultivating lasting relationships. Here are some of the milestones we’re proud of:",
+      "cards": {
+        "0": "500+ Successful Projects Delivered",
+        "1": "Over 50+ Websites Developed From Scratch",
+        "2": "Collaborations with Leading Industry Partners",
+        "3": "Recognition in Industry Reports and Publications",
+        "4": "Consistently Delivering Innovative Web Solutions"
+      }
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us?",
+      "text": "Hostixie believes in delivering more than just websites — we create digital experiences that drive business success. Here’s why businesses choose us:",
+      "cards": {
+        "0": {
+          "title": "Proven Track Record",
+          "text": "A dynamic, young agency with 10+ years of combined experience delivering high-quality web solutions that drive results."
+        },
+        "1": {
+          "title": "Custom Solutions",
+          "text": "Tailored services designed to meet the unique needs of each client."
+        },
+        "2": {
+          "title": "Dedicated Support",
+          "text": "Ongoing maintenance and support to ensure your website remains optimal."
+        },
+        "3": {
+          "title": "Cutting-Edge Technology",
+          "text": "We leverage the latest tools and technologies to stay ahead of the curve."
+        },
+        "4": {
+          "title": "Collaborative Process",
+          "text": "We work closely with clients to ensure their vision is brought to life."
+        }
+      }
+    }
   }
 }

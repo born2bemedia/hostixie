@@ -12,6 +12,7 @@ export const HeroTitle = ({
   color = 'white',
   additionalContent,
   titleClassName,
+  subtitleClassName,
 }: {
   title: string;
   subtitle?: string;
@@ -19,6 +20,7 @@ export const HeroTitle = ({
   color?: 'white' | 'black';
   additionalContent?: React.ReactNode;
   titleClassName?: string;
+  subtitleClassName?: string;
 }) => (
   <section className="flex flex-col gap-20 max-md:gap-10">
     <Title
@@ -33,7 +35,12 @@ export const HeroTitle = ({
       <div className="flex w-[70%] flex-col gap-10 max-md:gap-8">
         <div className="flex flex-col gap-2.5">
           {subtitle && (
-            <Title as="h3" size="3xl" color={color} className="max-md:text-xl">
+            <Title
+              as="h3"
+              size="3xl"
+              color={color}
+              className={cn('max-md:text-xl', subtitleClassName)}
+            >
               {subtitle}
             </Title>
           )}
