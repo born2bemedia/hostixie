@@ -3,6 +3,7 @@
 import type { ReactNode } from 'react';
 import Image from 'next/image';
 
+import { cn } from '@/shared/lib/utils/cn';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
@@ -10,12 +11,19 @@ export const PageHero = ({
   title,
   subtitle,
   text,
+  layoutClassName,
 }: {
   title: ReactNode;
   subtitle: string;
   text: string;
+  layoutClassName?: string;
 }) => (
-  <section className="relative flex h-[900px] flex-col justify-center max-[1300px]:h-[1000px] max-md:h-[900px]">
+  <section
+    className={cn(
+      'relative flex h-[900px] flex-col justify-center max-[1300px]:h-[1000px] max-md:h-[900px]',
+      layoutClassName,
+    )}
+  >
     <section className="relative flex h-full flex-col">
       <div className="container !mt-[40px] flex flex-col gap-20 max-md:gap-10">
         <Title
