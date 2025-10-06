@@ -103,8 +103,10 @@ export const Header = () => {
         <Link href="/news">
           <Button variant="glass">{t('news', { fallback: 'News' })}</Button>
         </Link>
-        <Link href="/store">
-          <Button variant="primary">{t('store', { fallback: 'Store' })}</Button>
+        <Link href="/contact">
+          <Button variant="primary">
+            {t('contact', { fallback: 'Contact' })}
+          </Button>
         </Link>
       </section>
       <section className="hidden max-md:flex">

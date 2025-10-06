@@ -9,7 +9,8 @@
     "webHosting": "Web Hosting",
     "webDevelopment": "Web Development",
     "companyOverview": "Company Overview",
-    "careers": "Careers"
+    "careers": "Careers",
+    "contact": "Contact"
   },
   "footer": {
     "whatWeDo": "What We Do",
@@ -414,6 +415,12 @@
     }
   },
   "webDevelopment": {
+    "needHelp": {
+      "title": "Need Help Choosing a Service or Package?",
+      "subtitle": "Not sure which service or package is right for your business? No problem!",
+      "text": "Our team is here to guide you through every step of the process. Whether you need advice on a custom website, e-commerce platform, or anything in between, we’re happy to provide personalized recommendations based on your brand ambitions. Reach out today and let’s explore how we can bring your vision to life with the ideal solution for your business needs.",
+      "button": "Get in Touch"
+    },
     "hero": {
       "title": "Web Development That Delivers",
       "subtitle": "Transform Your Project with Expert Web Development",

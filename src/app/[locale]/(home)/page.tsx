@@ -1,20 +1,16 @@
 import Image from 'next/image';
-import { getTranslations } from 'next-intl/server';
-
-import { GetInTouch } from '@/shared/ui/components/get-in-touch';
 
 import {
   Clients,
   Hero,
   InsightsAndNews,
+  MakeItHappen,
   OurApproach,
   WhatWeDo,
   WhoWeAre,
 } from './components';
 
-export default async function Home() {
-  const t = await getTranslations('home.getInTouch');
-
+export default function Home() {
   return (
     <main className="overflow-x-hidden">
       <Hero />
@@ -57,15 +53,7 @@ export default async function Home() {
         />
       </section>
       <InsightsAndNews />
-      <GetInTouch
-        title={t('title', { fallback: 'Get in Touch' })}
-        subtitle={t('subtitle', { fallback: 'Ready to Start Your Project?' })}
-        text={t('text', {
-          fallback:
-            'We’re here to help you bring your digital presence to life. Whether you need web hosting or a custom-built website, our team is ready to support you.',
-        })}
-        button={t('button', { fallback: 'Let’s Make It Happen' })}
-      />
+      <MakeItHappen />
     </main>
   );
 }
