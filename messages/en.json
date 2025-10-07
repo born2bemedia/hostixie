@@ -1322,6 +1322,8 @@
       },
       "subtitle": "If you don’t see an open role that fits, feel free to reach out — we welcome initiative.",
       "button": "Contact Us",
+      "applyNow": "Apply Now",
+      "showMore": "Show more",
       "items": {
         "0": {
           "type": "(Remote - Full Time)",
@@ -1369,6 +1371,55 @@
       "title": "Get in Touch with Hostixie",
       "text": "Even if you're not ready to apply but want to connect, we’d love to hear from you. Have an idea, a skillset, or a question? Let’s start a conversation.",
       "button": "Email us"
+    }
+  },
+  "applicationForm": {
+    "title": "Application Form",
+    "text": {
+      "0": "Ready to join the team?",
+      "1": "Fill out the application below."
+    },
+    "fullName": {
+      "label": "Full Name:",
+      "placeholder": "Enter your full name"
+    },
+    "email": {
+      "label": "Email:",
+      "placeholder": "Enter your email"
+    },
+    "linkedinProfile": {
+      "label": "LinkedIn Profile:",
+      "placeholder": "Enter your LinkedIn profile"
+    },
+    "coverLetter": {
+      "label": "Cover Letter:",
+      "placeholder": "Upload your cover letter"
+    },
+    "position": {
+      "label": "Position Applying For:",
+      "placeholder": "Choose your position"
+    },
+    "resume": {
+      "label": "Resume (PDF only):",
+      "placeholder": "Upload your up-to-date resume"
+    },
+    "message": {
+      "label": "Message:",
+      "placeholder": "Add any additional info you want to share"
+    },
+    "submit": "Submit Application",
+    "jobs": {
+      "0": "Frontend Developer",
+      "1": "Client Success Manager",
+      "2": "Hosting Infrastructure Engineer"
+    },
+    "submitting": "Submitting...",
+    "cancel": "Cancel",
+    "nextStep": "Next Step",
+    "thankYou": {
+      "title": "We’re Excited to Connect!",
+      "text": "We appreciate you taking the time to share your details with us. We’re excited to work together and start the journey toward achieving your digital goals. One of our team members will be in touch with you shortly.",
+      "close": "Close"
     }
   }
 }
