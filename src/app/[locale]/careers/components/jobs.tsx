@@ -3,9 +3,12 @@
 import type { ReactNode } from 'react';
 import { useTranslations } from 'next-intl';
 
+import { ApplicationForm } from '@/features/application-form/ui/form';
+
 import { Link } from '@/i18n/navigation';
 
 import { Button } from '@/shared/ui/kit/button';
+import { useDialogStore } from '@/shared/ui/kit/dialog';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
@@ -68,6 +71,15 @@ const getJobs = (t: ReturnType<typeof useTranslations>) => [
 export const Jobs = () => {
   const t = useTranslations('careers.jobs');
 
+  const { registerContent, setIsOpen } = useDialogStore();
+
+  const onApplyHandle = () => {
+    registerContent({
+      content: <ApplicationForm onCancel={() => setIsOpen(false)} />,
+    });
+    setIsOpen(true);
+  };
+
   const jobs = getJobs(t);
 
   return (
@@ -119,7 +131,12 @@ export const Jobs = () => {
         </section>
         <section className="flex w-1/2 flex-col gap-4 max-lg:w-full">
           {jobs.map((job, i) => (
-            <JobCard key={job.name} {...job} index={i} />
+            <JobCard
+              key={job.name}
+              {...job}
+              index={i}
+              onApply={onApplyHandle}
+            />
           ))}
         </section>
       </div>
@@ -132,40 +149,50 @@ const JobCard = ({
   index,
   name,
   type,
+  onApply,
 }: {
   index: number;
   type: string;
   name: string;
   description: ReactNode;
-}) => (
-  <article className="flex gap-10 rounded-xl border border-[#A4A189] p-6 max-lg:flex-col">
-    <span className="bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl">
-      <Text size="sm" weight={500} color="black">
-        {++index}
-      </Text>
-    </span>
-    <section className="flex flex-col gap-5">
-      <section className="flex flex-col gap-2">
-        <Text size="xs" color="primary" weight={700}>
-          {type}
+  onApply: () => void;
+}) => {
+  const t = useTranslations('careers.jobs');
+
+  return (
+    <article className="flex gap-10 rounded-xl border border-[#A4A189] p-6 max-lg:flex-col">
+      <span className="bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl">
+        <Text size="sm" weight={500} color="black">
+          {++index}
         </Text>
-        <Title
-          as="h3"
-          size="4xl"
-          weight={700}
-          className="max-md:text-[32px]"
-          uppercase
-        >
-          {name}
-        </Title>
-        <Text size="base" color="grey">
-          {description}
-        </Text>
+      </span>
+      <section className="flex flex-col gap-5">
+        <section className="flex flex-col gap-2">
+          <Text size="xs" color="primary" weight={700}>
+            {type}
+          </Text>
+          <Title
+            as="h3"
+            size="4xl"
+            weight={700}
+            className="max-md:text-[32px]"
+            uppercase
+          >
+            {name}
+          </Title>
+          <Text size="base" color="grey">
+            {description}
+          </Text>
+        </section>
+        <section className="flex justify-between">
+          <Button variant="primary" onClick={onApply}>
+            {t('applyNow', { fallback: 'Apply Now' })}
+          </Button>
+          <Button variant="outline">
+            {t('showMore', { fallback: 'Show more' })}
+          </Button>
+        </section>
       </section>
-      <section className="flex justify-between">
-        <Button variant="primary">Apply Now</Button>
-        <Button variant="outline">Show more</Button>
-      </section>
-    </section>
-  </article>
-);
+    </article>
+  );
+};
