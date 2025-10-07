@@ -1275,5 +1275,100 @@
         }
       }
     }
+  },
+  "careers": {
+    "hero": {
+      "title": {
+        "0": "Careers:",
+        "1": "Be the First",
+        "2": "to Apply"
+      },
+      "subtitle": "Awaken Your Website’s Potential with Hostixie",
+      "text": "At Hostixie, we believe your work should empower your life. Whether you're building platforms, writing code, supporting clients, or managing operations — your ideas shape how we grow. Join us and create something meaningful, with room to explore, build, and lead."
+    },
+    "whyJoinUs": {
+      "title": "Why Join Us",
+      "cards": {
+        "0": {
+          "title": "Professional Growth & Career Development",
+          "text": "We support continuous learning through training programs, mentorship, and opportunities to grow your role as you advance."
+        },
+        "1": {
+          "title": "Mental Wellbeing Support",
+          "text": "Access resources and tools that promote a healthy work-life balance, including mental health support and wellness initiatives."
+        },
+        "2": {
+          "title": "Flexible & Modern Benefits",
+          "text": "Our benefits are designed to adapt to your lifestyle, with remote-friendly policies, flexible scheduling, and comprehensive health options."
+        },
+        "3": {
+          "title": "Exclusive Perks & Lifestyle Discounts",
+          "text": "Enjoy team perks, software tool access, and partner discounts to make work (and life) more enjoyable, balanced, fulfilling, and rewarding."
+        },
+        "4": {
+          "title": "Smart Savings & Retirement Plans",
+          "text": "We help you plan ahead with employee savings programs and long-term retirement support options tailored to your goals."
+        },
+        "5": {
+          "title": "Performance-Based Recognition & Bonuses",
+          "text": "We reward impact. Team members who drive results and go above and beyond are recognized through performance bonuses."
+        }
+      }
+    },
+    "jobs": {
+      "title": {
+        "0": "Current",
+        "1": "Openings"
+      },
+      "subtitle": "If you don’t see an open role that fits, feel free to reach out — we welcome initiative.",
+      "button": "Contact Us",
+      "items": {
+        "0": {
+          "type": "(Remote - Full Time)",
+          "name": "Frontend Developer",
+          "description": {
+            "0": "As our Frontend Developer, you’ll turn Figma designs into pixel-perfect React applications styled with Tailwind CSS. You will work hand-in-hand with our UX designers and backend engineers to consume RESTful and GraphQL APIs, build reusable component libraries, and ensure your work runs flawlessly across Chrome, Firefox, Safari, and Edge.",
+            "1": "Your day-to-day includes writing clean, accessible markup, optimizing bundle size, implementing end-to-end and unit tests, and following Git branching and pull-request best practices. If you have a strong grasp of modern JavaScript (ES6+), experience shipping production code in a distributed team, and a passion for performance tuning, we want you on our squad."
+          }
+        },
+        "1": {
+          "type": "(Remote - Full Time)",
+          "name": "Client Success Manager",
+          "description": {
+            "0": "In the Client Success Manager role, you’re the trusted advisor for our hosting and development clients. You’ll own the entire customer lifecycle, from custom onboarding walkthroughs and platform training to ticket triage and SLA-driven support. You’ll manage our Zendesk (or comparable) queue, escalate complex issues to engineering, and keep clients in the loop with clear status updates.",
+            "1": "Beyond reactive support, you’ll drive proactive account reviews to identify upsell opportunities, capture feedback for product enhancements, and maintain our self-service knowledge base. Exceptional written and verbal communication skills, strong organizational habits, and a genuine desire to build lasting client relationships are key to thriving in this position."
+          }
+        },
+        "2": {
+          "type": "(Remote - Part Time)",
+          "name": "Hosting Infrastructure Engineer",
+          "description": {
+            "0": "Our Hosting Infrastructure Engineer ensures that every website we host stays fast, secure, and online. You will architect and maintain Linux servers — tuning NGINX and Apache configurations, automating deployments with Docker or similar tools, and setting up monitoring and alerting for uptime and performance.",
+            "1": "You’ll own the security stack for WordPress environments, implementing hardening practices, automated malware scans, and regular patch management. When incidents occur, you’ll lead root-cause analysis and implement fixes in source-controlled scripts. This part-time role is perfect if you have deep Linux sysadmin skills, hands-on experience with containerization or IaC (Terraform/Ansible), and a proven track record of keeping high-traffic sites humming under pressure."
+          }
+        }
+      }
+    },
+    "ourCulture": {
+      "0": {
+        "title": "Purpose & People",
+        "text": "We believe the best work comes from empowered people working toward shared goals. That’s why we value clear communication, transparency, and a healthy balance between delivering results and staying human. We also actively support diversity in tech and encourage applicants from underrepresented backgrounds."
+      },
+      "1": {
+        "title": "Our Culture",
+        "text": "How does work life here compare to elsewhere?",
+        "list": {
+          "0": "Minimal hierarchy, maximum accountability",
+          "1": "Weekly team standups, async-first communication",
+          "2": "Projects you can be proud of",
+          "3": "No micromanagement — just support and clarity"
+        }
+      }
+    },
+    "getInTouch": {
+      "title": "Get in Touch with Hostixie",
+      "text": "Even if you're not ready to apply but want to connect, we’d love to hear from you. Have an idea, a skillset, or a question? Let’s start a conversation.",
+      "button": "Email us"
+    }
   }
 }
