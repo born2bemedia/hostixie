@@ -1676,5 +1676,100 @@
       "text": "Whether you're starting from scratch or need to rebuild, we’re here to deliver results.",
       "button": "Request a Free Consultation"
     }
+  },
+  "news": {
+    "hero": {
+      "title": {
+        "0": "Hostixie",
+        "1": "Newsroom"
+      },
+      "subtitle": "Transform Your Project with Expert Web Development",
+      "text": "Explore our new launches, platform upgrades, creative wins, and behind-the-scenes progress.",
+      "chips": {
+        "0": "#Latest Wins & Launches",
+        "1": "#Tech & Team Updates",
+        "2": "#Partnerships & People"
+      }
+    },
+    "gotProject": {
+      "title": "Got a Project or Idea?",
+      "text": "Let’s turn it into something amazing. Click below, and let’s talk timelines, goals, and possibilities.",
+      "button": "Contact Our Team"
+    },
+    "latestNews": {
+      "title": "Latest Wins & Launches",
+      "cards": {
+        "0": {
+          "date": "June 20, 2025",
+          "title": "Just Launched: Clean Portfolio Site for a Visual Artist",
+          "description": "Sleek, fast, and mobile-friendly — this artist now has the perfect space to showcase her work online. We built a custom layout focused on image performance and simplicity.",
+          "summary": "Booked 3 new clients in the first week.",
+          "btnLabel": "See Project"
+        },
+        "1": {
+          "date": "May 10, 2025",
+          "title": "Hosting Just Got Faster (Again)",
+          "description": "We upgraded our hosting infrastructure with better SSDs, smarter caching, and more scalable architecture.",
+          "summary": "Load times improved by 36% site-wide.",
+          "btnLabel": "See Hosting Plans"
+        },
+        "2": {
+          "date": "May 30, 2025",
+          "title": "E-commerce Makeover = 2x Sales in 90 Days",
+          "description": "We redesigned the shopping experience for a handmade goods store. Cleaner layout. Faster checkout. Stronger mobile UX.",
+          "summary": "Conversion rate jumped by 45%.",
+          "btnLabel": "View Case Study"
+        }
+      }
+    },
+    "techNews": {
+      "title": "Tech & Team Updates",
+      "cards": {
+        "0": {
+          "date": "April 5, 2025",
+          "title": "We Launched Managed WordPress Hosting",
+          "description": "Easy, secure, and fast — our new WP plans are ideal for creators and small businesses who want results without the headaches.",
+          "summary": "Daily backups, malware scans, and speed tuning included.",
+          "btnLabel": "See Project"
+        },
+        "1": {
+          "date": "March 12, 2025",
+          "title": "Invoices, Upgraded",
+          "description": "Billing is now simple, smart, and secure. Clients can download invoices, check plan details, and manage renewals — all in one dashboard.",
+          "summary": "No more back-and-forth emails.",
+          "btnLabel": "See Project"
+        },
+        "2": {
+          "date": "May 30, 2025",
+          "title": "Partnerships & People",
+          "description": "We’ve teamed up with a local dev bootcamp to mentor junior developers on real client projects. They learn. We grow. Clients win.",
+          "summary": "Talent meets production, not just theory.",
+          "btnLabel": "View Case Study"
+        }
+      }
+    },
+    "partnershipNews": {
+      "title": "Partnerships & People",
+      "cards": {
+        "0": {
+          "date": "April 5, 2025",
+          "title": "Regional Dev Workshop Hosted",
+          "description": "Hosted a hands-on web development bootcamp for emerging developers, guiding them through real-world project challenges.",
+          "btnLabel": "Read More"
+        },
+        "1": {
+          "date": "March 12, 2025",
+          "title": "Open-Source Sprint Participation",
+          "description": "Contributed performance and reliability enhancements to a widely-used open-source CMS, supporting the broader developer community.",
+          "btnLabel": "Learn More"
+        },
+        "2": {
+          "date": "July 1, 2025",
+          "title": "Senior UX Expertise Added",
+          "description": "Onboarded a seasoned UX professional to lead our design initiatives, elevating usability and aesthetics across all client projects.",
+          "btnLabel": "Meet the Team"
+        }
+      }
+    }
   }
 }
