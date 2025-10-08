@@ -1324,6 +1324,8 @@
       "button": "Contact Us",
       "applyNow": "Apply Now",
       "showMore": "Show more",
+      "responsibilities": "Responsibilities",
+      "requirements": "Requirements",
       "items": {
         "0": {
           "type": "(Remote - Full Time)",
@@ -1331,6 +1333,24 @@
           "description": {
             "0": "As our Frontend Developer, you’ll turn Figma designs into pixel-perfect React applications styled with Tailwind CSS. You will work hand-in-hand with our UX designers and backend engineers to consume RESTful and GraphQL APIs, build reusable component libraries, and ensure your work runs flawlessly across Chrome, Firefox, Safari, and Edge.",
             "1": "Your day-to-day includes writing clean, accessible markup, optimizing bundle size, implementing end-to-end and unit tests, and following Git branching and pull-request best practices. If you have a strong grasp of modern JavaScript (ES6+), experience shipping production code in a distributed team, and a passion for performance tuning, we want you on our squad."
+          },
+          "responsibilities": {
+            "0": "Build and maintain React components using Tailwind CSS",
+            "1": "Integrate REST and GraphQL APIs into frontend logic",
+            "2": "Optimize application performance and bundle size",
+            "3": "Write accessible HTML and semantic markup",
+            "4": "Implement testing strategies (unit and end-to-end)",
+            "5": "Collaborate with UX designers and backend developers",
+            "6": "Follow code review and Git workflow standards"
+          },
+          "requirements": {
+            "0": "3+ years of experience with React and JavaScript (ES6+)",
+            "1": "Strong CSS skills, especially with Tailwind",
+            "2": "Experience working with REST and GraphQL APIs",
+            "3": "Familiarity with frontend performance optimization",
+            "4": "Comfortable using Git, GitHub, and CI/CD pipelines",
+            "5": "Experience with testing libraries like Jest or Playwright",
+            "6": "Strong attention to detail and UX/UI alignment"
           }
         },
         "1": {
@@ -1339,6 +1359,23 @@
           "description": {
             "0": "In the Client Success Manager role, you’re the trusted advisor for our hosting and development clients. You’ll own the entire customer lifecycle, from custom onboarding walkthroughs and platform training to ticket triage and SLA-driven support. You’ll manage our Zendesk (or comparable) queue, escalate complex issues to engineering, and keep clients in the loop with clear status updates.",
             "1": "Beyond reactive support, you’ll drive proactive account reviews to identify upsell opportunities, capture feedback for product enhancements, and maintain our self-service knowledge base. Exceptional written and verbal communication skills, strong organizational habits, and a genuine desire to build lasting client relationships are key to thriving in this position."
+          },
+          "responsibilities": {
+            "0": "Serve as the main point of contact for active accounts",
+            "1": "Deliver onboarding sessions and product walkthroughs",
+            "2": "Manage customer support tickets and track SLAs",
+            "3": "Escalate technical issues with full context to the dev team",
+            "4": "Conduct periodic account reviews and check-ins",
+            "5": "Update and maintain internal documentation and FAQs",
+            "6": "Collect and share feedback for product improvements"
+          },
+          "requirements": {
+            "0": "2+ years in customer success, account management, or technical support",
+            "1": "Strong written and verbal communication skills",
+            "2": "Experience with helpdesk tools like Zendesk, Intercom, or Freshdesk",
+            "3": "Solid understanding of web development or hosting environments",
+            "4": "Excellent multitasking and prioritization skills",
+            "5": "Empathy, patience, and professionalism under pressure"
           }
         },
         "2": {
@@ -1347,6 +1384,23 @@
           "description": {
             "0": "Our Hosting Infrastructure Engineer ensures that every website we host stays fast, secure, and online. You will architect and maintain Linux servers — tuning NGINX and Apache configurations, automating deployments with Docker or similar tools, and setting up monitoring and alerting for uptime and performance.",
             "1": "You’ll own the security stack for WordPress environments, implementing hardening practices, automated malware scans, and regular patch management. When incidents occur, you’ll lead root-cause analysis and implement fixes in source-controlled scripts. This part-time role is perfect if you have deep Linux sysadmin skills, hands-on experience with containerization or IaC (Terraform/Ansible), and a proven track record of keeping high-traffic sites humming under pressure."
+          },
+          "responsibilities": {
+            "0": "Configure, monitor, and maintain Linux-based web servers",
+            "1": "Manage NGINX/Apache, SSL certs, and caching strategies",
+            "2": "Automate deployments and backups using Docker or CI tools",
+            "3": "Implement uptime and performance monitoring tools",
+            "4": "Perform incident response and root-cause analysis",
+            "5": "Ensure server security with best-practice hardening",
+            "6": "Maintain infrastructure scripts in version control"
+          },
+          "requirements": {
+            "0": "4+ years of experience as a Linux sysadmin or DevOps engineer",
+            "1": "Strong knowledge of NGINX, Apache, and server security",
+            "2": "Familiar with Docker, shell scripting, and automation tools",
+            "3": "Experience with infrastructure-as-code (Terraform, Ansible)",
+            "4": "Understanding of WordPress-specific hosting needs",
+            "5": "Ability to work independently and handle off-hour incidents if needed"
           }
         }
       }

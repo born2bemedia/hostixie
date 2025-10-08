@@ -1,12 +1,13 @@
 'use client';
 
-import type { ReactNode } from 'react';
+import { type ReactNode, useState } from 'react';
 import { useTranslations } from 'next-intl';
 
 import { ApplicationForm } from '@/features/application-form/ui/form';
 
 import { Link } from '@/i18n/navigation';
 
+import { cn } from '@/shared/lib/utils/cn';
 import { Button } from '@/shared/ui/kit/button';
 import { useDialogStore } from '@/shared/ui/kit/dialog';
 import { Text } from '@/shared/ui/kit/text';
@@ -30,6 +31,52 @@ const getJobs = (t: ReturnType<typeof useTranslations>) => [
         })}
       </>
     ),
+    responsibilities: [
+      t('items.0.responsibilities.0', {
+        fallback: 'Build and maintain React components using Tailwind CSS',
+      }),
+      t('items.0.responsibilities.1', {
+        fallback: 'Integrate REST and GraphQL APIs into frontend logic',
+      }),
+      t('items.0.responsibilities.2', {
+        fallback: 'Optimize application performance and bundle size',
+      }),
+      t('items.0.responsibilities.3', {
+        fallback: 'Write accessible HTML and semantic markup',
+      }),
+      t('items.0.responsibilities.4', {
+        fallback: 'Implement testing strategies (unit and end-to-end)',
+      }),
+      t('items.0.responsibilities.5', {
+        fallback: 'Collaborate with UX designers and backend developers',
+      }),
+      t('items.0.responsibilities.6', {
+        fallback: 'Follow code review and Git workflow standards',
+      }),
+    ],
+    requirements: [
+      t('items.0.requirements.0', {
+        fallback: '3+ years of experience with React and JavaScript (ES6+)',
+      }),
+      t('items.0.requirements.1', {
+        fallback: 'Strong CSS skills, especially with Tailwind',
+      }),
+      t('items.0.requirements.2', {
+        fallback: 'Experience working with REST and GraphQL APIs',
+      }),
+      t('items.0.requirements.3', {
+        fallback: 'Familiarity with frontend performance optimization',
+      }),
+      t('items.0.requirements.4', {
+        fallback: 'Comfortable using Git, GitHub, and CI/CD pipelines',
+      }),
+      t('items.0.requirements.5', {
+        fallback: 'Experience with testing libraries like Jest or Playwright',
+      }),
+      t('items.0.requirements.6', {
+        fallback: 'Strong attention to detail and UX/UI alignment',
+      }),
+    ],
   },
   {
     type: t('items.1.type', { fallback: '(Remote - Full Time)' }),
@@ -47,6 +94,52 @@ const getJobs = (t: ReturnType<typeof useTranslations>) => [
         })}
       </>
     ),
+    responsibilities: [
+      t('items.1.responsibilities.0', {
+        fallback: 'Serve as the main point of contact for active accounts',
+      }),
+      t('items.1.responsibilities.1', {
+        fallback: 'Deliver onboarding sessions and product walkthroughs',
+      }),
+      t('items.1.responsibilities.2', {
+        fallback: 'Manage customer support tickets and track SLAs',
+      }),
+      t('items.1.responsibilities.3', {
+        fallback: 'Escalate technical issues with full context to the dev team',
+      }),
+      t('items.1.responsibilities.4', {
+        fallback: 'Conduct periodic account reviews and check-ins',
+      }),
+      t('items.1.responsibilities.5', {
+        fallback: 'Update and maintain internal documentation and FAQs',
+      }),
+      t('items.1.responsibilities.6', {
+        fallback: 'Collect and share feedback for product improvements',
+      }),
+    ],
+    requirements: [
+      t('items.1.requirements.0', {
+        fallback:
+          '2+ years in customer success, account management, or technical support',
+      }),
+      t('items.1.requirements.1', {
+        fallback: 'Strong written and verbal communication skills',
+      }),
+      t('items.1.requirements.2', {
+        fallback:
+          'Experience with helpdesk tools like Zendesk, Intercom, or Freshdesk',
+      }),
+      t('items.1.requirements.3', {
+        fallback:
+          'Solid understanding of web development or hosting environments',
+      }),
+      t('items.1.requirements.4', {
+        fallback: 'Excellent multitasking and prioritization skills',
+      }),
+      t('items.1.requirements.5', {
+        fallback: 'Empathy, patience, and professionalism under pressure',
+      }),
+    ],
   },
   {
     type: t('items.2.type', { fallback: '(Remote - Part Time)' }),
@@ -65,6 +158,51 @@ const getJobs = (t: ReturnType<typeof useTranslations>) => [
         })}
       </>
     ),
+    responsibilities: [
+      t('items.2.responsibilities.0', {
+        fallback: 'Configure, monitor, and maintain Linux-based web servers',
+      }),
+      t('items.2.responsibilities.1', {
+        fallback: 'Manage NGINX/Apache, SSL certs, and caching strategies',
+      }),
+      t('items.2.responsibilities.2', {
+        fallback: 'Automate deployments and backups using Docker or CI tools',
+      }),
+      t('items.2.responsibilities.3', {
+        fallback: 'Implement uptime and performance monitoring tools',
+      }),
+      t('items.2.responsibilities.4', {
+        fallback: 'Perform incident response and root-cause analysis',
+      }),
+      t('items.2.responsibilities.5', {
+        fallback: 'Ensure server security with best-practice hardening',
+      }),
+      t('items.2.responsibilities.6', {
+        fallback: 'Maintain infrastructure scripts in version control',
+      }),
+    ],
+    requirements: [
+      t('items.2.requirements.0', {
+        fallback:
+          '4+ years of experience as a Linux sysadmin or DevOps engineer',
+      }),
+      t('items.2.requirements.1', {
+        fallback: 'Strong knowledge of NGINX, Apache, and server security',
+      }),
+      t('items.2.requirements.2', {
+        fallback: 'Familiar with Docker, shell scripting, and automation tools',
+      }),
+      t('items.2.requirements.3', {
+        fallback: 'Experience with infrastructure-as-code (Terraform, Ansible)',
+      }),
+      t('items.2.requirements.4', {
+        fallback: 'Understanding of WordPress-specific hosting needs',
+      }),
+      t('items.2.requirements.5', {
+        fallback:
+          'Ability to work independently and handle off-hour incidents if needed',
+      }),
+    ],
   },
 ];
 
@@ -150,13 +288,19 @@ const JobCard = ({
   name,
   type,
   onApply,
+  responsibilities,
+  requirements,
 }: {
   index: number;
   type: string;
   name: string;
   description: ReactNode;
   onApply: () => void;
+  responsibilities: string[];
+  requirements: string[];
 }) => {
+  const [isShowMore, setIsShowMore] = useState(false);
+
   const t = useTranslations('careers.jobs');
 
   return (
@@ -166,33 +310,93 @@ const JobCard = ({
           {++index}
         </Text>
       </span>
-      <section className="flex flex-col gap-5">
-        <section className="flex flex-col gap-2">
-          <Text size="xs" color="primary" weight={700}>
-            {type}
-          </Text>
-          <Title
-            as="h3"
-            size="4xl"
-            weight={700}
-            className="max-md:text-[32px]"
-            uppercase
-          >
-            {name}
-          </Title>
-          <Text size="base" color="grey">
-            {description}
-          </Text>
+      <div className="flex flex-col gap-10">
+        <section className="flex flex-col gap-5">
+          <section className="flex flex-col gap-2">
+            <Text size="xs" color="primary" weight={700}>
+              {type}
+            </Text>
+            <Title
+              as="h3"
+              size="4xl"
+              weight={700}
+              className="max-md:text-[32px]"
+              uppercase
+            >
+              {name}
+            </Title>
+            <Text size="base" color="grey">
+              {description}
+            </Text>
+          </section>
+          <section className="flex justify-between">
+            <Button variant="primary" onClick={onApply}>
+              {t('applyNow', { fallback: 'Apply Now' })}
+            </Button>
+            <Button
+              variant="outline"
+              onClick={() => setIsShowMore(prev => !prev)}
+            >
+              {t('showMore', { fallback: 'Show more' })}
+            </Button>
+          </section>
         </section>
-        <section className="flex justify-between">
-          <Button variant="primary" onClick={onApply}>
-            {t('applyNow', { fallback: 'Apply Now' })}
-          </Button>
-          <Button variant="outline">
-            {t('showMore', { fallback: 'Show more' })}
-          </Button>
+        <section
+          className={cn(
+            'flex flex-col gap-10 overflow-hidden transition-all duration-500 ease-in-out',
+            isShowMore
+              ? 'mt-4 max-h-[1200px] opacity-100'
+              : 'mt-0 max-h-0 opacity-0',
+          )}
+        >
+          <div className="flex flex-col gap-2">
+            <Text size="xs" weight={700}>
+              {t('responsibilities', { fallback: 'Responsibilities' })}
+            </Text>
+            <ul className="flex flex-col gap-2">
+              {responsibilities.map(responsibility => (
+                <li key={responsibility} className="flex items-center gap-2.5">
+                  <PlayIcon />
+                  <Text size="base">{responsibility}</Text>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <Text size="xs" weight={700}>
+              {t('requirements', { fallback: 'Requirements' })}
+            </Text>
+            <ul className="flex flex-col gap-2">
+              {requirements.map(requirement => (
+                <li key={requirement} className="flex items-center gap-2.5">
+                  <PlayIcon />
+                  <Text size="base">{requirement}</Text>
+                </li>
+              ))}
+            </ul>
+          </div>
         </section>
-      </section>
+      </div>
     </article>
   );
 };
+
+const PlayIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="14"
+    height="15"
+    viewBox="0 0 14 15"
+    fill="none"
+  >
+    <path
+      d="M3.5 7.49998V5.94248C3.5 4.01164 4.87083 3.21831 6.545 4.18664L7.8925 4.96831L9.24 5.74998C10.9142 6.71831 10.9142 8.29914 9.24 9.26748L7.8925 10.0491L6.545 10.8308C4.87083 11.7816 3.5 10.9941 3.5 9.05748V7.49998Z"
+      stroke="#FFF4E1"
+      strokeWidth="1.5"
+      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
