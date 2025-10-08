@@ -12,11 +12,13 @@ export const PageHero = ({
   subtitle,
   text,
   layoutClassName,
+  additionalContent,
 }: {
   title: ReactNode;
   subtitle: string;
   text: string;
   layoutClassName?: string;
+  additionalContent?: ReactNode;
 }) => (
   <section
     className={cn(
@@ -43,6 +45,7 @@ export const PageHero = ({
             <Text size="xl" weight={500} className="opacity-30">
               {text}
             </Text>
+            {additionalContent}
           </div>
         </div>
       </div>

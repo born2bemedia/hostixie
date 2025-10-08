@@ -1475,5 +1475,206 @@
       "text": "We appreciate you taking the time to share your details with us. We’re excited to work together and start the journey toward achieving your digital goals. One of our team members will be in touch with you shortly.",
       "close": "Close"
     }
+  },
+  "clients": {
+    "hero": {
+      "title": {
+        "0": "Projects That",
+        "1": "Made an Impact"
+      },
+      "subtitle": "Got a vision for something?",
+      "text": "Every result is a collaboration. We’ve helped businesses, creators, and professionals launch platforms that are fast, functional, and built for growth.",
+      "button": "Let's Talk"
+    },
+    "whatProjectsWork": {
+      "title": "What Makes Hostixie Projects Work",
+      "cards": {
+        "0": "Clear, well-defined scopes",
+        "1": "Fast, secure hosting",
+        "2": "Easy-to-manage backends",
+        "3": "SEO-friendly structure",
+        "4": "Scalable for future growth",
+        "5": "Dedicated support & maintenance"
+      }
+    },
+    "clientResults": {
+      "title": "At a Glance: Client Results",
+      "cards": {
+        "0": "Website Speed Improvements",
+        "1": "Conversion Rates Increased",
+        "2": "Organic Traffic Growth",
+        "3": "Customer Satisfaction Score",
+        "4": "Avg. Project Delivery Time"
+      },
+      "exploreCard": {
+        "title": "Want to See More?",
+        "text": "Take a deeper look at how we solve real problems with smart digital solutions.",
+        "button": "Explore Our Process"
+      }
+    },
+    "clientReviews": {
+      "client": "Client:",
+      "project": "Project:",
+      "services": "Services:",
+      "outcomes": "Outcomes:",
+      "review": "Review:",
+      "cards": {
+        "0": {
+          "type": "Creative Industry",
+          "title": "Photographer Portfolio",
+          "client": "Commercial Photography Agency",
+          "project": "Corporate portfolio website",
+          "services": {
+            "0": "Custom Web Development",
+            "1": "Hosting"
+          },
+          "outcomes": {
+            "0": "Clean, minimalist design focused on visuals",
+            "1": "Fully responsive layout with fast load times",
+            "2": "30% increase in booking inquiries"
+          },
+          "review": "The new website reflects our portfolio with precision and professionalism. The team understood our brand identity and executed it flawlessly."
+        },
+        "1": {
+          "type": "Retail",
+          "title": "E-Commerce for Handmade Goods",
+          "client": "Handmade Goods Supplier",
+          "project": "Custom e-commerce platform",
+          "services": {
+            "0": "WooCommerce Development",
+            "1": "VPS Hosting"
+          },
+          "outcomes": {
+            "0": "Easy-to-manage product system",
+            "1": "Streamlined checkout process",
+            "2": "2× growth in online sales in 3 months"
+          },
+          "review": "The e-commerce platform has transformed our sales process and opened new revenue channels for our wholesale clients."
+        },
+        "2": {
+          "type": "Health & Wellness",
+          "title": "Wellness Coaching Website",
+          "client": "Corporate Wellness Consultancy",
+          "project": "Content-focused business website",
+          "services": {
+            "0": "WordPress Development",
+            "1": "SEO Setup"
+          },
+          "outcomes": {
+            "0": "Full SEO optimization and structure",
+            "1": "Blog-ready backend for regular updates",
+            "2": "80% boost in organic traffic"
+          },
+          "review": "The process was seamless. The new site is visually appealing, ranks highly, and allows our team to update content anytime without outside help."
+        },
+        "3": {
+          "type": "Fitness",
+          "title": "Trainer Website Redesign",
+          "client": "Corporate Fitness & Training Provider",
+          "project": "Website redesign for mobile performance",
+          "services": {
+            "0": "UI/UX Redesign",
+            "1": "Managed WordPress Hosting"
+          },
+          "outcomes": {
+            "0": "Mobile-first responsive layout",
+            "1": "Bounce rate dropped by 25%",
+            "2": "40% more client sign-ups"
+          },
+          "review": "The redesign improved everything. Corporate clients can now book training sessions on mobile without issues, and engagement has never been higher."
+        },
+        "4": {
+          "type": "Creative Services",
+          "title": "Architecture Studio Showcase",
+          "client": "Studio Forma – Boutique Architecture Firm",
+          "project": "Visual portfolio & lead generation site",
+          "services": {
+            "0": "Custom Web Development",
+            "1": "Performance Optimization"
+          },
+          "outcomes": {
+            "0": "Elegant, image-centric design to highlight projects",
+            "1": "Integrated contact and inquiry forms",
+            "2": "50% increase in qualified leads"
+          },
+          "review": "The site gives our work the presentation it deserves. Clients often mention it during our first meetings. Very professional build."
+        },
+        "5": {
+          "type": "Food & Beverage Manufacturing",
+          "title": "Bakery Website",
+          "client": "Wholesale Bakery & Food Supplier",
+          "project": "Informational website with menu and pre-order features",
+          "services": {
+            "0": "WordPress Development",
+            "1": "Hosting & Support"
+          },
+          "outcomes": {
+            "0": "Simple CMS to update daily menus",
+            "1": "Optimized for local SEO and mobile browsing",
+            "2": "3× increase in pre-order requests"
+          },
+          "review": "We now receive bulk orders directly through the website. It has significantly improved our reach and streamlined customer communications."
+        },
+        "6": {
+          "type": "Education",
+          "title": "Online Learning Platform",
+          "client": "SkillTrack – Independent Course Creator",
+          "project": "Learning management site with member access",
+          "services": {
+            "0": "LMS Integration",
+            "1": "Payment System Setup"
+          },
+          "outcomes": {
+            "0": "Seamless student enrollment and payment",
+            "1": "Course dashboard with progress tracking",
+            "2": "5× user growth in the first quarter"
+          },
+          "review": "The platform is intuitive for both me and my students. Support was excellent throughout. Couldn't have launched without their help."
+        },
+        "7": {
+          "type": "Entertainment",
+          "title": "Event Landing Page",
+          "client": "Soundwave Fest – Annual Music Festival",
+          "project": "Promo landing page with ticket integration",
+          "services": {
+            "0": "Landing Page Design",
+            "1": "Ticketing Integration"
+          },
+          "outcomes": {
+            "0": "Eye-catching, on-brand single-page site",
+            "1": "Embedded ticket purchase and social media feeds",
+            "2": "70% of tickets sold via the website"
+          },
+          "review": "The page captured the energy of our event and made ticketing simple. We'll be working with them again next year for sure."
+        }
+      }
+    },
+    "ourProcess": {
+      "title": "Our Collaboration Process",
+      "text": "Our collaborations typically follow a structured but flexible format:",
+      "cards": {
+        "0": {
+          "title": "Kickoff Call",
+          "text": "We align on vision and goals"
+        },
+        "1": {
+          "title": "Proposal & Timeline",
+          "text": "You get a clear roadmap"
+        },
+        "2": {
+          "title": "Development & Hosting Setup",
+          "text": "Fully managed by our team"
+        },
+        "3": {
+          "title": "Launch & Support",
+          "text": "Your project goes live with ongoing care"
+        }
+      }
+    },
+    "startBuilding": {
+      "title": "Start Building With Us",
+      "text": "Whether you're starting from scratch or need to rebuild, we’re here to deliver results.",
+      "button": "Request a Free Consultation"
+    }
   }
 }
