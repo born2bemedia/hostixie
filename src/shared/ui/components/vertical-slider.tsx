@@ -48,7 +48,7 @@ export const VerticalSlider = ({
   );
 };
 
-export const ArrowRight = () => (
+export const ArrowRight = ({ color = '#FFF4E1' }: { color?: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="18"
@@ -59,10 +59,10 @@ export const ArrowRight = () => (
     <g clipPath="url(#clip0_182_17160)">
       <path
         d="M9 2.21655L15.1943 8.41081L15.1943 9.59875L9 15.793"
-        stroke="#FFF4E1"
+        stroke={color}
         strokeWidth="2.4"
       />
-      <path d="M15.7882 9.00478H2.21177" stroke="#FFF4E1" strokeWidth="2.4" />
+      <path d="M15.7882 9.00478H2.21177" stroke={color} strokeWidth="2.4" />
     </g>
     <defs>
       <clipPath id="clip0_182_17160">
@@ -77,7 +77,7 @@ export const ArrowRight = () => (
   </svg>
 );
 
-export const ArrowLeft = () => (
+export const ArrowLeft = ({ color = '#FFF4E1' }: { color?: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="18"
@@ -88,10 +88,10 @@ export const ArrowLeft = () => (
     <g clipPath="url(#clip0_182_17156)">
       <path
         d="M9 15.793L2.80574 9.59871L2.80574 8.41077L9 2.21652"
-        stroke="#FFF4E1"
+        stroke={color}
         strokeWidth="2.4"
       />
-      <path d="M2.21177 9.00474H15.7882" stroke="#FFF4E1" strokeWidth="2.4" />
+      <path d="M2.21177 9.00474H15.7882" stroke={color} strokeWidth="2.4" />
     </g>
     <defs>
       <clipPath id="clip0_182_17156">
