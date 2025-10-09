@@ -2,10 +2,21 @@
 
 import type { ReactNode } from 'react';
 
-export const List = ({ values }: { values: ReactNode[] }) => (
-  <ul className="list-inside list-disc pl-2.5">
+import { cn } from '@/shared/lib/utils/cn';
+
+export const List = ({
+  values,
+  textClassName,
+}: {
+  values: ReactNode[];
+  textClassName?: string;
+}) => (
+  <ul className="list-disc pl-8">
     {values.map((value, i) => (
-      <li key={i} className="text-xl text-black">
+      <li
+        key={i}
+        className={cn('text-xl text-black max-md:text-base', textClassName)}
+      >
         {value}
       </li>
     ))}
