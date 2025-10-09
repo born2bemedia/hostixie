@@ -1771,5 +1771,199 @@
         }
       }
     }
+  },
+  "articles": {
+    "heading": "More Tech & Team Updates",
+    "cleanPortfolio": {
+      "title": "Just Launched: Clean Portfolio Site for a Visual Artist",
+      "date": "Launched: June 20, 2025",
+      "description": "A contemporary visual artist approached us to build a dedicated online portfolio that would serve as her primary client-facing platform. The key requirement was a minimal, image-first website that performs well across all devices and communicates professionalism without unnecessary complexity.",
+      "children": {
+        "0": "Objective",
+        "1": "The artist needed a fast, elegant way to present her work, reduce reliance on third-party platforms, and convert site visitors into direct inquiries. Performance, responsiveness, and visual clarity were the top priorities. No CMS was required; she wanted a static, low-maintenance solution with the highest speed and reliability.",
+        "2": "Design Strategy",
+        "3": "We designed a custom front-end layout tailored specifically for artwork presentation. The homepage opens with a full-width image grid that adapts to screen size and orientation. On project pages, images are presented with generous whitespace, smooth scroll transitions, and optional captions. Typography was kept subtle to avoid visual noise.",
+        "4": "Technical Implementation",
+        "5": "The site was built as a fully static deployment using modern frontend tools. Images were converted to WebP, lazy-loaded, and delivered via CDN. We used a lightweight CSS framework and custom JavaScript for transitions. Google PageSpeed scores reached 97 on mobile and 100 on desktop. The final build was deployed to a CDN-based global hosting environment for instant load times.",
+        "6": "Mobile Optimization",
+        "7": "From the outset, we prioritized mobile performance. All layout components were built mobile-first, including the gallery grid, navigation, and contact form. Tap targets, image scaling, and font sizes were tested across devices to ensure consistent behavior and zero layout shifts.",
+        "8": "User Interaction Flow",
+        "9": "The site includes a simplified contact form placed at key attention points. It features instant validation, category tagging for inquiries, and is routed to the artist’s preferred email system. No signup or complex UI layers — just a direct way to request work, commissions, or collaborations.",
+        "10": "Measurable Results",
+        "11": "Within the first seven days after launch, the artist received three new client inquiries that converted into paid bookings. Average session duration more than doubled. Bounce rate dropped from 64% (old site) to 36%. Image engagement (measured via scroll depth and interaction logs) showed strong user retention.",
+        "12": "Wrapping up",
+        "13": "The final product is a lightweight, fast, visually focused portfolio that now serves as the artist’s primary business touchpoint. With no backend overhead and optimized loading across all regions, it combines strong design with performance and reliability."
+      }
+    },
+    "hostingJustGot": {
+      "title": "Hosting Just Got Faster (Again)",
+      "date": "May 10, 2025",
+      "description": "We’ve completed a major upgrade to our hosting infrastructure focused on speed, scalability, and long-term reliability. All clients have already been migrated automatically — no action required.",
+      "children": {
+        "0": "Upgrade Objective",
+        "1": "The goal was to reduce latency, improve global performance, and prepare our platform for continued growth. The upgrade targeted both hardware and software layers, with measurable improvements across all hosting tiers.",
+        "2": "Hardware Improvements",
+        "3": "We replaced all previous-generation SSDs with NVMe drives across our shared, VPS, and dedicated hosting environments. This alone resulted in significant gains in disk read/write performance, particularly under high-load scenarios such as CMS-based sites and database-driven applications.",
+        "4": {
+          "0": "Object caching (Memcached/Redis) for dynamic applications",
+          "1": "Full-page caching for static assets",
+          "2": "Smarter cache invalidation rules for CMS platforms"
+        },
+        "5": "All plans now come with pre-configured caching by default, requiring no manual setup from users.",
+        "6": "Network & Delivery Enhancements",
+        "7": "HTTP/3 is now enabled across our entire CDN edge layer, along with Brotli compression for smaller payloads. Internal routing was optimized to reduce latency between availability zones. DNS resolution times improved due to smarter resolver distribution.",
+        "8": "Benchmark Results",
+        "9": "Post-deployment tests across 50+ client sites showed the following:",
+        "10": {
+          "0": "Average page load time improved by 36%",
+          "1": {
+            "0": "Time to First Byte (TTFB)",
+            "1": "reduced by an average of 210 ms"
+          },
+          "2": {
+            "0": "Uptime",
+            "1": "remains at 99.99% SLA level"
+          },
+          "3": "Dynamic CMS sites (WordPress, Joomla) showed the highest relative gains"
+        },
+        "11": "Developer & API Impact",
+        "12": "Our staging environments, deployment CLI, and control panel API also benefit from the new architecture. Script execution time is faster, and environment spins occur in under 10 seconds on average.",
+        "13": "Wrapping up",
+        "14": "This upgrade is part of our ongoing commitment to hosting speed and reliability. No price increases, no disruption — just better performance across the board. All new clients benefit immediately, and current clients already live on the enhanced stack."
+      }
+    },
+    "eCommerceMakeover": {
+      "title": "E-commerce Makeover = 2× Sales in 90 Days",
+      "date": "May 30, 2025",
+      "description": "We completed a full redesign of an e-commerce platform for a handmade goods retailer that had struggled with declining sales, slow mobile performance, and high checkout abandonment. Within three months of relaunch, the store saw a 45% increase in conversion rate and doubled its total revenue — without increasing ad spend.",
+      "children": {
+        "0": "Redesign Goals and Initial Challenges",
+        "1": "The goal was to reduce latency, improve global performance, and prepare our platform for continued growth. The upgrade targeted both hardware and software layers, with measurable improvements across all hosting tiers.",
+        "2": "Design and Experience Overhaul",
+        "3": "We approached the redesign with a mobile-first strategy, beginning with the layout structure. Every section of the site was rebuilt with a focus on clarity and speed. Product pages were redesigned to emphasize high-resolution visuals, pricing clarity, and simplified options for variants and quantities. The product catalog was restructured to allow for faster filtering and clearer browsing paths.",
+        "4": "The checkout process was reduced from five screens to three, eliminating redundant form fields and enabling autofill support for returning customers. Error handling was improved with inline messages that required no page reloads. Overall, the user experience was restructured to minimize friction from landing to purchase.",
+        "5": "Visual identity was also addressed — a neutral, handcrafted aesthetic was applied across the interface to align with the brand’s tone and product style. Subtle animations and transitions improved perceived performance without slowing down page load.",
+        "6": "Performance Optimization and Technical Execution",
+        "7": "Beyond layout and interface, performance was a core focus. The codebase was cleaned of unused libraries, and all assets were restructured for faster delivery. Product images were converted into multiple responsive WebP variants, served conditionally based on device resolution.",
+        "8": "JavaScript was minimized and deferred where possible to prioritize core interaction. All static assets were moved behind a CDN to reduce first-byte latency globally. The site’s infrastructure remained on the client’s existing platform, but deployment pipelines were updated for clean asset versioning and automatic compression.",
+        "9": "These changes led to a nearly 50 percent reduction in average load time, measured across both desktop and mobile sessions. PageSpeed scores rose from mid-60s to high 90s on both mobile and desktop metrics.",
+        "10": "Measurable Business Impact",
+        "11": "The effect on sales performance was immediate and sustained. Within the first 30 days, the store’s checkout completion rate began rising steadily, particularly among mobile users. By the end of the third month, overall conversion rate had increased by 45 percent. Mobile conversion alone grew by more than 30 percent, which brought it nearly in line with desktop performance — a major shift from previous behavior.",
+        "12": "Revenue over the 90-day period more than doubled compared to the prior quarter, despite the fact that advertising strategy and traffic sources remained unchanged. The improved user journey and faster page experience translated directly into more completed transactions and higher average order values. Users spent more time on product pages and returned more frequently within short intervals, indicating both increased interest and improved retention.",
+        "13": "Conclusion",
+        "14": "This project demonstrates the immediate business impact of focused UX design and technical performance tuning in e-commerce. Without changing the product inventory or investing in new traffic acquisition, the client achieved substantial revenue growth simply by removing friction and optimizing every step of the shopping experience. The updated platform is now not only more visually aligned with the brand, but far more efficient at turning visitors into paying customers."
+      }
+    },
+    "weLaunchedManaged": {
+      "title": "We Launched Managed WordPress Hosting",
+      "date": "April 5, 2025",
+      "description": "We’ve officially launched our fully managed WordPress hosting platform, tailored for small businesses, solo creators, and agencies that need speed, security, and simplicity — without the overhead of server management or plugin conflicts. Built from the ground up on our optimized infrastructure, this new service package is designed to eliminate routine technical headaches while delivering enterprise-grade performance.",
+      "children": {
+        "0": "Background and Purpose",
+        "1": "Many of our clients use WordPress as their primary platform for business websites, portfolios, blogs, or e-commerce. While WordPress remains one of the most flexible and widely adopted CMSs in the world, it also presents common pain points when self-managed — from plugin conflicts and performance drops to vulnerability exposure and broken updates.",
+        "2": "Our goal was to offer a fully managed environment that preserves WordPress’s flexibility while removing its complexity. This meant combining infrastructure tuning, security automation, and support workflows into a streamlined product that could support both beginner users and advanced creators alike.",
+        "3": "Platform Architecture and Setup",
+        "4": "The managed environment is deployed on isolated cloud containers with dedicated resources, offering consistent performance regardless of load spikes. Each instance runs on a custom-tuned NGINX + PHP-FPM stack with object caching pre-configured for WordPress. The storage layer is built on NVMe SSDs for rapid read/write performance, which directly benefits database-heavy WP installations.",
+        "5": "Every account includes pre-integrated CDN routing, image compression, and server-level caching — fully maintained by our team. Core updates, plugin patching, and theme versioning are handled in scheduled stages to avoid site disruptions. Error recovery mechanisms and fallback snapshots allow us to reverse any failed updates instantly, minimizing downtime risk.",
+        "6": "Automation and Security Layer",
+        "7": "Security is fully automated at the server level and reinforced through regular file integrity scans and real-time threat detection. Malware scanning and automatic quarantine routines are run daily. SSL certificates are issued and renewed automatically. Firewall rules are customized per install, depending on the plugins and features each site uses, avoiding overblocking and false positives.",
+        "8": "Backups are performed every 24 hours and stored in encrypted off-site storage for a rolling 30-day window. Full site restores can be triggered through the control panel with one click and no need for manual file management.",
+        "9": "Performance Outcomes and Early Adoption",
+        "10": "During internal testing and limited client rollout, sites on the new platform loaded 41 percent faster on average compared to our traditional shared hosting with the same WordPress builds. TTFB was reduced by over 200 milliseconds, and backend performance remained stable even under multi-user traffic.",
+        "11": "Clients who migrated to managed WordPress reported improved reliability and fewer support tickets related to speed, updates, and broken plugins. Early adopters included design studios, consultants, and e-commerce vendors, all of whom now operate on infrastructure tuned specifically for the behavior of WordPress.",
+        "12": "Conclusion",
+        "13": "This product launch fills a long-standing gap between unmanaged WordPress hosting and expensive enterprise setups. With automation, optimization, and security built in from the start, our managed WordPress platform offers a simple, powerful solution for anyone who wants to focus on their content and business — not on server errors or plugin conflicts. The service is live and available to all new and existing clients starting April 2025."
+      }
+    },
+    "invoicesUpgraded": {
+      "title": "Invoices, Upgraded",
+      "date": "March 12, 2025",
+      "description": "We’ve launched a major update to our billing system, introducing a unified dashboard where clients can manage all their invoices, subscription details, and renewals — without needing to contact support. This update is now live for all active users and applies across hosting, development, and maintenance services.",
+      "children": {
+        "0": "Rationale Behind the Upgrade",
+        "1": "Previously, invoice access was handled manually via email or file-based delivery after project milestones or recurring billing cycles. While functional, the process created delays, increased dependency on support staff, and introduced avoidable friction for clients trying to track payments, receipts, and renewal dates.",
+        "2": "The new system removes that dependency entirely by offering self-service access to all billing-related operations in real time. It’s designed for transparency, speed, and accuracy, especially for clients managing multiple services under one account.",
+        "3": "System Architecture and Implementation",
+        "4": "The new billing interface was built directly into our client dashboard using secure API integration with our invoicing engine. Each client now has a centralized view of their service history, current subscriptions, and billing documents. Invoices are generated automatically, attached to the correct project or service, and made downloadable in PDF format with full tax and service breakdowns.",
+        "5": "Renewals are now visible weeks in advance, with options to renew, cancel, or modify service plans directly from the same interface. Payment confirmations, retry logic for failed charges, and automated receipts are all part of the improved workflow. All data is encrypted and stored in compliance with current financial data handling regulations.",
+        "6": "Benefits for Clients",
+        "7": "Clients no longer need to email us for copies of invoices or to confirm billing terms. All invoices are timestamped, stored in one place, and always accessible. This is especially valuable for businesses that require invoices for accounting and tax purposes across multiple departments.",
+        "8": "For recurring plans, the new system makes it possible to monitor billing cycles in real time, adjust plan tiers as needed, and manage payment methods — all without any delay or administrative overhead. The system also significantly reduces the risk of missed renewals or untracked service changes.",
+        "9": "Conclusion",
+        "10": "This upgrade turns billing into a self-managed, secure, and transparent process for every client. By eliminating email threads and manual document requests, we’ve saved time for both sides and brought clarity to a critical part of the service experience. The update is already active and available to all users as of March 12, 2025."
+      }
+    },
+    "partnershipsPeople": {
+      "title": "Partnerships & People",
+      "date": "May 30, 2025",
+      "description": "We’ve launched a new partnership with a local web development bootcamp, creating a collaborative program that gives junior developers hands-on experience by contributing to real client projects under the guidance of our senior team. The initiative is now fully active and integrated into our production workflow.",
+      "children": {
+        "0": "Purpose and Motivation",
+        "1": "The tech industry often demands “job-ready” talent while offering limited access to real-world training. Most junior developers leave bootcamps with strong theoretical knowledge but lack applied experience on active, client-facing work. Our goal with this partnership is to close that gap by embedding selected trainees directly into our project pipeline in a structured, mentored environment.",
+        "2": "This benefits both sides. Junior developers receive practical exposure in real tools, timelines, and team dynamics, while we scale faster by identifying capable, motivated contributors early. Clients benefit too, gaining access to expanded production capacity without compromise on quality, as all trainee work passes through review and supervision.",
+        "3": "Program Structure and Integration",
+        "4": "Developers from the bootcamp are onboarded in cycles and assigned to specific phases of live client work, including front-end implementation, CMS configuration, QA testing, and documentation. Each trainee works alongside one of our senior developers who provides direct code review, technical feedback, and workflow coaching.",
+        "5": "All contributions are sandboxed within staging environments and managed through Git-based version control. Only approved code passes into final production environments. This ensures both high standards and a true learning process, while maintaining the delivery pace our clients expect.",
+        "6": "Outcomes and Internal Impact",
+        "7": "The first round of integration has already shown strong results. Internal velocity improved on multi-phase builds, and mentorship activities created new leadership pathways for mid-level team members. Trainees provided usable output within two weeks of onboarding and adapted quickly to agency-style workflows. Some are already being considered for full-time roles after program completion.",
+        "8": "Conclusion",
+        "9": "This partnership reflects our belief that talent grows fastest when it’s trusted with responsibility — not hypothetical projects, but real ones. It also proves that mentorship and production can coexist when properly structured. We’ll continue refining the program and expanding it with new education partners in the coming months."
+      }
+    },
+    "regionalDev": {
+      "title": "Regional Dev Workshop Hosted",
+      "date": "April 5, 2025",
+      "description": "We hosted a full-day, hands-on web development workshop for early-stage developers, focused on bridging the gap between classroom knowledge and real-world application. The event brought together new talent, experienced engineers, and live project scenarios to provide a high-impact learning experience.",
+      "children": {
+        "0": "Workshop Goals and Structure",
+        "1": "The workshop was designed to give participants direct exposure to how real client projects are planned, built, and deployed. Unlike traditional coding bootcamps or lectures, this event emphasized real constraints — deadlines, feedback loops, and multi-role collaboration. Attendees worked on stripped-down versions of actual project briefs from our internal archives, adjusted for scope and confidentiality.",
+        "2": "The format combined guided sessions with open problem-solving, allowing developers to build layouts, integrate APIs, manage Git workflows, and optimize performance in a simulated production environment. Each participant rotated between front-end, CMS setup, and QA roles, gaining a broader perspective of how professional teams operate.",
+        "3": "Mentorship and Technical Focus",
+        "4": "Our core team members acted as technical leads and mentors throughout the event, offering code reviews, real-time debugging assistance, and deployment walkthroughs. Topics covered included semantic HTML structuring, performance budgeting, RESTful API integration, and responsive design under time constraints.",
+        "5": "Participants were encouraged to ask questions at every step and received actionable feedback on code quality, communication, and problem-solving approaches. We also included a session on client communication and project estimation — skills often overlooked in technical training.",
+        "6": "Outcomes and Future Plans",
+        "7": "The workshop was attended by over 30 developers from across the region, many of whom had never worked in a structured team environment before. Feedback was overwhelmingly positive, with participants citing improved confidence, stronger technical understanding, and clearer expectations of what agency work entails.",
+        "8": "Based on the success of this event, we plan to make it recurring — scaling both the content and participant pool, and potentially opening it to design and product management tracks as well.",
+        "9": "Conclusion",
+        "10": "This workshop reinforced our belief that real-world practice accelerates developer growth far beyond theory alone. By investing in talent early and providing transparent, production-oriented experiences, we’re helping shape the next generation of industry-ready professionals — and building stronger local tech culture in the process."
+      }
+    },
+    "openSource": {
+      "title": "Open-Source Sprint Participation",
+      "date": "March 12, 2025",
+      "description": "Our team actively contributed to a multi-week open-source sprint focused on performance and reliability improvements for a widely-used content management system. The sprint brought together contributors from various regions, with the shared goal of strengthening a core tool used by thousands of developers and site owners worldwide.",
+      "children": {
+        "0": "Sprint Context and Focus",
+        "1": "The sprint was organized around improving load performance, stability under scale, and maintainability of core modules in the CMS’s back-end architecture. Our contribution centered on addressing known issues in asset handling, template rendering efficiency, and caching behavior — all of which directly impact runtime speed and developer experience.",
+        "2": "We selected issues based on long-standing community tickets and pain points encountered by our own team during previous client projects using the platform. The work included analyzing slow-path rendering functions, isolating blocking operations during cold cache loads, and proposing code refactors for more predictable behavior under concurrent access.",
+        "3": "Contributions and Implementation",
+        "4": "Our engineers submitted multiple pull requests that addressed critical performance bottlenecks in the CMS’s theme rendering pipeline. Improvements were made to how scripts and styles were registered and served, reducing total execution time on dynamic page builds. We also restructured part of the internal asset dependency loader to minimize redundant calls and streamline the build process.",
+        "5": "In addition to performance, we contributed to reliability by patching a rare but impactful issue related to session management in multi-language deployments. The fix improved session consistency during high-frequency content switching and multilingual routing.",
+        "6": "All contributions were reviewed and merged by project maintainers, and included full documentation, tests, and performance benchmarks to support long-term stability.",
+        "7": "Community Impact",
+        "8": "The updates we submitted are now available in the next stable release, directly benefiting thousands of websites powered by the CMS. Developers will see better cold-start response times, fewer conflicts with custom themes, and more predictable cache behavior across deployments.",
+        "9": "Beyond code, our participation helped validate the value of cross-agency collaboration in open-source ecosystems. We also received valuable feedback from fellow contributors and maintainers that will inform how we architect future client solutions based on this CMS.",
+        "10": "Conclusion",
+        "11": "Open-source work is not just contribution — it’s alignment with the tools we depend on and a commitment to making them better for everyone. This sprint reinforced the impact of small, focused changes on large-scale performance, and we remain committed to future collaboration with the developer community."
+      }
+    },
+    "seniorUxExpertise": {
+      "title": "Senior UX Expertise Added",
+      "date": "July 1, 2025",
+      "description": "We’ve expanded our core team with the addition of a senior UX specialist, bringing over a decade of product design experience to our agency. This strategic hire strengthens our ability to deliver high-impact, user-centered design across all client projects, from marketing sites to complex web applications.",
+      "children": {
+        "0": "Why UX Leadership Matters",
+        "1": "As the complexity of digital products grows, so does the need for intentional, research-backed user experience design. Many of our recent projects involve intricate interfaces, layered user journeys, and multi-device interactions — all of which demand a higher level of UX precision.",
+        "2": "Our goal was not to simply improve visual design, but to make usability a central pillar of our development process. This meant bringing in someone who could lead cross-functional collaboration, guide research, and shape interfaces that are both beautiful and functional.",
+        "3": "Role and Integration",
+        "4": "Our new UX lead is now responsible for driving design strategy across all projects, working alongside developers, project managers, and clients. Their role begins early in the discovery phase — conducting UX audits, mapping user flows, and setting standards for accessibility, interaction patterns, and responsive behavior.",
+        "5": "They also introduced new tools and processes into our workflow, including wireframe validation, rapid prototyping, and user testing cycles. These additions allow us to test hypotheses earlier, validate design decisions faster, and reduce iteration time during development.",
+        "6": "Impact on Client Work",
+        "7": "Since onboarding, the quality and consistency of design execution across projects has already improved. Navigation structures have become more intuitive, form completion rates have increased, and visual hierarchy is more aligned with user priorities. Even in smaller projects, design thinking is now embedded from the start — not treated as a final polish step.",
+        "8": "Clients have responded positively, noting clearer layouts, smoother interactions, and more confidence in how users experience their platforms. Internally, our teams now work more efficiently with shared design systems and defined UX checkpoints throughout the build process.",
+        "9": "Conclusion",
+        "10": "Bringing in senior UX leadership has raised the standard for every project we touch. It ensures that the interfaces we build are not just attractive, but truly effective — rooted in user needs, tested in context, and scalable over time. It’s a long-term investment in quality, clarity, and digital usability."
+      }
+    }
   }
 }
