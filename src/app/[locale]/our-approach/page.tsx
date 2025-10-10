@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { PageHero } from '@/shared/ui/components/page-hero';
@@ -8,6 +9,23 @@ import {
   OurPhilosophy,
   OurStepByStep,
 } from './components';
+
+export const metadata: Metadata = {
+  title: 'Our Approach to Hosting & Web Development | Hostixie',
+  description:
+    'Discover Hostixie’s step-by-step process: consultation, strategy, development, launch, and continuous support.',
+  openGraph: {
+    title: 'Our Approach to Hosting & Web Development | Hostixie',
+    description:
+      'Discover Hostixie’s step-by-step process: consultation, strategy, development, launch, and continuous support.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Our Approach to Hosting & Web Development | Hostixie',
+    description:
+      'Discover Hostixie’s step-by-step process: consultation, strategy, development, launch, and continuous support.',
+  },
+};
 
 export default async function OurApproach() {
   const t = await getTranslations('ourApproach.hero');

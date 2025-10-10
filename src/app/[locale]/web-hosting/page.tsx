@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 
@@ -7,6 +8,26 @@ import { WebHostingList } from '@/features/web-hosting/ui/web-hosting-list';
 import { FeatureHero } from '@/shared/ui/components/feature-hero';
 
 import { ReadyChoosePlan } from './ready-choose-plan';
+
+export const metadata: Metadata = {
+  title:
+    'Web Hosting Plans – Shared, VPS, Cloud & Dedicated Hosting | Hostixie',
+  description:
+    'Reliable hosting with 99.9% uptime. Choose from Shared, VPS, Cloud, or Dedicated hosting, plus Managed WordPress options.',
+  openGraph: {
+    title:
+      'Web Hosting Plans – Shared, VPS, Cloud & Dedicated Hosting | Hostixie',
+    description:
+      'Reliable hosting with 99.9% uptime. Choose from Shared, VPS, Cloud, or Dedicated hosting, plus Managed WordPress options.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title:
+      'Web Hosting Plans – Shared, VPS, Cloud & Dedicated Hosting | Hostixie',
+    description:
+      'Reliable hosting with 99.9% uptime. Choose from Shared, VPS, Cloud, or Dedicated hosting, plus Managed WordPress options.',
+  },
+};
 
 const getSharedHosting = (
   t: Awaited<ReturnType<typeof getTranslations>>,

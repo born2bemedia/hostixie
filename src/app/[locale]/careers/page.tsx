@@ -1,8 +1,26 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { PageHero } from '@/shared/ui/components/page-hero';
 
 import { GetInTouch, Jobs, OurCulture, WhyJoinUs } from './components';
+
+export const metadata: Metadata = {
+  title: 'Careers in Web Hosting & Development – Join Hostixie | Hostixie',
+  description:
+    'Explore career opportunities at Hostixie. Join a growing team in hosting, development, and client success with flexible benefits.',
+  openGraph: {
+    title: 'Careers in Web Hosting & Development – Join Hostixie | Hostixie',
+    description:
+      'Explore career opportunities at Hostixie. Join a growing team in hosting, development, and client success with flexible benefits.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Careers in Web Hosting & Development – Join Hostixie | Hostixie',
+    description:
+      'Explore career opportunities at Hostixie. Join a growing team in hosting, development, and client success with flexible benefits.',
+  },
+};
 
 export default async function Careers() {
   const t = await getTranslations('careers.hero');

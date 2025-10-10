@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { PolicyHeader } from '@/features/policies/ui/policy-header';
@@ -8,6 +9,26 @@ import { PolicyText } from '@/features/policies/ui/policy-text';
 import { Link } from '@/i18n/navigation';
 
 import { List } from '@/shared/ui/kit/list';
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy | Hostixie',
+  description:
+    'Learn how Hostixie collects, uses, and protects your personal information.',
+  openGraph: {
+    title: 'Privacy Policy | Hostixie',
+    description:
+      'Learn how Hostixie collects, uses, and protects your personal information.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Privacy Policy | Hostixie',
+    description:
+      'Learn how Hostixie collects, uses, and protects your personal information.',
+  },
+  robots: {
+    index: false,
+  },
+};
 
 export default async function PrivacyPolicy() {
   const t = await getTranslations('privacyPolicy');
@@ -841,22 +862,36 @@ export default async function PrivacyPolicy() {
             })}
           </PolicyText>
         </PolicySection>
-        <PolicySection id="contact-us" title="Contact Us">
+        <PolicySection
+          id="contact-us"
+          title={t('children.68', {
+            fallback: 'Contact Us',
+          })}
+        >
           <PolicyText>
-            If you have any questions, requests, or concerns regarding this
-            Privacy Policy or your personal data, please reach out using the
-            contact information below:
+            {t('children.69', {
+              fallback:
+                'If you have any questions, requests, or concerns regarding this Privacy Policy or your personal data, please reach out using the contact information below:',
+            })}
           </PolicyText>
           <List
             values={[
               <span key="email">
-                Email: <span className="font-bold">info@hostixie.com</span>
+                {t('children.70', {
+                  fallback: 'Email:',
+                })}{' '}
+                <span className="font-bold">info@hostixie.com</span>
               </span>,
               <span key="phone">
-                Phone: <span className="font-bold">[Insert Phone Number]</span>
+                {t('children.71', {
+                  fallback: 'Phone:',
+                })}{' '}
+                <span className="font-bold">[Insert Phone Number]</span>
               </span>,
               <span key="contact-page">
-                Contact Page:{' '}
+                {t('children.72', {
+                  fallback: 'Contact Page:',
+                })}{' '}
                 <Link href="/contact" className="font-bold">
                   https://hostixie.com/contact
                 </Link>

@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 
@@ -11,6 +12,23 @@ import {
   TextValue,
   WhyChooseUs,
 } from './components';
+
+export const metadata: Metadata = {
+  title: 'About Hostixie – Company Overview & Mission | Hostixie',
+  description:
+    'Learn about Hostixie’s mission, vision, and expertise. Over 500 projects delivered with excellence in hosting and web development.',
+  openGraph: {
+    title: 'Our Approach to Hosting & Web Development | Hostixie',
+    description:
+      'Discover Hostixie’s step-by-step process: consultation, strategy, development, launch, and continuous support.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Our Approach to Hosting & Web Development | Hostixie',
+    description:
+      'Discover Hostixie’s step-by-step process: consultation, strategy, development, launch, and continuous support.',
+  },
+};
 
 export default async function CompanyOverview() {
   const t = await getTranslations('companyOverview.hero');

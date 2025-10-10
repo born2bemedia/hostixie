@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { PolicyHeader } from '@/features/policies/ui/policy-header';
@@ -8,6 +9,26 @@ import { PolicyText } from '@/features/policies/ui/policy-text';
 import { Link } from '@/i18n/navigation';
 
 import { List } from '@/shared/ui/kit/list';
+
+export const metadata: Metadata = {
+  title: 'Terms and Conditions | Hostixie',
+  description:
+    'Learn how Hostixie handles terms and conditions for our services.',
+  openGraph: {
+    title: 'Terms and Conditions | Hostixie',
+    description:
+      'Learn how Hostixie handles terms and conditions for our services.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Terms and Conditions | Hostixie',
+    description:
+      'Learn how Hostixie handles terms and conditions for our services.',
+  },
+  robots: {
+    index: false,
+  },
+};
 
 export default async function TermsAndConditions() {
   const t = await getTranslations('termsAndConditions');
