@@ -14,7 +14,6 @@ export default async function TermsAndConditions() {
     <>
       <PolicyHeader name={t('title', { fallback: 'Terms and Conditions' })} />
       <PolicyRender
-        responsiveNavigation
         navigation={[
           {
             label: t('navigation.0', { fallback: 'General Overview' }),

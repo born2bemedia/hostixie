@@ -15,7 +15,10 @@ export const List = ({
     {values.map((value, i) => (
       <li
         key={i}
-        className={cn('text-xl text-black max-md:text-base', textClassName)}
+        className={cn(
+          'py-1 text-xl text-black max-md:text-base',
+          textClassName,
+        )}
       >
         {value}
       </li>
