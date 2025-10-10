@@ -10,12 +10,14 @@ import { Text } from '@/shared/ui/kit/text';
 export const PolicyRender = ({
   navigation,
   children,
+  sticky = false,
 }: {
   navigation: {
     label: string;
     href: string;
   }[];
   children: React.ReactNode;
+  sticky?: boolean;
 }) => {
   const [activeSection, setActiveSection] = useState<string>(
     navigation[0].href,
@@ -69,7 +71,9 @@ export const PolicyRender = ({
     <main className="bg-[#fff4e1] py-[60px] max-md:px-4">
       <div className="container flex gap-10 rounded-xl border border-[#A4A189] p-6">
         <div className="flex-shrink-0 max-lg:hidden">
-          <div className={cn('flex w-[300px] flex-col')}>
+          <div
+            className={cn('flex w-[300px] flex-col', sticky && 'sticky top-4')}
+          >
             {navigation.map(item => (
               <Link
                 key={item.href}

@@ -2306,5 +2306,81 @@
       },
       "67": "We retain data only for as long as necessary to fulfill business or legal obligations, and no longer than 6 years, unless your account is removed sooner. After termination, we will remove personal information from our systems within a 60-day grace period, in accordance with our Terms and Privacy Policy."
     }
+  },
+  "refundPolicy": {
+    "title": "Refund Policy",
+    "navigation": {
+      "0": "Overview",
+      "1": "Customer Responsibility",
+      "2": "When a Refund May Be Considered",
+      "3": "How to Submit a Refund Request",
+      "4": "Review Process",
+      "5": "Age Restrictions",
+      "6": "Need Help?"
+    },
+    "children": {
+      "0": "Overview",
+      "1": "Thank you for choosing Hostixie, a service provided by [Company Name], legally registered at [Registered Address] under company number [Registration Number]. Our team is dedicated to delivering reliable, high-quality digital services, including web development, hosting, and related solutions.",
+      "2": "Please note that",
+      "3": "all transactions completed via our website are considered final and non-refundable",
+      "4": "This policy applies to all services and digital products, regardless of whether they have been used, activated, accessed, or delivered. Once payment has been successfully processed and confirmed, the amount paid becomes non-reversible.",
+      "5": "This refund policy reflects the nature of our work: services are often custom-built, resource-dependent, or begin immediately upon order confirmation. As such, even partial refunds are not issued under standard conditions. By purchasing through our platform, you acknowledge and accept that you are not entitled to a refund once the transaction is complete.",
+      "6": "Customer Responsibility",
+      "7": "Before initiating any payment or placing an order on our platform",
+      "8": "you are solely responsible for evaluating all relevant information",
+      "10": "about the service or product you intend to purchase. This includes, but is not limited to, reading service descriptions, checking feature lists, reviewing pricing tiers, assessing deliverables, and ensuring that the selected solution aligns with your business or personal needs.",
+      "11": "We do not take responsibility for dissatisfaction caused by:",
+      "12": {
+        "0": "Misunderstanding or misinterpreting publicly available service details",
+        "1": "Oversights in verifying project requirements or specifications",
+        "2": "Assumptions about included features that were not explicitly listed"
+      },
+      "13": "It is also your responsibility to ensure that any technical requirements (such as hosting compatibility or CMS preference) are understood prior to purchasing. If in doubt, you are encouraged to contact our support team before placing an order. Once payment is made, it is assumed that you have made an informed and intentional purchasing decision.",
+      "14": "When a Refund May Be Considered",
+      "15": {
+        "0": "While our standard policy does not allow refunds, there are limited scenarios where a request",
+        "1": "may be reviewed:"
+      },
+      "16": {
+        "0": "Accidental or Duplicate Payments",
+        "1": "If you were charged more than once for the same order, you may be eligible for a refund of the excess amount.",
+        "2": "Incorrect Billing",
+        "3": "If a technical error or miscalculation on our part resulted in an overcharge, a refund may be processed for the difference.",
+        "4": "Wrong Payment Details",
+        "5": "If you can provide evidence that a payment was made using incorrect information (e.g., wrong reference number), and the funds did not reach us, we may assist in resolving the issue.",
+        "6": "Service Not Delivered",
+        "7": "If a product or service you paid for was not delivered as outlined—due to a fault on our side—we may offer a refund or partial compensation depending on the circumstances."
+      },
+      "17": "How to Submit a Refund Request",
+      "18": {
+        "0": "If you believe your case qualifies under the above conditions, please send a written refund request to our support team via email at",
+        "1": "Include the following details:"
+      },
+      "19": {
+        "0": "Full name",
+        "1": "Email address used for the order",
+        "2": "Transaction date",
+        "3": "Order number or payment reference",
+        "4": "A detailed description of the issue"
+      },
+      "20": "Review Process",
+      "21": {
+        "0": "Once we receive your request, our team will carefully review the details and validate them against our records. We aim to respond within",
+        "1": "7 business days",
+        "2": "Each case is evaluated individually, and approval is at the sole discretion of",
+        "3": "in line with this Refund Policy."
+      },
+      "23": "Age Restrictions",
+      "24": "Our website and services are intended for individuals who are at least 18 years old. We do not knowingly collect or solicit personal information from anyone under the age of 18. If we discover that we have inadvertently collected personal information from a child under 18, we will take steps to delete such information as soon as possible.",
+      "25": "By using our services, you confirm that you are at least 18 years of age. If you are under 18, you are prohibited from accessing or using our services.",
+      "26": "Need Help?",
+      "27": "If you need clarification about this policy or have any questions before submitting a request, feel free to contact our team:",
+      "28": {
+        "0": "Email:",
+        "1": "Phone:",
+        "2": "Contact Page:"
+      },
+      "29": "Please note that we reserve the right to update this Refund Policy at any time, without prior notice. We encourage you to review this page periodically."
+    }
   }
 }
