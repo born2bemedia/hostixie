@@ -2382,5 +2382,112 @@
       },
       "29": "Please note that we reserve the right to update this Refund Policy at any time, without prior notice. We encourage you to review this page periodically."
     }
+  },
+  "cookiePolicy": {
+    "name": "Cookie Policy",
+    "navigation": {
+      "0": "Welcome to Our Cookie Policy",
+      "1": "What Are Cookies, Anyway?",
+      "2": "How We Respond to \"Do Not Track\" (DNT)",
+      "3": "Why We Use Cookies",
+      "4": "Third-Party Cookies",
+      "5": "Managing Your Cookie Preferences",
+      "6": "Policy Updates",
+      "7": "Age Restrictions",
+      "8": "Got Questions? We’re Here to Help."
+    },
+    "children": {
+      "0": "Welcome to Our Cookie Policy",
+      "1": {
+        "0": "This document explains how [Company Name], registration number [Company Registration Number], registered at [Full Registered Address], the team behind Hostixie, uses cookies and similar tracking tools across our website, hostixie.com. These little data helpers allow us to recognize you, improve your experience, and keep the website running smoothly. By continuing to use our site, you agree to the cookie practices described here.",
+        "1": "We believe in transparency, so let’s break it down clearly."
+      },
+      "2": "What Are Cookies, Anyway?",
+      "3": "We use different kinds of cookies, each with its own job to do:",
+      "4": {
+        "0": "Essential Cookies ",
+        "1": "These are the must-haves. They power the core features of our website, such as security, form submissions, and login access. Without them, parts of the site simply wouldn’t work.",
+        "2": "Functional Cookies",
+        "3": "These remember your choices, like language settings or display preferences—so you don’t have to keep resetting them every time you visit.",
+        "4": "Analytics Cookies",
+        "5": "These help us understand how visitors use our website. We collect anonymous data like page visits and clicks, which helps us improve navigation, speed, and content relevance.",
+        "6": "Advertising Cookies",
+        "7": "Used to deliver ads that are more tailored to your interests. They also help control how often you see the same ad and measure the performance of our campaigns.",
+        "8": "Social Media Cookies",
+        "9": "Set by social networks we integrate with (like Facebook or LinkedIn), these cookies allow you to share content and engage with our brand across platforms. They may also track you elsewhere on the web, depending on your settings.",
+        "10": "Session Cookies",
+        "11": "Temporary cookies that last only while your browser is open. They're used for things like keeping you logged in while you navigate between pages.",
+        "12": "Persistent Cookies",
+        "13": "These stay on your device for a set period, helping us remember who you are between visits, like your login info or cart items."
+      },
+      "5": {
+        "0": "Note:",
+        "1": "Blocking or disabling certain cookies might affect how our website works for you."
+      },
+      "6": "How We Respond to \"Do Not Track\" (DNT)",
+      "7": "Some browsers let you send a “Do Not Track” request. If we detect one, we do our best to limit unnecessary data collection. That said, third-party services we use may not honor DNT signals the same way, so please check their policies too.",
+      "8": "Why We Use Cookies",
+      "9": "Here’s how cookies help us serve you better:",
+      "10": {
+        "0": "To power key website features (like forms, logins, and security)",
+        "1": "To understand visitor behavior and improve site performance",
+        "2": "To customize your experience with remembered preferences",
+        "3": "To deliver relevant advertising based on your interests",
+        "4": "To support third-party tools and social integrations"
+      },
+      "11": "Third-Party Cookies",
+      "12": "We partner with third-party tools that may also use cookies, including:",
+      "13": {
+        "0": {
+          "0": "Google Analytics",
+          "1": "for usage stats and performance insights"
+        },
+        "1": {
+          "0": "Meta Pixel (Facebook)",
+          "1": "for ad personalization and measurement"
+        },
+        "2": {
+          "0": "YouTube, Vimeo, etc.",
+          "1": "for embedded media playback"
+        },
+        "3": {
+          "0": "CRM, chat, or marketing tools",
+          "1": "to support communication and tracking"
+        }
+      },
+      "14": "Each of these services has its own privacy and cookie practices, which you should review if you want to know how they use your data.",
+      "15": "Managing Your Cookie Preferences",
+      "16": "You're in control. You can manage cookies in your browser settings—delete them, block them, or receive alerts when a site tries to set one. Here’s how:",
+      "17": {
+        "0": {
+          "0": "Google Chrome:",
+          "1": "Settings '>' Privacy '>' Security '>' Cookies and other site data"
+        },
+        "1": {
+          "0": "Mozilla Firefox:",
+          "1": "Preferences '>' Privacy '>' Security '>' Cookies and Site Data"
+        },
+        "2": {
+          "0": "Safari:",
+          "1": "Preferences '>' Privacy '>' Manage Website Data"
+        },
+        "3": {
+          "0": "Microsoft Edge:",
+          "1": "Settings '>' Cookies and Site Permissions"
+        }
+      },
+      "18": "Keep in mind: disabling cookies might limit your experience on our site.",
+      "19": "Policy Updates",
+      "20": "We may update this Cookie Policy from time to time as technology or legal standards evolve. If changes are significant, we’ll do our best to notify you. The latest version will always be available here.",
+      "21": "Age Restrictions",
+      "22": "Our website is not intended for individuals under the age of 18. We do not knowingly collect or solicit personal information from anyone under 18 years of age. If we learn that we have collected personal information from a child under 18 without verification of parental consent, we will delete that information as quickly as possible.",
+      "23": "Got Questions? We’re Here to Help.",
+      "24": "If you want to ask anything about this Cookie Policy — or our use of cookies in general, just reach out:",
+      "25": {
+        "0": "Email:",
+        "1": "Phone:",
+        "2": "Contact Page:"
+      }
+    }
   }
 }
