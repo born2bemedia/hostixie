@@ -1,6 +1,6 @@
 'use client';
 
-import type { ReactNode } from 'react';
+import type { ElementType, ReactNode } from 'react';
 import { cva, type VariantProps } from 'class-variance-authority';
 
 import { cn } from '@/shared/lib/utils/cn';
@@ -48,6 +48,7 @@ export const Button = ({
   size,
   fullWidth = false,
   type = 'button',
+  as = 'button',
 }: {
   children: ReactNode;
   className?: string;
@@ -55,9 +56,12 @@ export const Button = ({
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
   type?: 'button' | 'submit' | 'reset';
   disabled?: boolean;
+  as?: 'button' | 'span';
 } & ButtonVariants) => {
+  const Tag = as;
+
   return (
-    <button
+    <Tag
       className={cn(
         btnVariants({ variant, size }),
         fullWidth ? 'w-full justify-center' : 'w-max',
@@ -68,6 +72,6 @@ export const Button = ({
       disabled={disabled}
     >
       {children}
-    </button>
+    </Tag>
   );
 };

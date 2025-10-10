@@ -40,7 +40,14 @@ export const Hero = () => {
           })}
         </Button>
       </section>
-      <Image src="/images/home/hero.jpg" alt="hero" fill unoptimized />
+      <Image
+        className="absolute z-0 h-full w-full object-cover"
+        src="/images/home/hero.jpg"
+        alt="hero"
+        width={1440}
+        height={800}
+        unoptimized
+      />
       <Image
         className="absolute bottom-0 left-0 h-[134px] w-full object-cover"
         src="/images/home/bottom-line.svg"
