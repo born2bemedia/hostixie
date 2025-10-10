@@ -214,64 +214,127 @@ export default async function PrivacyPolicy() {
                 })}
               </span>,
               <span key="country">
-                <span className="font-bold">Country:</span> The jurisdiction
-                where Hostixie is registered and legally operates, i.e.,
+                <span className="font-bold">
+                  {t('children.8.6', {
+                    fallback: 'Country:',
+                  })}
+                </span>{' '}
+                {t('children.8.7', {
+                  fallback:
+                    'The jurisdiction where Hostixie is registered and legally operates, i.e.,',
+                })}
                 <span className="text-primary">[Country Name]</span>.
               </span>,
               <span key="customer">
-                <span className="font-bold">Customer:</span> A user,
-                organization, or business entity that signs up for or uses our
-                services for hosting, development, or related digital support.
+                <span className="font-bold">
+                  {t('children.8.8', {
+                    fallback: 'Customer:',
+                  })}
+                </span>{' '}
+                {t('children.8.9', {
+                  fallback:
+                    'A user, organization, or business entity that signs up for or uses our services for hosting, development, or related digital support.',
+                })}
               </span>,
               <span key="device">
-                <span className="font-bold">Device:</span> Any internet-capable
-                equipment, including computers, smartphones, and tablets, that
-                is used to access our website and services.
+                <span className="font-bold">
+                  {t('children.8.10', {
+                    fallback: 'Device:',
+                  })}
+                </span>{' '}
+                {t('children.8.11', {
+                  fallback:
+                    'Any internet-capable equipment, including computers, smartphones, and tablets, that is used to access our website and services.',
+                })}
               </span>,
               <span key="ip">
-                <span className="font-bold">IP Address:</span> A numerical
-                identifier assigned to your device when you connect to the
-                internet, often used to determine approximate geographic
-                location and detect fraudulent behavior.
+                <span className="font-bold">
+                  {t('children.8.12', {
+                    fallback: 'IP Address:',
+                  })}
+                </span>{' '}
+                {t('children.8.13', {
+                  fallback:
+                    'A numerical identifier assigned to your device when you connect to the internet, often used to determine approximate geographic location and detect fraudulent behavior.',
+                })}
               </span>,
               <span key="personnel">
-                <span className="font-bold">Personnel:</span> Individuals
-                employed by or working under contract with{' '}
-                <span className="text-primary">[Company Name]</span>, who may
-                handle or have access to your personal information in the course
-                of delivering our services.
+                <span className="font-bold">
+                  {t('children.8.14', {
+                    fallback: 'Personnel:',
+                  })}
+                </span>{' '}
+                {t('children.8.15', {
+                  fallback:
+                    'Individuals employed by or working under contract with',
+                })}{' '}
+                <span className="text-primary">[Company Name]</span>,{' '}
+                {t('children.8.16', {
+                  fallback:
+                    'who may handle or have access to your personal information in the course of delivering our services.',
+                })}
               </span>,
               <span key="personal-data">
-                <span className="font-bold">Personal Data:</span> Any data that
-                relates to an identified or identifiable individual, either
-                directly (e.g., your name) or indirectly (e.g., through an ID
-                number or IP address).
+                <span className="font-bold">
+                  {t('children.8.17', {
+                    fallback: 'Personal Data:',
+                  })}
+                </span>{' '}
+                {t('children.8.18', {
+                  fallback:
+                    'Any data that relates to an identified or identifiable individual, either directly (e.g., your name) or indirectly (e.g., through an ID number or IP address).',
+                })}
               </span>,
               <span key="service">
-                <span className="font-bold">Service:</span> Refers to all
-                services offered by Hostixie, including web hosting, custom
-                development, support, and related digital offerings.
+                <span className="font-bold">
+                  {t('children.8.19', {
+                    fallback: 'Service:',
+                  })}
+                </span>{' '}
+                {t('children.8.20', {
+                  fallback:
+                    'Refers to all services offered by Hostixie, including web hosting, custom development, support, and related digital offerings.',
+                })}
               </span>,
               <span key="third-party-services">
-                <span className="font-bold">Third-Party Service:</span> External
-                services or companies that are integrated with our platform or
-                whose offerings may be accessible through our site (e.g.,
-                marketing platforms, analytics tools, payment processors).
+                <span className="font-bold">
+                  {t('children.8.21', {
+                    fallback: 'Third-Party Service:',
+                  })}
+                </span>{' '}
+                {t('children.8.22', {
+                  fallback:
+                    'External services or companies that are integrated with our platform or whose offerings may be accessible through our site (e.g., marketing platforms, analytics tools, payment processors).',
+                })}
               </span>,
               <span key="website">
-                <span className="font-bold">Website:</span> The official site
-                owned and operated by{' '}
-                <span className="text-primary">[Company Name]</span>, accessible
-                via{' '}
+                <span className="font-bold">
+                  {t('children.8.23', {
+                    fallback: 'Website:',
+                  })}
+                </span>{' '}
+                {t('children.8.24', {
+                  fallback: 'The official site owned and operated by',
+                })}{' '}
+                <span className="text-primary">[Company Name]</span>,{' '}
+                {t('children.8.25', {
+                  fallback: 'accessible via',
+                })}{' '}
                 <Link href="/" className="text-primary underline">
                   hostixie.com
                 </Link>
                 .
               </span>,
               <span key="you-user">
-                <span className="font-bold">You / User:</span> Any individual or
-                entity who browses, registers, communicates with, or utilizes
-                services provided by Hostixie.
+                <span className="font-bold">
+                  {t('children.8.26', {
+                    fallback: 'You / User:',
+                  })}
+                </span>{' '}
+                {t('children.8.27', {
+                  fallback:
+                    'Any individual or entity who browses, registers, communicates with, or utilizes services provided by Hostixie.',
+                })}
               </span>,
             ]}
           />
