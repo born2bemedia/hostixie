@@ -5,6 +5,8 @@ import { PolicyRender } from '@/features/policies/ui/policy-render';
 import { PolicySection } from '@/features/policies/ui/policy-section';
 import { PolicyText } from '@/features/policies/ui/policy-text';
 
+import { Link } from '@/i18n/navigation';
+
 import { List } from '@/shared/ui/kit/list';
 
 export default async function CookiePolicy() {
@@ -399,7 +401,9 @@ export default async function CookiePolicy() {
                 {t('children.25.2', {
                   fallback: 'Contact Page:',
                 })}{' '}
-                <span className="font-bold">[Insert Contact Page URL]</span>
+                <Link href="/contact" className="font-bold">
+                  https://hostixie.com/contact
+                </Link>
               </span>,
             ]}
           />

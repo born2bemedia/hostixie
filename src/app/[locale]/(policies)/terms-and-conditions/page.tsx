@@ -5,6 +5,8 @@ import { PolicyRender } from '@/features/policies/ui/policy-render';
 import { PolicySection } from '@/features/policies/ui/policy-section';
 import { PolicyText } from '@/features/policies/ui/policy-text';
 
+import { Link } from '@/i18n/navigation';
+
 import { List } from '@/shared/ui/kit/list';
 
 export default async function TermsAndConditions() {
@@ -710,7 +712,7 @@ export default async function TermsAndConditions() {
             values={[
               <span key="email">
                 {t('children.69', { fallback: 'Email' })}:{' '}
-                <span className="font-bold">[Insert Email]</span>
+                <span className="font-bold">info@hostixie.com</span>
               </span>,
               <span key="phone">
                 {t('children.70', { fallback: 'Phone' })}:{' '}
@@ -718,7 +720,9 @@ export default async function TermsAndConditions() {
               </span>,
               <span key="contact-page">
                 {t('children.71', { fallback: 'Contact Page' })}:{' '}
-                <span className="font-bold">[Insert URL]</span>
+                <Link href="/contact" className="font-bold">
+                  https://hostixie.com/contact
+                </Link>
               </span>,
             ]}
           />

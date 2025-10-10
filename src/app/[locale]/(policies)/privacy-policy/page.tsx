@@ -850,14 +850,16 @@ export default async function PrivacyPolicy() {
           <List
             values={[
               <span key="email">
-                Email: <span className="font-bold">[Insert Email Address]</span>
+                Email: <span className="font-bold">info@hostixie.com</span>
               </span>,
               <span key="phone">
                 Phone: <span className="font-bold">[Insert Phone Number]</span>
               </span>,
               <span key="contact-page">
                 Contact Page:{' '}
-                <span className="font-bold">[Insert Contact Page URL]</span>
+                <Link href="/contact" className="font-bold">
+                  https://hostixie.com/contact
+                </Link>
               </span>,
             ]}
           />
