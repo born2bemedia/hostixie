@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 
@@ -11,6 +12,23 @@ import {
   WebPackages,
   YourPartner,
 } from './components';
+
+export const metadata: Metadata = {
+  title: 'Custom Website Development & E-commerce Solutions | Hostixie',
+  description:
+    'Build your online presence with custom websites, e-commerce platforms, and web applications designed for growth.',
+  openGraph: {
+    title: 'Custom Website Development & E-commerce Solutions | Hostixie',
+    description:
+      'Build your online presence with custom websites, e-commerce platforms, and web applications designed for growth.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Custom Website Development & E-commerce Solutions | Hostixie',
+    description:
+      'Build your online presence with custom websites, e-commerce platforms, and web applications designed for growth.',
+  },
+};
 
 export default async function WebDevelopment() {
   const t = await getTranslations('webDevelopment');

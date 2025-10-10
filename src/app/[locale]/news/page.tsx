@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import {
@@ -8,6 +9,25 @@ import {
 import { NewsList } from '@/features/news/ui/news-list';
 
 import { GotProject, Hero } from './components';
+
+export const metadata: Metadata = {
+  title: 'Hostixie News – Latest Hosting & Web Development Updates | Hostixie',
+  description:
+    'Stay updated on Hostixie’s latest launches, features, success stories, and industry insights.',
+  openGraph: {
+    title:
+      'Hostixie News – Latest Hosting & Web Development Updates | Hostixie',
+    description:
+      'Stay updated on Hostixie’s latest launches, features, success stories, and industry insights.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title:
+      'Hostixie News – Latest Hosting & Web Development Updates | Hostixie',
+    description:
+      'Stay updated on Hostixie’s latest launches, features, success stories, and industry insights.',
+  },
+};
 
 export default async function News() {
   const t = await getTranslations('news');

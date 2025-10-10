@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { PolicyHeader } from '@/features/policies/ui/policy-header';
@@ -8,6 +9,26 @@ import { PolicyText } from '@/features/policies/ui/policy-text';
 import { Link } from '@/i18n/navigation';
 
 import { List } from '@/shared/ui/kit/list';
+
+export const metadata: Metadata = {
+  title: 'Cookie Policy | Hostixie',
+  description:
+    'Learn how Hostixie uses cookies and similar tracking tools to improve your experience on our website.',
+  openGraph: {
+    title: 'Cookie Policy | Hostixie',
+    description:
+      'Learn how Hostixie uses cookies and similar tracking tools to improve your experience on our website.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cookie Policy | Hostixie',
+    description:
+      'Learn how Hostixie uses cookies and similar tracking tools to improve your experience on our website.',
+  },
+  robots: {
+    index: false,
+  },
+};
 
 export default async function CookiePolicy() {
   const t = await getTranslations('cookiePolicy');

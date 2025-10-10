@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 
 import {
@@ -9,6 +10,23 @@ import {
   WhatWeDo,
   WhoWeAre,
 } from './components';
+
+export const metadata: Metadata = {
+  title: 'Web Hosting & Web Development Services for Businesses | Hostixie',
+  description:
+    'Hostixie offers fast, secure hosting and professional web development. Scalable solutions for startups, enterprises, and e-commerce.',
+  openGraph: {
+    title: 'Web Hosting & Web Development Services for Businesses | Hostixie',
+    description:
+      'Hostixie offers fast, secure hosting and professional web development. Scalable solutions for startups, enterprises, and e-commerce.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Web Hosting & Web Development Services for Businesses | Hostixie',
+    description:
+      'Hostixie offers fast, secure hosting and professional web development. Scalable solutions for startups, enterprises, and e-commerce.',
+  },
+};
 
 export default function Home() {
   return (

@@ -2304,7 +2304,12 @@
         "3": "Request deletion of your data",
         "4": "Object to or restrict how we process your data"
       },
-      "67": "We retain data only for as long as necessary to fulfill business or legal obligations, and no longer than 6 years, unless your account is removed sooner. After termination, we will remove personal information from our systems within a 60-day grace period, in accordance with our Terms and Privacy Policy."
+      "67": "We retain data only for as long as necessary to fulfill business or legal obligations, and no longer than 6 years, unless your account is removed sooner. After termination, we will remove personal information from our systems within a 60-day grace period, in accordance with our Terms and Privacy Policy.",
+      "68": "Contact Us",
+      "69": "If you have any questions, requests, or concerns regarding this Privacy Policy or your personal data, please reach out using the contact information below:",
+      "70": "Email:",
+      "71": "Phone:",
+      "72": "Contact Page:"
     }
   },
   "refundPolicy": {
