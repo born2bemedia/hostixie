@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 
 import { cn } from '@/shared/lib/utils/cn';
+import { CookieConsent } from '@/shared/ui/components/cookie-consent';
 import { Footer } from '@/shared/ui/components/footer';
 import { Header } from '@/shared/ui/components/header';
 import { Dialog } from '@/shared/ui/kit/dialog';
@@ -28,6 +29,7 @@ export default async function RootLayout({
           <Header />
           <Dialog />
           {children}
+          <CookieConsent />
           <Footer />
         </NextIntlClientProvider>
       </body>
