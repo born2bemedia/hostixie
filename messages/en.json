@@ -1965,5 +1965,529 @@
         "10": "Bringing in senior UX leadership has raised the standard for every project we touch. It ensures that the interfaces we build are not just attractive, but truly effective — rooted in user needs, tested in context, and scalable over time. It’s a long-term investment in quality, clarity, and digital usability."
       }
     }
+  },
+  "termsAndConditions": {
+    "title": "Terms and Conditions",
+    "navigation": {
+      "0": "General Overview",
+      "1": "Usage License",
+      "2": "Minimum Age Requirement",
+      "3": "Key Definitions",
+      "4": "Prohibited Activities",
+      "5": "User Submissions and Feedback",
+      "6": "Consent to Terms",
+      "7": "Changes to Terms and Conditions",
+      "8": "Website Functionality and Updates",
+      "9": "Third-Party Content and Services",
+      "10": "Agreement Termination",
+      "11": "Links to External Websites",
+      "12": "Cookies and Tracking Technologies",
+      "13": "Copyright Concerns",
+      "14": "No Warranties Disclaimer",
+      "15": "Limitation of Liability",
+      "16": "Indemnification",
+      "17": "Severability",
+      "18": "Waiver of Rights",
+      "19": "Entire Agreement",
+      "20": "Modifications to Terms",
+      "21": "Intellectual Property Rights",
+      "22": "Dispute Resolution and Arbitration",
+      "23": "Governing Law",
+      "24": "User Submissions and Public Content",
+      "25": "Promotional Campaigns",
+      "26": "Errors and Omissions",
+      "27": "Disclaimer",
+      "28": "Contact Information"
+    },
+    "children": {
+      "0": "General Overview",
+      "1": {
+        "0": "By using this website or submitting a service request through Hostixie, you acknowledge that you have read, understood, and agreed to the Terms and Conditions described herein. These terms govern your use of the website and all communications between you and",
+        "1": "the legal entity behind Hostixie, registered under",
+        "2": "at"
+      },
+      "2": "Under no circumstances shall Hostixie, its owners, employees, or agents be held responsible for any direct, indirect, incidental, consequential, or special damages, including but not limited to loss of data, loss of profits, or interruption of business, arising from the use or inability to use any content or services offered via this website. Any costs related to repair, servicing, or data restoration resulting from your use of this site remain your responsibility.",
+      "3": "Usage License",
+      "4": {
+        "0": "These Terms and Conditions constitute a legal agreement between you (whether as an individual or as a representative of an entity) and",
+        "1": "(\"we\", \"our\", or \"us\"), the operator of the Hostixie website",
+        "2": "and provider of related digital services (referred to as \"the Service\").",
+        "3": "By using our website and services, you agree to comply with these Terms in full. If you do not agree with any part of these Terms, you should immediately discontinue use of the site. We reserve the right to suspend or terminate access to your account or restrict your use of the service at our sole discretion, without prior notice, if you are found to be in breach of any provision of these Terms."
+      },
+      "5": "Minimum Age Requirement",
+      "6": "To use our services, you must be at least 18 years of age, or the minimum legal age required to enter into binding agreements in your country of residence. If you do not meet this requirement, you may not access or use certain areas of the website or any services requiring contractual consent.",
+      "7": "Key Definitions",
+      "8": "For clarity, the following terms used throughout this agreement are defined as follows:",
+      "9": {
+        "0": "“Cookies”: Small data files placed on your device by the website to enhance performance, analyze usage, and remember user preferences.",
+        "1": "“Company”: Refers to [Company Name], the entity legally operating under the Hostixie label, located at [Registered Address].",
+        "2": "“Country”: The jurisdiction under which the company is incorporated and legally operates, namely [Country Name].",
+        "3": "“Device”: Any internet-capable hardware (e.g., smartphone, tablet, desktop computer) used to access the website or services.",
+        "4": "“Service”: All digital services and solutions offered through the Hostixie platform, including but not limited to web hosting and web development.",
+        "5": "“Third-Party Services”: Any external parties, such as advertisers, service providers, or marketing affiliates, whose content, offers, or functionality may be featured on or linked from our website.",
+        "6": "“Website”: Refers to the official online presence of Hostixie, accessible via hostixie.com.",
+        "7": "“You” / “User”: The individual or legal entity accessing or registering to use the services offered via the Hostixie website."
+      },
+      "10": "Prohibited Activities",
+      "11": "By using the Hostixie website or its services, you agree not to engage in any of the following actions:",
+      "12": {
+        "0": "Remove, alter, or conceal any intellectual property notices, including copyright, trademark, or branding displayed by Hostixie or its partners.",
+        "1": "Reproduce, license, sell, lease, rent, distribute, sublicense, or otherwise make any part of the website or its features available to third parties for commercial purposes.",
+        "2": "Alter, adapt, decompile, disassemble, reverse engineer, or create derivative works from any portion of the website or its infrastructure."
+      },
+      "13": "User Submissions and Feedback",
+      "14": "Any comments, suggestions, proposals, or creative input you provide in connection with our website or services (collectively, “Feedback”) will be considered non-confidential and fully owned by Hostixie. We reserve the unrestricted right to use, modify, publish, or distribute such Feedback for any purpose, commercial or otherwise, without obligation to compensate or credit you.",
+      "15": "Consent to Terms",
+      "16": "By using our website, creating an account, submitting a request, or engaging with any of our services, you confirm that you accept and agree to these Terms and Conditions. We are committed to transparency, and we encourage all users to review this page regularly for the latest updates.",
+      "17": "Changes to Terms and Conditions",
+      "18": {
+        "0": "Hostixie may change or suspend parts of the service at any time, temporarily or permanently, with or without prior notice. You may cease using the service at any point, and you're not required to notify us if you do. However, if we restrict access to your account, you may no longer retrieve stored data or access related materials.",
+        "1": "We may also revise these Terms when necessary to reflect modifications to our services or changes in applicable law. Where required, we’ll provide reasonable notice of such updates (e.g., via email or on-site notification). Continued use of our platform after updates means you accept the revised Terms. If you do not accept the new version, you may discontinue use and request account deletion."
+      },
+      "19": "Website Functionality and Updates",
+      "20": "We retain the right to alter, limit, suspend, or discontinue any aspect of the website or its features at any time, for any reason, without prior notice or liability.",
+      "21": "From time to time, we may roll out enhancements or technical updates to improve performance, fix bugs, or add new capabilities (\"Updates\"). These Updates may alter or remove existing features. You agree that:",
+      "22": {
+        "0": "We are not obligated to provide any specific Updates;",
+        "1": "All Updates form part of the website and are governed by these Terms."
+      },
+      "23": "Third-Party Content and Services",
+      "24": "Our website may contain links or integrate services provided by third-party companies (such as content, apps, or tools). While we may display such content for your convenience, we do not control or guarantee the accuracy, legality, or quality of these third-party services. Your use of such services is at your own risk and subject to the terms of those third parties. We are not responsible for any loss or damage arising from your interaction with external sites or tools.",
+      "25": "Agreement Termination",
+      "26": "These Terms remain in effect until terminated by either you or Hostixie. We reserve the right to terminate or suspend your access at any time, without prior notice, for any reason, including a breach of these Terms. You may terminate this agreement by ceasing to use the website and deleting any data or copies you may have stored.",
+      "27": "Links to External Websites",
+      "28": "Please note that these Terms apply exclusively to services provided by Hostixie on our platform. We may include links to third-party websites that operate independently of us. We do not control, monitor, or endorse the content or practices of these external sites. Once you leave our website, any activity is subject to the linked website’s own policies, which we recommend reviewing separately.",
+      "29": "Cookies and Tracking Technologies",
+      "30": "Our website uses cookies to remember user preferences, analyze site usage, and improve performance. Cookies are small data files stored in your browser. While they are not strictly necessary to navigate the site, disabling cookies may affect functionality (e.g., login sessions or video playback).",
+      "31": "We do not use cookies to collect personally identifiable information. For full details, please consult our Cookie Policy.",
+      "32": "Copyright Concerns",
+      "33": "If you believe that any material on our website infringes your copyright, please contact us with the following information:",
+      "34": {
+        "0": "Your full name and authorized signature;",
+        "1": "A description or link to the content in question;",
+        "2": "Proof of ownership or legal authority to act on behalf of the rights holder;",
+        "3": "Your contact details (email, phone, address);",
+        "4": "A good-faith statement asserting that the use of the material is unauthorized;",
+        "5": "A declaration that the information provided is accurate, made under penalty of perjury."
+      },
+      "35": "We will respond to copyright concerns in accordance with applicable intellectual property laws.",
+      "36": "No Warranties Disclaimer",
+      "37": "The website and services offered through Hostixie are provided “as is” and “as available,” without guarantees of any kind. To the fullest extent allowed by law, Hostixie, its partners, affiliates, service providers, and licensors expressly disclaim all warranties, express, implied, statutory, or otherwise. This includes, but is not limited to, warranties of merchantability, suitability for a specific purpose, ownership rights, and non-infringement.",
+      "38": "We do not guarantee that:",
+      "39": {
+        "0": "The website will function without errors or interruptions;",
+        "1": "The services will meet your expectations or achieve desired outcomes;",
+        "2": "The site will be compatible with your systems or software;",
+        "3": "Any errors will be fixed, or that content is accurate, up-to-date, or complete;",
+        "4": "The website, its servers, or communications sent from us are free from malware, viruses, or harmful code."
+      },
+      "40": "Some jurisdictions do not permit certain exclusions or limitations, so specific sections of this disclaimer may not apply to you.",
+      "41": "Limitation of Liability",
+      "42": {
+        "0": "Regardless of any potential losses incurred, the total liability of Hostixie or its suppliers, for any claims related to your use of the website or services, will be limited to the total amount you paid for those services.",
+        "1": "To the maximum extent permitted by law, Hostixie shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to:"
+      },
+      "43": {
+        "0": "Loss of profits or data,",
+        "1": "Downtime or service interruption,",
+        "2": "Personal injury,",
+        "3": "Breach of privacy,",
+        "4": "Or damages resulting from use or inability to use the service, third-party integrations, or associated hardware/software, even if we were previously advised of such risks."
+      },
+      "44": "Indemnification",
+      "45": "You agree to defend, indemnify, and hold harmless Hostixie, its directors, affiliates, employees, contractors, licensors, and partners from any claims, losses, liabilities, damages, or expenses (including legal fees) arising out of or related to: Your use of the website or services; Any violation of these Terms or applicable laws; Infringement of third-party rights.",
+      "46": {
+        "0": "Your use of the website or services;",
+        "1": "Any violation of these Terms or applicable laws;",
+        "2": "Infringement of third-party rights."
+      },
+      "47": "Severability",
+      "48": "If any part of these Terms is found to be unenforceable or invalid by a competent court, the remaining provisions will remain fully effective and enforceable. This agreement, along with our Privacy Policy and other posted legal notices, constitutes the entire understanding between you and Hostixie regarding use of the website.",
+      "49": "Waiver of Rights",
+      "50": "Any failure by Hostixie to enforce a particular provision does not waive our right to do so in the future. No waiver shall be deemed a continuing waiver of any other term or condition.",
+      "51": "Entire Agreement",
+      "52": "These Terms constitute the full agreement between you and Hostixie regarding the use of our website and services. Any additional terms for specific services or promotions will be provided at the time of engagement and are considered part of this Agreement upon acceptance.",
+      "53": "Modifications to Terms",
+      "54": "Hostixie reserves the right to revise these Terms at any time. If changes are substantial, we will provide notice (e.g., via email or on the website) at least 30 days before new terms take effect. Your continued use of the website or services after changes go live constitutes your agreement to be bound by the updated terms.",
+      "55": "Intellectual Property Rights",
+      "56": {
+        "0": "All content, branding, design elements, graphics, software, and data on this website are the property of Hostixie or its content providers and are protected by international copyright and trademark laws.",
+        "1": "You may not copy, reproduce, alter, transmit, or use any content without express written permission unless otherwise explicitly stated in these Terms."
+      },
+      "57": "Dispute Resolution and Arbitration",
+      "58": "Any disputes between you and Hostixie related to the website or services will first be attempted to be resolved informally. If no resolution is reached within 60 days, the matter shall be referred to binding arbitration in accordance with the rules of the [Arbitration Body, e.g., ICC or local authority], unless the claim involves the enforcement of intellectual property rights or injunctive relief.",
+      "59": "Governing Law",
+      "60": "These Terms are governed by the laws of [Country], without regard to conflict of laws principles. Any legal actions or proceedings arising from or related to these Terms shall take place exclusively in the courts of [City, Country]. You agree to submit to the jurisdiction of these courts.",
+      "61": "Promotional Campaigns",
+      "62": "From time to time, we may offer contests, giveaways, or promotions. These may be subject to additional rules and eligibility requirements (such as age or location). By participating, you agree to all applicable promotion-specific terms.",
+      "63": "Errors and Omissions",
+      "64": "While we strive for accuracy, there may be typographical errors or incorrect pricing/information on our site. We reserve the right to cancel any order or correct such information, even after a transaction is completed. If a payment has been processed, we will issue a refund for any incorrect charges.",
+      "65": "Disclaimer",
+      "66": "The content and services provided by Hostixie are intended for general information and are not guaranteed to be free from inaccuracies or disruptions. We are not liable for content submitted by users or third parties, and we do not guarantee the completeness or reliability of any materials accessed via our platform.",
+      "67": "Contact Information",
+      "68": "If you have any questions or concerns about these Terms and Conditions, please feel free to contact us:",
+      "69": "Email",
+      "70": "Phone",
+      "71": "Contact Page"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "navigation": {
+      "0": "Overview of Our Privacy Commitment",
+      "1": "Age Restrictions",
+      "2": "Key Terms and Definitions",
+      "3": "Information We Collect",
+      "4": "How We Use the Information",
+      "5": "Sharing Information with Third Parties",
+      "6": "Third-Party Data Collection",
+      "7": "How and When We Share Information",
+      "8": "Email Communication and Advertising",
+      "9": "Data Protection and Security",
+      "10": "Safeguards and Limitations",
+      "11": "Your Rights to Review and Update Your Information",
+      "12": "Disclosure to Corporate Affiliates",
+      "13": "Legal Compliance and Jurisdiction",
+      "14": "Consent to Data Practices",
+      "15": "Children’s Privacy",
+      "16": "Policy Changes",
+      "17": "Cookies and Tracking Technologies",
+      "18": "GDPR and International Data Protection Standards",
+      "19": "Your Data Rights: Access, Portability, and Removal",
+      "20": "Contact Us"
+    },
+    "children": {
+      "0": "Overview of Our Privacy Commitment",
+      "1": "At Hostixie (\"we\", \"us\", or \"our\"), we deeply respect your right to privacy and take your data protection seriously. This Privacy Policy outlines how Hostixie, the operator of this website and service platform, collects, uses, stores, and shares personal information obtained through your interaction with our website and services.",
+      "2": "By accessing our site or using any of our services, you confirm that you have read and agreed to the practices described in this Privacy Policy.",
+      "3": "Age Restrictions",
+      "4": "Our website and services are intended for individuals who are at least 18 years old. We do not knowingly collect or solicit personal information from anyone under the age of 18. If you are a parent or guardian and believe your child has provided personal information to us, please contact us immediately.",
+      "5": "If we discover that we have inadvertently collected personal information from a child under the age of 18, we will take steps to delete such information as soon as possible. By using our website, you confirm that you are at least 18 years of age or the minimum legal age required to enter into binding agreements in your country of residence. If you do not meet this requirement, you may not access or use the services provided by this website.",
+      "6": "Key Terms and Definitions",
+      "7": "To clarify the language used in this Policy, the following definitions apply:",
+      "8": {
+        "0": "Cookie:",
+        "1": "A small file stored on your browser or device, used to enhance functionality, remember preferences, or collect analytics about user behavior on our site.",
+        "2": "Company:",
+        "3": "Refers to",
+        "4": "a registered legal entity located at",
+        "5": "which is responsible for managing and processing your data under this policy.",
+        "6": "Country:",
+        "7": "The jurisdiction where Hostixie is registered and legally operates, i.e.,",
+        "8": "Customer:",
+        "9": "A user, organization, or business entity that signs up for or uses our services for hosting, development, or related digital support.",
+        "10": "Device:",
+        "11": "Any internet-capable equipment, including computers, smartphones, and tablets, that is used to access our website and services.",
+        "12": "IP Address:",
+        "13": "A numerical identifier assigned to your device when you connect to the internet, often used to determine approximate geographic location and detect fraudulent behavior.",
+        "14": "Personnel:",
+        "15": "Individuals employed by or working under contract with",
+        "16": "who may handle or have access to your personal information in the course of delivering our services.",
+        "17": "Personal Data:",
+        "18": "Any data that relates to an identified or identifiable individual, either directly (e.g., your name) or indirectly (e.g., through an ID number or IP address).",
+        "19": "Service:",
+        "20": "Refers to all services offered by Hostixie, including web hosting, custom development, support, and related digital offerings.",
+        "21": "Third-Party Service:",
+        "22": "External services or companies that are integrated with our platform or whose offerings may be accessible through our site (e.g., marketing platforms, analytics tools, payment processors).",
+        "23": "Website:",
+        "24": "The official site owned and operated by",
+        "25": "accessible via",
+        "26": "You / User:",
+        "27": "Any individual or entity who browses, registers, communicates with, or utilizes services provided by Hostixie."
+      },
+      "9": "Information We Collect",
+      "10": "We collect personal and non-personal information in various ways, including when you:",
+      "11": {
+        "0": "Browse our website",
+        "1": "Create an account",
+        "2": "Submit a service request or place an order",
+        "3": "Subscribe to a newsletter",
+        "4": "Participate in a survey, contest, or promotion",
+        "5": "Contact us via forms or direct communication"
+      },
+      "12": "Collected data may include:",
+      "13": {
+        "0": "Full Name or Username",
+        "1": "Email Address",
+        "2": "Phone Number",
+        "3": "Billing and Shipping Address",
+        "4": "Age or Date of Birth",
+        "5": "Account Credentials (e.g., password)",
+        "6": "Project-related information (e.g., budget, timeline, preferences)",
+        "7": "IP address, browser type, and device data (collected automatically)"
+      },
+      "14": "How We Use the Information",
+      "15": "The information you provide helps us deliver better service, improve your experience, and ensure secure and efficient operations. We may use your data for the following purposes:",
+      "16": {
+        "0": "To tailor your user experience based on preferences",
+        "1": "To enhance and optimize the functionality of our website",
+        "2": "To respond to your customer service inquiries or support requests",
+        "3": "To manage and process payments, invoices, and service delivery",
+        "4": "To conduct surveys, promotions, or service improvement campaigns",
+        "5": "To send updates, special offers, newsletters, and transactional communications"
+      },
+      "17": "Sharing Information with Third Parties",
+      "18": "To deliver our services efficiently, Hostixie may collect and process end-user data as needed to fulfill our service commitments. In some cases, you may provide us with access to information you’ve made publicly available on platforms like social media. If you do, we may access and store data from those sources based on your settings. You have full control over what you share by adjusting your privacy preferences on those platforms.",
+      "19": "Third-Party Data Collection",
+      "20": "When you contact us or show interest in our services (e.g., by submitting your email address), we may receive supplemental data from external sources. For example, we might use fraud detection providers or data enrichment tools to validate identity or risk level. We also occasionally collect publicly available social media data to better understand engagement or audience demographics, always respecting your privacy settings on those platforms.",
+      "21": "How and When We Share Information",
+      "22": "We may share personal and non-personal information with trusted third parties, including but not limited to:",
+      "23": {
+        "0": "Marketing agencies, affiliate partners, and advertising platforms",
+        "1": "Service providers assisting with hosting, database management, customer service, or payment processing",
+        "2": "Technology vendors offering infrastructure, analytics, or email campaign tools",
+        "3": "Partners involved in promotions or sponsored campaigns"
+      },
+      "24": "In the event of a merger, acquisition, sale of assets, or corporate restructuring, your information may be transferred to the acquiring or successor entity as part of the transition.",
+      "25": "Additionally, we may share anonymized or aggregated log data (including IP addresses) with analytics platforms or advertising networks. This may help us and our partners better understand visitor behaviors, device types, connection speeds, or geographic trends.",
+      "26": "We also reserve the right to disclose personal data when legally required, such as to respond to subpoenas, comply with court orders or legal obligations, enforce our Terms, or protect our users, services, or the public from potential harm or unlawful actions.",
+      "27": "Email Communication and Advertising",
+      "28": "By submitting your email via any form on our website, you agree to receive communications from us. These may include promotional emails, service updates, or newsletters. You can opt out at any time using the unsubscribe link included in every email.",
+      "29": "We also may use your email address for custom audience targeting on platforms like Facebook or Google, allowing us to display tailored advertisements to users who’ve interacted with us. Email addresses submitted through order forms will only be used to fulfill your specific transaction unless you’ve opted in to additional communications elsewhere.",
+      "30": "Data Protection and Security",
+      "31": "We apply multiple layers of security to safeguard your personal information. When you place an order or provide sensitive details, your data is encrypted using SSL (Secure Socket Layer) technology and securely transmitted to our payment processors. Access to this data is limited to authorized personnel only.",
+      "32": "We do not store credit card information or sensitive identifiers after a transaction is complete. While we implement rigorous security practices, no system can guarantee 100% protection. In the unlikely event of a data breach, we will take all reasonable steps to minimize risk and notify you as required by law.",
+      "33": "Safeguards and Limitations",
+      "34": "We use physical, electronic, and organizational safeguards to protect your data from unauthorized access or misuse. These measures include restricted access controls, encrypted communication channels, and system logging.",
+      "35": "Despite our efforts, no method of transmission over the internet or data storage system is entirely secure. If local laws impose stricter standards, our compliance will be measured against the benchmark of “intentional misconduct.”",
+      "36": "Your Rights to Review and Update Your Information",
+      "37": "Depending on your relationship with us, you may have the right to access, correct, or request deletion of your personal information. For example:",
+      "38": {
+        "0": "Employees",
+        "1": "may request updates through internal HR procedures",
+        "2": "Clients or Customers",
+        "3": "can email us to:"
+      },
+      "39": {
+        "0": "Review or correct their personal information",
+        "1": "Change their communication preferences",
+        "2": "Request account closure and deletion of stored data (as permitted by law)"
+      },
+      "40": {
+        "0": "Note:",
+        "1": "We may verify your identity before processing any changes to protect your account security. Deleted information may remain in our offline backups for disaster recovery and compliance purposes, but will no longer be actively used.",
+        "2": "While we will promptly honor data modification or removal requests where practical, please be aware that some residual data may persist in our systems due to technical constraints (e.g., backup logs)."
+      },
+      "41": "Disclosure to Corporate Affiliates",
+      "42": "We may share your personal information with our affiliated companies. For the purposes of this Privacy Policy, \"affiliates\" refers to any entity that is owned by, owns, or is under shared ownership or control with Hostixie, whether directly or indirectly. All affiliated entities will handle your information in accordance with the standards set out in this Privacy Policy.",
+      "43": "Legal Compliance and Jurisdiction",
+      "44": "This Privacy Policy is governed by the laws of [Country], without reference to conflict-of-law principles. By using our website or services, you agree that any dispute related to data protection or privacy shall fall under the exclusive jurisdiction of the courts in",
+      "45": "Your continued use of our services signifies your acceptance of this Privacy Policy. If you disagree with our terms, you should not engage with our services or access the website. We may make updates that reflect operational, legal, or regulatory changes; by remaining on the site after changes are published, you confirm your acceptance of the revised policy.",
+      "46": "Consent to Data Practices",
+      "47": "This Privacy Policy has been updated to offer full transparency regarding how we collect and process your personal data. By using our website, submitting information, or interacting with our services, you consent to our data practices and accept the terms outlined in this document.",
+      "48": "Children’s Privacy",
+      "49": "Our services are not directed at or intended for individuals under the age of 18. We do not knowingly collect personal data from minors. If you're a parent or legal guardian and believe your child has provided personal information, please contact us immediately. If we learn that a child under 18 has submitted data without verified parental consent, we will delete such information as quickly as possible.",
+      "50": "Policy Changes",
+      "51": "We may periodically update this Privacy Policy to reflect changes to our operations, services, or legal requirements. If any material changes occur, we will notify you in advance (e.g., via email or platform notice). You will have the opportunity to review the changes before they take effect. Continuing to use our services after the revised policy is live indicates your acceptance. If you do not agree, you may close your account or discontinue use of the site.",
+      "52": "Cookies and Tracking Technologies",
+      "53": "We use cookies and similar technologies to improve functionality, personalize content, and analyze usage. Cookies may track session activity, remember preferences, or support features like login and chat support. You can adjust your browser settings to control or disable cookies, though doing so may impact some aspects of your experience.",
+      "54": "Use of Google Maps API",
+      "55": "If our site integrates Google Maps for features like location display or routing, Google may collect information from you and your device in accordance with its own Privacy Policy. We recommend reviewing Google’s policies for more details.",
+      "56": "GDPR and International Data Protection Standards",
+      "57": "Although our business may operate globally, we strive to maintain data protection practices consistent with the",
+      "58": "General Data Protection Regulation (GDPR)",
+      "59": "as a global standard.",
+      "60": "Our commitment includes:",
+      "61": {
+        "0": "Processing your personal data lawfully, transparently, and for specific, defined purposes",
+        "1": "Retaining data only as long as necessary for its intended purpose",
+        "2": "Allowing individuals to access, modify, or delete their data upon request"
+      },
+      "62": "You may request access to your data, request corrections, or ask for erasure by contacting us. We may verify your identity before processing such requests.",
+      "63": "If you are a data subject protected by GDPR or similar regulations, we will handle your requests in accordance with those legal frameworks.",
+      "64": "Your Data Rights: Access, Portability, and Removal",
+      "65": "You have the right to:",
+      "66": {
+        "0": "Access your personal information",
+        "1": "Request a copy of the data we hold about you",
+        "2": "Correct or update inaccurate information",
+        "3": "Request deletion of your data",
+        "4": "Object to or restrict how we process your data"
+      },
+      "67": "We retain data only for as long as necessary to fulfill business or legal obligations, and no longer than 6 years, unless your account is removed sooner. After termination, we will remove personal information from our systems within a 60-day grace period, in accordance with our Terms and Privacy Policy."
+    }
+  },
+  "refundPolicy": {
+    "title": "Refund Policy",
+    "navigation": {
+      "0": "Overview",
+      "1": "Customer Responsibility",
+      "2": "When a Refund May Be Considered",
+      "3": "How to Submit a Refund Request",
+      "4": "Review Process",
+      "5": "Age Restrictions",
+      "6": "Need Help?"
+    },
+    "children": {
+      "0": "Overview",
+      "1": "Thank you for choosing Hostixie, a service provided by [Company Name], legally registered at [Registered Address] under company number [Registration Number]. Our team is dedicated to delivering reliable, high-quality digital services, including web development, hosting, and related solutions.",
+      "2": "Please note that",
+      "3": "all transactions completed via our website are considered final and non-refundable",
+      "4": "This policy applies to all services and digital products, regardless of whether they have been used, activated, accessed, or delivered. Once payment has been successfully processed and confirmed, the amount paid becomes non-reversible.",
+      "5": "This refund policy reflects the nature of our work: services are often custom-built, resource-dependent, or begin immediately upon order confirmation. As such, even partial refunds are not issued under standard conditions. By purchasing through our platform, you acknowledge and accept that you are not entitled to a refund once the transaction is complete.",
+      "6": "Customer Responsibility",
+      "7": "Before initiating any payment or placing an order on our platform",
+      "8": "you are solely responsible for evaluating all relevant information",
+      "10": "about the service or product you intend to purchase. This includes, but is not limited to, reading service descriptions, checking feature lists, reviewing pricing tiers, assessing deliverables, and ensuring that the selected solution aligns with your business or personal needs.",
+      "11": "We do not take responsibility for dissatisfaction caused by:",
+      "12": {
+        "0": "Misunderstanding or misinterpreting publicly available service details",
+        "1": "Oversights in verifying project requirements or specifications",
+        "2": "Assumptions about included features that were not explicitly listed"
+      },
+      "13": "It is also your responsibility to ensure that any technical requirements (such as hosting compatibility or CMS preference) are understood prior to purchasing. If in doubt, you are encouraged to contact our support team before placing an order. Once payment is made, it is assumed that you have made an informed and intentional purchasing decision.",
+      "14": "When a Refund May Be Considered",
+      "15": {
+        "0": "While our standard policy does not allow refunds, there are limited scenarios where a request",
+        "1": "may be reviewed:"
+      },
+      "16": {
+        "0": "Accidental or Duplicate Payments",
+        "1": "If you were charged more than once for the same order, you may be eligible for a refund of the excess amount.",
+        "2": "Incorrect Billing",
+        "3": "If a technical error or miscalculation on our part resulted in an overcharge, a refund may be processed for the difference.",
+        "4": "Wrong Payment Details",
+        "5": "If you can provide evidence that a payment was made using incorrect information (e.g., wrong reference number), and the funds did not reach us, we may assist in resolving the issue.",
+        "6": "Service Not Delivered",
+        "7": "If a product or service you paid for was not delivered as outlined—due to a fault on our side—we may offer a refund or partial compensation depending on the circumstances."
+      },
+      "17": "How to Submit a Refund Request",
+      "18": {
+        "0": "If you believe your case qualifies under the above conditions, please send a written refund request to our support team via email at",
+        "1": "Include the following details:"
+      },
+      "19": {
+        "0": "Full name",
+        "1": "Email address used for the order",
+        "2": "Transaction date",
+        "3": "Order number or payment reference",
+        "4": "A detailed description of the issue"
+      },
+      "20": "Review Process",
+      "21": {
+        "0": "Once we receive your request, our team will carefully review the details and validate them against our records. We aim to respond within",
+        "1": "7 business days",
+        "2": "Each case is evaluated individually, and approval is at the sole discretion of",
+        "3": "in line with this Refund Policy."
+      },
+      "23": "Age Restrictions",
+      "24": "Our website and services are intended for individuals who are at least 18 years old. We do not knowingly collect or solicit personal information from anyone under the age of 18. If we discover that we have inadvertently collected personal information from a child under 18, we will take steps to delete such information as soon as possible.",
+      "25": "By using our services, you confirm that you are at least 18 years of age. If you are under 18, you are prohibited from accessing or using our services.",
+      "26": "Need Help?",
+      "27": "If you need clarification about this policy or have any questions before submitting a request, feel free to contact our team:",
+      "28": {
+        "0": "Email:",
+        "1": "Phone:",
+        "2": "Contact Page:"
+      },
+      "29": "Please note that we reserve the right to update this Refund Policy at any time, without prior notice. We encourage you to review this page periodically."
+    }
+  },
+  "cookiePolicy": {
+    "name": "Cookie Policy",
+    "navigation": {
+      "0": "Welcome to Our Cookie Policy",
+      "1": "What Are Cookies, Anyway?",
+      "2": "How We Respond to \"Do Not Track\" (DNT)",
+      "3": "Why We Use Cookies",
+      "4": "Third-Party Cookies",
+      "5": "Managing Your Cookie Preferences",
+      "6": "Policy Updates",
+      "7": "Age Restrictions",
+      "8": "Got Questions? We’re Here to Help."
+    },
+    "children": {
+      "0": "Welcome to Our Cookie Policy",
+      "1": {
+        "0": "This document explains how [Company Name], registration number [Company Registration Number], registered at [Full Registered Address], the team behind Hostixie, uses cookies and similar tracking tools across our website, hostixie.com. These little data helpers allow us to recognize you, improve your experience, and keep the website running smoothly. By continuing to use our site, you agree to the cookie practices described here.",
+        "1": "We believe in transparency, so let’s break it down clearly."
+      },
+      "2": "What Are Cookies, Anyway?",
+      "3": "We use different kinds of cookies, each with its own job to do:",
+      "4": {
+        "0": "Essential Cookies ",
+        "1": "These are the must-haves. They power the core features of our website, such as security, form submissions, and login access. Without them, parts of the site simply wouldn’t work.",
+        "2": "Functional Cookies",
+        "3": "These remember your choices, like language settings or display preferences—so you don’t have to keep resetting them every time you visit.",
+        "4": "Analytics Cookies",
+        "5": "These help us understand how visitors use our website. We collect anonymous data like page visits and clicks, which helps us improve navigation, speed, and content relevance.",
+        "6": "Advertising Cookies",
+        "7": "Used to deliver ads that are more tailored to your interests. They also help control how often you see the same ad and measure the performance of our campaigns.",
+        "8": "Social Media Cookies",
+        "9": "Set by social networks we integrate with (like Facebook or LinkedIn), these cookies allow you to share content and engage with our brand across platforms. They may also track you elsewhere on the web, depending on your settings.",
+        "10": "Session Cookies",
+        "11": "Temporary cookies that last only while your browser is open. They're used for things like keeping you logged in while you navigate between pages.",
+        "12": "Persistent Cookies",
+        "13": "These stay on your device for a set period, helping us remember who you are between visits, like your login info or cart items."
+      },
+      "5": {
+        "0": "Note:",
+        "1": "Blocking or disabling certain cookies might affect how our website works for you."
+      },
+      "6": "How We Respond to \"Do Not Track\" (DNT)",
+      "7": "Some browsers let you send a “Do Not Track” request. If we detect one, we do our best to limit unnecessary data collection. That said, third-party services we use may not honor DNT signals the same way, so please check their policies too.",
+      "8": "Why We Use Cookies",
+      "9": "Here’s how cookies help us serve you better:",
+      "10": {
+        "0": "To power key website features (like forms, logins, and security)",
+        "1": "To understand visitor behavior and improve site performance",
+        "2": "To customize your experience with remembered preferences",
+        "3": "To deliver relevant advertising based on your interests",
+        "4": "To support third-party tools and social integrations"
+      },
+      "11": "Third-Party Cookies",
+      "12": "We partner with third-party tools that may also use cookies, including:",
+      "13": {
+        "0": {
+          "0": "Google Analytics",
+          "1": "for usage stats and performance insights"
+        },
+        "1": {
+          "0": "Meta Pixel (Facebook)",
+          "1": "for ad personalization and measurement"
+        },
+        "2": {
+          "0": "YouTube, Vimeo, etc.",
+          "1": "for embedded media playback"
+        },
+        "3": {
+          "0": "CRM, chat, or marketing tools",
+          "1": "to support communication and tracking"
+        }
+      },
+      "14": "Each of these services has its own privacy and cookie practices, which you should review if you want to know how they use your data.",
+      "15": "Managing Your Cookie Preferences",
+      "16": "You're in control. You can manage cookies in your browser settings—delete them, block them, or receive alerts when a site tries to set one. Here’s how:",
+      "17": {
+        "0": {
+          "0": "Google Chrome:",
+          "1": "Settings '>' Privacy '>' Security '>' Cookies and other site data"
+        },
+        "1": {
+          "0": "Mozilla Firefox:",
+          "1": "Preferences '>' Privacy '>' Security '>' Cookies and Site Data"
+        },
+        "2": {
+          "0": "Safari:",
+          "1": "Preferences '>' Privacy '>' Manage Website Data"
+        },
+        "3": {
+          "0": "Microsoft Edge:",
+          "1": "Settings '>' Cookies and Site Permissions"
+        }
+      },
+      "18": "Keep in mind: disabling cookies might limit your experience on our site.",
+      "19": "Policy Updates",
+      "20": "We may update this Cookie Policy from time to time as technology or legal standards evolve. If changes are significant, we’ll do our best to notify you. The latest version will always be available here.",
+      "21": "Age Restrictions",
+      "22": "Our website is not intended for individuals under the age of 18. We do not knowingly collect or solicit personal information from anyone under 18 years of age. If we learn that we have collected personal information from a child under 18 without verification of parental consent, we will delete that information as quickly as possible.",
+      "23": "Got Questions? We’re Here to Help.",
+      "24": "If you want to ask anything about this Cookie Policy — or our use of cookies in general, just reach out:",
+      "25": {
+        "0": "Email:",
+        "1": "Phone:",
+        "2": "Contact Page:"
+      }
+    }
   }
 }
