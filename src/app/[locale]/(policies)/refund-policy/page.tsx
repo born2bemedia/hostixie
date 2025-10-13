@@ -74,12 +74,12 @@ export default async function RefundPolicy() {
           id="overview"
           title={t('children.0', { fallback: 'Overview' })}
         >
-          <PolicyText>
+          {/* <PolicyText>
             {t('children.1', {
               fallback:
                 'Thank you for choosing Hostixie, a service provided by [Company Name], legally registered at [Registered Address] under company number [Registration Number]. Our team is dedicated to delivering reliable, high-quality digital services, including web development, hosting, and related solutions.',
             })}
-          </PolicyText>
+          </PolicyText> */}
           <PolicyText>
             {t('children.2', {
               fallback: 'Please note that',
@@ -234,7 +234,10 @@ export default async function RefundPolicy() {
               fallback:
                 'If you believe your case qualifies under the above conditions, please send a written refund request to our support team via email at',
             })}{' '}
-            <span className="font-bold">[Insert Email Address]</span>.{' '}
+            <Link href="mailto:info@hostixie.com" className="font-bold">
+              info@hostixie.com
+            </Link>
+            .{' '}
             {t('children.18.1', {
               fallback: 'Include the following details:',
             })}
@@ -325,12 +328,12 @@ export default async function RefundPolicy() {
                 })}{' '}
                 <span className="font-bold">info@hostixie.com</span>
               </span>,
-              <span key="phone">
-                {t('children.28.1', {
-                  fallback: 'Phone:',
-                })}{' '}
-                <span className="font-bold">[Insert Phone Number]</span>
-              </span>,
+              // <span key="phone">
+              //   {t('children.28.1', {
+              //     fallback: 'Phone:',
+              //   })}{' '}
+              //   <span className="font-bold">[Insert Phone Number]</span>
+              // </span>,
               <span key="contact-page">
                 {t('children.28.2', {
                   fallback: 'Contact Page:',

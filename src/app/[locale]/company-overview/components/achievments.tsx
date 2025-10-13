@@ -28,7 +28,7 @@ export const Achievments = () => {
   return (
     <section className="flex flex-col bg-black py-20">
       <div className="container">
-        <Title className="text-[112px] leading-[89.6px] tracking-[1.12px] max-md:text-[40px] max-md:leading-[130%] max-md:tracking-[1.12px]">
+        <Title className="text-[112px] leading-[89.6px] tracking-[1.12px] max-lg:text-[96px] max-md:text-[40px] max-md:leading-[130%] max-md:tracking-[1.12px]">
           {t('title', { fallback: 'Achievements & Milestones' })}
         </Title>
       </div>

@@ -1,6 +1,6 @@
 'use client';
 
-import type { ElementType, ReactNode } from 'react';
+import type { ReactNode } from 'react';
 import { cva, type VariantProps } from 'class-variance-authority';
 
 import { cn } from '@/shared/lib/utils/cn';
@@ -11,16 +11,14 @@ const btnVariants = cva(
     variants: {
       variant: {
         primary:
-          'bg-primary border border-primary text-black font-bold hover:bg-[rgba(254,95,5,0.5)] hover:border-[rgba(254,95,5,0.5)]',
-        secondary:
-          'bg-[#FFF4E1] border border-[#FFF4E1] text-black font-medium hover:bg-[#FFF4E1]/80 hover:border-[#FFF4E1]/80',
-        ghost:
-          'bg-transparent border border-black text-black font-medium hover:border-black/80 hover:text-black/80',
+          'text-black font-bold bg-primary hover:bg-[rgba(254,95,5,0.5)]',
+        secondary: 'bg-[#FFF4E1] text-black font-medium hover:bg-[#FFF4E1]/80',
+        ghost: 'bg-transparent text-black font-medium hover:text-black/80',
         glass:
-          'bg-transparent border border-transparent text-[#FFF4E1] font-bold hover:bg-[rgba(255,255,255,0.05)] active:bg-[rgba(255,255,255,0.10)]',
+          'bg-transparent text-[#FFF4E1] font-bold hover:bg-[rgba(255,255,255,0.05)] active:bg-[rgba(255,255,255,0.10)]',
         outline:
-          'bg-transparent border border-[#FFF4E1] disabled:opacity-30 disabled:cursor-not-allowed text-white font-medium hover:border-[#FFF4E1]/80 hover:text-[#FFF4E1]/80',
-        flat: 'bg-black/10 text-black font-medium hover:bg-black/20 hover:border-black/20 hover:text-black/80',
+          'bg-transparent disabled:opacity-30 disabled:cursor-not-allowed text-white font-medium hover:text-[#FFF4E1]/80',
+        flat: 'bg-black/10 text-black font-medium hover:bg-black/20 hover:text-black/80',
         faded:
           'bg-[rgba(255,255,255,0.10)] font-medium text-white hover:bg-[rgba(255,255,255,0.20)]',
       },

@@ -219,33 +219,33 @@ export default async function PrivacyPolicy() {
                     'A small file stored on your browser or device, used to enhance functionality, remember preferences, or collect analytics about user behavior on our site.',
                 })}
               </span>,
-              <span key="company">
-                {t('children.8.2', {
-                  fallback: 'Company:',
-                })}{' '}
-                {t('children.8.3', { fallback: 'Refers to' })}{' '}
-                <span className="text-primary">[Company Name]</span>,{' '}
-                {t('children.8.4', {
-                  fallback: 'a registered legal entity located at',
-                })}{' '}
-                <span className="text-primary">[Registered Address]</span>,
-                {t('children.8.5', {
-                  fallback:
-                    'which is responsible for managing and processing your data under this policy.',
-                })}
-              </span>,
-              <span key="country">
-                <span className="font-bold">
-                  {t('children.8.6', {
-                    fallback: 'Country:',
-                  })}
-                </span>{' '}
-                {t('children.8.7', {
-                  fallback:
-                    'The jurisdiction where Hostixie is registered and legally operates, i.e.,',
-                })}
-                <span className="text-primary">[Country Name]</span>.
-              </span>,
+              // <span key="company">
+              //   {t('children.8.2', {
+              //     fallback: 'Company:',
+              //   })}{' '}
+              //   {t('children.8.3', { fallback: 'Refers to' })}{' '}
+              //   <span className="text-primary">[Company Name]</span>,{' '}
+              //   {t('children.8.4', {
+              //     fallback: 'a registered legal entity located at',
+              //   })}{' '}
+              //   <span className="text-primary">[Registered Address]</span>,
+              //   {t('children.8.5', {
+              //     fallback:
+              //       'which is responsible for managing and processing your data under this policy.',
+              //   })}
+              // </span>,
+              // <span key="country">
+              //   <span className="font-bold">
+              //     {t('children.8.6', {
+              //       fallback: 'Country:',
+              //     })}
+              //   </span>{' '}
+              //   {t('children.8.7', {
+              //     fallback:
+              //       'The jurisdiction where Hostixie is registered and legally operates, i.e.,',
+              //   })}
+              //   <span className="text-primary">[Country Name]</span>.
+              // </span>,
               <span key="customer">
                 <span className="font-bold">
                   {t('children.8.8', {
@@ -279,22 +279,22 @@ export default async function PrivacyPolicy() {
                     'A numerical identifier assigned to your device when you connect to the internet, often used to determine approximate geographic location and detect fraudulent behavior.',
                 })}
               </span>,
-              <span key="personnel">
-                <span className="font-bold">
-                  {t('children.8.14', {
-                    fallback: 'Personnel:',
-                  })}
-                </span>{' '}
-                {t('children.8.15', {
-                  fallback:
-                    'Individuals employed by or working under contract with',
-                })}{' '}
-                <span className="text-primary">[Company Name]</span>,{' '}
-                {t('children.8.16', {
-                  fallback:
-                    'who may handle or have access to your personal information in the course of delivering our services.',
-                })}
-              </span>,
+              // <span key="personnel">
+              //   <span className="font-bold">
+              //     {t('children.8.14', {
+              //       fallback: 'Personnel:',
+              //     })}
+              //   </span>{' '}
+              //   {t('children.8.15', {
+              //     fallback:
+              //       'Individuals employed by or working under contract with',
+              //   })}{' '}
+              //   <span className="text-primary">[Company Name]</span>,{' '}
+              //   {t('children.8.16', {
+              //     fallback:
+              //       'who may handle or have access to your personal information in the course of delivering our services.',
+              //   })}
+              // </span>,
               <span key="personal-data">
                 <span className="font-bold">
                   {t('children.8.17', {
@@ -328,24 +328,24 @@ export default async function PrivacyPolicy() {
                     'External services or companies that are integrated with our platform or whose offerings may be accessible through our site (e.g., marketing platforms, analytics tools, payment processors).',
                 })}
               </span>,
-              <span key="website">
-                <span className="font-bold">
-                  {t('children.8.23', {
-                    fallback: 'Website:',
-                  })}
-                </span>{' '}
-                {t('children.8.24', {
-                  fallback: 'The official site owned and operated by',
-                })}{' '}
-                <span className="text-primary">[Company Name]</span>,{' '}
-                {t('children.8.25', {
-                  fallback: 'accessible via',
-                })}{' '}
-                <Link href="/" className="text-primary underline">
-                  hostixie.com
-                </Link>
-                .
-              </span>,
+              // <span key="website">
+              //   <span className="font-bold">
+              //     {t('children.8.23', {
+              //       fallback: 'Website:',
+              //     })}
+              //   </span>{' '}
+              //   {t('children.8.24', {
+              //     fallback: 'The official site owned and operated by',
+              //   })}{' '}
+              //   <span className="text-primary">[Company Name]</span>,{' '}
+              //   {t('children.8.25', {
+              //     fallback: 'accessible via',
+              //   })}{' '}
+              //   <Link href="/" className="text-primary underline">
+              //     hostixie.com
+              //   </Link>
+              //   .
+              // </span>,
               <span key="you-user">
                 <span className="font-bold">
                   {t('children.8.26', {
@@ -694,13 +694,13 @@ export default async function PrivacyPolicy() {
           })}
         >
           <PolicyText>
-            {t('children.44', {
+            {/* {t('children.44', {
               fallback:
                 'This Privacy Policy is governed by the laws of [Country], without reference to conflict-of-law principles. By using our website or services, you agree that any dispute related to data protection or privacy shall fall under the exclusive jurisdiction of the courts in',
             })}
             <span className="text-primary">[City, Country]</span>.
             <br />
-            <br />
+            <br /> */}
             {t('children.45', {
               fallback:
                 'Your continued use of our services signifies your acceptance of this Privacy Policy. If you disagree with our terms, you should not engage with our services or access the website. We may make updates that reflect operational, legal, or regulatory changes; by remaining on the site after changes are published, you confirm your acceptance of the revised policy.',
@@ -882,12 +882,12 @@ export default async function PrivacyPolicy() {
                 })}{' '}
                 <span className="font-bold">info@hostixie.com</span>
               </span>,
-              <span key="phone">
-                {t('children.71', {
-                  fallback: 'Phone:',
-                })}{' '}
-                <span className="font-bold">[Insert Phone Number]</span>
-              </span>,
+              // <span key="phone">
+              //   {t('children.71', {
+              //     fallback: 'Phone:',
+              //   })}{' '}
+              //   <span className="font-bold">[Insert Phone Number]</span>
+              // </span>,
               <span key="contact-page">
                 {t('children.72', {
                   fallback: 'Contact Page:',

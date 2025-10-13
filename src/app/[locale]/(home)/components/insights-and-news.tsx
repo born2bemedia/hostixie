@@ -19,7 +19,7 @@ const getNews = (t: ReturnType<typeof useTranslations>) => [
       fallback:
         'We’ve rolled out new hosting features that guarantee faster page load times, enhanced server reliability, and a smoother overall experience for your website visitors.',
     }),
-    href: '/',
+    href: '/news',
     imgUrl: '/images/home/news-1.jpg',
   },
   {
@@ -31,7 +31,7 @@ const getNews = (t: ReturnType<typeof useTranslations>) => [
       fallback:
         'Our latest framework is optimized to create faster, more secure websites, ensuring improved performance, scalability, and better user experiences.',
     }),
-    href: '/',
+    href: '/news',
     imgUrl: '/images/home/news-2.jpg',
   },
 ];

@@ -10,6 +10,7 @@ import {
   LetsStart,
   OurStory,
   TextValue,
+  WhatWeDo,
   WhyChooseUs,
 } from './components';
 
@@ -60,6 +61,7 @@ export default async function CompanyOverview() {
       />
       <OurStory />
       <CoreValues />
+      <WhatWeDo />
       <TextValue
         title={to('ourTeam.title', { fallback: 'Our Team' })}
         subtitle={to('ourTeam.subtitle', {
