@@ -102,7 +102,7 @@ export const Header = () => {
       </section>
       <header className="container flex items-center justify-between py-4">
         <Link href="/">
-          <Image src="/logo.webp" alt="logo" width={40} height={40} />
+          <Image src="/logo-white.svg" alt="logo" width={143} height={30} />
         </Link>
         <section className="flex items-center gap-6 max-md:hidden">
           <Dropdown label={t('whatWeDo', { fallback: 'What We Do' })}>
