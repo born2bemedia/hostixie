@@ -46,7 +46,10 @@ export const Header = () => {
     <section className="flex flex-col">
       <section className="bg-[#FFF4E1] backdrop-blur-[15px]">
         <div className="container">
-          <section className="flex justify-end">
+          <section className="flex items-center justify-end gap-10">
+            <Link href="mailto:info@hostixie.com">
+              <Text color="primary">info@hostixie.com</Text>
+            </Link>
             <Dropdown
               label={
                 <Text color="black" uppercase>
@@ -130,31 +133,29 @@ export const Header = () => {
             </Button>
           </Link>
           <Dropdown label={t('about', { fallback: 'About' })}>
-            <>
-              <DropdownItem>
-                <Link
-                  href="/company-overview"
-                  className="flex items-center gap-2"
-                >
-                  <IconLayout>
-                    <DataIcon />
-                  </IconLayout>
-                  <Text weight={700}>
-                    {t('companyOverview', { fallback: 'Company Overview' })}
-                  </Text>
-                </Link>
-              </DropdownItem>
-              <DropdownItem>
-                <Link href="/careers" className="flex items-center gap-2">
-                  <IconLayout>
-                    <PeopleIcon />
-                  </IconLayout>
-                  <Text weight={700}>
-                    {t('careers', { fallback: 'Careers' })}
-                  </Text>
-                </Link>
-              </DropdownItem>
-            </>
+            <DropdownItem>
+              <Link
+                href="/company-overview"
+                className="flex items-center gap-2"
+              >
+                <IconLayout>
+                  <DataIcon />
+                </IconLayout>
+                <Text weight={700}>
+                  {t('companyOverview', { fallback: 'Company Overview' })}
+                </Text>
+              </Link>
+            </DropdownItem>
+            <DropdownItem>
+              <Link href="/careers" className="flex items-center gap-2">
+                <IconLayout>
+                  <PeopleIcon />
+                </IconLayout>
+                <Text weight={700}>
+                  {t('careers', { fallback: 'Careers' })}
+                </Text>
+              </Link>
+            </DropdownItem>
           </Dropdown>
           <Link href="/clients">
             <Button variant="glass">

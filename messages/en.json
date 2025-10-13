@@ -1176,6 +1176,12 @@
     }
   },
   "companyOverview": {
+    "letsStart": {
+      "title": "Let’s Start a Conversation",
+      "subtitle": "Ready to take the next step?",
+      "text": "Have questions about how we can help your business succeed online? Get in touch and let’s discuss how we can create the perfect web solution for you.",
+      "button": "Let’s Make It Happen"
+    },
     "hero": {
       "title": {
         "0": "Company Overview:",
@@ -1222,6 +1228,41 @@
           "title": "Striving for Perfection in Every Detail",
           "text": "Mediocrity has no place here. We deliver flawless execution in every detail, creating work that’s not only functional but exceptional in every way."
         }
+      }
+    },
+    "whatWeDo": {
+      "title": "What We Do",
+      "subtitle": "Tailored Web Development & Hosting Solutions for Every Business",
+      "text": "We offer a comprehensive suite of web services, including web development and hosting solutions, designed to meet the unique needs of your business. Our services include:",
+      "cards": {
+        "0": {
+          "0": "E-commerce",
+          "1": "Solutions"
+        },
+        "1": {
+          "0": "Custom Website",
+          "1": "Development"
+        },
+        "2": {
+          "0": "SEO & Digital",
+          "1": "Marketing"
+        },
+        "3": {
+          "0": "Web Application",
+          "1": "Development"
+        },
+        "4": {
+          "0": "Website Maintenance &",
+          "1": "Support"
+        },
+        "5": {
+          "0": "Content Management",
+          "1": "Systems (CMS)"
+        },
+        "6": "Mobile-First Design",
+        "7": "API Integrations",
+        "8": "Web Hosting Solutions",
+        "9": "UX/UI Design"
       }
     },
     "ourTeam": {
@@ -2116,8 +2157,14 @@
       },
       "57": "Dispute Resolution and Arbitration",
       "58": "Any disputes between you and Hostixie related to the website or services will first be attempted to be resolved informally. If no resolution is reached within 60 days, the matter shall be referred to binding arbitration in accordance with the rules of the [Arbitration Body, e.g., ICC or local authority], unless the claim involves the enforcement of intellectual property rights or injunctive relief.",
-      "59": "Governing Law",
-      "60": "These Terms are governed by the laws of [Country], without regard to conflict of laws principles. Any legal actions or proceedings arising from or related to these Terms shall take place exclusively in the courts of [City, Country]. You agree to submit to the jurisdiction of these courts.",
+      "59": {
+        "0": "Governing Law",
+        "1": "These Terms are governed by the laws of [Country], without regard to conflict of laws principles. Any legal actions or proceedings arising from or related to these Terms shall take place exclusively in the courts of [City, Country]. You agree to submit to the jurisdiction of these courts."
+      },
+      "60": {
+        "0": "User Submissions and Public Content",
+        "1": "Any content you submit to us, including ideas, proposals, artwork, or feedback, will be treated as non-confidential and may be used by Hostixie for any purpose, without compensation or credit. You grant us full rights to use and commercialize such content perpetually."
+      },
       "61": "Promotional Campaigns",
       "62": "From time to time, we may offer contests, giveaways, or promotions. These may be subject to additional rules and eligibility requirements (such as age or location). By participating, you agree to all applicable promotion-specific terms.",
       "63": "Errors and Omissions",

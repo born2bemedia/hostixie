@@ -179,7 +179,7 @@ export default async function TermsAndConditions() {
           title={t('children.0', { fallback: 'General Overview' })}
         >
           <PolicyText>
-            {t('children.1.0', {
+            {/* {t('children.1.0', {
               fallback:
                 'By using this website or submitting a service request through Hostixie, you acknowledge that you have read, understood, and agreed to the Terms and Conditions described herein. These terms govern your use of the website and all communications between you and',
             })}
@@ -190,7 +190,7 @@ export default async function TermsAndConditions() {
             [Registration Number] {t('children.1.2', { fallback: 'at' })}{' '}
             [Registered Address].
             <br />
-            <br />
+            <br /> */}
             {t('children.2', {
               fallback:
                 'Under no circumstances shall Hostixie, its owners, employees, or agents be held responsible for any direct, indirect, incidental, consequential, or special damages, including but not limited to loss of data, loss of profits, or interruption of business, arising from the use or inability to use any content or services offered via this website. Any costs related to repair, servicing, or data restoration resulting from your use of this site remain your responsibility.',
@@ -202,10 +202,10 @@ export default async function TermsAndConditions() {
           title={t('children.3', { fallback: 'Usage License' })}
         >
           <PolicyText>
-            {t('children.4.0', {
+            {/* {t('children.4.0', {
               fallback:
                 'These Terms and Conditions constitute a legal agreement between you (whether as an individual or as a representative of an entity) and',
-            })}
+            })}{' '}
             [Company Name]{' '}
             {t('children.4.1', {
               fallback:
@@ -217,7 +217,7 @@ export default async function TermsAndConditions() {
                 'and provider of related digital services (referred to as "the Service").',
             })}
             <br />
-            <br />
+            <br /> */}
             {t('children.4.3', {
               fallback:
                 'By using our website and services, you agree to comply with these Terms in full. If you do not agree with any part of these Terms, you should immediately discontinue use of the site. We reserve the right to suspend or terminate access to your account or restrict your use of the service at our sole discretion, without prior notice, if you are found to be in breach of any provision of these Terms.',
@@ -252,14 +252,14 @@ export default async function TermsAndConditions() {
                 fallback:
                   '“Cookies”: Small data files placed on your device by the website to enhance performance, analyze usage, and remember user preferences.',
               }),
-              t('children.9.1', {
-                fallback:
-                  '“Company”: Refers to [Company Name], the entity legally operating under the Hostixie label, located at [Registered Address].',
-              }),
-              t('children.9.2', {
-                fallback:
-                  '“Country”: The jurisdiction under which the company is incorporated and legally operates, namely [Country Name].',
-              }),
+              // t('children.9.1', {
+              //   fallback:
+              //     '“Company”: Refers to [Company Name], the entity legally operating under the Hostixie label, located at [Registered Address].',
+              // }),
+              // t('children.9.2', {
+              //   fallback:
+              //     '“Country”: The jurisdiction under which the company is incorporated and legally operates, namely [Country Name].',
+              // }),
               t('children.9.3', {
                 fallback:
                   '“Device”: Any internet-capable hardware (e.g., smartphone, tablet, desktop computer) used to access the website or services.',
@@ -662,14 +662,27 @@ export default async function TermsAndConditions() {
             })}
           </PolicyText>
         </PolicySection>
+        {/* <PolicySection
+          id="governing-law"
+          title={t('children.59.0', {
+            fallback: 'Governing Law',
+          })}
+        >
+          <PolicyText>
+            {t('children.59.1', {
+              fallback:
+                'These Terms are governed by the laws of [Country], without regard to conflict of laws principles. Any legal actions or proceedings arising from or related to these Terms shall take place exclusively in the courts of [City, Country]. You agree to submit to the jurisdiction of these courts.',
+            })}
+          </PolicyText>
+        </PolicySection> */}
         <PolicySection
           id="user-submissions-and-public-content"
-          title={t('children.59', {
+          title={t('children.60.0', {
             fallback: 'User Submissions and Public Content',
           })}
         >
           <PolicyText>
-            {t('children.60', {
+            {t('children.60.1', {
               fallback:
                 'Any content you submit to us, including ideas, proposals, artwork, or feedback, will be treated as non-confidential and may be used by Hostixie for any purpose, without compensation or credit. You grant us full rights to use and commercialize such content perpetually.',
             })}
@@ -735,10 +748,10 @@ export default async function TermsAndConditions() {
                 {t('children.69', { fallback: 'Email' })}:{' '}
                 <span className="font-bold">info@hostixie.com</span>
               </span>,
-              <span key="phone">
-                {t('children.70', { fallback: 'Phone' })}:{' '}
-                <span className="font-bold">[Insert Phone Number]</span>
-              </span>,
+              // <span key="phone">
+              //   {t('children.70', { fallback: 'Phone' })}:{' '}
+              //   <span className="font-bold">[Insert Phone Number]</span>
+              // </span>,
               <span key="contact-page">
                 {t('children.71', { fallback: 'Contact Page' })}:{' '}
                 <Link href="/contact" className="font-bold">

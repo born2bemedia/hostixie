@@ -1,6 +1,7 @@
 'use client';
 
-import { type ReactNode, useEffect, useRef, useState } from 'react';
+import { type ReactNode, useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
 
 import { cn } from '@/shared/lib/utils/cn';
@@ -23,6 +24,10 @@ export const Dropdown = ({
 }) => {
   const [open, setOpen] = useState(false);
 
+  const pathname = usePathname();
+
+  useEffect(() => setOpen(false), [pathname]);
+
   return (
     <DropdownMenu.Root open={open} onOpenChange={setOpen}>
       <DropdownMenu.Trigger className="outline-0">
@@ -37,12 +42,12 @@ export const Dropdown = ({
       </DropdownMenu.Trigger>
       <DropdownMenu.Portal>
         <DropdownMenu.Content
-          className={cn(
-            'z-50 min-w-[200px] rounded-md bg-black py-2 shadow-lg',
-            contentClassName,
-          )}
+          className={cn('z-50 flex min-w-[200px] flex-col', contentClassName)}
         >
-          {typeof children === 'function' ? children({ setOpen }) : children}
+          <section className="bg-black py-2">
+            {typeof children === 'function' ? children({ setOpen }) : children}
+          </section>
+          <DropdownContentLine />
         </DropdownMenu.Content>
       </DropdownMenu.Portal>
     </DropdownMenu.Root>
@@ -70,83 +75,6 @@ export const DropdownItem = ({
     </DropdownMenu.Item>
   );
 };
-
-const DropdownOld = ({
-  label,
-  children,
-  iconColor,
-}: {
-  label: ReactNode;
-  children:
-    | ReactNode
-    | ((props: { setOpen: (value: boolean) => void }) => ReactNode);
-  iconColor?: string;
-}) => {
-  const [open, setOpen] = useState(false);
-  const dropdownRef = useRef<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    const handleClickOutside = (e: MouseEvent) => {
-      if (
-        dropdownRef.current &&
-        !dropdownRef.current.contains(e.target as Node)
-      ) {
-        setOpen(false);
-      }
-    };
-
-    if (open) {
-      document.addEventListener('mousedown', handleClickOutside);
-    } else {
-      document.removeEventListener('mousedown', handleClickOutside);
-    }
-
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, [open]);
-
-  return (
-    <div ref={dropdownRef} className="relative inline-block">
-      <Button
-        variant="glass"
-        onClick={() => setOpen(prev => !prev)}
-        className="flex cursor-pointer items-center gap-1.5 outline-0"
-      >
-        {label}
-        <ArrowBottomIcon color={iconColor} />
-      </Button>
-      {open && (
-        <div className="absolute top-10 left-0 z-[999] flex w-[330px] flex-col">
-          <section className="flex flex-col gap-2 bg-black p-5">
-            {typeof children === 'function' ? children({ setOpen }) : children}
-          </section>
-          <DropdownContentLine />
-        </div>
-      )}
-    </div>
-  );
-};
-
-const DropdownItemOld = ({
-  children,
-  onClick,
-  className,
-}: {
-  children: ReactNode;
-  onClick?: () => void;
-  className?: string;
-}) => (
-  <div
-    onClick={onClick}
-    className={cn(
-      'flex cursor-pointer items-center gap-2 rounded-xl p-2 outline-0 transition duration-300 ease-in-out hover:bg-[rgba(255,255,255,0.05)]',
-      className,
-    )}
-  >
-    {children}
-  </div>
-);
 
 const DropdownContentLine = () => (
   <svg

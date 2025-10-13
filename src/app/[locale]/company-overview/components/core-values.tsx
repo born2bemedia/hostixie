@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 import { Text } from '@/shared/ui/kit/text';
@@ -57,8 +56,8 @@ export const CoreValues = () => {
 
   return (
     <section className="relative overflow-hidden bg-[#FFF4E1] py-[60px]">
-      <div className="container flex gap-10 max-lg:flex-col">
-        <section className="flex w-1/2 flex-col gap-5 max-lg:w-full">
+      <div className="container flex flex-col gap-10">
+        <section className="flex flex-col gap-5">
           <Title color="black">{t('title', { fallback: 'Core Values' })}</Title>
           <div className="flex flex-col gap-2">
             <Title as="h3" size="3xl" color="black">
@@ -72,28 +71,12 @@ export const CoreValues = () => {
             </Text>
           </div>
         </section>
-        <section className="flex w-1/2 flex-col gap-2.5 max-lg:w-full">
+        <section className="flex gap-2.5 max-lg:flex-col">
           {cards.map((card, index) => (
             <Card key={index} {...card} index={index} />
           ))}
         </section>
       </div>
-      <Image
-        className="absolute -bottom-50 left-40 z-0 opacity-50 max-[1330px]:hidden"
-        src="/images/company-overview/world.svg"
-        alt="world"
-        width={711}
-        height={711}
-        unoptimized
-      />
-      <Image
-        className="absolute bottom-0 left-0 z-10 h-[134px] w-full object-cover"
-        src="/images/company-overview/bb.svg"
-        alt="heart"
-        width={1440}
-        height={134}
-        unoptimized
-      />
     </section>
   );
 };
@@ -107,8 +90,8 @@ const Card = ({
   text: string;
   index: number;
 }) => (
-  <article className="flex items-center gap-5 rounded-xl border border-[#A4A189] max-lg:flex-col max-lg:items-start">
-    <span className="flex h-full w-[115px] shrink-0 items-center justify-center rounded-xl bg-[#A4A189] text-[40px] font-medium text-[#FFF4E1] max-lg:h-[50px] max-lg:w-full max-lg:justify-start max-lg:pl-2 max-lg:text-[18px]">
+  <article className="flex flex-1 flex-col gap-5 rounded-xl border border-[#A4A189] max-lg:flex-col max-lg:items-start">
+    <span className="flex h-[50px] items-center justify-start rounded-md bg-[#A4A189] pl-2 text-lg font-medium text-[#FFF4E1] max-lg:w-full">
       0{++index}
     </span>
     <section className="flex flex-col gap-1 p-2.5">

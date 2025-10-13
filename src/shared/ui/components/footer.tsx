@@ -62,6 +62,15 @@ export const Footer = () => {
                 { label: t('news', { fallback: 'News' }), href: '/news' },
               ]}
             />
+            <NavColumn
+              title="Get in Touch"
+              items={[
+                {
+                  label: 'info@hostixie.com',
+                  href: 'mailto:info@hostixie.com',
+                },
+              ]}
+            ></NavColumn>
           </nav>
           <div className="flex flex-col items-end max-md:flex-col-reverse max-md:items-center">
             <SocialNetworks />
@@ -85,19 +94,19 @@ export const Footer = () => {
                   })}
                 </Text>
               </NavLink>
-              <NavLink href="/terms-and-conditions">
+              <NavLink href="/privacy-policy">
                 <Text size="xs" color="sand">
                   {t('privacyPolicy', { fallback: 'Privacy Policy' })}
                 </Text>
               </NavLink>
             </div>
             <div className="flex gap-8 max-md:flex-col">
-              <NavLink href="/terms-and-conditions">
+              <NavLink href="/cookie-policy">
                 <Text size="xs" color="sand">
                   {t('cookiePolicy', { fallback: 'Cookie Policy' })}
                 </Text>
               </NavLink>
-              <NavLink href="/terms-and-conditions">
+              <NavLink href="/refund-policy">
                 <Text size="xs" color="sand">
                   {t('refundPolicy', { fallback: 'Refund Policy' })}
                 </Text>

@@ -39,12 +39,12 @@ export default async function CookiePolicy() {
       <PolicyRender
         sticky
         navigation={[
-          {
-            label: t('navigation.0', {
-              fallback: 'Welcome to Our Cookie Policy',
-            }),
-            href: '#welcome-to-our-cookie-policy',
-          },
+          // {
+          //   label: t('navigation.0', {
+          //     fallback: 'Welcome to Our Cookie Policy',
+          //   }),
+          //   href: '#welcome-to-our-cookie-policy',
+          // },
           {
             label: t('navigation.1', { fallback: 'What Are Cookies, Anyway?' }),
             href: '#what-are-cookies-anyway',
@@ -85,7 +85,7 @@ export default async function CookiePolicy() {
           },
         ]}
       >
-        <PolicySection
+        {/* <PolicySection
           id="welcome-to-our-cookie-policy"
           title={t('children.0', { fallback: 'Welcome to Our Cookie Policy' })}
         >
@@ -101,7 +101,7 @@ export default async function CookiePolicy() {
                 'We believe in transparency, so let’s break it down clearly.',
             })}
           </PolicyText>
-        </PolicySection>
+        </PolicySection> */}
         <PolicySection
           id="what-are-cookies-anyway"
           title={t('children.2', { fallback: 'What Are Cookies, Anyway?' })}
@@ -412,12 +412,12 @@ export default async function CookiePolicy() {
                 })}{' '}
                 <span className="font-bold">info@hostixie.com</span>
               </span>,
-              <span key="phone">
-                {t('children.25.1', {
-                  fallback: 'Phone:',
-                })}{' '}
-                <span className="font-bold">[Insert Phone Number]</span>
-              </span>,
+              // <span key="phone">
+              //   {t('children.25.1', {
+              //     fallback: 'Phone:',
+              //   })}{' '}
+              //   <span className="font-bold">[Insert Phone Number]</span>
+              // </span>,
               <span key="contact-page">
                 {t('children.25.2', {
                   fallback: 'Contact Page:',
