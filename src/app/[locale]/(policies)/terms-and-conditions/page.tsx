@@ -140,12 +140,12 @@ export default async function TermsAndConditions() {
             }),
             href: '#intellectual-property-rights',
           },
-          {
-            label: t('navigation.22', {
-              fallback: 'Dispute Resolution and Arbitration',
-            }),
-            href: '#dispute-resolution-and-arbitration',
-          },
+          // {
+          //   label: t('navigation.22', {
+          //     fallback: 'Dispute Resolution and Arbitration',
+          //   }),
+          //   href: '#dispute-resolution-and-arbitration',
+          // },
           {
             label: t('navigation.23', { fallback: 'Governing Law' }),
             href: '#governing-law',
@@ -179,15 +179,21 @@ export default async function TermsAndConditions() {
           title={t('children.0', { fallback: 'General Overview' })}
         >
           <PolicyText>
-            {/* {t('children.1.0', {
+            {t('children.1.0', {
               fallback:
                 'By using this website or submitting a service request through Hostixie, you acknowledge that you have read, understood, and agreed to the Terms and Conditions described herein. These terms govern your use of the website and all communications between you and',
             })}
+            <br />
+            <br />
+            {/* {t('children.1.1', {
+              fallback:
+                'These terms govern your use of the website and all communications between you and',
+            })}
             [Company Name],{' '}
-            {t('children.1.1', {
+            {t('children.1.2', {
               fallback: 'the legal entity behind Hostixie, registered under',
             })}
-            [Registration Number] {t('children.1.2', { fallback: 'at' })}{' '}
+            [Registration Number] {t('children.1.3', { fallback: 'at' })}{' '}
             [Registered Address].
             <br />
             <br /> */}
@@ -649,7 +655,7 @@ export default async function TermsAndConditions() {
             })}
           </PolicyText>
         </PolicySection>
-        <PolicySection
+        {/* <PolicySection
           id="dispute-resolution-and-arbitration"
           title={t('children.57', {
             fallback: 'Dispute Resolution and Arbitration',
@@ -661,7 +667,7 @@ export default async function TermsAndConditions() {
                 'Any disputes between you and Hostixie related to the website or services will first be attempted to be resolved informally. If no resolution is reached within 60 days, the matter shall be referred to binding arbitration in accordance with the rules of the [Arbitration Body, e.g., ICC or local authority], unless the claim involves the enforcement of intellectual property rights or injunctive relief.',
             })}
           </PolicyText>
-        </PolicySection>
+        </PolicySection> */}
         {/* <PolicySection
           id="governing-law"
           title={t('children.59.0', {

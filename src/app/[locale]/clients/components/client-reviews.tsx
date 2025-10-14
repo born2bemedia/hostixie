@@ -253,7 +253,7 @@ export const ClientReviews = () => {
               {reviews.map(review => (
                 <div
                   key={review.title}
-                  className="flex-[0_0_50%] px-5 max-md:flex-[0_0_100%] max-md:px-0"
+                  className="flex-[0_0_48%] rounded-[4px] bg-black/10 px-5 max-md:flex-[0_0_100%] max-md:px-0"
                 >
                   <Card {...review} />
                 </div>
@@ -313,30 +313,32 @@ const Card = ({
   const t = useTranslations('clients.clientReviews');
 
   return (
-    <article className="flex h-auto flex-col gap-5 rounded-[4px] bg-black/10 px-10 py-5 max-md:px-5">
-      <div className="flex flex-col gap-2">
-        <Text size="xs" color="primary" weight={700}>
-          {type}
-        </Text>
-        <Title size="3xl" color="black" weight={500}>
-          {title}
-        </Title>
-      </div>
-      <section className="flex flex-col gap-2.5">
-        <LabelValue
-          label={t('client', { fallback: 'Client:' })}
-          value={client}
-        />
-        <div className="flex justify-between">
-          <LabelValue
-            label={t('project', { fallback: 'Project:' })}
-            value={project}
-          />
-          <LabelValue
-            label={t('services', { fallback: 'Services:' })}
-            value={services.join(', ')}
-          />
+    <article className="flex h-full flex-col justify-between gap-5 px-10 py-5 max-md:px-5">
+      <section className="flex flex-col gap-5">
+        <div className="flex flex-col gap-2">
+          <Text size="xs" color="primary" weight={700}>
+            {type}
+          </Text>
+          <Title size="3xl" color="black" weight={500}>
+            {title}
+          </Title>
         </div>
+        <section className="flex flex-col gap-2.5">
+          <LabelValue
+            label={t('client', { fallback: 'Client:' })}
+            value={client}
+          />
+          <div className="flex justify-between">
+            <LabelValue
+              label={t('project', { fallback: 'Project:' })}
+              value={project}
+            />
+            <LabelValue
+              label={t('services', { fallback: 'Services:' })}
+              value={services.join(', ')}
+            />
+          </div>
+        </section>
       </section>
       <section className="flex flex-col gap-2.5">
         <div className="flex flex-col gap-2 rounded-[4px] bg-black/10 p-5">

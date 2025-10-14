@@ -28,9 +28,9 @@ export const Hero = () => {
       })}
       additionalContent={
         <div className="flex items-center gap-2 max-md:flex-col">
-          <Chip>{t('chips.0', { fallback: '#Latest Wins & Launches' })}</Chip>
-          <Chip>{t('chips.1', { fallback: '#Tech & Team Updates' })}</Chip>
-          <Chip>{t('chips.2', { fallback: '#Partnerships & People' })}</Chip>
+          <Chip>{t('chips.0', { fallback: 'Latest Wins & Launches' })}</Chip>
+          <Chip>{t('chips.1', { fallback: 'Tech & Team Updates' })}</Chip>
+          <Chip>{t('chips.2', { fallback: 'Partnerships & People' })}</Chip>
         </div>
       }
     />

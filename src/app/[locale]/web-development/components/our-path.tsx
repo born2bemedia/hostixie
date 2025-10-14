@@ -86,7 +86,7 @@ const Card = ({
   index: number;
 }) => {
   return (
-    <article className="flex h-max flex-1 flex-col gap-16 rounded-[12px] border border-[#A4A189] p-6">
+    <article className="flex h-auto flex-1 flex-col gap-16 rounded-[12px] border border-[#A4A189] p-6">
       <span className="bg-primary flex h-10 w-10 items-center justify-center rounded-2xl">
         <Text weight={500} color="black">
           {++index}
