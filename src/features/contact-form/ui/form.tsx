@@ -1,5 +1,7 @@
 'use client';
 
+import { useState } from 'react';
+import ReCaptcha from 'react-google-recaptcha';
 import { useTranslations } from 'next-intl';
 import { useForm } from '@tanstack/react-form';
 
@@ -14,6 +16,8 @@ import { contactFormSchema } from '../model/schema';
 import { ThankYou } from './thank-you';
 
 export const ContactForm = () => {
+  const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
+
   const { setIsOpen, registerContent } = useDialogStore();
 
   const t = useTranslations('contactForm');
@@ -41,6 +45,10 @@ export const ContactForm = () => {
       setIsOpen(true);
     },
   });
+
+  const handleCaptchaChange = (value: string | null) => {
+    setIsCaptchaVerified(!!value);
+  };
 
   return (
     <form
@@ -246,20 +254,26 @@ export const ContactForm = () => {
           </Field>
         </FormColumn>
       </div>
-      <Subscribe selector={state => [state.canSubmit, state.isSubmitting]}>
-        {([canSubmit, isSubmitting]) => (
-          <Button
-            variant="primary"
-            size="lg"
-            type="submit"
-            disabled={!canSubmit}
-          >
-            {isSubmitting
-              ? t('submitting', { fallback: 'Submitting...' })
-              : t('submit', { fallback: 'Submit Application' })}
-          </Button>
-        )}
-      </Subscribe>
+      <div className="flex items-center justify-between max-md:flex-col-reverse max-md:items-start max-md:gap-2">
+        <Subscribe selector={state => [state.canSubmit, state.isSubmitting]}>
+          {([canSubmit, isSubmitting]) => (
+            <Button
+              variant="primary"
+              size="lg"
+              type="submit"
+              disabled={!canSubmit}
+            >
+              {isSubmitting
+                ? t('submitting', { fallback: 'Submitting...' })
+                : t('submit', { fallback: 'Submit Application' })}
+            </Button>
+          )}
+        </Subscribe>
+        <ReCaptcha
+          sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY ?? ''}
+          onChange={handleCaptchaChange}
+        />
+      </div>
     </form>
   );
 };

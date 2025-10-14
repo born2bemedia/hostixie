@@ -33,15 +33,15 @@ export const GetInTouch = () => {
               })}
             </Text>
           </section>
-          <Link href="/contact">
-            <Button variant="primary">
+          <Link href="/contact" className="z-10">
+            <Button variant="primary" className="z-20">
               {t('button', { fallback: 'Email us' })}
             </Button>
           </Link>
         </div>
       </div>
       <Image
-        className="absolute -bottom-40 left-0 object-cover max-md:-top-40 max-md:-left-14"
+        className="absolute -bottom-40 left-0 z-0 object-cover max-md:-top-40 max-md:-left-14"
         src="/images/careers/world.svg"
         alt="world"
         width={750}

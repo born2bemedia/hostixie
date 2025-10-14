@@ -1727,9 +1727,9 @@
       "subtitle": "Transform Your Project with Expert Web Development",
       "text": "Explore our new launches, platform upgrades, creative wins, and behind-the-scenes progress.",
       "chips": {
-        "0": "#Latest Wins & Launches",
-        "1": "#Tech & Team Updates",
-        "2": "#Partnerships & People"
+        "0": "Latest Wins & Launches",
+        "1": "Tech & Team Updates",
+        "2": "Partnerships & People"
       }
     },
     "gotProject": {
@@ -2043,9 +2043,10 @@
     "children": {
       "0": "General Overview",
       "1": {
-        "0": "By using this website or submitting a service request through Hostixie, you acknowledge that you have read, understood, and agreed to the Terms and Conditions described herein. These terms govern your use of the website and all communications between you and",
-        "1": "the legal entity behind Hostixie, registered under",
-        "2": "at"
+        "0": "By using this website or submitting a service request through Hostixie, you acknowledge that you have read, understood, and agreed to the Terms and Conditions described herein.",
+        "1": "These terms govern your use of the website and all communications between you and",
+        "2": "the legal entity behind Hostixie, registered under",
+        "3": "at"
       },
       "2": "Under no circumstances shall Hostixie, its owners, employees, or agents be held responsible for any direct, indirect, incidental, consequential, or special damages, including but not limited to loss of data, loss of profits, or interruption of business, arising from the use or inability to use any content or services offered via this website. Any costs related to repair, servicing, or data restoration resulting from your use of this site remain your responsibility.",
       "3": "Usage License",

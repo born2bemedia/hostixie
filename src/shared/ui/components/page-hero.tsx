@@ -15,14 +15,14 @@ export const PageHero = ({
   additionalContent,
 }: {
   title: ReactNode;
-  subtitle: string;
+  subtitle?: string;
   text: string;
   layoutClassName?: string;
   additionalContent?: ReactNode;
 }) => (
   <section
     className={cn(
-      'relative flex h-[900px] flex-col justify-center max-[1300px]:h-[1000px] max-md:h-[900px]',
+      'relative flex h-[700px] flex-col justify-center max-[1300px]:h-[760px] max-md:h-[600px]',
       layoutClassName,
     )}
   >
@@ -39,9 +39,11 @@ export const PageHero = ({
         <div className="flex items-end justify-between max-md:gap-10">
           <LineUpIcon />
           <div className="flex w-[70%] flex-col gap-2 max-[1300px]:w-full">
-            <Title size="5xl" weight={500}>
-              {subtitle}
-            </Title>
+            {subtitle && (
+              <Title size="5xl" weight={500}>
+                {subtitle}
+              </Title>
+            )}
             <Text size="xl" weight={500} className="opacity-30">
               {text}
             </Text>
