@@ -38,7 +38,11 @@ export const WebDevelopmentCard = ({
   const onRequestPackageHandle = () => {
     registerContent({
       content: (
-        <RequestPackageForm title={title} onCancel={() => setIsOpen(false)} />
+        <RequestPackageForm
+          title={title}
+          price={price}
+          onCancel={() => setIsOpen(false)}
+        />
       ),
     });
     setIsOpen(true);

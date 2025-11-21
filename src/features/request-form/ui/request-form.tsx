@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { cn } from '@/shared/lib/utils/cn';
 import { useDialogStore } from '@/shared/ui/kit/dialog';
 
+import { sendRequestForm } from '../api/send-request-form';
 import type {
   FirstStepFormSchema,
   SecondStepFormSchema,
@@ -37,9 +38,13 @@ export const RequestForm = () => {
     setStep(2);
   };
 
-  const onSubmitSecondStep = (args: SecondStepFormSchema) => {
+  const onSubmitSecondStep = async (args: SecondStepFormSchema) => {
     setData({ ...data, ...args });
-    setStep(3);
+    const { success } = await sendRequestForm(data);
+
+    if (success) {
+      setStep(3);
+    }
   };
 
   return (

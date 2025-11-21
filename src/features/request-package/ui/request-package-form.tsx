@@ -14,13 +14,16 @@ import { TextArea } from '@/shared/ui/kit/text-area';
 import { TextField } from '@/shared/ui/kit/text-field';
 import { Title } from '@/shared/ui/kit/title';
 
+import { sendRequestPackage } from '../api/send-request-package';
 import { requestPackageSchema } from '../model/schema';
 
 export const RequestPackageForm = ({
   title,
+  price,
   onCancel,
 }: {
   title: string;
+  price: string;
   onCancel: () => void;
 }) => {
   const [isSuccess, setIsSuccess] = useState(false);
@@ -40,8 +43,15 @@ export const RequestPackageForm = ({
       onSubmit: requestPackageSchema,
     },
     onSubmit: async data => {
-      console.log(data);
-      setIsSuccess(true);
+      const { success } = await sendRequestPackage({
+        ...data.value,
+        serviceName: title,
+        price,
+      });
+
+      if (success) {
+        setIsSuccess(true);
+      }
     },
   });
 
