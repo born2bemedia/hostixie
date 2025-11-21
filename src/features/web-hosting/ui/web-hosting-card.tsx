@@ -33,7 +33,11 @@ export const WebHostingCard = ({
   const onRequestPackageHandle = () => {
     registerContent({
       content: (
-        <RequestPackageForm title={name} onCancel={() => setIsOpen(false)} />
+        <RequestPackageForm
+          title={name}
+          onCancel={() => setIsOpen(false)}
+          price={price}
+        />
       ),
     });
     setIsOpen(true);

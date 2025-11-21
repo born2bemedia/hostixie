@@ -12,3 +12,5 @@ export const requestPackageSchema = v.object({
   timeline: v.pipe(v.string(), v.minLength(1, 'Timeline is required')),
   message: v.pipe(v.string()),
 });
+
+export type RequestPackageSchema = v.InferOutput<typeof requestPackageSchema>;

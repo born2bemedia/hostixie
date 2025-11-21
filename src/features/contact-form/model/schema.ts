@@ -14,3 +14,5 @@ export const contactFormSchema = v.object({
   budget: v.pipe(v.string(), v.minLength(1, 'Budget is required')),
   timeline: v.pipe(v.string(), v.minLength(1, 'Timeline is required')),
 });
+
+export type ContactFormSchema = v.InferOutput<typeof contactFormSchema>;

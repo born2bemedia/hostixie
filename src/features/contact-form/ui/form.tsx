@@ -12,6 +12,7 @@ import { PhoneField } from '@/shared/ui/kit/phone-field';
 import { Select } from '@/shared/ui/kit/select';
 import { TextField } from '@/shared/ui/kit/text-field';
 
+import { sendContactForm } from '../api/send-contact-form';
 import { contactFormSchema } from '../model/schema';
 import { ThankYou } from './thank-you';
 
@@ -37,12 +38,15 @@ export const ContactForm = () => {
       onSubmit: contactFormSchema,
     },
     onSubmit: async data => {
-      console.log(data);
-      registerContent({
-        content: <ThankYou onClose={() => setIsOpen(false)} />,
-      });
-      reset();
-      setIsOpen(true);
+      const { success } = await sendContactForm(data.value);
+
+      if (success) {
+        registerContent({
+          content: <ThankYou onClose={() => setIsOpen(false)} />,
+        });
+        reset();
+        setIsOpen(true);
+      }
     },
   });
 
@@ -261,7 +265,7 @@ export const ContactForm = () => {
               variant="primary"
               size="lg"
               type="submit"
-              disabled={!canSubmit}
+              disabled={!canSubmit || !isCaptchaVerified}
             >
               {isSubmitting
                 ? t('submitting', { fallback: 'Submitting...' })
