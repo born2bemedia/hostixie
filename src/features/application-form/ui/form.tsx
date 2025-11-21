@@ -13,6 +13,7 @@ import { TextArea } from '@/shared/ui/kit/text-area';
 import { TextField } from '@/shared/ui/kit/text-field';
 import { Title } from '@/shared/ui/kit/title';
 
+import { sendApplicationForm } from '../api/send-application-form';
 import { applicationFormSchema } from '../model/schema';
 import { ThankYou } from './thank-you';
 
@@ -34,8 +35,16 @@ export const ApplicationForm = ({ onCancel }: { onCancel: () => void }) => {
       onSubmit: applicationFormSchema,
     },
     onSubmit: async data => {
-      console.log(data);
-      setIsSuccess(true);
+      const { success } = await sendApplicationForm({
+        ...data.value,
+        // @ts-expect-error coverLetter field is not defined in schema
+        coverLetter: data.value.coverLetter as File | undefined,
+        resume: data.value.resume as File,
+      });
+
+      if (success) {
+        setIsSuccess(true);
+      }
     },
   });
 

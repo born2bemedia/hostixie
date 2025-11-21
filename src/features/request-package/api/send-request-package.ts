@@ -22,7 +22,7 @@ export async function sendRequestPackage({
     sgMail.setApiKey(SENDGRID_API_KEY);
 
     const msg = {
-      to: 'dan.developer@born2be.media',
+      to: 'info@hostixie.com',
       from: FROM_EMAIL,
       subject: `New Request Package Submission`,
       html: `
