@@ -28,3 +28,5 @@ export const applicationFormSchema = v.object({
   ),
   message: v.pipe(v.string()),
 });
+
+export type ApplicationFormSchema = v.InferOutput<typeof applicationFormSchema>;
