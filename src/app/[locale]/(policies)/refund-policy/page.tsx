@@ -74,12 +74,12 @@ export default async function RefundPolicy() {
           id="overview"
           title={t('children.0', { fallback: 'Overview' })}
         >
-          {/* <PolicyText>
+          <PolicyText>
             {t('children.1', {
               fallback:
-                'Thank you for choosing Hostixie, a service provided by [Company Name], legally registered at [Registered Address] under company number [Registration Number]. Our team is dedicated to delivering reliable, high-quality digital services, including web development, hosting, and related solutions.',
+                'Thank you for choosing Hostixie, a service provided by Hostixa SRL, legally registered at Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania under company number J2026017647009. Our team is dedicated to delivering reliable, high-quality digital services, including web development, hosting, and related solutions.',
             })}
-          </PolicyText> */}
+          </PolicyText>
           <PolicyText>
             {t('children.2', {
               fallback: 'Please note that',

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import { Hero, StartConversation } from './components';
+import { FindUsOnMap, Hero, StartConversation } from './components';
 
 export const metadata: Metadata = {
   title: 'Contact Hostixie – Hosting & Web Development Support | Hostixie',
@@ -23,6 +23,7 @@ export default function Contact() {
   return (
     <main>
       <Hero />
+      <FindUsOnMap />
       <StartConversation />
     </main>
   );

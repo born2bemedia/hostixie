@@ -185,18 +185,18 @@ export default async function TermsAndConditions() {
             })}
             <br />
             <br />
-            {/* {t('children.1.1', {
+            {t('children.1.1', {
               fallback:
                 'These terms govern your use of the website and all communications between you and',
             })}
-            [Company Name],{' '}
+            Hostixa SRL,{' '}
             {t('children.1.2', {
               fallback: 'the legal entity behind Hostixie, registered under',
             })}
-            [Registration Number] {t('children.1.3', { fallback: 'at' })}{' '}
-            [Registered Address].
+            J2026017647009 {t('children.1.3', { fallback: 'at' })}{' '}
+            Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania.
             <br />
-            <br /> */}
+            <br /> 
             {t('children.2', {
               fallback:
                 'Under no circumstances shall Hostixie, its owners, employees, or agents be held responsible for any direct, indirect, incidental, consequential, or special damages, including but not limited to loss of data, loss of profits, or interruption of business, arising from the use or inability to use any content or services offered via this website. Any costs related to repair, servicing, or data restoration resulting from your use of this site remain your responsibility.',
@@ -208,11 +208,11 @@ export default async function TermsAndConditions() {
           title={t('children.3', { fallback: 'Usage License' })}
         >
           <PolicyText>
-            {/* {t('children.4.0', {
+            {t('children.4.0', {
               fallback:
                 'These Terms and Conditions constitute a legal agreement between you (whether as an individual or as a representative of an entity) and',
             })}{' '}
-            [Company Name]{' '}
+            Hostixa SRL{' '}
             {t('children.4.1', {
               fallback:
                 'and provider of related digital services (referred to as "the Service").',
@@ -223,7 +223,7 @@ export default async function TermsAndConditions() {
                 'and provider of related digital services (referred to as "the Service").',
             })}
             <br />
-            <br /> */}
+            <br /> 
             {t('children.4.3', {
               fallback:
                 'By using our website and services, you agree to comply with these Terms in full. If you do not agree with any part of these Terms, you should immediately discontinue use of the site. We reserve the right to suspend or terminate access to your account or restrict your use of the service at our sole discretion, without prior notice, if you are found to be in breach of any provision of these Terms.',
@@ -258,14 +258,14 @@ export default async function TermsAndConditions() {
                 fallback:
                   '“Cookies”: Small data files placed on your device by the website to enhance performance, analyze usage, and remember user preferences.',
               }),
-              // t('children.9.1', {
-              //   fallback:
-              //     '“Company”: Refers to [Company Name], the entity legally operating under the Hostixie label, located at [Registered Address].',
-              // }),
-              // t('children.9.2', {
-              //   fallback:
-              //     '“Country”: The jurisdiction under which the company is incorporated and legally operates, namely [Country Name].',
-              // }),
+            t('children.9.1', {
+              fallback:
+              '“Company”: Refers to Hostixa SRL, the entity legally operating under the Hostixie label, located at Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania.',
+              }),
+              t('children.9.2', {
+              fallback:
+              '“Country”: The jurisdiction under which the company is incorporated and legally operates, namely Romania.',
+              }),
               t('children.9.3', {
                 fallback:
                   '“Device”: Any internet-capable hardware (e.g., smartphone, tablet, desktop computer) used to access the website or services.',
@@ -655,7 +655,7 @@ export default async function TermsAndConditions() {
             })}
           </PolicyText>
         </PolicySection>
-        {/* <PolicySection
+        <PolicySection
           id="dispute-resolution-and-arbitration"
           title={t('children.57', {
             fallback: 'Dispute Resolution and Arbitration',
@@ -664,11 +664,17 @@ export default async function TermsAndConditions() {
           <PolicyText>
             {t('children.58', {
               fallback:
-                'Any disputes between you and Hostixie related to the website or services will first be attempted to be resolved informally. If no resolution is reached within 60 days, the matter shall be referred to binding arbitration in accordance with the rules of the [Arbitration Body, e.g., ICC or local authority], unless the claim involves the enforcement of intellectual property rights or injunctive relief.',
+                'Any disputes between you and Hostixie related to the website or services will first be attempted to be resolved informally. If no resolution is reached within 60 days, the matter shall be referred to binding arbitration in accordance with the rules of the Court of International Commercial Arbitration attached to the Chamber of Commerce and Industry of Romania, unless the claim involves the enforcement of intellectual property rights or injunctive relief.',
             })}
           </PolicyText>
-        </PolicySection> */}
-        {/* <PolicySection
+          <PolicyText>
+            {t('children.58.1', {
+              fallback:
+                'By agreeing to these Terms, you waive any right to litigation in court or to participate in a class-action lawsuit. Arbitration will take place in Bucharest, Romania, or as otherwise mutually agreed.',
+            })}
+          </PolicyText>
+        </PolicySection>
+        <PolicySection
           id="governing-law"
           title={t('children.59.0', {
             fallback: 'Governing Law',
@@ -677,10 +683,10 @@ export default async function TermsAndConditions() {
           <PolicyText>
             {t('children.59.1', {
               fallback:
-                'These Terms are governed by the laws of [Country], without regard to conflict of laws principles. Any legal actions or proceedings arising from or related to these Terms shall take place exclusively in the courts of [City, Country]. You agree to submit to the jurisdiction of these courts.',
+                'These Terms are governed by the laws of Romania, without regard to conflict of laws principles. Any legal actions or proceedings arising from or related to these Terms shall take place exclusively in the courts of Bucharest, Romania. You agree to submit to the jurisdiction of these courts.',
             })}
           </PolicyText>
-        </PolicySection> */}
+        </PolicySection>
         <PolicySection
           id="user-submissions-and-public-content"
           title={t('children.60.0', {

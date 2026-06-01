@@ -28,7 +28,10 @@
     "privacyPolicy": "Privacy Policy",
     "cookiePolicy": "Cookie Policy",
     "refundPolicy": "Refund Policy",
-    "allLegalRightsReserved": "All Legal Rights Reserved"
+    "allLegalRightsReserved": "All Legal Rights Reserved",
+    "register": "Registered address:",
+    "getInTouch": "Get in Touch",
+    "registerNumber": "Registered number:"
   },
   "home": {
     "hero": {
@@ -982,6 +985,16 @@
     "hero": {
       "title": "Let’s Connect",
       "text": "Hostixie provides straightforward support, teamwork, and tangible success."
+    },
+    "findUsOnMap": {
+      "title": "Find Us on the Map",
+      "address": {
+        "label": "Registered address:"
+      },
+      "email": {
+        "label": "Get in Touch"
+      },
+      "mapTitle": "Hostixie registered office location"
     },
     "startConversation": {
       "title": {

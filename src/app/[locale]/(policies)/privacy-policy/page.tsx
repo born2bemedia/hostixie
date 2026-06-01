@@ -219,33 +219,33 @@ export default async function PrivacyPolicy() {
                     'A small file stored on your browser or device, used to enhance functionality, remember preferences, or collect analytics about user behavior on our site.',
                 })}
               </span>,
-              // <span key="company">
-              //   {t('children.8.2', {
-              //     fallback: 'Company:',
-              //   })}{' '}
-              //   {t('children.8.3', { fallback: 'Refers to' })}{' '}
-              //   <span className="text-primary">[Company Name]</span>,{' '}
-              //   {t('children.8.4', {
-              //     fallback: 'a registered legal entity located at',
-              //   })}{' '}
-              //   <span className="text-primary">[Registered Address]</span>,
-              //   {t('children.8.5', {
-              //     fallback:
-              //       'which is responsible for managing and processing your data under this policy.',
-              //   })}
-              // </span>,
-              // <span key="country">
-              //   <span className="font-bold">
-              //     {t('children.8.6', {
-              //       fallback: 'Country:',
-              //     })}
-              //   </span>{' '}
-              //   {t('children.8.7', {
-              //     fallback:
-              //       'The jurisdiction where Hostixie is registered and legally operates, i.e.,',
-              //   })}
-              //   <span className="text-primary">[Country Name]</span>.
-              // </span>,
+              <span key="company">
+               {t('children.8.2', {
+                   fallback: 'Company:',
+                 })}{' '}
+                 {t('children.8.3', { fallback: 'Refers to' })}{' '}
+                <span className="text-primary">Hostixa SRL</span>,{' '}
+                {t('children.8.4', {
+                  fallback: 'a registered legal entity located at',
+                })}{' '}
+                <span className="text-primary">Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania</span>,
+                 {t('children.8.5', {
+                   fallback:
+                    'which is responsible for managing and processing your data under this policy.',
+                })}
+              </span>,
+              <span key="country">
+                <span className="font-bold">
+                  {t('children.8.6', {
+                    fallback: 'Country:',
+                  })}
+                </span>{' '}
+                {t('children.8.7', {
+                  fallback:
+                    'The jurisdiction where Hostixie is registered and legally operates, i.e.,',
+                })}
+                <span className="text-primary">Romania</span>.
+              </span>,
               <span key="customer">
                 <span className="font-bold">
                   {t('children.8.8', {
@@ -279,22 +279,22 @@ export default async function PrivacyPolicy() {
                     'A numerical identifier assigned to your device when you connect to the internet, often used to determine approximate geographic location and detect fraudulent behavior.',
                 })}
               </span>,
-              // <span key="personnel">
-              //   <span className="font-bold">
-              //     {t('children.8.14', {
-              //       fallback: 'Personnel:',
-              //     })}
-              //   </span>{' '}
-              //   {t('children.8.15', {
-              //     fallback:
-              //       'Individuals employed by or working under contract with',
-              //   })}{' '}
-              //   <span className="text-primary">[Company Name]</span>,{' '}
-              //   {t('children.8.16', {
-              //     fallback:
-              //       'who may handle or have access to your personal information in the course of delivering our services.',
-              //   })}
-              // </span>,
+              <span key="personnel">
+                <span className="font-bold">
+                  {t('children.8.14', {
+                    fallback: 'Personnel:',
+                  })}
+                </span>{' '}
+                {t('children.8.15', {
+                  fallback:
+                    'Individuals employed by or working under contract with',
+                 })}{' '}
+                 <span className="text-primary">Hostixa SRL</span>,{' '}
+                {t('children.8.16', {
+                   fallback:
+                     'who may handle or have access to your personal information in the course of delivering our services.',
+                 })}
+              </span>,
               <span key="personal-data">
                 <span className="font-bold">
                   {t('children.8.17', {
@@ -694,13 +694,13 @@ export default async function PrivacyPolicy() {
           })}
         >
           <PolicyText>
-            {/* {t('children.44', {
+            {t('children.44', {
               fallback:
-                'This Privacy Policy is governed by the laws of [Country], without reference to conflict-of-law principles. By using our website or services, you agree that any dispute related to data protection or privacy shall fall under the exclusive jurisdiction of the courts in',
+                'This Privacy Policy is governed by the laws of Romania, without reference to conflict-of-law principles. By using our website or services, you agree that any dispute related to data protection or privacy shall fall under the exclusive jurisdiction of the courts in',
             })}
-            <span className="text-primary">[City, Country]</span>.
+            <span className="text-primary">Bucharest, Romania</span>.
             <br />
-            <br /> */}
+            <br /> 
             {t('children.45', {
               fallback:
                 'Your continued use of our services signifies your acceptance of this Privacy Policy. If you disagree with our terms, you should not engage with our services or access the website. We may make updates that reflect operational, legal, or regulatory changes; by remaining on the site after changes are published, you confirm your acceptance of the revised policy.',

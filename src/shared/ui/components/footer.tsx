@@ -1,16 +1,16 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import Image from "next/image";
+import { useTranslations } from "next-intl";
 
-import { Link as NavLink } from '@/i18n/navigation';
+import { Link as NavLink } from "@/i18n/navigation";
 
-import { SocialNetworks } from '@/shared/ui/components/social-networks';
-import { Divider } from '@/shared/ui/kit/divider';
-import { Text } from '@/shared/ui/kit/text';
+import { SocialNetworks } from "@/shared/ui/components/social-networks";
+import { Divider } from "@/shared/ui/kit/divider";
+import { Text } from "@/shared/ui/kit/text";
 
 export const Footer = () => {
-  const t = useTranslations('footer');
+  const t = useTranslations("footer");
 
   return (
     <footer className="flex flex-col bg-[#FFF4E1]">
@@ -19,15 +19,15 @@ export const Footer = () => {
         <section className="flex justify-between max-md:flex-col max-md:gap-[67px]">
           <nav className="flex gap-20 max-md:grid max-md:grid-cols-2 max-md:gap-[60px]">
             <NavColumn
-              title={t('whatWeDo', { fallback: 'What We Do' })}
+              title={t("whatWeDo", { fallback: "What We Do" })}
               items={[
                 {
-                  label: t('webHosting', { fallback: 'Web Hosting' }),
-                  href: '/web-hosting',
+                  label: t("webHosting", { fallback: "Web Hosting" }),
+                  href: "/web-hosting",
                 },
                 {
-                  label: t('webDevelopment', { fallback: 'Web Development' }),
-                  href: '/web-development',
+                  label: t("webDevelopment", { fallback: "Web Development" }),
+                  href: "/web-development",
                 },
               ]}
             />
@@ -35,16 +35,16 @@ export const Footer = () => {
               title="About"
               items={[
                 {
-                  label: t('companyOverview', { fallback: 'Company Overview' }),
-                  href: '/company-overview',
+                  label: t("companyOverview", { fallback: "Company Overview" }),
+                  href: "/company-overview",
                 },
                 {
-                  label: t('careers', { fallback: 'Careers' }),
-                  href: '/careers',
+                  label: t("careers", { fallback: "Careers" }),
+                  href: "/careers",
                 },
                 {
-                  label: t('contact', { fallback: 'Contact' }),
-                  href: '/contact',
+                  label: t("contact", { fallback: "Contact" }),
+                  href: "/contact",
                 },
               ]}
             />
@@ -52,25 +52,31 @@ export const Footer = () => {
               title="Vision"
               items={[
                 {
-                  label: t('ourApproach', { fallback: 'Our Approach' }),
-                  href: '/our-approach',
+                  label: t("ourApproach", { fallback: "Our Approach" }),
+                  href: "/our-approach",
                 },
                 {
-                  label: t('clients', { fallback: 'Clients' }),
-                  href: '/clients',
+                  label: t("clients", { fallback: "Clients" }),
+                  href: "/clients",
                 },
-                { label: t('news', { fallback: 'News' }), href: '/news' },
+                { label: t("news", { fallback: "News" }), href: "/news" },
               ]}
             />
-            <NavColumn
-              title="Get in Touch"
-              items={[
-                {
-                  label: 'info@hostixie.com',
-                  href: 'mailto:info@hostixie.com',
-                },
-              ]}
-            ></NavColumn>
+            <nav className="flex flex-col gap-2">
+              <Text color="black" size="lg" weight={700}>
+                {t("getInTouch", { fallback: "Get in Touch" })}
+              </Text>
+              <Text color="sand" weight={700} className="hover:opacity-80">
+                {t("register", { fallback: "Registered address:" })} Bucharest
+                District 3, <br/>Str. Mihai Bravu Nr. 255, Basement, <br/>Module S 029, 
+                București, Romania
+              </Text>
+              <NavLink href="mailto:info@hostixie.com">
+                <Text color="sand" weight={700} className="hover:opacity-80">
+                  info@hostixie.com
+                </Text>
+              </NavLink>
+            </nav>
           </nav>
           <div className="flex flex-col items-end max-md:flex-col-reverse max-md:items-center">
             <SocialNetworks />
@@ -85,38 +91,38 @@ export const Footer = () => {
           </div>
         </section>
         <section className="flex items-center justify-between max-md:flex-col max-md:items-start max-md:gap-10">
-          <nav className="flex w-full items-center gap-8 max-md:justify-between max-md:gap-4">
+          <nav className="flex items-center gap-8 max-md:justify-between max-md:gap-4">
             <div className="flex gap-8 max-md:flex-col">
               <NavLink href="/terms-and-conditions">
                 <Text size="xs" color="sand">
-                  {t('termsAndConditions', {
-                    fallback: 'Terms and Conditions',
+                  {t("termsAndConditions", {
+                    fallback: "Terms and Conditions",
                   })}
                 </Text>
               </NavLink>
               <NavLink href="/privacy-policy">
                 <Text size="xs" color="sand">
-                  {t('privacyPolicy', { fallback: 'Privacy Policy' })}
+                  {t("privacyPolicy", { fallback: "Privacy Policy" })}
                 </Text>
               </NavLink>
             </div>
             <div className="flex gap-8 max-md:flex-col">
               <NavLink href="/cookie-policy">
                 <Text size="xs" color="sand">
-                  {t('cookiePolicy', { fallback: 'Cookie Policy' })}
+                  {t("cookiePolicy", { fallback: "Cookie Policy" })}
                 </Text>
               </NavLink>
               <NavLink href="/refund-policy">
                 <Text size="xs" color="sand">
-                  {t('refundPolicy', { fallback: 'Refund Policy' })}
+                  {t("refundPolicy", { fallback: "Refund Policy" })}
                 </Text>
               </NavLink>
             </div>
           </nav>
           <Text size="xs" color="sand">
-            © {new Date().getFullYear()} Company Name.{' '}
-            {t('allLegalRightsReserved', {
-              fallback: 'All Legal Rights Reserved',
+            © {new Date().getFullYear()} Hostixa SRL.{" "}
+            {t("allLegalRightsReserved", {
+              fallback: "All Legal Rights Reserved",
             })}
           </Text>
         </section>
@@ -154,7 +160,7 @@ const NavColumn = ({
     <Text color="black" size="lg" weight={700}>
       {title}
     </Text>
-    {items.map(item => (
+    {items.map((item) => (
       <NavLink key={item.href} href={item.href}>
         <Text color="sand" weight={700} className="hover:opacity-80">
           {item.label}
