@@ -100,7 +100,10 @@ const Card = ({
           </Text>
         </div>
         <Link href={href}>
-          <Button variant="ghost">
+          <Button
+            variant="ghost"
+            className="border-background-color h-10.5 border px-6 text-[15px] font-bold tracking-[0.16px]"
+          >
             {t('readMore', { fallback: 'Read More' })}
           </Button>
         </Link>

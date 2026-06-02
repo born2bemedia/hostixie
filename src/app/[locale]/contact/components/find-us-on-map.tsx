@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
 import { cn } from '@/shared/lib/utils/cn';
+import { SocialNetworks } from '@/shared/ui/components/social-networks';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
@@ -35,19 +36,27 @@ export const FindUsOnMap = () => {
         </div>
 
         <div className="flex items-start gap-5 max-md:flex-col">
-          <Card className="max-md:w-full">
-            <CardText
-              label={t('email.label', { fallback: 'Get in Touch' })}
-              value={
-                <Link
-                  href={`mailto:${EMAIL}`}
-                  className="transition hover:opacity-70"
-                >
-                  {EMAIL}
-                </Link>
-              }
-            />
-          </Card>
+          <div className="space-y-5">
+            <Card className="max-md:w-full">
+              <CardText
+                label={t('email.label', { fallback: 'Get in Touch' })}
+                value={
+                  <Link
+                    href={`mailto:${EMAIL}`}
+                    className="transition hover:opacity-70"
+                  >
+                    {EMAIL}
+                  </Link>
+                }
+              />
+            </Card>
+            <Card>
+              <SocialNetworks
+                className="gap-2.5"
+                linkClassName="h-15 flex items-center justify-center rounded-sm bg-black/10 grow"
+              />
+            </Card>
+          </div>
 
           <Card className="flex flex-col gap-5 max-md:w-full">
             <CardText

@@ -33,6 +33,7 @@ export default async function OurApproach() {
   return (
     <main>
       <PageHero
+        layoutClassName="h-225 max-[1300px]:h-300"
         title={
           <>
             <span className="text-[40px] leading-[48px] max-md:text-base max-md:leading-[120%]">

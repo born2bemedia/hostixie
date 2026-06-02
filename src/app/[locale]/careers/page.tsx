@@ -39,6 +39,9 @@ export default async function Careers() {
             </span>
           </>
         }
+        subtitle={t('subtitle', {
+          fallback: 'Awaken Your Website’s Potential with Hostixie',
+        })}
         text={t('text', {
           fallback:
             "At Hostixie, we believe your work should empower your life. Whether you're building platforms, writing code, supporting clients, or managing operations — your ideas shape how we grow. Join us and create something meaningful, with room to explore, build, and lead.",

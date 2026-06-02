@@ -44,10 +44,13 @@ const getReviews = () => [
 
 export const Experience = () => {
   const reviews = getReviews();
-  const [emblaRef] = useEmblaCarousel({
+  const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
     align: 'start',
   });
+
+  const scrollPrev = () => emblaApi?.scrollPrev();
+  const scrollNext = () => emblaApi?.scrollNext();
 
   return (
     <section className="relative pb-[260px]">
@@ -57,6 +60,57 @@ export const Experience = () => {
           <Title className="text-[45px] leading-[52.8px] tracking-[-0.48px] max-md:text-[24px] max-md:leading-[120%] max-md:tracking-[-0.48px]">
             Voices of Experience
           </Title>
+          <div className="flex items-center gap-10">
+            <span className="h-1 grow bg-white"></span>
+            <div className="flex shrink-0 items-center gap-2">
+              <button
+                onClick={scrollPrev}
+                className="flex h-10 w-15.5 cursor-pointer items-center justify-center rounded-lg border border-white"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="17"
+                  viewBox="0 0 17 17"
+                  fill="none"
+                >
+                  <path
+                    d="M8.48528 15.2735L2.29103 9.07929L2.29103 7.89135L8.48528 1.69709"
+                    stroke="#fff"
+                    strokeWidth="2.4"
+                  />
+                  <path
+                    d="M1.69706 8.48532H15.2735"
+                    stroke="#fff"
+                    strokeWidth="2.4"
+                  />
+                </svg>
+              </button>
+              <button
+                onClick={scrollNext}
+                className="flex h-10 w-15.5 cursor-pointer items-center justify-center rounded-lg border border-white"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="17"
+                  viewBox="0 0 17 17"
+                  fill="none"
+                >
+                  <path
+                    d="M8.48528 1.69702L14.6795 7.89128L14.6795 9.07922L8.48528 15.2735"
+                    stroke="#fff"
+                    strokeWidth="2.4"
+                  />
+                  <path
+                    d="M15.2735 8.48525H1.69706"
+                    stroke="#fff"
+                    strokeWidth="2.4"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
           <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex items-stretch gap-5">
               {reviews.map(review => (
