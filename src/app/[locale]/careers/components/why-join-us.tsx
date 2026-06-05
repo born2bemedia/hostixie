@@ -95,7 +95,7 @@ export const WhyJoinUs = () => {
           >
             {t('title', { fallback: 'Why Join Us' })}
           </Title>
-          <VerticalSlider>
+          <VerticalSlider navigation navigationStyle="dark">
             {slides.map((slide, i) => (
               <div
                 key={slide.title}

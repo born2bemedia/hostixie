@@ -60,7 +60,6 @@ export const excludedCountries = [
   'tg',
   'tt',
   'ug',
-  'ua',
   've',
   'vn',
   'ye',

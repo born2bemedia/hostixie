@@ -779,7 +779,8 @@
     "children": {
       "0": "Willkommen bei unserer Cookie-Richtlinie",
       "1": {
-        "0": "Dieses Dokument erklärt, wie [Name des Unternehmens], Registrierungsnummer [Registrierungsnummer des Unternehmens], registriert unter [vollständige registrierte Adresse], das Team hinter Hostixie, Cookies und ähnliche Tracking-Tools auf unserer Website hostixie.com verwendet. Diese kleinen Datenhelfer ermöglichen es uns, Sie zu erkennen, Ihre Erfahrung zu verbessern und die Website reibungslos zu betreiben. Wenn Sie unsere Website weiter nutzen, stimmen Sie den hier beschriebenen Cookie-Praktiken zu.",
+        "0": "Dieses Dokument erklärt, wie Hostixa SRL, Registrierungsnummer J2026017647009, registriert unter Bukarest Bezirk 3, Str. Mihai Bravu Nr. 255, Keller, Modul S 029, București, Rumänien, das Team hinter Hostixie, Cookies und ähnliche Tracking-Tools auf unserer Website,",
+        "01": "Diese kleinen Datenhelfer ermöglichen es uns, Sie zu erkennen, Ihre Erfahrung zu verbessern und die Website reibungslos zu betreiben. Wenn Sie unsere Website weiter nutzen, stimmen Sie den hier beschriebenen Cookie-Praktiken zu.",
         "1": "Wir glauben an Transparenz, also lassen Sie es uns klar aufschlüsseln."
       },
       "2": "Was sind eigentlich Cookies?",
@@ -788,7 +789,7 @@
         "0": "Unverzichtbare Cookies ",
         "1": "Dies sind die unverzichtbaren Elemente. Sie steuern die Kernfunktionen unserer Website, wie Sicherheit, Formularübermittlung und Login-Zugang. Ohne sie würden Teile der Website einfach nicht funktionieren.",
         "2": "Funktionale Cookies",
-        "3": "Diese merken sich Ihre Entscheidungen, wie z. B. Sprach- oder Anzeigeeinstellungen, so dass Sie sie nicht bei jedem Besuch neu einstellen müssen.",
+        "3": "Diese merken sich Ihre Entscheidungen, wie z. B. Sprach — oder Anzeigeeinstellungen, so dass Sie sie nicht bei jedem Besuch neu einstellen müssen.",
         "4": "Analyse-Cookies",
         "5": "Diese helfen uns zu verstehen, wie Besucher unsere Website nutzen. Wir sammeln anonyme Daten wie Seitenbesuche und Klicks, die uns helfen, die Navigation, die Geschwindigkeit und die Relevanz der Inhalte zu verbessern.",
         "6": "Werbung Cookies",
@@ -1359,7 +1360,7 @@
       "41": "Offenlegung von Informationen an verbundene Unternehmen",
       "42": "Wir können Ihre persönlichen Informationen mit unseren angeschlossenen Unternehmen teilen. Für die Zwecke dieser Datenschutzrichtlinie bezieht sich der Begriff \"verbundene Unternehmen\" auf jede Einheit, die direkt oder indirekt im Besitz von Hostixie ist, die Hostixie gehört oder die mit Hostixie unter gemeinsamer Kontrolle steht. Alle angeschlossenen Unternehmen werden Ihre Informationen in Übereinstimmung mit den in dieser Datenschutzrichtlinie dargelegten Standards behandeln.",
       "43": "Rechtskonformität und Zuständigkeit",
-      "44": "Diese Datenschutzrichtlinie unterliegt den Gesetzen von [Land], ohne Bezugnahme auf kollisionsrechtliche Grundsätze. Durch die Nutzung unserer Website oder unserer Dienste erklären Sie sich damit einverstanden, dass alle Streitigkeiten im Zusammenhang mit dem Datenschutz oder dem Schutz der Privatsphäre in die ausschließliche Zuständigkeit der Gerichte in [Land] fallen.",
+      "44": "Diese Datenschutzrichtlinie unterliegt den Gesetzen von Rumänien, ohne Bezugnahme auf kollisionsrechtliche Grundsätze. Durch die Nutzung unserer Website oder unserer Dienste erklären Sie sich damit einverstanden, dass alle Streitigkeiten im Zusammenhang mit dem Datenschutz oder dem Schutz der Privatsphäre in die ausschließliche Zuständigkeit der Gerichte in [Land] fallen.",
       "45": "Wenn Sie unsere Dienste weiterhin nutzen, bedeutet dies, dass Sie diese Datenschutzbestimmungen akzeptieren. Wenn Sie mit unseren Bedingungen nicht einverstanden sind, sollten Sie unsere Dienste nicht in Anspruch nehmen oder die Website nicht aufrufen. Wir können Aktualisierungen vornehmen, die betriebliche, rechtliche oder behördliche Änderungen widerspiegeln. Indem Sie auf der Website bleiben, nachdem die Änderungen veröffentlicht wurden, bestätigen Sie, dass Sie die überarbeitete Richtlinie akzeptieren.",
       "46": "Zustimmung zu Datenpraktiken",
       "47": "Diese Datenschutzrichtlinie wurde aktualisiert, um vollständige Transparenz darüber zu bieten, wie wir Ihre personenbezogenen Daten erfassen und verarbeiten. Durch die Nutzung unserer Website, die Übermittlung von Informationen oder die Inanspruchnahme unserer Dienste erklären Sie sich mit unseren Datenpraktiken einverstanden und akzeptieren die in diesem Dokument dargelegten Bedingungen.",
@@ -1427,7 +1428,7 @@
   "refundPolicy": {
     "children": {
       "0": "Übersicht",
-      "1": "Vielen Dank, dass Sie sich für Hostixie entschieden haben, eine Dienstleistung, die von [Name des Unternehmens] angeboten wird, das rechtlich an [Registrierte Adresse] unter der Unternehmensnummer [Registrierungsnummer] registriert ist. Unser Team widmet sich der Bereitstellung von zuverlässigen, qualitativ hochwertigen digitalen Dienstleistungen, einschließlich Webentwicklung, Hosting und damit verbundenen Lösungen.",
+      "1": "Vielen Dank, dass Sie sich für Hostixie entschieden haben, eine Dienstleistung, die von Hostixa SRL angeboten wird, das rechtlich an Bukarest Bezirk 3, Str. Mihai Bravu Nr. 255, Keller, Modul S 029, București, Rumänien, unter der Unternehmensnummer J2026017647009 registriert ist. Unser Team widmet sich der Bereitstellung von zuverlässigen, qualitativ hochwertigen digitalen Dienstleistungen, einschließlich Webentwicklung, Hosting und damit verbundenen Lösungen.",
       "2": "Bitte beachten Sie, dass",
       "3": "alle über unsere Website abgeschlossenen Transaktionen gelten als endgültig und können nicht zurückerstattet werden",
       "4": "Diese Politik gilt für alle Dienstleistungen und digitalen Produkte, unabhängig davon, ob sie genutzt, aktiviert, aufgerufen oder geliefert wurden. Sobald die Zahlung erfolgreich bearbeitet und bestätigt wurde, wird der gezahlte Betrag nicht mehr rückgängig gemacht.",
@@ -1563,9 +1564,10 @@
     "children": {
       "0": "Allgemeiner Überblick",
       "1": {
-        "0": "Indem Sie diese Website nutzen oder eine Serviceanfrage über Hostixie stellen, bestätigen Sie, dass Sie die hier beschriebenen Allgemeinen Geschäftsbedingungen gelesen und verstanden haben und ihnen zustimmen. Diese Bedingungen regeln Ihre Nutzung der Website und die gesamte Kommunikation zwischen Ihnen und",
-        "1": "die juristische Person hinter Hostixie, eingetragen unter",
-        "2": "unter"
+        "0": "Indem Sie diese Website nutzen oder eine Serviceanfrage über Hostixie stellen, bestätigen Sie, dass Sie die hier beschriebenen Allgemeinen Geschäftsbedingungen gelesen und verstanden haben und ihnen zustimmen.",
+        "1": "Diese Bedingungen regeln Ihre Nutzung der Website und die gesamte Kommunikation zwischen Ihnen und",
+        "2": "die juristische Person hinter Hostixie, eingetragen unter",
+        "3": "in"
       },
       "2": "Hostixie, seine Eigentümer, Angestellten oder Vertreter können unter keinen Umständen für direkte, indirekte, zufällige oder besondere Schäden verantwortlich gemacht werden, einschließlich, aber nicht beschränkt auf Datenverluste, Gewinneinbußen oder Geschäftsunterbrechungen, die sich aus der Nutzung oder der Unmöglichkeit der Nutzung von Inhalten oder Dienstleistungen ergeben, die über diese Website angeboten werden. Für alle Kosten im Zusammenhang mit Reparaturen, Wartung oder Datenwiederherstellung, die sich aus der Nutzung dieser Website ergeben, sind Sie selbst verantwortlich.",
       "3": "Nutzungslizenz",
@@ -1580,14 +1582,22 @@
       "7": "Wichtige Definitionen",
       "8": "Der Klarheit halber werden die in dieser Vereinbarung verwendeten Begriffe wie folgt definiert:",
       "9": {
-        "0": "\"Cookies\": Kleine Datendateien, die von der Website auf Ihrem Gerät abgelegt werden, um die Leistung zu verbessern, die Nutzung zu analysieren und die Präferenzen der Benutzer zu speichern.",
-        "1": "\"Unternehmen\": Bezieht sich auf [Name des Unternehmens], die juristische Person, die rechtlich unter dem Namen Hostixie tätig ist, mit Sitz in [eingetragene Anschrift].",
-        "2": "\"Land\": Die Rechtsordnung, in der das Unternehmen gegründet wurde und rechtlich tätig ist, nämlich [Name des Landes].",
-        "3": "\"Gerät\": Jede internetfähige Hardware (z. B. Smartphone, Tablet, Desktop-Computer), die für den Zugriff auf die Website oder Dienste verwendet wird.",
-        "4": "\"Dienstleistung\": Alle digitalen Dienstleistungen und Lösungen, die über die Hostixie-Plattform angeboten werden, einschließlich aber nicht beschränkt auf Webhosting und Webentwicklung.",
-        "5": "\"Dienste Dritter\": Externe Parteien, wie z. B. Werbetreibende, Dienstleistungsanbieter oder Marketingpartner, deren Inhalte, Angebote oder Funktionen auf unserer Website erscheinen oder mit ihr verlinkt sind.",
-        "6": "\"Website\": Bezieht sich auf die offizielle Online-Präsenz von Hostixie, die über hostixie.com zugänglich ist.",
-        "7": "\"Sie\" / \"Nutzer\": Die natürliche oder juristische Person, die auf die über die Hostixie-Website angebotenen Dienste zugreift oder sich für deren Nutzung registriert."
+        "01": "„Cookies“:",
+        "0": "Kleine Datendateien, die von der Website auf Ihrem Gerät abgelegt werden, um die Leistung zu verbessern, die Nutzung zu analysieren und die Präferenzen der Benutzer zu speichern.",
+        "11": "„Unternehmen“:",
+        "1": "Bezieht sich auf Hostixa SRL, die juristische Person, die rechtlich unter dem Namen Hostixie tätig ist, mit Sitz in Bukarest, Bezirk 3, Str. Mihai Bravu Nr. 255, Keller, Modul S 029, București, Rumänien.",
+        "21": "„Land“:",
+        "2": "Die Rechtsordnung, in der das Unternehmen gegründet wurde und rechtlich tätig ist, nämlich Rumänien.",
+        "31": "„Gerät“:",
+        "3": "Jede internetfähige Hardware (z. B. Smartphone, Tablet, Desktop-Computer), die für den Zugriff auf die Website oder Dienste verwendet wird.",
+        "41": "„Dienstleistung“:",
+        "4": "Alle digitalen Dienstleistungen und Lösungen, die über die Hostixie-Plattform angeboten werden, einschließlich, aber nicht beschränkt auf Webhosting und Webentwicklung.",
+        "51": "„Dienste Dritter“:",
+        "5": "Externe Parteien, wie z. B. Werbetreibende, Dienstleistungsanbieter oder Marketingpartner, deren Inhalte, Angebote oder Funktionen auf unserer Website erscheinen oder mit ihr verlinkt sind.",
+        "61": "„Website“:",
+        "6": "Bezieht sich auf die offizielle Online-Präsenz von Hostixie, die über hostixie.com zugänglich ist.",
+        "71": "„Sie“ / „Nutzer“:",
+        "7": "Die natürliche oder juristische Person, die auf die über die Hostixie-Website angebotenen Dienste zugreift oder sich für deren Nutzung registriert."
       },
       "10": "Verbotene Aktivitäten",
       "11": "Durch die Nutzung der Hostixie-Website oder ihrer Dienste erklären Sie sich damit einverstanden, keine der folgenden Handlungen vorzunehmen:",
@@ -1620,7 +1630,8 @@
       "28": "Bitte beachten Sie, dass diese Bedingungen ausschließlich für die von Hostixie auf unserer Plattform angebotenen Dienstleistungen gelten. Wir können Links zu Webseiten Dritter einfügen, die unabhängig von uns arbeiten. Wir kontrollieren, überwachen oder befürworten den Inhalt oder die Praktiken dieser externen Websites nicht. Sobald Sie unsere Website verlassen, unterliegt jede Aktivität den eigenen Richtlinien der verlinkten Website, die wir empfehlen, separat zu überprüfen.",
       "29": "Cookies und Tracking-Technologien",
       "30": "Unsere Website verwendet Cookies, um Benutzereinstellungen zu speichern, die Nutzung der Website zu analysieren und die Leistung zu verbessern. Cookies sind kleine Datendateien, die in Ihrem Browser gespeichert werden. Sie sind zwar nicht unbedingt erforderlich, um auf der Website zu navigieren, aber die Deaktivierung von Cookies kann die Funktionalität beeinträchtigen (z. B. Anmeldesitzungen oder Videowiedergabe).",
-      "31": "Wir verwenden keine Cookies, um persönlich identifizierbare Informationen zu sammeln. Ausführliche Informationen finden Sie in unserer Cookie-Richtlinie.",
+      "31": "Wir verwenden keine Cookies, um persönlich identifizierbare Informationen zu sammeln. Ausführliche Informationen finden Sie in unserer",
+      "31-Link": "Cookie-Richtlinie.",
       "32": "Copyright-Belange",
       "33": "Wenn Sie der Meinung sind, dass Material auf unserer Website Ihr Urheberrecht verletzt, kontaktieren Sie uns bitte mit den folgenden Informationen:",
       "34": {
@@ -1676,9 +1687,18 @@
         "1": "Es ist nicht gestattet, Inhalte ohne ausdrückliche schriftliche Genehmigung zu kopieren, zu vervielfältigen, zu verändern, zu übertragen oder zu nutzen, es sei denn, in diesen Bedingungen ist ausdrücklich etwas anderes angegeben."
       },
       "57": "Streitbeilegung und Schiedsgerichtsbarkeit",
-      "58": "Jegliche Streitigkeiten zwischen Ihnen und Hostixie im Zusammenhang mit der Website oder den Dienstleistungen werden zunächst versucht, informell gelöst zu werden. Wenn innerhalb von 60 Tagen keine Lösung erreicht wird, wird die Angelegenheit an ein verbindliches Schiedsverfahren gemäß den Regeln der [Schiedsstelle, z.B. ICC oder lokale Behörde] verwiesen, es sei denn, der Anspruch betrifft die Durchsetzung von Rechten des geistigen Eigentums oder Unterlassungsansprüche.",
-      "59": "Geltendes Recht",
-      "60": "Diese Bedingungen unterliegen den Gesetzen von [Land], ungeachtet der Grundsätze des Kollisionsrechts. Alle Klagen oder Verfahren, die sich aus diesen Bedingungen ergeben oder mit ihnen in Zusammenhang stehen, werden ausschließlich vor den Gerichten von [Stadt, Land] verhandelt. Sie erklären sich damit einverstanden, sich der Gerichtsbarkeit dieser Gerichte zu unterwerfen.",
+      "58": {
+        "0": "Alle Streitigkeiten zwischen Ihnen und Hostixie im Zusammenhang mit der Website oder den Dienstleistungen werden zunächst außergerichtlich beigelegt. Sollte innerhalb von 60 Tagen keine Einigung erzielt werden, wird die Angelegenheit einem verbindlichen Schiedsverfahren gemäß der Schiedsordnung des Internationalen Schiedsgerichtshofs der Rumänischen Industrie- und Handelskammer unterworfen, es sei denn, es geht um die Durchsetzung von Rechten des geistigen Eigentums oder um Unterlassungsansprüche.",
+        "1": "Mit der Zustimmung zu diesen Bedingungen verzichten Sie auf Ihr Recht, vor Gericht zu klagen oder an einer Sammelklage teilzunehmen. Das Schiedsverfahren findet in Bukarest, Rumänien, oder nach anderweitiger einvernehmlicher Vereinbarung statt."
+      },
+      "59": {
+        "0": "Geltendes Recht",
+        "1": "Diese Bedingungen unterliegen den Gesetzen Rumäniens, ungeachtet der Grundsätze des Kollisionsrechts. Alle Klagen oder Verfahren, die sich aus diesen Bedingungen ergeben oder mit ihnen in Zusammenhang stehen, werden ausschließlich vor den Gerichten in Bukarest, Rumänien, verhandelt. Sie erklären sich damit einverstanden, sich der Gerichtsbarkeit dieser Gerichte zu unterwerfen."
+      },
+      "60": {
+        "0": "Benutzereinsendungen und öffentliche Inhalte",
+        "1": "Alle Inhalte, die Sie uns übermitteln, einschließlich Ideen, Vorschläge, Kunstwerke oder Feedback, werden als nicht vertraulich behandelt und können von Hostixie für jeden Zweck ohne Vergütung oder Nennung verwendet werden. Sie gewähren uns das vollständige Recht, solche Inhalte dauerhaft zu nutzen und zu kommerzialisieren."
+      },
       "61": "Werbekampagnen",
       "62": "Von Zeit zu Zeit können wir Wettbewerbe, Werbegeschenke oder Werbeaktionen anbieten. Diese können zusätzlichen Regeln und Teilnahmebedingungen unterliegen (z. B. Alter oder Standort). Durch Ihre Teilnahme erklären Sie sich mit allen geltenden aktionsspezifischen Bedingungen einverstanden.",
       "63": "Irrtümer und Auslassungen",
@@ -2153,7 +2173,8 @@
         }
       },
       "text": "Wir glauben an Transparenz, Zusammenarbeit und Exzellenz. Unser Ansatz ist sorgfältig ausgearbeitet, um sicherzustellen, dass jede von uns entwickelte Website Ihre Bedürfnisse erfüllt, Ihre Erwartungen übertrifft und messbaren Erfolg bringt.",
-      "title": "Unser bewährter Weg zum digitalen Erfolg"
+      "title": "Unser bewährter Weg zum digitalen Erfolg",
+      "link": "Entdecken Sie unseren Ansatz"
     },
     "webPackages": {
       "items": {
@@ -2286,7 +2307,7 @@
         "2": {
           "description": "Die beste Wahl für Hochleistungsstandorte, die ein Höchstmaß an Skalierbarkeit und Ressourcen benötigen.",
           "includes": {
-            "0": "200 GB SSD-Speicher",
+            "0": "150 GB SSD-Speicher",
             "1": "8 GB RAM",
             "2": "Ungemessene Bandbreite",
             "3": "Kostenloses SSL",
@@ -2452,27 +2473,27 @@
           "name": "Basic WP Plan"
         },
         "1": {
-          "description": "Für etablierte WordPress-Websites, die erweiterte Leistung, Sicherheit und Ressourcen benötigen.",
+          "description": "Für wachsende WordPress-Websites mit höherem Traffic, die erweiterte Ressourcen und verbesserte Leistung bieten.",
+          "includes": {
+            "0": "3 Webseiten",
+            "1": "40 GB SSD-Speicher",
+            "2": "Kostenloses SSL",
+            "3": "Kostenloses CDN",
+            "4": "Kostenlose Domain 1. Jahr"
+          },
+          "name": "Advanced WP Plan"
+        },
+        "2": {
+          "description": "Für etablierte WordPress-Websites, die fortgeschrittene Leistung, Sicherheit und Ressourcen benötigen.",
           "includes": {
             "0": "5 Webseiten",
             "1": "80 GB SSD-Speicher",
             "2": "Kostenloses SSL",
             "3": "Kostenloses CDN",
-            "4": "Kostenlose Domain 1. Jahr"
-          },
-          "name": "Erweiterter WP-Plan"
-        },
-        "2": {
-          "description": "Für große WordPress-Websites, die ein Höchstmaß an Leistung, Sicherheit und Ressourcen benötigen.",
-          "includes": {
-            "0": "10 Webseiten",
-            "1": "120 GB SSD-Speicher",
-            "2": "Kostenloses SSL",
-            "3": "Kostenloses CDN",
             "4": "Kostenlose Domain 1. Jahr",
             "5": "Tägliche Backups"
           },
-          "name": "WP-Plan für Unternehmen"
+          "name": "Pro WP Plan"
         }
       },
       "title": "Verwaltetes WordPress-Hosting"

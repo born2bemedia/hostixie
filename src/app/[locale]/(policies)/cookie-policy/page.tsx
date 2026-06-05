@@ -40,11 +40,11 @@ export default async function CookiePolicy() {
         sticky
         navigation={[
           {
-           label: t('navigation.0', {
+            label: t('navigation.0', {
               fallback: 'Welcome to Our Cookie Policy',
             }),
-           href: '#welcome-to-our-cookie-policy',
-           },
+            href: '#welcome-to-our-cookie-policy',
+          },
           {
             label: t('navigation.1', { fallback: 'What Are Cookies, Anyway?' }),
             href: '#what-are-cookies-anyway',
@@ -92,7 +92,14 @@ export default async function CookiePolicy() {
           <PolicyText>
             {t('children.1.0', {
               fallback:
-                'This document explains how Hostixa SRL, registration number J2026017647009, registered at Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania, the team behind Hostixie, uses cookies and similar tracking tools across our website, hostixie.com. These little data helpers allow us to recognize you, improve your experience, and keep the website running smoothly. By continuing to use our site, you agree to the cookie practices described here.',
+                'This document explains how Hostixa SRL, registration number J2026017647009, registered at Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania, the team behind Hostixie, uses cookies and similar tracking tools across our website,',
+            })}{' '}
+            <Link href={'/'} className="text-primary">
+              hostixie.com.
+            </Link>{' '}
+            {t('children.1.01', {
+              fallback:
+                'These little data helpers allow us to recognize you, improve your experience, and keep the website running smoothly. By continuing to use our site, you agree to the cookie practices described here.',
             })}
             <br />
             <br />
@@ -113,7 +120,7 @@ export default async function CookiePolicy() {
             })}
           </PolicyText>
           <PolicyText>
-            <span className="font-bold">
+            <span className="mb-2.5 inline-block font-bold">
               {t('children.4.0', { fallback: 'Essential Cookies' })}{' '}
             </span>
             <br />
@@ -123,17 +130,17 @@ export default async function CookiePolicy() {
             })}
           </PolicyText>
           <PolicyText>
-            <span className="font-bold">
+            <span className="mb-2.5 inline-block font-bold">
               {t('children.4.2', { fallback: 'Functional Cookies' })}
             </span>{' '}
             <br />
             {t('children.4.3', {
               fallback:
-                'These remember your choices, like language settings or display preferences—so you don’t have to keep resetting them every time you visit.',
+                'These remember your choices, like language settings or display preferences — so you don’t have to keep resetting them every time you visit.',
             })}
           </PolicyText>
           <PolicyText>
-            <span className="font-bold">
+            <span className="mb-2.5 inline-block font-bold">
               {t('children.4.4', { fallback: 'Analytics Cookies' })}
             </span>
             <br />{' '}
@@ -143,7 +150,7 @@ export default async function CookiePolicy() {
             })}
           </PolicyText>
           <PolicyText>
-            <span className="font-bold">
+            <span className="mb-2.5 inline-block font-bold">
               {t('children.4.6', { fallback: 'Advertising Cookies' })}
             </span>{' '}
             <br />{' '}
@@ -153,7 +160,7 @@ export default async function CookiePolicy() {
             })}
           </PolicyText>
           <PolicyText>
-            <span className="font-bold">
+            <span className="mb-2.5 inline-block font-bold">
               {t('children.4.8', { fallback: 'Social Media Cookies' })}
             </span>{' '}
             <br />{' '}
@@ -163,7 +170,7 @@ export default async function CookiePolicy() {
             })}
           </PolicyText>
           <PolicyText>
-            <span className="font-bold">
+            <span className="mb-2.5 inline-block font-bold">
               {t('children.4.10', { fallback: 'Session Cookies' })}
             </span>{' '}
             <br />{' '}
@@ -173,7 +180,7 @@ export default async function CookiePolicy() {
             })}
           </PolicyText>
           <PolicyText>
-            <span className="font-bold">
+            <span className="mb-2.5 inline-block font-bold">
               {t('children.4.12', { fallback: 'Persistent Cookies' })}
             </span>{' '}
             <br />{' '}
@@ -183,7 +190,7 @@ export default async function CookiePolicy() {
             })}
           </PolicyText>
           <PolicyText>
-            <span className="font-bold">
+            <span className="mb-2.5 inline-block font-bold">
               {t('children.5.0', { fallback: 'Note:' })}
             </span>{' '}
             {t('children.5.1', {
@@ -410,19 +417,18 @@ export default async function CookiePolicy() {
                 {t('children.25.0', {
                   fallback: 'Email:',
                 })}{' '}
-                <span className="font-bold">info@hostixie.com</span>
+                <a
+                  href={'mailto:info@hostixie.com'}
+                  className="text-primary font-bold"
+                >
+                  info@hostixie.com
+                </a>
               </span>,
-              // <span key="phone">
-              //   {t('children.25.1', {
-              //     fallback: 'Phone:',
-              //   })}{' '}
-              //   <span className="font-bold">[Insert Phone Number]</span>
-              // </span>,
               <span key="contact-page">
                 {t('children.25.2', {
                   fallback: 'Contact Page:',
                 })}{' '}
-                <Link href="/contact" className="font-bold">
+                <Link href="/contact" className="text-primary font-bold">
                   https://hostixie.com/contact
                 </Link>
               </span>,

@@ -188,15 +188,16 @@ export default async function TermsAndConditions() {
             {t('children.1.1', {
               fallback:
                 'These terms govern your use of the website and all communications between you and',
-            })}
+            })}{' '}
             Hostixa SRL,{' '}
             {t('children.1.2', {
               fallback: 'the legal entity behind Hostixie, registered under',
             })}
-            J2026017647009 {t('children.1.3', { fallback: 'at' })}{' '}
-            Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania.
+            J2026017647009 {t('children.1.3', { fallback: 'at' })} Bucharest
+            District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029,
+            București, Romania.
             <br />
-            <br /> 
+            <br />
             {t('children.2', {
               fallback:
                 'Under no circumstances shall Hostixie, its owners, employees, or agents be held responsible for any direct, indirect, incidental, consequential, or special damages, including but not limited to loss of data, loss of profits, or interruption of business, arising from the use or inability to use any content or services offered via this website. Any costs related to repair, servicing, or data restoration resulting from your use of this site remain your responsibility.',
@@ -217,13 +218,15 @@ export default async function TermsAndConditions() {
               fallback:
                 'and provider of related digital services (referred to as "the Service").',
             })}{' '}
-            <span className="text-primary font-bold">hostixie.com</span>{' '}
+            <Link href={'/'} className="text-primary font-bold">
+              hostixie.com
+            </Link>{' '}
             {t('children.4.2', {
               fallback:
                 'and provider of related digital services (referred to as "the Service").',
             })}
             <br />
-            <br /> 
+            <br />
             {t('children.4.3', {
               fallback:
                 'By using our website and services, you agree to comply with these Terms in full. If you do not agree with any part of these Terms, you should immediately discontinue use of the site. We reserve the right to suspend or terminate access to your account or restrict your use of the service at our sole discretion, without prior notice, if you are found to be in breach of any provision of these Terms.',
@@ -254,38 +257,94 @@ export default async function TermsAndConditions() {
           <List
             textClassName="opacity-80"
             values={[
-              t('children.9.0', {
-                fallback:
-                  '“Cookies”: Small data files placed on your device by the website to enhance performance, analyze usage, and remember user preferences.',
-              }),
-            t('children.9.1', {
-              fallback:
-              '“Company”: Refers to Hostixa SRL, the entity legally operating under the Hostixie label, located at Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania.',
-              }),
-              t('children.9.2', {
-              fallback:
-              '“Country”: The jurisdiction under which the company is incorporated and legally operates, namely Romania.',
-              }),
-              t('children.9.3', {
-                fallback:
-                  '“Device”: Any internet-capable hardware (e.g., smartphone, tablet, desktop computer) used to access the website or services.',
-              }),
-              t('children.9.4', {
-                fallback:
-                  '“Service”: All digital services and solutions offered through the Hostixie platform, including but not limited to web hosting and web development.',
-              }),
-              t('children.9.5', {
-                fallback:
-                  '“Third-Party Services”: Any external parties, such as advertisers, service providers, or marketing affiliates, whose content, offers, or functionality may be featured on or linked from our website.',
-              }),
-              t('children.9.6', {
-                fallback:
-                  '“Website”: Refers to the official online presence of Hostixie, accessible via hostixie.com.',
-              }),
-              t('children.9.7', {
-                fallback:
-                  '“You” / “User”: The individual or legal entity accessing or registering to use the services offered via the Hostixie website.',
-              }),
+              <span key="cookies">
+                <strong>
+                  {t('children.9.01', {
+                    fallback: '“Cookies”:',
+                  })}
+                </strong>{' '}
+                {t('children.9.0', {
+                  fallback:
+                    'Small data files placed on your device by the website to enhance performance, analyze usage, and remember user preferences.',
+                })}
+              </span>,
+              <span key="company">
+                <strong>
+                  {t('children.9.11', {
+                    fallback: '“Company”:',
+                  })}
+                </strong>{' '}
+                {t('children.9.1', {
+                  fallback:
+                    'Refers to Hostixa SRL, the entity legally operating under the Hostixie label, located at Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania.',
+                })}
+              </span>,
+              <span key="country">
+                <strong>
+                  {t('children.9.21', {
+                    fallback: '“Country”:',
+                  })}
+                </strong>{' '}
+                {t('children.9.2', {
+                  fallback:
+                    'The jurisdiction under which the company is incorporated and legally operates, namely Romania.',
+                })}
+              </span>,
+              <span key="device">
+                <strong>
+                  {t('children.9.31', {
+                    fallback: '“Device”:',
+                  })}
+                </strong>{' '}
+                {t('children.9.3', {
+                  fallback:
+                    'Any internet-capable hardware (e.g., smartphone, tablet, desktop computer) used to access the website or services.',
+                })}
+              </span>,
+              <span key="service">
+                <strong>
+                  {t('children.9.41', {
+                    fallback: '“Service”:',
+                  })}
+                </strong>{' '}
+                {t('children.9.4', {
+                  fallback:
+                    'All digital services and solutions offered through the Hostixie platform, including but not limited to web hosting and web development.',
+                })}
+              </span>,
+              <span key="third-party-services">
+                <strong>
+                  {t('children.9.51', {
+                    fallback: '“Third-Party Services”:',
+                  })}
+                </strong>{' '}
+                {t('children.9.5', {
+                  fallback:
+                    'Any external parties, such as advertisers, service providers, or marketing affiliates, whose content, offers, or functionality may be featured on or linked from our website.',
+                })}
+              </span>,
+              <span key="website">
+                <strong>
+                  {t('children.9.61', {
+                    fallback: '“Website”:',
+                  })}
+                </strong>{' '}
+                {t('children.9.6', {
+                  fallback:
+                    'Refers to the official online presence of Hostixie, accessible via hostixie.com.',
+                })}
+              </span>,
+              <span key="user">
+                <strong>
+                  {t('children.9.71', {
+                    fallback: '“You” / “User”:',
+                  })}
+                </strong>{' '}
+                {t('children.9.7', {
+                  fallback:
+                    'The individual or legal entity accessing or registering to use the services offered via the Hostixie website.',
+                })}
+              </span>,
             ]}
           />
         </PolicySection>
@@ -440,8 +499,13 @@ export default async function TermsAndConditions() {
           <PolicyText>
             {t('children.31', {
               fallback:
-                'We do not use cookies to collect personally identifiable information. For full details, please consult our Cookie Policy.',
-            })}
+                'We do not use cookies to collect personally identifiable information. For full details, please consult our',
+            })}{' '}
+            <Link href={'/cookie-policy'} className="text-primary text-bold">
+              {t('children.31-Link', {
+                fallback: 'Cookie Policy.',
+              })}
+            </Link>
           </PolicyText>
         </PolicySection>
         <PolicySection
@@ -662,7 +726,7 @@ export default async function TermsAndConditions() {
           })}
         >
           <PolicyText>
-            {t('children.58', {
+            {t('children.58.0', {
               fallback:
                 'Any disputes between you and Hostixie related to the website or services will first be attempted to be resolved informally. If no resolution is reached within 60 days, the matter shall be referred to binding arbitration in accordance with the rules of the Court of International Commercial Arbitration attached to the Chamber of Commerce and Industry of Romania, unless the claim involves the enforcement of intellectual property rights or injunctive relief.',
             })}
@@ -758,15 +822,16 @@ export default async function TermsAndConditions() {
             values={[
               <span key="email">
                 {t('children.69', { fallback: 'Email' })}:{' '}
-                <span className="font-bold">info@hostixie.com</span>
+                <a
+                  href={'mailto: info@hostixie.com'}
+                  className="text-primary font-bold"
+                >
+                  info@hostixie.com
+                </a>
               </span>,
-              // <span key="phone">
-              //   {t('children.70', { fallback: 'Phone' })}:{' '}
-              //   <span className="font-bold">[Insert Phone Number]</span>
-              // </span>,
               <span key="contact-page">
                 {t('children.71', { fallback: 'Contact Page' })}:{' '}
-                <Link href="/contact" className="font-bold">
+                <Link href="/contact" className="text-primary font-bold">
                   https://hostixie.com/contact
                 </Link>
               </span>,

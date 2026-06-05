@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 
 import { Heading } from '@/shared/ui/components/heading';
+import { LargeActionBtn } from '@/shared/ui/components/large-action-btn';
 import { Text } from '@/shared/ui/kit/text';
 
 const getCards = (t: ReturnType<typeof useTranslations>) => [
@@ -72,6 +73,14 @@ export const OurPath = () => {
           <Card key={card.title} index={i} {...card} />
         ))}
       </section>
+
+      <div className="rounded-xl border border-[#A4A189] p-4">
+        <LargeActionBtn href={'/our-approach'}>
+          {t('link', {
+            fallback: 'Discover Our Approach',
+          })}
+        </LargeActionBtn>
+      </div>
     </section>
   );
 };

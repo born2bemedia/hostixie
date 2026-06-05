@@ -28,10 +28,10 @@ export const ClientsOften = () => {
             className="max-md:text-[40px] max-md:leading-[130%] max-md:tracking-[1.12px]"
             uppercase
           >
-            Clients often <br /> choose to bundle:
+            Add-On Services Most Popular with Customers
           </Title>
           <Text size="xl" className="opacity-30">
-            Add-On Services Most Popular with Customers
+            Clients often choose to bundle:
           </Text>
         </section>
         <section className="flex gap-5 max-md:flex-col">

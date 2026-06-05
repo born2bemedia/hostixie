@@ -35,8 +35,8 @@ export const FindUsOnMap = () => {
           </Title>
         </div>
 
-        <div className="flex items-start gap-5 max-md:flex-col">
-          <div className="space-y-5">
+        <div className="flex gap-5 max-md:flex-col">
+          <div className="flex w-full max-w-106 flex-col space-y-5">
             <Card className="max-md:w-full">
               <CardText
                 label={t('email.label', { fallback: 'Get in Touch' })}
@@ -50,7 +50,19 @@ export const FindUsOnMap = () => {
                 }
               />
             </Card>
-            <Card>
+            <Card className="grow">
+              <Text size="xl" color="black" weight={700} className="mb-2">
+                Stay Connected
+              </Text>
+              <Text
+                size="base"
+                color="black"
+                weight={500}
+                className="mb-4 opacity-30"
+              >
+                Follow us on social media:
+              </Text>
+
               <SocialNetworks
                 className="gap-2.5"
                 linkClassName="h-15 flex items-center justify-center rounded-sm bg-black/10 grow"
@@ -87,7 +99,7 @@ const Card = ({
   children,
   className,
 }: PropsWithChildren<{ className?: string }>) => (
-  <div className={cn('flex-1 rounded-[4px] bg-black/10 px-10 py-5', className)}>
+  <div className={cn('rounded-[4px] bg-black/10 px-10 py-5', className)}>
     {children}
   </div>
 );

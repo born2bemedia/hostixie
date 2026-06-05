@@ -37,7 +37,7 @@ export const ArticleRender = async ({
       </header>
       <main className="bg-[#fff4e1] py-[60px] max-md:px-4">
         <div className="container flex gap-20 rounded-xl border border-[#A4A189] p-6 max-md:flex-col">
-          <section className="sticky top-4 flex max-w-[450px] flex-col gap-5 self-start max-md:relative max-md:top-0 max-md:max-w-full">
+          <section className="sticky top-4 flex max-w-112.5 flex-col gap-5 self-start max-md:relative max-md:top-0 max-md:max-w-full">
             <Image
               className="h-[300px] w-full rounded-2xl object-cover"
               src={imgUrl}
@@ -55,7 +55,7 @@ export const ArticleRender = async ({
               </Text>
             </div>
           </section>
-          <main className="flex flex-col gap-5">{children}</main>
+          <main className="flex max-w-183.5 flex-col gap-5">{children}</main>
         </div>
       </main>
       <footer className="mt-[-1px] bg-[#fff4e1] py-[60px] max-md:pt-0 max-md:pb-10">

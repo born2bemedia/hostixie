@@ -220,17 +220,21 @@ export default async function PrivacyPolicy() {
                 })}
               </span>,
               <span key="company">
-               {t('children.8.2', {
-                   fallback: 'Company:',
-                 })}{' '}
-                 {t('children.8.3', { fallback: 'Refers to' })}{' '}
-                <span className="text-primary">Hostixa SRL</span>,{' '}
+                {t('children.8.2', {
+                  fallback: 'Company:',
+                })}{' '}
+                {t('children.8.3', { fallback: 'Refers to' })}{' '}
+                <span>Hostixa SRL</span>,{' '}
                 {t('children.8.4', {
                   fallback: 'a registered legal entity located at',
                 })}{' '}
-                <span className="text-primary">Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania</span>,
-                 {t('children.8.5', {
-                   fallback:
+                <span>
+                  Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement,
+                  Module S 029, București, Romania
+                </span>
+                ,
+                {t('children.8.5', {
+                  fallback:
                     'which is responsible for managing and processing your data under this policy.',
                 })}
               </span>,
@@ -243,8 +247,8 @@ export default async function PrivacyPolicy() {
                 {t('children.8.7', {
                   fallback:
                     'The jurisdiction where Hostixie is registered and legally operates, i.e.,',
-                })}
-                <span className="text-primary">Romania</span>.
+                })}{' '}
+                <span>Romania</span>.
               </span>,
               <span key="customer">
                 <span className="font-bold">
@@ -288,12 +292,12 @@ export default async function PrivacyPolicy() {
                 {t('children.8.15', {
                   fallback:
                     'Individuals employed by or working under contract with',
-                 })}{' '}
-                 <span className="text-primary">Hostixa SRL</span>,{' '}
+                })}{' '}
+                <span>Hostixa SRL</span>,{' '}
                 {t('children.8.16', {
-                   fallback:
-                     'who may handle or have access to your personal information in the course of delivering our services.',
-                 })}
+                  fallback:
+                    'who may handle or have access to your personal information in the course of delivering our services.',
+                })}
               </span>,
               <span key="personal-data">
                 <span className="font-bold">
@@ -328,24 +332,24 @@ export default async function PrivacyPolicy() {
                     'External services or companies that are integrated with our platform or whose offerings may be accessible through our site (e.g., marketing platforms, analytics tools, payment processors).',
                 })}
               </span>,
-              // <span key="website">
-              //   <span className="font-bold">
-              //     {t('children.8.23', {
-              //       fallback: 'Website:',
-              //     })}
-              //   </span>{' '}
-              //   {t('children.8.24', {
-              //     fallback: 'The official site owned and operated by',
-              //   })}{' '}
-              //   <span className="text-primary">[Company Name]</span>,{' '}
-              //   {t('children.8.25', {
-              //     fallback: 'accessible via',
-              //   })}{' '}
-              //   <Link href="/" className="text-primary underline">
-              //     hostixie.com
-              //   </Link>
-              //   .
-              // </span>,
+              <span key="website">
+                <span className="font-bold">
+                  {t('children.8.23', {
+                    fallback: 'Website:',
+                  })}
+                </span>{' '}
+                {t('children.8.24', {
+                  fallback: 'The official site owned and operated by',
+                })}{' '}
+                <span>Hostixa SRL</span>,{' '}
+                {t('children.8.25', {
+                  fallback: 'accessible via',
+                })}{' '}
+                <Link href="/" className="text-primary underline">
+                  hostixie.com
+                </Link>
+                .
+              </span>,
               <span key="you-user">
                 <span className="font-bold">
                   {t('children.8.26', {
@@ -668,6 +672,7 @@ export default async function PrivacyPolicy() {
                 'We may verify your identity before processing any changes to protect your account security. Deleted information may remain in our offline backups for disaster recovery and compliance purposes, but will no longer be actively used.',
             })}
             <br />
+            <br />
             {t('children.40.2', {
               fallback:
                 'While we will promptly honor data modification or removal requests where practical, please be aware that some residual data may persist in our systems due to technical constraints (e.g., backup logs).',
@@ -697,10 +702,10 @@ export default async function PrivacyPolicy() {
             {t('children.44', {
               fallback:
                 'This Privacy Policy is governed by the laws of Romania, without reference to conflict-of-law principles. By using our website or services, you agree that any dispute related to data protection or privacy shall fall under the exclusive jurisdiction of the courts in',
-            })}
-            <span className="text-primary">Bucharest, Romania</span>.
+            })}{' '}
+            <span>Bucharest, Romania</span>.
             <br />
-            <br /> 
+            <br />
             {t('children.45', {
               fallback:
                 'Your continued use of our services signifies your acceptance of this Privacy Policy. If you disagree with our terms, you should not engage with our services or access the website. We may make updates that reflect operational, legal, or regulatory changes; by remaining on the site after changes are published, you confirm your acceptance of the revised policy.',
@@ -759,7 +764,7 @@ export default async function PrivacyPolicy() {
             })}
             <br />
             <br />
-            <span className="font-bold">
+            <span className="mb-2.5 inline-block font-bold">
               {t('children.54', {
                 fallback: 'Use of Google Maps API',
               })}
@@ -880,19 +885,18 @@ export default async function PrivacyPolicy() {
                 {t('children.70', {
                   fallback: 'Email:',
                 })}{' '}
-                <span className="font-bold">info@hostixie.com</span>
+                <a
+                  href={'mailto:info@hostixie.com'}
+                  className="text-primary font-bold"
+                >
+                  info@hostixie.com
+                </a>
               </span>,
-              // <span key="phone">
-              //   {t('children.71', {
-              //     fallback: 'Phone:',
-              //   })}{' '}
-              //   <span className="font-bold">[Insert Phone Number]</span>
-              // </span>,
               <span key="contact-page">
                 {t('children.72', {
                   fallback: 'Contact Page:',
                 })}{' '}
-                <Link href="/contact" className="font-bold">
+                <Link href="/contact" className="text-primary font-bold">
                   https://hostixie.com/contact
                 </Link>
               </span>,

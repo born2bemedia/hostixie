@@ -217,7 +217,7 @@ export default async function RefundPolicy() {
                 <br />
                 {t('children.16.7', {
                   fallback:
-                    'If a product or service you paid for was not delivered as outlined—due to a fault on our side—we may offer a refund or partial compensation depending on the circumstances.',
+                    'If a product or service you paid for was not delivered as outlined — due to a fault on our side — we may offer a refund or partial compensation depending on the circumstances.',
                 })}
               </span>,
             ]}
@@ -234,7 +234,10 @@ export default async function RefundPolicy() {
               fallback:
                 'If you believe your case qualifies under the above conditions, please send a written refund request to our support team via email at',
             })}{' '}
-            <Link href="mailto:info@hostixie.com" className="font-bold">
+            <Link
+              href="mailto:info@hostixie.com"
+              className="text-primary font-bold"
+            >
               info@hostixie.com
             </Link>
             .{' '}
@@ -283,7 +286,7 @@ export default async function RefundPolicy() {
               fallback:
                 'Each case is evaluated individually, and approval is at the sole discretion of',
             })}{' '}
-            <span className="font-bold">Hostixie</span>,{' '}
+            <span>Hostixie</span>,{' '}
             {t('children.21.3', {
               fallback: 'in line with this Refund Policy.',
             })}
@@ -326,19 +329,18 @@ export default async function RefundPolicy() {
                 {t('children.28.0', {
                   fallback: 'Email:',
                 })}{' '}
-                <span className="font-bold">info@hostixie.com</span>
+                <Link
+                  href={'mailto:info@hostixie.com'}
+                  className="text-primary font-bold"
+                >
+                  info@hostixie.com
+                </Link>
               </span>,
-              // <span key="phone">
-              //   {t('children.28.1', {
-              //     fallback: 'Phone:',
-              //   })}{' '}
-              //   <span className="font-bold">[Insert Phone Number]</span>
-              // </span>,
               <span key="contact-page">
                 {t('children.28.2', {
                   fallback: 'Contact Page:',
                 })}{' '}
-                <Link href="/contact" className="font-bold">
+                <Link href="/contact" className="text-primary font-bold">
                   https://hostixie.com/contact
                 </Link>
               </span>,

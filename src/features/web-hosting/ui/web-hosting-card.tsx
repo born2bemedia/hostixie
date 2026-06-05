@@ -44,7 +44,7 @@ export const WebHostingCard = ({
   };
 
   return (
-    <article className="flex h-max flex-1 flex-col gap-5 rounded-xl border border-[#A4A189] p-6">
+    <article className="flex flex-1 flex-col gap-5 rounded-xl border border-[#A4A189] p-6">
       <section className="flex flex-col gap-4">
         <div className="relative flex h-[336px] flex-col items-center justify-center rounded-xl border border-[#A4A189]/20 p-6 text-center">
           <GreyDot className="absolute top-6 right-6" />
@@ -84,35 +84,37 @@ export const WebHostingCard = ({
           {t('choosePlan', { fallback: 'Choose Plan' })}
         </Text>
       </button>
-      <Text size="base" color="grey">
-        {description}
-      </Text>
-      <div className={cn(isShowMore && 'h-auto rounded-md bg-[#FFF4E1]/10')}>
-        <Button
-          variant="glass"
-          onClick={() => setIsShowMore(prev => !prev)}
-          fullWidth
-        >
-          {t('showMore', { fallback: 'show more' })} <ChevronDownIcon />
-        </Button>
-        <div
-          className={cn(
-            'overflow-hidden transition-all duration-500 ease-in-out',
-            isShowMore ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0',
-          )}
-        >
-          <div className="flex flex-col gap-2 px-10 pt-3.5 pb-10">
-            <Text size="xs" weight={700}>
-              {t('includes', { fallback: 'Includes:' })}
-            </Text>
-            {includes.map(include => (
-              <span key={include} className="flex items-center gap-2.5">
-                <ArrowRightIcon />
-                <Text size="lg" color="white">
-                  {include}
-                </Text>
-              </span>
-            ))}
+      <div className="justifu flex grow flex-col justify-between">
+        <Text size="base" color="grey">
+          {description}
+        </Text>
+        <div className={cn(isShowMore && 'h-auto rounded-md bg-[#FFF4E1]/10')}>
+          <Button
+            variant="glass"
+            onClick={() => setIsShowMore(prev => !prev)}
+            fullWidth
+          >
+            {t('showMore', { fallback: 'show more' })} <ChevronDownIcon />
+          </Button>
+          <div
+            className={cn(
+              'overflow-hidden transition-all duration-500 ease-in-out',
+              isShowMore ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0',
+            )}
+          >
+            <div className="flex flex-col gap-2 px-10 pt-3.5 pb-10">
+              <Text size="xs" weight={700}>
+                {t('includes', { fallback: 'Includes:' })}
+              </Text>
+              {includes.map(include => (
+                <span key={include} className="flex items-center gap-2.5">
+                  <ArrowRightIcon />
+                  <Text size="lg" color="white">
+                    {include}
+                  </Text>
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </div>

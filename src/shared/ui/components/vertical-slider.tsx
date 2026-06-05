@@ -5,12 +5,16 @@ import useEmblaCarousel from 'embla-carousel-react';
 
 import { Button } from '../kit/button';
 
+type NavigationStyle = 'white' | 'dark';
+
 export const VerticalSlider = ({
   children,
   navigation = false,
+  navigationStyle = 'white',
 }: {
   children: ReactNode;
   navigation?: boolean;
+  navigationStyle?: NavigationStyle;
 }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
@@ -28,7 +32,7 @@ export const VerticalSlider = ({
 
   return (
     <section className="flex flex-col gap-5">
-      {navigation && (
+      {navigation && navigationStyle === 'white' && (
         <div className="flex items-center gap-10">
           <span className="h-1 w-full bg-[#FFF4E1] opacity-40" />
           <nav className="flex shrink-0 items-center gap-2">
@@ -37,6 +41,27 @@ export const VerticalSlider = ({
             </Button>
             <Button variant="outline" onClick={scrollNext}>
               <ArrowRight />
+            </Button>
+          </nav>
+        </div>
+      )}
+      {navigation && navigationStyle === 'dark' && (
+        <div className="flex items-center gap-10">
+          <span className="h-1 w-full bg-black/40" />
+          <nav className="flex shrink-0 items-center gap-2">
+            <Button
+              variant="outline"
+              onClick={scrollPrev}
+              className="w-15.5 justify-center border border-black"
+            >
+              <ArrowLeft color="black" />
+            </Button>
+            <Button
+              variant="outline"
+              onClick={scrollNext}
+              className="w-15.5 justify-center border border-black"
+            >
+              <ArrowRight color="black" />
             </Button>
           </nav>
         </div>

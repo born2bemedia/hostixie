@@ -359,7 +359,7 @@
           "name": "Cloud Ultimate Plan",
           "description": "The best choice for high-performance sites that require the highest levels of scalability and resources.",
           "includes": {
-            "0": "200 GB SSD Storage",
+            "0": "150 GB SSD Storage",
             "1": "8 GB RAM",
             "2": "Unmetered bandwidth",
             "3": "Free SSL",
@@ -387,21 +387,21 @@
         },
         "1": {
           "name": "Advanced WP Plan",
-          "description": "For established WordPress sites requiring advanced performance, security, and resources.",
+          "description": "For growing WordPress sites with higher traffic, offering enhanced resources and improved performance.",
           "includes": {
-            "0": "5 Websites",
-            "1": "80 GB SSD Storage",
+            "0": "3 Websites",
+            "1": "40 GB SSD Storage",
             "2": "Free SSL",
             "3": "Free CDN",
             "4": "Free Domain 1st Year"
           }
         },
         "2": {
-          "name": "Enterprise WP Plan",
-          "description": "For large WordPress sites requiring the highest levels of performance, security, and resources.",
+          "name": "Pro WP Plan",
+          "description": "For established WordPress sites requiring advanced performance, security, and resources.",
           "includes": {
-            "0": "10 Websites",
-            "1": "120 GB SSD Storage",
+            "0": "5 Websites",
+            "1": "80 GB SSD Storage",
             "2": "Free SSL",
             "3": "Free CDN",
             "4": "Free Domain 1st Year",
@@ -454,6 +454,7 @@
     "ourPath": {
       "title": "Our Proven Path to Digital Success",
       "text": "We believe in transparency, collaboration, and excellence. Our approach is carefully crafted to ensure that every website we develop meets your needs, exceeds your expectations, and drives measurable success.",
+      "link": "Discover Our Approach",
       "cards": {
         "0": {
           "title": "Discovery & Vision Mapping",
@@ -2074,14 +2075,22 @@
       "7": "Key Definitions",
       "8": "For clarity, the following terms used throughout this agreement are defined as follows:",
       "9": {
-        "0": "“Cookies”: Small data files placed on your device by the website to enhance performance, analyze usage, and remember user preferences.",
-        "1": "“Company”: Refers to [Company Name], the entity legally operating under the Hostixie label, located at [Registered Address].",
-        "2": "“Country”: The jurisdiction under which the company is incorporated and legally operates, namely [Country Name].",
-        "3": "“Device”: Any internet-capable hardware (e.g., smartphone, tablet, desktop computer) used to access the website or services.",
-        "4": "“Service”: All digital services and solutions offered through the Hostixie platform, including but not limited to web hosting and web development.",
-        "5": "“Third-Party Services”: Any external parties, such as advertisers, service providers, or marketing affiliates, whose content, offers, or functionality may be featured on or linked from our website.",
-        "6": "“Website”: Refers to the official online presence of Hostixie, accessible via hostixie.com.",
-        "7": "“You” / “User”: The individual or legal entity accessing or registering to use the services offered via the Hostixie website."
+        "01": "“Cookies”:",
+        "0": "Small data files placed on your device by the website to enhance performance, analyze usage, and remember user preferences.",
+        "11": "“Company”:",
+        "1": "Refers to Hostixa SRL, the entity legally operating under the Hostixie label, located at Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania.",
+        "21": "“Country”:",
+        "2": "The jurisdiction under which the company is incorporated and legally operates, namely Romania.",
+        "31": "“Device”:",
+        "3": "Any internet-capable hardware (e.g., smartphone, tablet, desktop computer) used to access the website or services.",
+        "41": "“Service”:",
+        "4": "All digital services and solutions offered through the Hostixie platform, including but not limited to web hosting and web development.",
+        "51": "“Third-Party Services”:",
+        "5": "Any external parties, such as advertisers, service providers, or marketing affiliates, whose content, offers, or functionality may be featured on or linked from our website.",
+        "61": "“Website”:",
+        "6": "Refers to the official online presence of Hostixie, accessible via hostixie.com.",
+        "71": "“You” / “User”:",
+        "7": "The individual or legal entity accessing or registering to use the services offered via the Hostixie website."
       },
       "10": "Prohibited Activities",
       "11": "By using the Hostixie website or its services, you agree not to engage in any of the following actions:",
@@ -2114,7 +2123,8 @@
       "28": "Please note that these Terms apply exclusively to services provided by Hostixie on our platform. We may include links to third-party websites that operate independently of us. We do not control, monitor, or endorse the content or practices of these external sites. Once you leave our website, any activity is subject to the linked website’s own policies, which we recommend reviewing separately.",
       "29": "Cookies and Tracking Technologies",
       "30": "Our website uses cookies to remember user preferences, analyze site usage, and improve performance. Cookies are small data files stored in your browser. While they are not strictly necessary to navigate the site, disabling cookies may affect functionality (e.g., login sessions or video playback).",
-      "31": "We do not use cookies to collect personally identifiable information. For full details, please consult our Cookie Policy.",
+      "31": "We do not use cookies to collect personally identifiable information. For full details, please consult our",
+      "31-Link": "Cookie Policy.",
       "32": "Copyright Concerns",
       "33": "If you believe that any material on our website infringes your copyright, please contact us with the following information:",
       "34": {
@@ -2170,10 +2180,13 @@
         "1": "You may not copy, reproduce, alter, transmit, or use any content without express written permission unless otherwise explicitly stated in these Terms."
       },
       "57": "Dispute Resolution and Arbitration",
-      "58": "Any disputes between you and Hostixie related to the website or services will first be attempted to be resolved informally. If no resolution is reached within 60 days, the matter shall be referred to binding arbitration in accordance with the rules of the [Arbitration Body, e.g., ICC or local authority], unless the claim involves the enforcement of intellectual property rights or injunctive relief.",
+      "58": {
+        "0": "Any disputes between you and Hostixie related to the website or services will first be attempted to be resolved informally. If no resolution is reached within 60 days, the matter shall be referred to binding arbitration in accordance with the rules of the Court of International Commercial Arbitration attached to the Chamber of Commerce and Industry of Romania, unless the claim involves the enforcement of intellectual property rights or injunctive relief.",
+        "1": "By agreeing to these Terms, you waive any right to litigation in court or to participate in a class-action lawsuit. Arbitration will take place in Bucharest, Romania, or as otherwise mutually agreed."
+      },
       "59": {
         "0": "Governing Law",
-        "1": "These Terms are governed by the laws of [Country], without regard to conflict of laws principles. Any legal actions or proceedings arising from or related to these Terms shall take place exclusively in the courts of [City, Country]. You agree to submit to the jurisdiction of these courts."
+        "1": "These Terms are governed by the laws of Romania, without regard to conflict of laws principles. Any legal actions or proceedings arising from or related to these Terms shall take place exclusively in the courts of Bucharest, Romania. You agree to submit to the jurisdiction of these courts."
       },
       "60": {
         "0": "User Submissions and Public Content",
@@ -2332,7 +2345,7 @@
       "41": "Disclosure to Corporate Affiliates",
       "42": "We may share your personal information with our affiliated companies. For the purposes of this Privacy Policy, \"affiliates\" refers to any entity that is owned by, owns, or is under shared ownership or control with Hostixie, whether directly or indirectly. All affiliated entities will handle your information in accordance with the standards set out in this Privacy Policy.",
       "43": "Legal Compliance and Jurisdiction",
-      "44": "This Privacy Policy is governed by the laws of [Country], without reference to conflict-of-law principles. By using our website or services, you agree that any dispute related to data protection or privacy shall fall under the exclusive jurisdiction of the courts in",
+      "44": "This Privacy Policy is governed by the laws of Romania, without reference to conflict-of-law principles. By using our website or services, you agree that any dispute related to data protection or privacy shall fall under the exclusive jurisdiction of the courts in",
       "45": "Your continued use of our services signifies your acceptance of this Privacy Policy. If you disagree with our terms, you should not engage with our services or access the website. We may make updates that reflect operational, legal, or regulatory changes; by remaining on the site after changes are published, you confirm your acceptance of the revised policy.",
       "46": "Consent to Data Practices",
       "47": "This Privacy Policy has been updated to offer full transparency regarding how we collect and process your personal data. By using our website, submitting information, or interacting with our services, you consent to our data practices and accept the terms outlined in this document.",
@@ -2386,7 +2399,7 @@
     },
     "children": {
       "0": "Overview",
-      "1": "Thank you for choosing Hostixie, a service provided by [Company Name], legally registered at [Registered Address] under company number [Registration Number]. Our team is dedicated to delivering reliable, high-quality digital services, including web development, hosting, and related solutions.",
+      "1": "Thank you for choosing Hostixie, a service provided by Hostixa SRL, legally registered at Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania under company number J2026017647009. Our team is dedicated to delivering reliable, high-quality digital services, including web development, hosting, and related solutions.",
       "2": "Please note that",
       "3": "all transactions completed via our website are considered final and non-refundable",
       "4": "This policy applies to all services and digital products, regardless of whether they have been used, activated, accessed, or delivered. Once payment has been successfully processed and confirmed, the amount paid becomes non-reversible.",
@@ -2415,7 +2428,7 @@
         "4": "Wrong Payment Details",
         "5": "If you can provide evidence that a payment was made using incorrect information (e.g., wrong reference number), and the funds did not reach us, we may assist in resolving the issue.",
         "6": "Service Not Delivered",
-        "7": "If a product or service you paid for was not delivered as outlined—due to a fault on our side—we may offer a refund or partial compensation depending on the circumstances."
+        "7": "If a product or service you paid for was not delivered as outlined — due to a fault on our side — we may offer a refund or partial compensation depending on the circumstances."
       },
       "17": "How to Submit a Refund Request",
       "18": {
@@ -2465,7 +2478,8 @@
     "children": {
       "0": "Welcome to Our Cookie Policy",
       "1": {
-        "0": "This document explains how [Company Name], registration number [Company Registration Number], registered at [Full Registered Address], the team behind Hostixie, uses cookies and similar tracking tools across our website, hostixie.com. These little data helpers allow us to recognize you, improve your experience, and keep the website running smoothly. By continuing to use our site, you agree to the cookie practices described here.",
+        "0": "This document explains how Hostixa SRL, registration number J2026017647009, registered at Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania, the team behind Hostixie, uses cookies and similar tracking tools across our website,",
+        "01": "These little data helpers allow us to recognize you, improve your experience, and keep the website running smoothly. By continuing to use our site, you agree to the cookie practices described here.",
         "1": "We believe in transparency, so let’s break it down clearly."
       },
       "2": "What Are Cookies, Anyway?",
@@ -2474,7 +2488,7 @@
         "0": "Essential Cookies ",
         "1": "These are the must-haves. They power the core features of our website, such as security, form submissions, and login access. Without them, parts of the site simply wouldn’t work.",
         "2": "Functional Cookies",
-        "3": "These remember your choices, like language settings or display preferences—so you don’t have to keep resetting them every time you visit.",
+        "3": "These remember your choices, like language settings or display preferences — so you don’t have to keep resetting them every time you visit.",
         "4": "Analytics Cookies",
         "5": "These help us understand how visitors use our website. We collect anonymous data like page visits and clicks, which helps us improve navigation, speed, and content relevance.",
         "6": "Advertising Cookies",

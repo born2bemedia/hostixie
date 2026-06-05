@@ -785,7 +785,8 @@
     "children": {
       "0": "Benvenuti nella nostra politica sui cookie",
       "1": {
-        "0": "Questo documento spiega come [Nome della società], numero di registrazione [Numero di registrazione della società], registrata presso [Indirizzo completo di registrazione], il team dietro Hostixie, utilizza i cookie e strumenti di tracciamento simili sul nostro sito web, hostixie.com. Questi piccoli aiuti ci consentono di riconoscere l'utente, migliorare la sua esperienza e mantenere il funzionamento del sito web senza intoppi. Continuando a utilizzare il nostro sito, l'utente accetta le pratiche relative ai cookie qui descritte.",
+        "0": "Questo documento spiega come Hostixa SRL, numero di registrazione J2026017647009, registrata presso Bucarest Distretto 3, Str. Mihai Bravu n. 255, seminterrato, modulo S 029, Bucarest, Romania, il team dietro Hostixie, utilizza i cookie e strumenti di tracciamento simili sul nostro sito web,",
+        "01": "Questi piccoli aiuti ci consentono di riconoscere l'utente, migliorare la sua esperienza e mantenere il funzionamento del sito web senza intoppi. Continuando a utilizzare il nostro sito, l'utente accetta le pratiche relative ai cookie qui descritte.",
         "1": "Crediamo nella trasparenza, quindi cerchiamo di spiegarlo chiaramente."
       },
       "2": "Che cosa sono i cookie?",
@@ -1362,7 +1363,7 @@
       "41": "Divulgazione alle società affiliate",
       "42": "Potremmo condividere i vostri dati personali con le nostre società affiliate. Ai fini della presente Informativa sulla privacy, per \"affiliati\" si intende qualsiasi entità che sia di proprietà di, possegga o sia sotto proprietà o controllo condiviso con Hostixie, sia direttamente che indirettamente. Tutte le entità affiliate tratteranno le informazioni dell'utente in conformità con le norme stabilite nella presente Informativa sulla privacy.",
       "43": "Conformità legale e giurisdizione",
-      "44": "La presente Informativa sulla privacy è disciplinata dalle leggi di [Paese], senza riferimento a principi di conflitto di leggi. Utilizzando il nostro sito web o i nostri servizi, l'utente accetta che qualsiasi controversia relativa alla protezione dei dati o alla privacy sia sottoposta alla giurisdizione esclusiva dei tribunali di",
+      "44": "La presente Informativa sulla privacy è disciplinata dalle leggi di Romania, senza riferimento a principi di conflitto di leggi. Utilizzando il nostro sito web o i nostri servizi, l'utente accetta che qualsiasi controversia relativa alla protezione dei dati o alla privacy sia sottoposta alla giurisdizione esclusiva dei tribunali di",
       "45": "L'uso continuato dei nostri servizi implica l'accettazione della presente Informativa sulla privacy. Se non siete d'accordo con i nostri termini, non dovete utilizzare i nostri servizi o accedere al sito web. Potremmo apportare aggiornamenti che riflettono modifiche operative, legali o normative; rimanendo sul sito dopo la pubblicazione delle modifiche, l'utente conferma l'accettazione della politica rivista.",
       "46": "Consenso alle pratiche di trattamento dei dati",
       "47": "La presente Informativa sulla privacy è stata aggiornata per offrire la massima trasparenza sulle modalità di raccolta e trattamento dei dati personali. Utilizzando il nostro sito web, inviando informazioni o interagendo con i nostri servizi, l'utente acconsente alle nostre pratiche di trattamento dei dati e accetta i termini delineati in questo documento.",
@@ -1430,7 +1431,7 @@
   "refundPolicy": {
     "children": {
       "0": "Panoramica",
-      "1": "Vi ringraziamo per aver scelto Hostixie, un servizio fornito da [Nome della società], legalmente registrata a [Indirizzo registrato] con il numero di società [Numero di registrazione]. Il nostro team si dedica alla fornitura di servizi digitali affidabili e di alta qualità, tra cui sviluppo web, hosting e soluzioni correlate.",
+      "1": "Vi ringraziamo per aver scelto Hostixie, un servizio fornito da Hostixa SRL, legalmente registrata a Bucarest Distretto 3, Str. Mihai Bravu n. 255, seminterrato, modulo S 029, Bucarest, Romania, con il numero di società J2026017647009. Il nostro team si dedica alla fornitura di servizi digitali affidabili e di alta qualità, tra cui sviluppo web, hosting e soluzioni correlate.",
       "2": "Si prega di notare che",
       "3": "tutte le transazioni completate tramite il nostro sito web sono da considerarsi definitive e non rimborsabili",
       "4": "Questa politica si applica a tutti i servizi e prodotti digitali, indipendentemente dal fatto che siano stati utilizzati, attivati, consultati o consegnati. Una volta che il pagamento è stato elaborato e confermato con successo, l'importo pagato diventa non reversibile.",
@@ -1569,9 +1570,10 @@
     "children": {
       "0": "Panoramica generale",
       "1": {
-        "0": "Utilizzando questo sito web o inviando una richiesta di servizio tramite Hostixie, l'utente dichiara di aver letto, compreso e accettato i Termini e le Condizioni qui descritti. Tali termini regolano l'utilizzo del sito web e tutte le comunicazioni tra l'utente e",
-        "1": "l'entità legale che sta dietro a Hostixie, registrata con il nome di",
-        "2": "a"
+        "0": "Utilizzando questo sito web o inviando una richiesta di servizio tramite Hostixie, l'utente dichiara di aver letto, compreso e accettato i Termini e le Condizioni qui descritti.",
+        "1": "Tali termini regolano l'utilizzo del sito web e tutte le comunicazioni tra l'utente e",
+        "2": "l'entità legale che sta dietro a Hostixie, registrata al numero",
+        "3": "a"
       },
       "2": "In nessun caso Hostixie, i suoi proprietari, dipendenti o agenti potranno essere ritenuti responsabili per danni diretti, indiretti, incidentali, consequenziali o speciali, inclusi, a titolo esemplificativo, la perdita di dati, la perdita di profitti o l'interruzione dell'attività, derivanti dall'uso o dall'impossibilità di utilizzare qualsiasi contenuto o servizio offerto tramite questo sito. Eventuali costi di riparazione, assistenza o ripristino dei dati derivanti dall'uso di questo sito restano a carico dell'utente.",
       "3": "Licenza d'uso",
@@ -1586,14 +1588,22 @@
       "7": "Definizioni chiave",
       "8": "Per chiarezza, i seguenti termini utilizzati nel presente contratto sono definiti come segue:",
       "9": {
-        "0": "\"Cookie\": Piccoli file di dati inseriti dal sito web nel dispositivo dell'utente per migliorare le prestazioni, analizzare l'utilizzo e ricordare le preferenze dell'utente.",
-        "1": "\"Azienda\": Si riferisce a [Nome della Società], l'entità che opera legalmente con il marchio Hostixie, con sede a [Indirizzo Registrato].",
-        "2": "\"Paese\": La giurisdizione sotto la quale la società è costituita e opera legalmente, ovvero [Nome del Paese].",
-        "3": "\"Dispositivo\": Qualsiasi hardware compatibile con Internet (ad esempio, smartphone, tablet, computer desktop) utilizzato per accedere al sito web o ai servizi.",
-        "4": "\"Servizio\": Tutti i servizi e le soluzioni digitali offerti attraverso la piattaforma Hostixie, compresi, a titolo esemplificativo e non esaustivo, il web hosting e lo sviluppo web.",
-        "5": "\"Servizi di terze parti\": Qualsiasi soggetto esterno, come inserzionisti, fornitori di servizi o affiliati di marketing, i cui contenuti, offerte o funzionalità possono essere presenti sul nostro sito web o collegati ad esso.",
-        "6": "\"Sito web\": Si riferisce alla presenza online ufficiale di Hostixie, accessibile tramite hostixie.com.",
-        "7": "\"Utente\" / \"Utente\": La persona fisica o giuridica che accede o si registra per utilizzare i servizi offerti tramite il sito web di Hostixie."
+        "01": "«Cookie»:",
+        "0": "Piccoli file di dati inseriti dal sito web nel dispositivo dell'utente per migliorare le prestazioni, analizzare l'utilizzo e ricordare le preferenze dell'utente.",
+        "11": "«Azienda»:",
+        "1": "Si riferisce a Hostixa SRL, l'entità che opera legalmente con il marchio Hostixie, con sede in Bucarest, Distretto 3, Str. Mihai Bravu Nr. 255, Seminterrato, Modulo S 029, București, Romania.",
+        "21": "«Paese»:",
+        "2": "La giurisdizione sotto la quale la società è costituita e opera legalmente, ovvero la Romania.",
+        "31": "«Dispositivo»:",
+        "3": "Qualsiasi hardware compatibile con Internet (ad esempio, smartphone, tablet, computer desktop) utilizzato per accedere al sito web o ai servizi.",
+        "41": "«Servizio»:",
+        "4": "Tutti i servizi e le soluzioni digitali offerti attraverso la piattaforma Hostixie, compresi, a titolo esemplificativo e non esaustivo, il web hosting e lo sviluppo web.",
+        "51": "«Servizi di terze parti»:",
+        "5": "Qualsiasi soggetto esterno, come inserzionisti, fornitori di servizi o affiliati di marketing, i cui contenuti, offerte o funzionalità possono essere presenti sul nostro sito web o collegati ad esso.",
+        "61": "«Sito web»:",
+        "6": "Si riferisce alla presenza online ufficiale di Hostixie, accessibile tramite hostixie.com.",
+        "71": "«Tu» / «Utente»:",
+        "7": "La persona fisica o giuridica che accede o si registra per utilizzare i servizi offerti tramite il sito web di Hostixie."
       },
       "10": "Attività vietate",
       "11": "Utilizzando il sito web di Hostixie o i suoi servizi, l'utente accetta di non intraprendere nessuna delle seguenti azioni:",
@@ -1626,7 +1636,8 @@
       "28": "Si prega di notare che le presenti Condizioni si applicano esclusivamente ai servizi forniti da Hostixie sulla nostra piattaforma. Possiamo includere link a siti web di terzi che operano indipendentemente da noi. Non controlliamo, monitoriamo o approviamo il contenuto o le pratiche di questi siti esterni. Una volta lasciato il nostro sito web, qualsiasi attività è soggetta alle politiche del sito web collegato, che si consiglia di esaminare separatamente.",
       "29": "Cookie e tecnologie di tracciamento",
       "30": "Il nostro sito web utilizza i cookie per ricordare le preferenze degli utenti, analizzare l'utilizzo del sito e migliorare le prestazioni. I cookie sono piccoli file di dati memorizzati nel browser. Sebbene non siano strettamente necessari per la navigazione del sito, la disabilitazione dei cookie può influire sulle funzionalità (ad esempio, sulle sessioni di login o sulla riproduzione dei video).",
-      "31": "Non utilizziamo i cookie per raccogliere informazioni di identificazione personale. Per maggiori dettagli, consultare la nostra Politica sui cookie.",
+      "31": "Non utilizziamo i cookie per raccogliere informazioni di identificazione personale. Per maggiori dettagli, consultare la nostra",
+      "31-Link": "Politica sui cookie.",
       "32": "Problemi di copyright",
       "33": "Se ritenete che il materiale presente sul nostro sito web violi il vostro diritto d'autore, contattateci con le seguenti informazioni:",
       "34": {
@@ -1682,9 +1693,18 @@
         "1": "L'utente non può copiare, riprodurre, alterare, trasmettere o utilizzare alcun contenuto senza un'espressa autorizzazione scritta, a meno che non sia esplicitamente indicato in questi Termini."
       },
       "57": "Risoluzione delle controversie e arbitrato",
-      "58": "Eventuali controversie tra l'utente e Hostixie relative al sito web o ai servizi saranno prima tentate di essere risolte in modo informale. Se non si raggiunge una risoluzione entro 60 giorni, la questione sarà deferita ad un arbitrato vincolante in conformità con le regole del [Organismo arbitrale, ad esempio, ICC o autorità locale], a meno che la richiesta non riguardi l'applicazione dei diritti di proprietà intellettuale o un provvedimento ingiuntivo.",
-      "59": "Legge applicabile",
-      "60": "I presenti Termini sono disciplinati dalle leggi di [Paese], senza tener conto dei principi di conflitto di leggi. Qualsiasi azione o procedimento legale derivante da o correlato ai presenti Termini si svolgerà esclusivamente presso i tribunali di [Città, Paese]. L'utente accetta di sottoporsi alla giurisdizione di tali tribunali.",
+      "58": {
+        "0": "Qualsiasi controversia tra l'utente e Hostixie relativa al sito web o ai servizi verrà inizialmente risolta in via informale. Qualora non si raggiunga una soluzione entro 60 giorni, la questione sarà deferita ad arbitrato vincolante secondo le norme del Tribunale Arbitrale Commerciale Internazionale presso la Camera di Commercio e Industria della Romania, a meno che la controversia non riguardi la tutela dei diritti di proprietà intellettuale o provvedimenti ingiuntivi.",
+        "1": "Accettando i presenti Termini, rinunciate a qualsiasi diritto di adire le vie legali o di partecipare a un'azione collettiva. L'arbitrato si svolgerà a Bucarest, in Romania, o in un luogo concordato di comune accordo."
+      },
+      "59": {
+        "0": "Legge applicabile",
+        "1": "I presenti Termini sono disciplinati dalle leggi della Romania, senza tener conto dei principi di conflitto di leggi. Qualsiasi azione o procedimento legale derivante da o correlato ai presenti Termini si svolgerà esclusivamente presso i tribunali di Bucarest, Romania. L'utente accetta di sottoporsi alla giurisdizione di tali tribunali."
+      },
+      "60": {
+        "0": "Contributi degli utenti e contenuti pubblici",
+        "1": "Qualsiasi contenuto che ci invii, incluse idee, proposte, opere artistiche o feedback, sarà considerato non riservato e potrà essere utilizzato da Hostixie per qualsiasi scopo, senza compensazione o attribuzione. L'utente concede a Hostixie il pieno diritto di utilizzare e commercializzare tali contenuti in modo perpetuo."
+      },
       "61": "Campagne promozionali",
       "62": "Di tanto in tanto, possiamo offrire concorsi, omaggi o promozioni. Questi possono essere soggetti a regole aggiuntive e a requisiti di idoneità (come l'età o l'ubicazione). Partecipando, l'utente accetta tutti i termini specifici della promozione.",
       "63": "Errori e omissioni",
@@ -2159,7 +2179,8 @@
         }
       },
       "text": "Crediamo nella trasparenza, nella collaborazione e nell'eccellenza. Il nostro approccio è attentamente studiato per garantire che ogni sito web che sviluppiamo soddisfi le vostre esigenze, superi le vostre aspettative e porti a un successo misurabile.",
-      "title": "Il nostro percorso collaudato verso il successo digitale"
+      "title": "Il nostro percorso collaudato verso il successo digitale",
+      "link": "Scopri il nostro approccio"
     },
     "webPackages": {
       "items": {
@@ -2292,7 +2313,7 @@
         "2": {
           "description": "La scelta migliore per siti ad alte prestazioni che richiedono i massimi livelli di scalabilità e risorse.",
           "includes": {
-            "0": "200 GB di memoria SSD",
+            "0": "150 GB di memoria SSD",
             "1": "8 GB DI RAM",
             "2": "Larghezza di banda non misurata",
             "3": "SSL gratuito",
@@ -2455,30 +2476,30 @@
             "3": "CDN gratuito",
             "4": "Dominio gratuito per il 1° anno"
           },
-          "name": "Piano WP di base"
+          "name": "Basic WP Plan"
         },
         "1": {
-          "description": "Per siti WordPress consolidati che richiedono prestazioni, sicurezza e risorse avanzate.",
+          "description": "Per i siti WordPress in crescita con traffico più elevato, offrendo risorse avanzate e prestazioni migliorate.",
+          "includes": {
+            "0": "3 Siti web",
+            "1": "40 GB di memoria SSD",
+            "2": "SSL gratuito",
+            "3": "CDN gratuito",
+            "4": "Dominio gratuito per il 1° anno"
+          },
+          "name": "Advanced WP Plan"
+        },
+        "2": {
+          "description": "Per siti WordPress consolidati che richiedono prestazioni avanzate, sicurezza e risorse.",
           "includes": {
             "0": "5 Siti web",
             "1": "80 GB di memoria SSD",
             "2": "SSL gratuito",
             "3": "CDN gratuito",
-            "4": "Dominio gratuito per il 1° anno"
-          },
-          "name": "Piano WP avanzato"
-        },
-        "2": {
-          "description": "Per siti WordPress di grandi dimensioni che richiedono i massimi livelli di prestazioni, sicurezza e risorse.",
-          "includes": {
-            "0": "10 Siti web",
-            "1": "120 GB di memoria SSD",
-            "2": "SSL gratuito",
-            "3": "CDN gratuito",
             "4": "Dominio gratuito per il 1° anno",
             "5": "Backup giornalieri"
           },
-          "name": "Piano WP aziendale"
+          "name": "Pro WP Plan"
         }
       },
       "title": "Hosting WordPress gestito"

@@ -72,7 +72,7 @@ export const OurApproach = () => {
           <Title as="h3" size="5xl">
             {t('stepByStep', { fallback: 'Step-by-Step Process:' })}
           </Title>
-          <VerticalSlider>
+          <VerticalSlider navigation>
             {slides.map((slide, i) => (
               <div
                 key={slide.title}
