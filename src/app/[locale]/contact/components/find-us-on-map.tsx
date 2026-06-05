@@ -35,42 +35,40 @@ export const FindUsOnMap = () => {
           </Title>
         </div>
 
-        <div className="flex gap-5 max-md:flex-col">
-          <div className="flex w-full max-w-106 flex-col space-y-5">
-            <Card className="max-md:w-full">
-              <CardText
-                label={t('email.label', { fallback: 'Get in Touch' })}
-                value={
-                  <Link
-                    href={`mailto:${EMAIL}`}
-                    className="transition hover:opacity-70"
-                  >
-                    {EMAIL}
-                  </Link>
-                }
-              />
-            </Card>
-            <Card className="grow">
-              <Text size="xl" color="black" weight={700} className="mb-2">
-                Stay Connected
-              </Text>
-              <Text
-                size="base"
-                color="black"
-                weight={500}
-                className="mb-4 opacity-30"
-              >
-                Follow us on social media:
-              </Text>
+        <div className="grid gap-5 md:grid-cols-[0.50718fr_1fr] md:grid-rows-2">
+          <Card className="md:col-start-1 md:row-start-1">
+            <CardText
+              label={t('email.label', { fallback: 'Get in Touch' })}
+              value={
+                <Link
+                  href={`mailto:${EMAIL}`}
+                  className="transition hover:opacity-70"
+                >
+                  {EMAIL}
+                </Link>
+              }
+            />
+          </Card>
+          <Card className="md:col-start-1 md:row-start-2">
+            <Text size="xl" color="black" weight={700} className="mb-2">
+              Stay Connected
+            </Text>
+            <Text
+              size="base"
+              color="black"
+              weight={500}
+              className="mb-4 opacity-30"
+            >
+              Follow us on social media:
+            </Text>
 
-              <SocialNetworks
-                className="gap-2.5"
-                linkClassName="h-15 flex items-center justify-center rounded-sm bg-black/10 grow"
-              />
-            </Card>
-          </div>
+            <SocialNetworks
+              className="gap-2.5"
+              linkClassName="h-15 flex items-center justify-center rounded-sm bg-black/10 grow"
+            />
+          </Card>
 
-          <Card className="flex flex-col gap-5 max-md:w-full">
+          <Card className="md:col-start-2 md:row-span-2 md:row-start-1">
             <CardText
               label={t('address.label', { fallback: 'Registered address:' })}
               value={REGISTERED_ADDRESS}

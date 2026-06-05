@@ -501,7 +501,7 @@ export default async function TermsAndConditions() {
               fallback:
                 'We do not use cookies to collect personally identifiable information. For full details, please consult our',
             })}{' '}
-            <Link href={'/cookie-policy'} className="text-primary text-bold">
+            <Link href={'/cookie-policy'} className="text-primary font-bold">
               {t('children.31-Link', {
                 fallback: 'Cookie Policy.',
               })}
