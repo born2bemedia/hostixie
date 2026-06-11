@@ -1,5 +1,7 @@
 'use client';
 
+import { type ReactNode } from 'react';
+
 import { cn } from '@/shared/lib/utils/cn';
 import { LineUpIcon } from '@/shared/ui/icons/line-up';
 import { Text } from '@/shared/ui/kit/text';
@@ -18,7 +20,7 @@ export const HeroTitle = ({
   subtitle?: string;
   text: string;
   color?: 'white' | 'black';
-  additionalContent?: React.ReactNode;
+  additionalContent?: ReactNode;
   titleClassName?: string;
   subtitleClassName?: string;
 }) => (
@@ -48,7 +50,7 @@ export const HeroTitle = ({
             {text}
           </Text>
         </div>
-        {additionalContent}
+        {additionalContent && additionalContent}
       </div>
     </div>
   </section>

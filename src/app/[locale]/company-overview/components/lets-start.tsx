@@ -22,7 +22,7 @@ export const LetsStart = () => {
         })}
         button={t('button', { fallback: 'Let’s Make It Happen' })}
         titleClassName="text-[80px] max-md:text-[40px] leading-[120%] tracking-[1.12px] max-md:leading-[120%] max-md:tracking-[1.12px]"
-        onClickButton={openRequestForm}
+        onClickButtonAction={openRequestForm}
         subtitleClassName="text-[45px] max-md:text-[20px]"
       />
     </div>

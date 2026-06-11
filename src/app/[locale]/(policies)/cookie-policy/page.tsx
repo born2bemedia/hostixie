@@ -94,7 +94,7 @@ export default async function CookiePolicy() {
               fallback:
                 'This document explains how Hostixa SRL, registration number J2026017647009, registered at Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania, the team behind Hostixie, uses cookies and similar tracking tools across our website,',
             })}{' '}
-            <Link href={'/'} className="text-primary">
+            <Link href={'/'} className="text-primary font-bold">
               hostixie.com.
             </Link>{' '}
             {t('children.1.01', {

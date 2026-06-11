@@ -20,7 +20,7 @@ export const MakeItHappen = () => {
           'We’re here to help you bring your digital presence to life. Whether you need web hosting or a custom-built website, our team is ready to support you.',
       })}
       button={t('button', { fallback: 'Let’s Make It Happen' })}
-      onClickButton={openRequestForm}
+      onClickButtonAction={openRequestForm}
     />
   );
 };

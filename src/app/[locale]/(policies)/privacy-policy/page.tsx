@@ -211,18 +211,22 @@ export default async function PrivacyPolicy() {
           <List
             values={[
               <span key="cookie">
-                {t('children.8.0', {
-                  fallback: 'Cookie:',
-                })}
+                <span className="font-bold">
+                  {t('children.8.0', {
+                    fallback: 'Cookie:',
+                  })}
+                </span>{' '}
                 {t('children.8.1', {
                   fallback:
                     'A small file stored on your browser or device, used to enhance functionality, remember preferences, or collect analytics about user behavior on our site.',
                 })}
               </span>,
               <span key="company">
-                {t('children.8.2', {
-                  fallback: 'Company:',
-                })}{' '}
+                <span className="font-bold">
+                  {t('children.8.2', {
+                    fallback: 'Company:',
+                  })}
+                </span>{' '}
                 {t('children.8.3', { fallback: 'Refers to' })}{' '}
                 <span>Hostixa SRL</span>,{' '}
                 {t('children.8.4', {
@@ -232,7 +236,7 @@ export default async function PrivacyPolicy() {
                   Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement,
                   Module S 029, București, Romania
                 </span>
-                ,
+                ,{' '}
                 {t('children.8.5', {
                   fallback:
                     'which is responsible for managing and processing your data under this policy.',
@@ -345,7 +349,7 @@ export default async function PrivacyPolicy() {
                 {t('children.8.25', {
                   fallback: 'accessible via',
                 })}{' '}
-                <Link href="/" className="text-primary underline">
+                <Link href="/" className="text-primary font-bold">
                   hostixie.com
                 </Link>
                 .

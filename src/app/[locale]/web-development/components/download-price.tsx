@@ -18,9 +18,9 @@ export const DownloadPrice = () => {
           fallback:
             'While all our prices are available on the website, we understand you might prefer a convenient, downloadable version. Get our complete pricing details in PDF format, neatly organized for easy reference and comparison.',
         })}
-        button={t('button', {
-          fallback: 'Download Full Pricing PDF',
-        })}
+        // button={t('button', {
+        //   fallback: 'Download Full Pricing PDF',
+        // })}
         titleClassName="text-[80px] max-md:text-[40px] font-normal leading-[120%] tracking-[1.12px] md:leading-[120%]"
         layoutClassName="bg-black py-20"
       />

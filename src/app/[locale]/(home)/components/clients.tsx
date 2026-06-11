@@ -129,7 +129,7 @@ const ReviewCard = ({
     <Text size="3xl" className="leading-[120%] tracking-[-0.48px]">
       {review}
     </Text>
-    <span className="flex items-center gap-0.5 max-md:flex-col max-md:items-start">
+    <span className="flex items-center gap-1 max-md:flex-col max-md:items-start">
       <Text size="base" weight={700}>
         {person},
       </Text>

@@ -25,7 +25,7 @@ export const ContactUsToday = () => {
         })}
         button={t('button', { fallback: 'Let’s Make It Happen' })}
         titleClassName="leading-[120%] tracking-[1.12px] max-md:leading-[120%] max-md:tracking-[1.12px]"
-        onClickButton={openRequestForm}
+        onClickButtonAction={openRequestForm}
       />
     </div>
   );

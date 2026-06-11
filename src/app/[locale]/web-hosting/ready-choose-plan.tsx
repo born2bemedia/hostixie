@@ -27,7 +27,7 @@ export const ReadyChoosePlan = () => {
       })}
       titleClassName="text-[80px] max-md:text-[40px] font-normal leading-[120%] tracking-[1.12px] md:leading-[120%]"
       layoutClassName="py-20"
-      onClickButton={onClickHandle}
+      onClickButtonAction={onClickHandle}
     />
   );
 };
