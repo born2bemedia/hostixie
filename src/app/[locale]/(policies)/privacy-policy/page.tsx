@@ -626,17 +626,6 @@ export default async function PrivacyPolicy() {
           </PolicyText>
           <List
             values={[
-              <span key="employees">
-                <span className="font-bold">
-                  {t('children.38.0', {
-                    fallback: 'Employees',
-                  })}
-                </span>{' '}
-                {t('children.38.1', {
-                  fallback:
-                    'may request updates through internal HR procedures',
-                })}
-              </span>,
               <span key="clients-or-customers">
                 <span className="font-bold">
                   {t('children.38.2', {
@@ -680,19 +669,6 @@ export default async function PrivacyPolicy() {
             {t('children.40.2', {
               fallback:
                 'While we will promptly honor data modification or removal requests where practical, please be aware that some residual data may persist in our systems due to technical constraints (e.g., backup logs).',
-            })}
-          </PolicyText>
-        </PolicySection>
-        <PolicySection
-          id="disclosure-to-corporate-affiliates"
-          title={t('children.41', {
-            fallback: 'Disclosure to Corporate Affiliates',
-          })}
-        >
-          <PolicyText>
-            {t('children.42', {
-              fallback:
-                'We may share your personal information with our affiliated companies. For the purposes of this Privacy Policy, "affiliates" refers to any entity that is owned by, owns, or is under shared ownership or control with Hostixie, whether directly or indirectly. All affiliated entities will handle your information in accordance with the standards set out in this Privacy Policy.',
             })}
           </PolicyText>
         </PolicySection>
@@ -791,14 +767,7 @@ export default async function PrivacyPolicy() {
               fallback:
                 'Although our business may operate globally, we strive to maintain data protection practices consistent with the',
             })}{' '}
-            <span className="font-bold">
-              {t('children.58', {
-                fallback: 'General Data Protection Regulation (GDPR)',
-              })}
-            </span>{' '}
-            {t('children.59', {
-              fallback: 'as a global standard.',
-            })}
+            
           </PolicyText>
           <PolicyText>
             {t('children.60', {

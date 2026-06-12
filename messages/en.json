@@ -2153,9 +2153,9 @@
         "31": "“Device”:",
         "3": "Any internet-capable hardware (e.g., smartphone, tablet, desktop computer) used to access the website or services.",
         "41": "“Service”:",
-        "4": "All digital services and solutions offered through the Hostixie platform, including but not limited to web hosting and web development.",
+        "4": "All services offered through Hostixie, including web hosting, website development, website maintenance, and related digital solutions.",
         "51": "“Third-Party Services”:",
-        "5": "Any external parties, such as advertisers, service providers, or marketing affiliates, whose content, offers, or functionality may be featured on or linked from our website.",
+        "5": "Any external service providers, payment processors, analytics platforms, communication tools, or other third-party services integrated with or linked from our website.",
         "61": "“Website”:",
         "6": "Refers to the official online presence of Hostixie, accessible via hostixie.com.",
         "71": "“You” / “User”:",
@@ -2169,7 +2169,7 @@
         "2": "Alter, adapt, decompile, disassemble, reverse engineer, or create derivative works from any portion of the website or its infrastructure."
       },
       "13": "User Submissions and Feedback",
-      "14": "Any comments, suggestions, proposals, or creative input you provide in connection with our website or services (collectively, “Feedback”) will be considered non-confidential and fully owned by Hostixie. We reserve the unrestricted right to use, modify, publish, or distribute such Feedback for any purpose, commercial or otherwise, without obligation to compensate or credit you.",
+      "14": "Any comments, suggestions, recommendations, or feedback you voluntarily provide in connection with our website or services (\"Feedback\") may be used by Hostixie to improve its website, services, and customer experience. Such Feedback will be considered non-confidential, and you agree that we may use it without obligation to provide compensation or attribution.",
       "15": "Consent to Terms",
       "16": "By using our website, creating an account, submitting a request, or engaging with any of our services, you confirm that you accept and agree to these Terms and Conditions. We are committed to transparency, and we encourage all users to review this page regularly for the latest updates.",
       "17": "Changes to Terms and Conditions",
@@ -2259,7 +2259,7 @@
       },
       "60": {
         "0": "User Submissions and Public Content",
-        "1": "Any content you submit to us, including ideas, proposals, artwork, or feedback, will be treated as non-confidential and may be used by Hostixie for any purpose, without compensation or credit. You grant us full rights to use and commercialize such content perpetually."
+        "1": "Any content submitted through our website, including feedback, inquiries, or service requests, may be processed and stored for the purpose of providing our services, improving customer support, and maintaining business operations. Ownership of client content, materials, and intellectual property remains with the respective owner unless otherwise agreed in writing."
       },
       "61": "Promotional Campaigns",
       "62": "From time to time, we may offer contests, giveaways, or promotions. These may be subject to additional rules and eligibility requirements (such as age or location). By participating, you agree to all applicable promotion-specific terms.",
@@ -2318,7 +2318,7 @@
         "6": "Country:",
         "7": "The jurisdiction where Hostixie is registered and legally operates, i.e.,",
         "8": "Customer:",
-        "9": "A user, organization, or business entity that signs up for or uses our services for hosting, development, or related digital support.",
+        "9": "Any individual or organization that uses, purchases, or requests services from Hostixie, including web hosting, website development, maintenance, or related digital services.",
         "10": "Device:",
         "11": "Any internet-capable equipment, including computers, smartphones, and tablets, that is used to access our website and services.",
         "12": "IP Address:",
@@ -2353,7 +2353,7 @@
         "0": "Full Name or Username",
         "1": "Email Address",
         "2": "Phone Number",
-        "3": "Billing and Shipping Address",
+        "3": "Billing Address",
         "4": "Age or Date of Birth",
         "5": "Account Credentials (e.g., password)",
         "6": "Project-related information (e.g., budget, timeline, preferences)",
@@ -2366,17 +2366,17 @@
         "1": "To enhance and optimize the functionality of our website",
         "2": "To respond to your customer service inquiries or support requests",
         "3": "To manage and process payments, invoices, and service delivery",
-        "4": "To conduct surveys, promotions, or service improvement campaigns",
+        "4": "To improve our services, website functionality, and customer experience",
         "5": "To send updates, special offers, newsletters, and transactional communications"
       },
       "17": "Sharing Information with Third Parties",
       "18": "To deliver our services efficiently, Hostixie may collect and process end-user data as needed to fulfill our service commitments. In some cases, you may provide us with access to information you’ve made publicly available on platforms like social media. If you do, we may access and store data from those sources based on your settings. You have full control over what you share by adjusting your privacy preferences on those platforms.",
       "19": "Third-Party Data Collection",
-      "20": "When you contact us or show interest in our services (e.g., by submitting your email address), we may receive supplemental data from external sources. For example, we might use fraud detection providers or data enrichment tools to validate identity or risk level. We also occasionally collect publicly available social media data to better understand engagement or audience demographics, always respecting your privacy settings on those platforms.",
+      "20": "When you contact us or show interest in our services (e.g., by submitting your email address), we may receive supplemental data from external sources. For example, we might use fraud detection providers or data enrichment tools to validate identity or risk level.",
       "21": "How and When We Share Information",
       "22": "We may share personal and non-personal information with trusted third parties, including but not limited to:",
       "23": {
-        "0": "Marketing agencies, affiliate partners, and advertising platforms",
+        "0": "Marketing service providers, analytics providers, payment processors, hosting infrastructure partners, and other service providers required to operate our business",
         "1": "Service providers assisting with hosting, database management, customer service, or payment processing",
         "2": "Technology vendors offering infrastructure, analytics, or email campaign tools",
         "3": "Partners involved in promotions or sponsored campaigns"
@@ -2396,8 +2396,6 @@
       "36": "Your Rights to Review and Update Your Information",
       "37": "Depending on your relationship with us, you may have the right to access, correct, or request deletion of your personal information. For example:",
       "38": {
-        "0": "Employees",
-        "1": "may request updates through internal HR procedures",
         "2": "Clients or Customers",
         "3": "can email us to:"
       },
@@ -2427,7 +2425,7 @@
       "54": "Use of Google Maps API",
       "55": "If our site integrates Google Maps for features like location display or routing, Google may collect information from you and your device in accordance with its own Privacy Policy. We recommend reviewing Google’s policies for more details.",
       "56": "GDPR and International Data Protection Standards",
-      "57": "Although our business may operate globally, we strive to maintain data protection practices consistent with the",
+      "57": "Hostixie is committed to maintaining data protection practices consistent with the GDPR and applicable privacy regulations.",
       "58": "General Data Protection Regulation (GDPR)",
       "59": "as a global standard.",
       "60": "Our commitment includes:",
@@ -2474,7 +2472,7 @@
       "4": "This policy applies to all services and digital products, regardless of whether they have been used, activated, accessed, or delivered. Once payment has been successfully processed and confirmed, the amount paid becomes non-reversible.",
       "5": "This refund policy reflects the nature of our work: services are often custom-built, resource-dependent, or begin immediately upon order confirmation. As such, even partial refunds are not issued under standard conditions. By purchasing through our platform, you acknowledge and accept that you are not entitled to a refund once the transaction is complete.",
       "6": "Customer Responsibility",
-      "7": "Before initiating any payment or placing an order on our platform",
+      "7": "Before initiating any payment or placing an order on our platform, you are solely responsible for evaluating all relevant information about the service or product you intend to purchase. This includes, but is not limited to, reading service descriptions, checking feature lists, reviewing pricing tiers, assessing deliverables, and ensuring that the selected solution aligns with your goals, requirements, and intended use.",
       "8": "you are solely responsible for evaluating all relevant information",
       "10": "about the service or product you intend to purchase. This includes, but is not limited to, reading service descriptions, checking feature lists, reviewing pricing tiers, assessing deliverables, and ensuring that the selected solution aligns with your business or personal needs.",
       "11": "We do not take responsibility for dissatisfaction caused by:",
@@ -2547,7 +2545,7 @@
     "children": {
       "0": "Welcome to Our Cookie Policy",
       "1": {
-        "0": "This document explains how Hostixa SRL, registration number J2026017647009, registered at Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania, the team behind Hostixie, uses cookies and similar tracking tools across our website,",
+        "0": "This document explains how Hostixa SRL, registration number J2026017647009, registered at Bucharest District 3, Str. Mihai Bravu Nr. 255, Basement, Module S 029, București, Romania, the team behind Hostixie, uses cookies and similar tracking tools across our website, hostixie.com. These little data helpers allow us to recognize you, improve your experience, and keep the website running smoothly. By using our website, you consent to the use of cookies as described in this Policy.",
         "01": "These little data helpers allow us to recognize you, improve your experience, and keep the website running smoothly. By continuing to use our site, you agree to the cookie practices described here.",
         "1": "We believe in transparency, so let’s break it down clearly."
       },

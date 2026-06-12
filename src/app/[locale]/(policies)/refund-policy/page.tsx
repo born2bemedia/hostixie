@@ -111,17 +111,6 @@ export default async function RefundPolicy() {
             {t('children.7', {
               fallback:
                 'Before initiating any payment or placing an order on our platform,',
-            })}{' '}
-            {''}
-            <span className="font-bold">
-              {t('children.8', {
-                fallback:
-                  'you are solely responsible for evaluating all relevant information',
-              })}
-            </span>{' '}
-            {t('children.10', {
-              fallback:
-                'about the service or product you intend to purchase. This includes, but is not limited to, reading service descriptions, checking feature lists, reviewing pricing tiers, assessing deliverables, and ensuring that the selected solution aligns with your business or personal needs.',
             })}
             <br />
             <br />
