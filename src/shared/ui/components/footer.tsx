@@ -36,7 +36,7 @@ export const Footer = () => {
               items={[
                 {
                   label: t("companyOverview", { fallback: "Company Overview" }),
-                  href: "/company-overview",
+                  href: "/about-us",
                 },
                 {
                   label: t("careers", { fallback: "Careers" }),

@@ -135,7 +135,7 @@ export const Header = () => {
           <Dropdown label={t('about', { fallback: 'About' })}>
             <DropdownItem>
               <Link
-                href="/company-overview"
+                href="/about-us"
                 className="flex items-center gap-2"
               >
                 <IconLayout>

@@ -113,6 +113,12 @@ export const WhatWeDo = () => {
                   'We offer a comprehensive suite of web services, including web development and hosting solutions, designed to meet the unique needs of your business. Our services include:',
               })}
             </Text>
+            <Text size="xl" color="black" className="opacity-50">
+              {t('text2', {
+                fallback:
+                  'Each solution is carefully crafted to help you build a strong online presence, improve your website’s performance, and grow your online reach. Whether you need reliable hosting or a custom-built website, we’re here to help bring your ideas to life online.',
+              })}
+            </Text>
           </div>
         </section>
         <section className="grid w-1/2 grid-cols-2 gap-2 max-lg:w-full">

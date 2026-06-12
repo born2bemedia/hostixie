@@ -12,19 +12,19 @@ import {
 } from './components';
 
 export const metadata: Metadata = {
-  title: 'Web Hosting & Web Development Services for Businesses | Hostixie',
+  title: 'Web Hosting & Web Development Services | Hostixie',
   description:
-    'Hostixie offers fast, secure hosting and professional web development. Scalable solutions for startups, enterprises, and e-commerce.',
+    'Hostixie offers fast, secure hosting and professional web development. Fast hosting, custom websites, online stores, and web solutions built around your goals.',
   openGraph: {
-    title: 'Web Hosting & Web Development Services for Businesses | Hostixie',
+    title: 'Web Hosting & Web Development Services | Hostixie',
     description:
-      'Hostixie offers fast, secure hosting and professional web development. Scalable solutions for startups, enterprises, and e-commerce.',
+      'Hostixie offers fast, secure hosting and professional web development. Fast hosting, custom websites, online stores, and web solutions built around your goals.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Web Hosting & Web Development Services for Businesses | Hostixie',
+    title: 'Web Hosting & Web Development Services | Hostixie',
     description:
-      'Hostixie offers fast, secure hosting and professional web development. Scalable solutions for startups, enterprises, and e-commerce.',
+      'Hostixie offers fast, secure hosting and professional web development. Fast hosting, custom websites, online stores, and web solutions built around your goals.',
   },
 };
 

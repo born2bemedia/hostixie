@@ -65,7 +65,7 @@ export const WhoWeAre = () => {
             ))}
           </div>
           <div className="rounded-xl border border-[#A4A189] p-4">
-            <LargeActionBtn href="/company-overview">
+            <LargeActionBtn href="/about-us">
               {t('exploreOurStory', { fallback: 'Explore Our Story' })}
             </LargeActionBtn>
           </div>

@@ -1,6 +1,8 @@
 'use client';
 
+
 import type { JSX } from 'react';
+import { useTranslations } from 'next-intl';
 
 import { GreyDot } from '@/shared/ui/components/grey-dot';
 import { CmsWorldIcon } from '@/shared/ui/icons/cms-world';
@@ -10,15 +12,18 @@ import { WPWorldIcon } from '@/shared/ui/icons/wp-world';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const getCards = () => [
-  { icon: SeoWorldIcon, values: ['SEO Strategy', 'Hosting'] },
-  { icon: EcommerceWorldIcon, values: ['E-commerce Dev', 'Maintenance'] },
-  { icon: WPWorldIcon, values: ['WordPress Setup', 'Ongoing Support'] },
-  { icon: CmsWorldIcon, values: ['Custom CMS', 'Training for Their Team'] },
+
+
+const getCards = (t: ReturnType<typeof useTranslations>) => [
+  { icon: SeoWorldIcon, values: [t('cards.0.values.0', { fallback: 'SEO Strategy' }), t('cards.0.values.1', { fallback: 'Hosting' })] },
+  { icon: EcommerceWorldIcon, values: [t('cards.1.values.0', { fallback: 'E-commerce Dev' }), t('cards.1.values.1', { fallback: 'Maintenance' })] },
+  { icon: WPWorldIcon, values: [t('cards.2.values.0', { fallback: 'WordPress Setup' }), t('cards.2.values.1', { fallback: 'Ongoing Support' })] },
+  { icon: CmsWorldIcon, values: [t('cards.3.values.0', { fallback: 'Custom CMS' }), t('cards.3.values.1', { fallback: 'Training for Their Team' })] },
 ];
 
 export const ClientsOften = () => {
-  const cards = getCards();
+  const t = useTranslations('clients.clientsOften');
+  const cards = getCards(t);
 
   return (
     <section className="py-20">
@@ -28,10 +33,10 @@ export const ClientsOften = () => {
             className="max-md:text-[40px] max-md:leading-[130%] max-md:tracking-[1.12px]"
             uppercase
           >
-            Add-On Services Most Popular with Customers
+            {t('title', { fallback: 'Add-On Services Most Popular with Customers' })}
           </Title>
           <Text size="xl" className="opacity-30">
-            Clients often choose to bundle:
+            {t('text', { fallback: 'Clients often choose to bundle:' })}
           </Text>
         </section>
         <section className="flex gap-5 max-md:flex-col">

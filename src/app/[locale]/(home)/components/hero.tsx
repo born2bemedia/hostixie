@@ -26,7 +26,7 @@ export const Hero = () => {
           <Text>
             {t('subtitle', {
               fallback:
-                'Fast, Secure, and Scalable Hosting & Custom Web Development Solutions to Help Your Business Thrive Online',
+                'Fast, Secure, and Affordable Hosting & Custom Web Development Solutions for Personal Projects, Creators, and Small Websites',
             })}
           </Text>
         </div>

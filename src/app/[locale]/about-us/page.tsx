@@ -15,19 +15,19 @@ import {
 } from './components';
 
 export const metadata: Metadata = {
-  title: 'About Hostixie – Company Overview & Mission | Hostixie',
+  title: 'About Hostixie | Our Story, Mission & Expertise | Hostixie',
   description:
     'Learn about Hostixie’s mission, vision, and expertise. Over 500 projects delivered with excellence in hosting and web development.',
   openGraph: {
-    title: 'Our Approach to Hosting & Web Development | Hostixie',
+    title: 'About Hostixie | Our Story, Mission & Expertise | Hostixie',
     description:
-      'Discover Hostixie’s step-by-step process: consultation, strategy, development, launch, and continuous support.',
+      'Learn about Hostixie’s mission, vision, and expertise. Over 500 projects delivered with excellence in hosting and web development.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Our Approach to Hosting & Web Development | Hostixie',
+    title: 'About Hostixie | Our Story, Mission & Expertise | Hostixie',
     description:
-      'Discover Hostixie’s step-by-step process: consultation, strategy, development, launch, and continuous support.',
+      'Learn about Hostixie’s mission, vision, and expertise. Over 500 projects delivered with excellence in hosting and web development.',
   },
 };
 

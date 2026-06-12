@@ -105,11 +105,11 @@ export const WhatWeDo = () => {
         title={t('title', { fallback: 'What We Do' })}
         subtitle={t('subtitle', {
           fallback:
-            'Our Services at a Glance: Customized Solutions for Your Online Needs',
+            'Our Services at a Glance: Hosting & Web Solutions for Every Project',
         })}
         text={t('text', {
           fallback:
-            'At Hostixie, we specialize in offering robust, flexible web hosting solutions and custom web development services designed to meet your unique digital needs.',
+            'At Hostixie, we provide reliable web hosting and custom web development services for websites, personal brands, online stores, portfolios, and digital projects of all sizes.',
         })}
       />
       <section className="rounded-xl border border-[#A4A189]">

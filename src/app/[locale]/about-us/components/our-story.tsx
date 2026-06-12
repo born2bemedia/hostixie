@@ -27,10 +27,7 @@ export const OurStory = () => {
           subtitle={t('1.subtitle', {
             fallback: 'Driving Digital Transformation',
           })}
-          text={t('1.text', {
-            fallback:
-              'Our mission is straightforward: to empower businesses with cutting-edge web solutions that drive growth, enhance user engagement, and establish a lasting digital presence. We aim to be the leading provider of web development and hosting services that not only meet but exceed our clients’ expectations. Our vision is to shape the future of the digital world by delivering innovative, scalable, and secure solutions that help our clients succeed.',
-          })}
+          text={""}
           highlight
         />
       </div>

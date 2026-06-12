@@ -10,7 +10,7 @@ export const metadata: Record<string, { title: string; description: string }> =
       title:
         'Hosting Upgrade Case Study – Faster Speeds & Improved Reliability | Hostixie',
       description:
-        'Hostixie upgraded its hosting with NVMe SSDs, smarter caching, and HTTP/3. Load times improved by 36% across all client websites.',
+        'Hostixie upgraded its hosting with NVMe SSDs, smarter caching, and HTTP/3. Load times improved by 36% across hosted websites.',
     },
     'e-commerce-makeover-2x-sales-in-90-days': {
       title:
@@ -22,17 +22,17 @@ export const metadata: Record<string, { title: string; description: string }> =
       title:
         'Managed WordPress Hosting Launch – Secure, Fast & Hassle-Free Plans | Hostixie',
       description:
-        'Discover Hostixie’s new Managed WordPress Hosting: daily backups, malware scans, speed tuning, and seamless performance for creators and small businesses.',
+        'Discover Hostixie’s new Managed WordPress Hosting: daily backups, malware scans, speed tuning, and seamless performance for creators, website owners, and online projects.',
     },
     'invoices-upgraded': {
       title:
-        'Smart Invoicing System Launch – Simple, Secure Client Billing | Hostixie',
+        'Smart Invoicing System Launch – Simple, Secure Account Billing | Hostixie',
       description:
         'Hostixie introduces upgraded invoicing: secure dashboard access, easy plan renewals, and downloadable PDFs. Transparent, automated billing with no delays.',
     },
     'partnerships-people': {
       title:
-        'Developer Bootcamp Partnership – Mentorship & Real Client Projects | Hostixie',
+        'Developer Bootcamp Partnership – Mentorship & Real Projects | Hostixie',
       description:
         'Hostixie partners with a local dev bootcamp to mentor junior developers on live client projects. Real-world experience meets production-quality solutions.',
     },
@@ -50,7 +50,7 @@ export const metadata: Record<string, { title: string; description: string }> =
     },
     'senior-ux-expertise-added': {
       title:
-        'Senior UX Designer Joins Hostixie – Enhancing Usability & Client Experience | Hostixie',
+        'Senior UX Designer Joins Hostixie – Enhancing Usability & User Experience | Hostixie',
       description:
         'Hostixie strengthens its team by adding a senior UX specialist to lead user experience and interface design across all projects.',
     },

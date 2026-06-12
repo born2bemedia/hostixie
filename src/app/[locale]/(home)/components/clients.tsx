@@ -58,18 +58,30 @@ const getArticles = (t: ReturnType<typeof useTranslations>) => [
   },
 ];
 
-const getReviews = () => [
+const getReviews = (t: ReturnType<typeof useTranslations>) => [
   {
-    review:
-      '“The website perfectly showcases our agency’s work. The team truly understood our brand and brought our vision to life in a way that resonates with our clients.”',
-    person: 'John D.',
-    position: 'Managing Director at Creative Agency',
+    review: t('reviews.0.review', {
+      fallback:
+        '“The website perfectly showcases our agency’s work. The team truly understood our brand and brought our vision to life in a way that resonates with our clients.”',
+    }),
+    person: t('reviews.0.person', {
+      fallback: 'John D.',
+    }),
+    position: t('reviews.0.position', {
+      fallback: 'Managing Director at Creative Agency',
+    }),
   },
   {
-    review:
-      '“The new e-commerce platform has transformed my business. It’s easy to use, and we’ve seen an increase in traffic and customer engagement. A game-changer for our sales!”',
-    person: 'Emma W.',
-    position: 'Retail Business Owner',
+    review: t('reviews.1.review', {
+      fallback:
+        '“The new e-commerce platform has transformed my business. It’s easy to use, and we’ve seen an increase in traffic and customer engagement. A game-changer for our sales!”',
+    }),
+    person: t('reviews.1.person', {
+      fallback: 'Emma W.',
+    }),
+    position: t('reviews.1.position', {
+      fallback: 'Retail Business Owner',
+    }),
   },
 ];
 
@@ -77,7 +89,7 @@ export const Clients = () => {
   const t = useTranslations('home.clients');
 
   const articles = getArticles(t);
-
+  const reviews = getReviews(t);
   return (
     <section className="container flex flex-col gap-10">
       <HeroTitle
@@ -102,13 +114,13 @@ export const Clients = () => {
       </VerticalSlider>
       <section className="flex flex-col gap-2">
         <section className="flex gap-2 max-md:flex-col">
-          {getReviews().map(review => (
+          {reviews.map(review => (
             <ReviewCard key={review.person} {...review} />
           ))}
         </section>
         <div className="rounded-xl border border-[#A4A189] p-4">
           <LargeActionBtn href="/clients">
-            Check Out Our Full Client Portfolio
+            {t('button', { fallback: 'Check Out Our Full Client Portfolio' })}
           </LargeActionBtn>
         </div>
       </section>
@@ -153,7 +165,7 @@ const Card = ({
 }) => (
   <article className="flex w-full max-w-[700px] cursor-grab flex-col gap-4 pr-8 max-md:max-w-[340px]">
     <div className="rounded-xl border border-[#A4A189] p-4">
-      <Image
+      <Image  
         className="h-[184px] w-full object-cover"
         src={imgUrl}
         alt={title}

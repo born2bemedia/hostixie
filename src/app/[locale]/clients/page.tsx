@@ -12,17 +12,17 @@ import {
 } from './components';
 
 export const metadata: Metadata = {
-  title: 'Hostixie Clients & Case Studies – Proven Results | Hostixie',
+  title: 'Hostixie Projects & Success Stories | Hostixie',
   description:
     'See how Hostixie helps clients achieve success with custom websites, hosting, and e-commerce platforms.',
   openGraph: {
-    title: 'Hostixie Clients & Case Studies – Proven Results | Hostixie',
+    title: 'Hostixie Projects & Success Stories | Hostixie',
     description:
       'See how Hostixie helps clients achieve success with custom websites, hosting, and e-commerce platforms.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Hostixie Clients & Case Studies – Proven Results | Hostixie',
+    title: 'Hostixie Projects & Success Stories | Hostixie',
     description:
       'See how Hostixie helps clients achieve success with custom websites, hosting, and e-commerce platforms.',
   },
