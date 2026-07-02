@@ -81,17 +81,17 @@ const getJobs = (t: ReturnType<typeof useTranslations>) => [
   },
   {
     type: t('items.1.type', { fallback: '(Remote - Full Time)' }),
-    name: t('items.1.name', { fallback: 'Client Success Manager' }),
+    name: t('items.1.name', { fallback: 'Customer Support Manager' }),
     description: (
       <>
         {t('items.1.description.0', {
           fallback:
-            'In the Client Success Manager role, you’re the trusted advisor for our hosting and development clients. You’ll own the entire customer lifecycle, from custom onboarding walkthroughs and platform training to ticket triage and SLA-driven support. You’ll manage our Zendesk (or comparable) queue, escalate complex issues to engineering, and keep clients in the loop with clear status updates.',
+            'In the Customer Support Manager role, you’re the trusted advisor for our hosting and development clients. You’ll own the entire customer lifecycle, from custom onboarding walkthroughs and platform training to ticket triage and SLA-driven support. You’ll manage our Zendesk (or comparable) queue, escalate complex issues to engineering, and keep clients in the loop with clear status updates.',
         })}
         <br /> <br />
         {t('items.1.description.1', {
           fallback:
-            'Beyond reactive support, you’ll drive proactive account reviews to identify upsell opportunities, capture feedback for product enhancements, and maintain our self-service knowledge base. Exceptional written and verbal communication skills, strong organizational habits, and a genuine desire to build lasting client relationships are key to thriving in this position.',
+            'Beyond reactive support, you’ll drive proactive customer feedback sessions to identify identify customer needs, capture feedback for product enhancements, and maintain our self-service knowledge base. Exceptional written and verbal communication skills, strong organizational habits, and a genuine desire to build lasting client relationships are key to thriving in this position.',
         })}
       </>
     ),
@@ -109,7 +109,7 @@ const getJobs = (t: ReturnType<typeof useTranslations>) => [
         fallback: 'Escalate technical issues with full context to the dev team',
       }),
       t('items.1.responsibilities.4', {
-        fallback: 'Conduct periodic account reviews and check-ins',
+        fallback: 'Conduct periodic customer feedback sessions and check-ins',
       }),
       t('items.1.responsibilities.5', {
         fallback: 'Update and maintain internal documentation and FAQs',

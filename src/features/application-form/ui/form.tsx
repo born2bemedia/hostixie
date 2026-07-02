@@ -168,8 +168,8 @@ export const ApplicationForm = ({ onCancel }: { onCancel: () => void }) => {
                     value: 'Frontend Developer',
                   },
                   {
-                    label: t('jobs.1', { fallback: 'Client Success Manager' }),
-                    value: 'Client Success Manager',
+                    label: t('jobs.1', { fallback: 'Customer Support Manager' }),
+                    value: 'Customer Support Manager',
                   },
                   {
                     label: t('jobs.2', {

@@ -104,13 +104,13 @@ export const WhatWeDo = () => {
             <Title as="h3" size="3xl" color="black">
               {t('subtitle', {
                 fallback:
-                  'Tailored Web Development & Hosting Solutions for Every Business',
+                  'Tailored Web Development & Hosting Solutions for Every Website',
               })}
             </Title>
             <Text size="xl" color="black" className="opacity-50">
               {t('text', {
                 fallback:
-                  'We offer a comprehensive suite of web services, including web development and hosting solutions, designed to meet the unique needs of your business. Our services include:',
+                  'We offer a comprehensive suite of web services, including web development and hosting solutions, designed to meet different website goals and online project requirements. Our services include:',
               })}
             </Text>
             <Text size="xl" color="black" className="opacity-50">

@@ -394,9 +394,6 @@ export default async function PrivacyPolicy() {
               t('children.11.3', {
                 fallback: 'Subscribe to a newsletter',
               }),
-              t('children.11.4', {
-                fallback: 'Participate in a survey, contest, or promotion',
-              }),
               t('children.11.5', {
                 fallback: 'Contact us via forms or direct communication',
               }),
