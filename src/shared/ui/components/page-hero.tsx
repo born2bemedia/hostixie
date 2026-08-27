@@ -13,12 +13,14 @@ export const PageHero = ({
   text,
   layoutClassName,
   additionalContent,
+  textFirst = false,
 }: {
   title: ReactNode;
   subtitle?: string;
   text: string;
   layoutClassName?: string;
   additionalContent?: ReactNode;
+  textFirst?: boolean;
 }) => (
   <section
     className={cn(
@@ -39,14 +41,29 @@ export const PageHero = ({
         <div className="flex items-end justify-between max-md:gap-10">
           <LineUpIcon />
           <div className="flex w-[70%] flex-col gap-2 max-[1300px]:w-full">
-            {subtitle && (
-              <Title size="5xl" weight={500}>
-                {subtitle}
-              </Title>
+            {textFirst ? (
+              <>
+                <Text size="xl" weight={500}>
+                  {text}
+                </Text>
+                {subtitle && (
+                  <Title size="5xl" weight={500}>
+                    {subtitle}
+                  </Title>
+                )}
+              </>
+            ) : (
+              <>
+                {subtitle && (
+                  <Title size="5xl" weight={500}>
+                    {subtitle}
+                  </Title>
+                )}
+                <Text size="xl" weight={500}>
+                  {text}
+                </Text>
+              </>
             )}
-            <Text size="xl" weight={500} className="opacity-30">
-              {text}
-            </Text>
             {additionalContent}
           </div>
         </div>

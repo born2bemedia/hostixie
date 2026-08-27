@@ -14,18 +14,12 @@ export const FormHeader = () => {
         size="5xl"
         color="black"
         weight={500}
-        className="leading-[52.8px] tracking-[-0.48px]"
+        className="max-w-[511px] leading-[52.8px] tracking-[-0.48px]"
       >
-        {t('title.0', { fallback: 'Your Path to Digital' })} <br />
-        <span className="text-primary">
-          {t('title.1', { fallback: 'Success Begins Here' })}
-        </span>
+        {t('title')}
       </Title>
       <Text color="black" weight={500} className="w-[289px] max-md:w-full">
-        {t('text', {
-          fallback:
-            'Please fill out the form below, and our team will contact you to discuss your project and how we can support your digital goals.',
-        })}
+        {t('text')}
       </Text>
     </section>
   );

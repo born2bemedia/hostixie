@@ -8,40 +8,11 @@ import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const getReviews = (t: ReturnType<typeof useTranslations>) => [
-  {
-    text: t('reviews.0.text', { fallback: '"The onboarding was seamless, and their ongoing support keeps our site running smoothly. Couldn\'t ask for a more reliable partner."' }),
-    from: t('reviews.0.from', { fallback: 'Fintech Startup CEO' }),
-  },
-  {
-    text: t('reviews.1.text', { fallback: '"Our team loved the intuitive dashboard they built for us. Updating content feels effortless now."' }),
-    from: t('reviews.1.from', { fallback: 'EdTech Platform Director' }),
-  },
-  {
-    text: t('reviews.2.text', { fallback: '"Sales jumped 35% after they optimized our checkout flow. That ROI speaks for itself."' }),
-    from: t('reviews.2.from', { fallback: 'Handmade Jewelry E-commerce Manager' }),
-  },
-  {
-    text: t('reviews.3.text', { fallback: '"They turned our vision into reality faster than expected. The performance gains are unreal."' }),
-    from: t('reviews.3.from', { fallback: 'SaaS Product Lead' }),
-  },
-  {
-    text: t('reviews.4.text', { fallback: '"Our nonprofit\'s donation page never worked so well - donations are up 50% this quarter."' }),
-    from: t('reviews.4.from', { fallback: 'Charity Program Coordinator' }),
-  },
-  {
-    text: t('reviews.5.text', { fallback: '"Their attention to detail in UI/UX design made our mobile app site a pleasure to navigate."' }),
-    from: t('reviews.5.from', { fallback: 'App Developer' }),
-  },
-  {
-    text: t('reviews.6.text', { fallback: '"From day one, communication was crystal clear. Every milestone was delivered on time."' }),
-    from: t('reviews.6.from', { fallback: 'Marketing Agency Director' }),
-  },
-  {
-    text: t('reviews.7.text', { fallback: '"They migrated our legacy systems without a hitch. Now everything runs faster and is easier to manage."' }),
-    from: t('reviews.7.from', { fallback: 'Healthcare IT Manager' }),
-  },
-];
+const getReviews = (t: ReturnType<typeof useTranslations>) =>
+  [0, 1, 2, 3].map(index => ({
+    text: t(`reviews.${index}.text`),
+    from: t(`reviews.${index}.from`),
+  }));
 
 export const Experience = () => {
   const t = useTranslations('clients.experience');
@@ -60,7 +31,7 @@ export const Experience = () => {
         <Divider />
         <section className="flex flex-col gap-10">
           <Title className="text-[45px] leading-[52.8px] tracking-[-0.48px] max-md:text-[24px] max-md:leading-[120%] max-md:tracking-[-0.48px]">
-            {t('title', { fallback: 'Voices of Experience' })}
+            {t('title')}
           </Title>
           <div className="flex items-center gap-10">
             <span className="h-1 grow bg-white"></span>

@@ -50,21 +50,14 @@ export const SecondStepForm = ({
       <FormHeader />
       <section className="flex flex-col gap-5">
         <FieldWrapper
-          title={t('additionalInfo.title', {
-            fallback: 'Additional Information:',
-          })}
-          text={t('additionalInfo.text', {
-            fallback:
-              'What specific features or functionalities do you require? (e.g., e-commerce, custom design, SEO, etc.)',
-          })}
+          title={t('projectGoals.title')}
+          text={t('projectGoals.text')}
         >
           <Field name="additionalInfo">
             {field => (
               <TextArea
                 name={field.name}
-                placeholder={t('additionalInfo.placeholder', {
-                  fallback: 'Enter specific features',
-                })}
+                placeholder={t('projectGoals.placeholder')}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -78,77 +71,56 @@ export const SecondStepForm = ({
           </Field>
         </FieldWrapper>
         <FieldWrapper
-          title={t('preferredTechnology.title', {
-            fallback: 'Preferred Technology:',
-          })}
-          text={t('preferredTechnology.text', {
-            fallback:
-              'If you have any preferences for your website’s platform (WordPress, Shopify, custom build, etc.), let us know!',
-          })}
-        >
-          <Field name="preferredTechnology">
-            {field => (
-              <TextArea
-                name={field.name}
-                placeholder={t('preferredTechnology.placeholder', {
-                  fallback: 'Enter preferred technology',
-                })}
-                value={String(field.state.value)}
-                onBlur={field.handleBlur}
-                onChange={e => field.handleChange(e.target.value)}
-                intent={field.state.meta.errors.length ? 'danger' : 'primary'}
-                hint={field.state.meta.errors
-                  .map(error => error?.message)
-                  .join(', ')}
-                className="h-[100px]"
-              />
-            )}
-          </Field>
-        </FieldWrapper>
-        <FieldWrapper
-          title={t('currentWebsite.title', {
-            fallback: 'Current Website (If Any):',
-          })}
-          text={t('currentWebsite.text', {
-            fallback:
-              'Please enter your website URL, if you have one, so we can better understand your current digital presence.',
-          })}
-        >
-          <Field name="currentWebsite">
-            {field => (
-              <TextArea
-                name={field.name}
-                placeholder={t('currentWebsite.placeholder', {
-                  fallback: 'Enter your current website',
-                })}
-                value={String(field.state.value)}
-                onBlur={field.handleBlur}
-                onChange={e => field.handleChange(e.target.value)}
-                intent={field.state.meta.errors.length ? 'danger' : 'primary'}
-                hint={field.state.meta.errors
-                  .map(error => error?.message)
-                  .join(', ')}
-                className="h-[100px]"
-              />
-            )}
-          </Field>
-        </FieldWrapper>
-        <FieldWrapper
-          title={t('designInspiration.title', {
-            fallback: 'Design Inspiration:',
-          })}
-          text={t('designInspiration.text', {
-            fallback:
-              'Do you have any design inspirations or websites you like? Please share reference links.',
-          })}
+          title={t('targetAudience.title')}
+          text={t('targetAudience.text')}
         >
           <Field name="designInspiration">
             {field => (
               <TextArea
                 name={field.name}
-                placeholder={t('designInspiration.placeholder', {
-                  fallback: 'Provide reference links',
-                })}
+                placeholder={t('targetAudience.placeholder')}
+                value={String(field.state.value)}
+                onBlur={field.handleBlur}
+                onChange={e => field.handleChange(e.target.value)}
+                intent={field.state.meta.errors.length ? 'danger' : 'primary'}
+                hint={field.state.meta.errors
+                  .map(error => error?.message)
+                  .join(', ')}
+                className="h-[100px]"
+              />
+            )}
+          </Field>
+        </FieldWrapper>
+        <FieldWrapper
+          title={t('currentActivities.title')}
+          text={t('currentActivities.text')}
+        >
+          <Field name="currentWebsite">
+            {field => (
+              <TextArea
+                name={field.name}
+                placeholder={t('currentActivities.placeholder')}
+                value={String(field.state.value)}
+                onBlur={field.handleBlur}
+                onChange={e => field.handleChange(e.target.value)}
+                intent={field.state.meta.errors.length ? 'danger' : 'primary'}
+                hint={field.state.meta.errors
+                  .map(error => error?.message)
+                  .join(', ')}
+                className="h-[100px]"
+              />
+            )}
+          </Field>
+        </FieldWrapper>
+        <FieldWrapper
+          title={t('preferredChannels.title')}
+          text={t('preferredChannels.text')}
+        >
+          <Field name="preferredTechnology">
+            {field => (
+              <TextArea
+                name={field.name}
+                placeholder={t('preferredChannels.placeholder')}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -169,7 +141,7 @@ export const SecondStepForm = ({
           onClick={() => setIsOpen(false)}
           className="font-bold max-md:w-full max-md:justify-center"
         >
-          {t('cancel', { fallback: 'Cancel' })}
+          {t('cancel')}
         </Button>
         <Subscribe selector={state => [state.canSubmit, state.isSubmitting]}>
           {([canSubmit, isSubmitting]) => (
@@ -180,9 +152,7 @@ export const SecondStepForm = ({
               className="font-bold max-md:w-full max-md:justify-center"
               disabled={!canSubmit}
             >
-              {!isSubmitting
-                ? t('submit', { fallback: 'Submit Form' })
-                : t('submitting', { fallback: 'Submitting...' })}
+              {!isSubmitting ? t('submit') : t('submitting')}
             </Button>
           )}
         </Subscribe>

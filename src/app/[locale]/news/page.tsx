@@ -11,21 +11,21 @@ import { NewsList } from '@/features/news/ui/news-list';
 import { GotProject, Hero } from './components';
 
 export const metadata: Metadata = {
-  title: 'Hostixie News – Latest Hosting & Web Development Updates | Hostixie',
+  title: 'Hostixie Newsroom – Advertising, Marketing & Communications | Hostixie',
   description:
-    'Stay updated on Hostixie’s latest launches, features, success stories, and industry insights.',
+    'Explore recent client projects, market research initiatives, campaign developments, new capabilities, team updates, and industry activities from Hostixie.',
   openGraph: {
     title:
-      'Hostixie News – Latest Hosting & Web Development Updates | Hostixie',
+      'Hostixie Newsroom – Advertising, Marketing & Communications | Hostixie',
     description:
-      'Stay updated on Hostixie’s latest launches, features, success stories, and industry insights.',
+      'Explore recent client projects, market research initiatives, campaign developments, new capabilities, team updates, and industry activities from Hostixie.',
   },
   twitter: {
     card: 'summary_large_image',
     title:
-      'Hostixie News – Latest Hosting & Web Development Updates | Hostixie',
+      'Hostixie Newsroom – Advertising, Marketing & Communications | Hostixie',
     description:
-      'Stay updated on Hostixie’s latest launches, features, success stories, and industry insights.',
+      'Explore recent client projects, market research initiatives, campaign developments, new capabilities, team updates, and industry activities from Hostixie.',
   },
 };
 
@@ -39,24 +39,9 @@ export default async function News() {
   return (
     <main>
       <Hero />
-      <NewsList
-        heading={t('latestNews.title', {
-          fallback: 'Latest Wins & Launches',
-        })}
-        items={latest}
-      />
-      <NewsList
-        heading={t('techNews.title', {
-          fallback: 'Tech & Team Updates',
-        })}
-        items={techNews}
-      />
-      <NewsList
-        heading={t('partnershipNews.title', {
-          fallback: 'Partnerships & People',
-        })}
-        items={partnershipNews}
-      />
+      <NewsList heading={t('latestNews.title')} items={latest} />
+      <NewsList heading={t('techNews.title')} items={techNews} />
+      <NewsList heading={t('partnershipNews.title')} items={partnershipNews} />
       <GotProject />
     </main>
   );

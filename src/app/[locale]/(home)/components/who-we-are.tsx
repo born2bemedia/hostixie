@@ -28,8 +28,10 @@ const getSteps = (t: ReturnType<typeof useTranslations>) => [
     value: t('steps.2.value', { fallback: '200+' }),
   },
   {
-    label: t('steps.3.label', { fallback: 'uptime for our hosting solutions' }),
-    value: t('steps.3.value', { fallback: '99.9%' }),
+    label: t('steps.3.label', {
+      fallback: 'campaign performance improvement',
+    }),
+    value: t('steps.3.value', { fallback: '+45%' }),
   },
   {
     label: t('steps.4.label', {

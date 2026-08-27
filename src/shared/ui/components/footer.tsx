@@ -23,11 +23,11 @@ export const Footer = () => {
               items={[
                 {
                   label: t("webHosting", { fallback: "Web Hosting" }),
-                  href: "/web-hosting",
+                  href: "/advertising-services",
                 },
                 {
                   label: t("webDevelopment", { fallback: "Web Development" }),
-                  href: "/web-development",
+                  href: "/marketing-communications",
                 },
               ]}
             />

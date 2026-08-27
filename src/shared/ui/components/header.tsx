@@ -107,7 +107,7 @@ export const Header = () => {
         <section className="flex items-center gap-6 max-md:hidden">
           <Dropdown label={t('whatWeDo', { fallback: 'What We Do' })}>
             <DropdownItem>
-              <Link href="/web-hosting" className="flex items-center gap-2">
+              <Link href="/advertising-services" className="flex items-center gap-2">
                 <IconLayout>
                   <HostingIcon />
                 </IconLayout>
@@ -117,7 +117,7 @@ export const Header = () => {
               </Link>
             </DropdownItem>
             <DropdownItem>
-              <Link href="/web-development" className="flex items-center gap-2">
+              <Link href="/marketing-communications" className="flex items-center gap-2">
                 <IconLayout>
                   <CodeCircleIcon />
                 </IconLayout>

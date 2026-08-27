@@ -9,8 +9,8 @@ export const firstStepFormSchema = v.object({
     v.email('Invalid email address'),
   ),
   phone: v.pipe(v.string(), v.minLength(5, 'Phone is required')),
-  companyName: v.pipe(v.string(), v.minLength(1, 'Company name is required')),
-  projectType: v.pipe(v.string(), v.minLength(1, 'Project type is required')),
+  companyName: v.pipe(v.string(), v.minLength(1, 'Project name is required')),
+  projectType: v.pipe(v.string(), v.minLength(1, 'Service is required')),
   budget: v.pipe(v.string(), v.minLength(1, 'Budget is required')),
   timeline: v.pipe(v.string(), v.minLength(1, 'Timeline is required')),
 });
@@ -18,11 +18,11 @@ export const firstStepFormSchema = v.object({
 export const secondStepFormSchema = v.object({
   additionalInfo: v.pipe(
     v.string(),
-    v.minLength(1, 'Additional info is required'),
+    v.minLength(1, 'Project goals are required'),
   ),
   preferredTechnology: v.pipe(
     v.string(),
-    v.minLength(1, 'Preferred technology is required'),
+    v.minLength(1, 'Preferred channels are required'),
   ),
   currentWebsite: v.pipe(v.string()),
   designInspiration: v.pipe(v.string()),

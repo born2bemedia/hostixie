@@ -23,8 +23,8 @@ export const Heading = ({
     </Title>
     <Text
       size="xl"
-      color={color === 'white' ? 'grey' : 'black'}
-      className="w-[800px] opacity-50 max-lg:w-full"
+      color={color === 'white' ? 'grey' : 'muted'}
+      className="w-[800px] max-lg:w-full"
     >
       {text}
     </Text>

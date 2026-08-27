@@ -72,23 +72,23 @@
       "devSteps": {
         "0": {
           "title": "Marketing & Business Consulting",
-          "text": "We advise on marketing direction, business positioning, and communication priorities to help align commercial goals with market opportunities."
+          "text": "We help businesses evaluate opportunities, clarify priorities, and develop marketing approaches aligned with their broader commercial goals."
         },
         "1": {
           "title": "Market Research",
-          "text": "We gather and interpret audience, competitor, and market insights to support clearer decisions before campaigns and brand initiatives begin."
+          "text": "We collect and analyze relevant market, audience, competitor, and consumer information to support better-informed decisions."
         },
         "2": {
-          "title": "Public Relations",
-          "text": "We help shape public messaging and media relationships so your brand communicates with credibility across relevant channels."
+          "title": "PR & Communications",
+          "text": "We develop communication strategies that help businesses communicate consistently with customers, partners, and media."
         },
         "3": {
-          "title": "Brand Communications",
-          "text": "We build coherent messaging frameworks that keep your brand voice consistent across campaigns, channels, and customer touchpoints."
+          "title": "Brand & Visual Communications",
+          "text": "We create visual materials that strengthen brand recognition and deliver clear, consistent communication across different channels."
         },
         "4": {
           "title": "Graphic Design",
-          "text": "We create visual systems and design assets that support campaign ideas and strengthen brand recognition."
+          "text": "From advertising creatives and presentations to visual communication assets, we design content that brings ideas to life."
         }
       }
     },
@@ -97,6 +97,7 @@
       "subtitle": "From Insight to Communication That Makes an Impact",
       "text": "Every project starts with understanding the business behind the message. We combine research, strategic thinking, creative development, and thoughtful execution to create advertising and communication solutions aligned with each client's goals.",
       "stepByStep": "Step-by-Step Process:",
+      "button": "Kickstart Your Project",
       "slides": {
         "0": {
           "title": "Discovery & Consultation",
@@ -109,6 +110,10 @@
         "2": {
           "title": "Creative Development",
           "text": "Our team develops campaign concepts, messages, visual materials, communication assets, and media plans aligned with the agreed strategy."
+        },
+        "3": {
+          "title": "Launch & Optimization",
+          "text": "We coordinate campaign delivery and communication activities, review performance, and use the resulting insights to support ongoing improvements."
         }
       }
     },
@@ -124,6 +129,14 @@
         "1": {
           "title": "Market Research for a Growing Retail Business",
           "text": "We conducted market and audience research to help a growing retail business better understand customer expectations, competitive positioning, and opportunities for future communication. The findings supported a clearer marketing direction and campaign strategy."
+        },
+        "2": {
+          "title": "PR & Communications Strategy for a Professional Services Company",
+          "text": "We developed a structured communication approach covering key messages, audience priorities, content direction, and external communications. The new framework helped create a more consistent and recognizable public presence."
+        },
+        "3": {
+          "title": "Visual Identity Refresh for an Established Brand",
+          "text": "We refreshed the brand's visual communication system and created a consistent set of graphic assets for advertising, presentations, social communication, and other customer-facing materials."
         }
       },
       "button": "Explore More Projects",
@@ -160,8 +173,8 @@
           "value": "200+"
         },
         "3": {
-          "label": "uptime for our hosting solutions",
-          "value": "99.9%"
+          "label": "campaign performance improvement",
+          "value": "+45%"
         },
         "4": {
           "label": "brand and visual communication projects completed",
@@ -440,7 +453,8 @@
     },
     "downloadPrice": {
       "title": "Need Our Pricing in PDF?",
-      "text": "While all our prices are available on the website, we understand you might prefer a convenient, downloadable version. Get our complete pricing details in PDF format, neatly organized for easy reference and comparison."
+      "text": "While all our prices are available on the website, we understand you might prefer a convenient, downloadable version. Get our complete pricing details in PDF format, neatly organized for easy reference and comparison.",
+      "button": "Download Full Pricing PDF"
     },
     "packages": {
       "title": "Our Advertising Packages",
@@ -449,31 +463,147 @@
       "choosePackage": "Choose Package",
       "showMore": "show more",
       "showLess": "show less",
+      "includesLabel": "Includes:",
       "items": {
         "0": {
           "title": "Campaign Starter",
-          "price": "€3,000",
-          "description": "A focused package for businesses preparing a smaller advertising campaign or testing a new campaign direction."
+          "price": "€3,500",
+          "description": "A focused package for businesses preparing a smaller advertising campaign or testing a new campaign direction.",
+          "includes": {
+            "0": "Initial campaign consultation",
+            "1": "Advertising brief",
+            "2": "Campaign objective definition",
+            "3": "Target audience definition",
+            "4": "Basic competitor review",
+            "5": "Campaign concept",
+            "6": "Key advertising message",
+            "7": "Up to 3 creative advertising concepts",
+            "8": "Up to 5 final advertising assets",
+            "9": "1 primary advertising channel",
+            "10": "Basic media recommendation",
+            "11": "Campaign setup support",
+            "12": "Basic performance framework",
+            "13": "End-of-campaign summary",
+            "14": "Up to 2 revision rounds"
+          }
         },
         "1": {
           "title": "Advertising Launch",
-          "price": "€5,500",
-          "description": "Designed for businesses launching a new campaign, product, service, offer, or promotional initiative across selected advertising channels."
+          "price": "€6,000",
+          "description": "Designed for businesses launching a new campaign, product, service, offer, or promotional initiative across selected advertising channels.",
+          "includes": {
+            "0": "Campaign discovery session",
+            "1": "Advertising strategy",
+            "2": "Audience segmentation",
+            "3": "Competitor advertising review",
+            "4": "Campaign positioning",
+            "5": "Key message development",
+            "6": "Creative campaign concept",
+            "7": "Advertising copy",
+            "8": "Up to 10 advertising assets",
+            "9": "Up to 2 advertising channels",
+            "10": "Media planning",
+            "11": "Campaign setup and coordination",
+            "12": "Basic placement management",
+            "13": "Campaign monitoring",
+            "14": "One optimization round",
+            "15": "Campaign performance report",
+            "16": "Recommendations for next steps",
+            "17": "Up to 3 revision rounds"
+          }
         },
         "2": {
           "title": "Multi-Channel Growth",
-          "price": "€9,500",
-          "description": "A broader advertising package for brands that need coordinated campaign activity across several audience touchpoints."
+          "price": "€10,000",
+          "description": "A broader advertising package for brands that need coordinated campaign activity across several audience touchpoints.",
+          "includes": {
+            "0": "Full campaign strategy",
+            "1": "Market and competitor advertising review",
+            "2": "Detailed audience segmentation",
+            "3": "Campaign positioning",
+            "4": "Message framework",
+            "5": "Creative direction",
+            "6": "Advertising copy development",
+            "7": "Up to 20 advertising assets",
+            "8": "Up to 4 advertising channels",
+            "9": "Multi-channel media plan",
+            "10": "Advertising schedule",
+            "11": "Campaign setup",
+            "12": "Media placement coordination",
+            "13": "Budget allocation recommendations",
+            "14": "Ongoing campaign monitoring",
+            "15": "Creative variation management",
+            "16": "Campaign optimization",
+            "17": "Performance analysis",
+            "18": "Detailed campaign report",
+            "19": "Post-campaign recommendations",
+            "20": "Up to 3 revision rounds"
+          }
         },
         "3": {
           "title": "Integrated Advertising Campaign",
           "price": "€15,000",
-          "description": "For established businesses requiring a substantial advertising campaign with deeper planning, broader creative development, and coordinated media activity."
+          "description": "For established businesses requiring a substantial advertising campaign with deeper planning, broader creative development, and coordinated media activity.",
+          "includes": {
+            "0": "Comprehensive campaign discovery",
+            "1": "Advertising strategy",
+            "2": "Audience and market analysis",
+            "3": "Competitive advertising analysis",
+            "4": "Campaign architecture",
+            "5": "Message hierarchy",
+            "6": "Full creative concept development",
+            "7": "Campaign copywriting",
+            "8": "Up to 35 advertising assets",
+            "9": "Up to 6 advertising channels",
+            "10": "Digital and traditional media planning",
+            "11": "Media placement coordination",
+            "12": "Advertising calendar",
+            "13": "Budget allocation framework",
+            "14": "Campaign launch coordination",
+            "15": "Ongoing campaign management",
+            "16": "Regular optimization",
+            "17": "Creative refresh recommendations",
+            "18": "Performance monitoring",
+            "19": "Campaign reporting",
+            "20": "Final campaign analysis",
+            "21": "Strategic recommendations",
+            "22": "Dedicated project manager",
+            "23": "Regular client review meetings"
+          }
         },
         "4": {
           "title": "Full-Service Advertising Partnership",
           "price": "€25,000",
-          "description": "Our most comprehensive advertising solution for complex campaigns, major launches, broader geographic coverage, or brands requiring an integrated agency partner."
+          "description": "Our most comprehensive advertising solution for complex campaigns, major launches, broader geographic coverage, or brands requiring an integrated agency partner.",
+          "includes": {
+            "0": "Full advertising strategy",
+            "1": "Detailed campaign planning",
+            "2": "Audience segmentation",
+            "3": "Competitive landscape review",
+            "4": "Advertising positioning",
+            "5": "Multi-stage campaign architecture",
+            "6": "Creative campaign platform",
+            "7": "Full advertising copy development",
+            "8": "Extensive creative asset production",
+            "9": "Multi-format campaign adaptation",
+            "10": "Digital advertising coordination",
+            "11": "Traditional media coordination",
+            "12": "Multi-channel media strategy",
+            "13": "Media placement management",
+            "14": "Campaign calendar",
+            "15": "Budget allocation planning",
+            "16": "Campaign launch management",
+            "17": "Continuous campaign monitoring",
+            "18": "Regular optimization",
+            "19": "Creative testing and variations",
+            "20": "Performance analysis",
+            "21": "Regular reporting",
+            "22": "Post-campaign analysis",
+            "23": "Strategic recommendations",
+            "24": "Dedicated account coordination",
+            "25": "Priority communication",
+            "26": "Ongoing campaign consultation"
+          }
         }
       }
     },
@@ -526,151 +656,211 @@
         "allServices": "all services",
         "0": {
           "title": "Marketing & Business Consulting",
-          "text": "We advise on marketing direction, business positioning, and communication priorities to help align commercial goals with market opportunities.",
           "includes": {
             "0": {
-              "title": "Marketing Direction",
-              "text": "Clarify marketing priorities, goals, and the role of communication in your commercial plan."
+              "title": "Marketing Direction"
             },
             "1": {
-              "title": "Business Positioning",
-              "text": "Define how your offer should sit in the market relative to competitors and customer needs."
+              "title": "Business Positioning"
             },
             "2": {
-              "title": "Audience Priorities",
-              "text": "Identify the audiences that matter most and how to speak to them effectively."
+              "title": "Audience Priorities"
             },
             "3": {
-              "title": "Channel Recommendations",
-              "text": "Recommend communication and marketing channels that fit your objectives and resources."
+              "title": "Channel Recommendations"
             },
             "4": {
-              "title": "Go-to-Market Guidance",
-              "text": "Structure launch and growth activities around a coherent marketing plan."
+              "title": "Go-to-Market Guidance"
             },
             "5": {
-              "title": "Stakeholder Alignment",
-              "text": "Help internal teams align on messaging, priorities, and next steps."
+              "title": "Stakeholder Alignment"
+            },
+            "6": {
+              "title": "Commercial Goal Mapping"
+            },
+            "7": {
+              "title": "Opportunity Assessment"
+            },
+            "8": {
+              "title": "Priority Planning"
+            },
+            "9": {
+              "title": "Strategic Recommendations"
             }
           }
         },
         "1": {
           "title": "Market Research",
-          "text": "We gather and interpret audience, competitor, and market insights to support clearer decisions before campaigns and brand initiatives begin.",
           "includes": {
             "0": {
-              "title": "Audience Insights",
-              "text": "Understand who your customers are, what they need, and how they make decisions."
+              "title": "Audience Insights"
             },
             "1": {
-              "title": "Competitor Review",
-              "text": "Map competitor positioning, messaging, and visible communication activity."
+              "title": "Competitor Review"
             },
             "2": {
-              "title": "Market Context",
-              "text": "Summarize category trends and opportunities relevant to your business."
+              "title": "Market Context"
             },
             "3": {
-              "title": "Brand Perception",
-              "text": "Assess how your brand is currently perceived where information is available."
+              "title": "Brand Perception"
             },
             "4": {
-              "title": "Opportunity Mapping",
-              "text": "Highlight gaps and openings for stronger marketing and communication."
+              "title": "Opportunity Mapping"
             },
             "5": {
-              "title": "Research Summary",
-              "text": "Deliver clear findings and recommendations ready for strategic decisions."
+              "title": "Research Summary"
+            },
+            "6": {
+              "title": "Consumer Analysis"
+            },
+            "7": {
+              "title": "Category Trends"
+            },
+            "8": {
+              "title": "Insight Workshops"
+            },
+            "9": {
+              "title": "Decision Support Reports"
             }
           }
         },
         "2": {
-          "title": "Public Relations",
-          "text": "We help shape public messaging and media relationships so your brand communicates with credibility across relevant channels.",
+          "title": "PR & Communications",
           "includes": {
             "0": {
-              "title": "PR Strategy",
-              "text": "Define objectives, narratives, and priority media or stakeholder channels."
+              "title": "PR Strategy"
             },
             "1": {
-              "title": "Message Development",
-              "text": "Craft clear public messages for announcements, interviews, and media outreach."
+              "title": "Message Development"
             },
             "2": {
-              "title": "Press Materials",
-              "text": "Prepare press releases, media kits, and supporting communication assets."
+              "title": "Press Materials"
             },
             "3": {
-              "title": "Media Outreach Support",
-              "text": "Support outreach planning and coordination with relevant media contacts."
+              "title": "Media Outreach Support"
             },
             "4": {
-              "title": "Reputation Guidance",
-              "text": "Advise on consistent external communication during key moments."
+              "title": "Reputation Guidance"
             },
             "5": {
-              "title": "Coverage Review",
-              "text": "Review results and recommend next steps for ongoing PR activity."
+              "title": "Coverage Review"
+            },
+            "6": {
+              "title": "Stakeholder Communications"
+            },
+            "7": {
+              "title": "Announcement Planning"
+            },
+            "8": {
+              "title": "Interview Preparation"
+            },
+            "9": {
+              "title": "Media Kit Development"
             }
           }
         },
         "3": {
-          "title": "Brand Communications",
-          "text": "We build coherent messaging frameworks that keep your brand voice consistent across campaigns, channels, and customer touchpoints.",
+          "title": "Brand Communication",
           "includes": {
             "0": {
-              "title": "Messaging Framework",
-              "text": "Define core messages, proof points, and how they adapt by audience."
+              "title": "Messaging Framework"
             },
             "1": {
-              "title": "Brand Voice",
-              "text": "Establish tone and language guidelines for consistent communication."
+              "title": "Brand Voice"
             },
             "2": {
-              "title": "Channel Adaptation",
-              "text": "Adapt messages for website, social, print, presentations, and campaigns."
+              "title": "Channel Adaptation"
             },
             "3": {
-              "title": "Corporate Narratives",
-              "text": "Develop stories that explain who you are and what you offer."
+              "title": "Corporate Narratives"
             },
             "4": {
-              "title": "Internal Alignment",
-              "text": "Help teams use the same language across departments and partners."
+              "title": "Internal Alignment"
             },
             "5": {
-              "title": "Communication Guidelines",
-              "text": "Document practical rules for ongoing brand communication."
+              "title": "Communication Guidelines"
+            },
+            "6": {
+              "title": "Brand Story Development"
+            },
+            "7": {
+              "title": "Touchpoint Messaging"
+            },
+            "8": {
+              "title": "Consistency Reviews"
+            },
+            "9": {
+              "title": "Brand Language Systems"
             }
           }
         },
         "4": {
           "title": "Graphic & Visual Communications",
-          "text": "We create visual systems and design assets that support campaign ideas and strengthen brand recognition.",
           "includes": {
             "0": {
-              "title": "Visual Identity Support",
-              "text": "Develop or refine visual elements that express your brand clearly."
+              "title": "Corporate presentations"
             },
             "1": {
-              "title": "Campaign Creatives",
-              "text": "Design advertising and campaign visuals aligned with your messaging."
+              "title": "Brochures"
             },
             "2": {
-              "title": "Brand Materials",
-              "text": "Produce presentations, brochures, reports, and other branded documents."
+              "title": "Company profiles"
             },
             "3": {
-              "title": "Digital Assets",
-              "text": "Create social, web, and digital graphics ready for use across channels."
+              "title": "Infographics"
             },
             "4": {
-              "title": "Layout & Typography",
-              "text": "Ensure clear hierarchy, readability, and professional presentation."
+              "title": "Reports"
             },
             "5": {
-              "title": "Production-Ready Files",
-              "text": "Deliver assets prepared for print, digital, or partner use."
+              "title": "Marketing collateral"
+            },
+            "6": {
+              "title": "Digital graphics"
+            },
+            "7": {
+              "title": "Media kits"
+            },
+            "8": {
+              "title": "Visual templates"
+            },
+            "9": {
+              "title": "Print materials"
+            }
+          }
+        },
+        "5": {
+          "title": "Research & Public Opinion",
+          "includes": {
+            "0": {
+              "title": "Public opinion research"
+            },
+            "1": {
+              "title": "Perception studies"
+            },
+            "2": {
+              "title": "Audience attitude mapping"
+            },
+            "3": {
+              "title": "Message testing"
+            },
+            "4": {
+              "title": "Reputation insights"
+            },
+            "5": {
+              "title": "Stakeholder feedback"
+            },
+            "6": {
+              "title": "Issue tracking"
+            },
+            "7": {
+              "title": "Sentiment analysis"
+            },
+            "8": {
+              "title": "Opinion briefings"
+            },
+            "9": {
+              "title": "Research presentations"
             }
           }
         }
@@ -687,41 +877,68 @@
       "items": {
         "0": {
           "title": "Marketing Strategy Starter",
-          "price": "€2,500",
+          "price": "€3,000",
           "description": "A focused strategic package for businesses that need clearer marketing direction before starting new activities.",
           "includes": {
-            "0": "Business & marketing review",
-            "1": "Audience and priority mapping",
-            "2": "Positioning recommendations",
-            "3": "Core messaging outline",
-            "4": "Channel priorities",
-            "5": "Actionable next-step plan"
+            "0": "Initial strategy consultation",
+            "1": "Business and marketing review",
+            "2": "Current marketing activity assessment",
+            "3": "Basic competitor review",
+            "4": "Target audience definition",
+            "5": "Marketing objective development",
+            "6": "Positioning review",
+            "7": "Key marketing priorities",
+            "8": "Recommended communication channels",
+            "9": "Basic customer journey review",
+            "10": "90-day marketing roadmap",
+            "11": "Final strategy presentation",
+            "12": "Up to 2 revision rounds"
           }
         },
         "1": {
           "title": "Market Insight Package",
-          "price": "€4,500",
+          "price": "€5,000",
           "description": "For businesses that need stronger market and audience understanding before making strategic, product, positioning, or communication decisions.",
           "includes": {
-            "0": "Audience insight summary",
-            "1": "Competitor communication review",
-            "2": "Market context analysis",
-            "3": "Opportunity mapping",
-            "4": "Strategic implications",
-            "5": "Research presentation"
+            "0": "Research objectives workshop",
+            "1": "Market landscape analysis",
+            "2": "Competitor research",
+            "3": "Audience profiling",
+            "4": "Market trend review",
+            "5": "Customer needs assessment",
+            "6": "Brand or category perception review",
+            "7": "Secondary research",
+            "8": "Research framework",
+            "9": "Findings analysis",
+            "10": "Opportunity identification",
+            "11": "Detailed research report",
+            "12": "Strategic recommendations",
+            "13": "Findings presentation"
           }
         },
         "2": {
           "title": "Brand Communications Package",
-          "price": "€7,500",
+          "price": "€8,000",
           "description": "Designed for businesses that need a clearer and more consistent way to present their brand across communication channels.",
           "includes": {
-            "0": "Messaging framework",
-            "1": "Brand voice guidelines",
-            "2": "Channel message adaptation",
-            "3": "Key narrative development",
-            "4": "Communication guidelines",
-            "5": "Sample content templates"
+            "0": "Brand communication audit",
+            "1": "Audience review",
+            "2": "Competitor communication review",
+            "3": "Brand positioning refinement",
+            "4": "Value proposition",
+            "5": "Brand story",
+            "6": "Messaging framework",
+            "7": "Key messages",
+            "8": "Tone of voice",
+            "9": "Audience-specific messaging",
+            "10": "Communication pillars",
+            "11": "Tagline concepts",
+            "12": "Corporate profile copy",
+            "13": "Up to 10 branded visual templates",
+            "14": "Basic visual communication direction",
+            "15": "Brand communication guidelines",
+            "16": "Final presentation",
+            "17": "Up to 3 revision rounds"
           }
         },
         "3": {
@@ -729,12 +946,24 @@
           "price": "€12,000",
           "description": "An integrated package for businesses that want to strengthen their external communication, visibility, messaging, and stakeholder presence.",
           "includes": {
-            "0": "PR strategy & narrative",
-            "1": "Press materials package",
-            "2": "Media outreach support",
-            "3": "External messaging system",
-            "4": "Visibility recommendations",
-            "5": "Review & next-step plan"
+            "0": "Communication audit",
+            "1": "PR strategy",
+            "2": "Audience and stakeholder mapping",
+            "3": "Key message framework",
+            "4": "Corporate communication plan",
+            "5": "PR calendar",
+            "6": "Media communication strategy",
+            "7": "Up to 6 press releases or corporate announcements",
+            "8": "Up to 6 thought leadership pieces",
+            "9": "Executive messaging support",
+            "10": "Company profile development",
+            "11": "Media kit",
+            "12": "Corporate presentation",
+            "13": "Up to 15 visual communication assets",
+            "14": "Communication templates",
+            "15": "Reputation communication recommendations",
+            "16": "Monthly activity reporting",
+            "17": "Strategic review session"
           }
         },
         "4": {
@@ -742,30 +971,53 @@
           "price": "€20,000",
           "description": "Our most comprehensive package for businesses requiring coordinated marketing strategy, research, PR, content, and visual communication support.",
           "includes": {
-            "0": "Full marketing & communications strategy",
-            "1": "Research and insight support",
-            "2": "PR and external communications",
-            "3": "Content and messaging development",
-            "4": "Visual communication support",
-            "5": "Coordinated delivery across workstreams",
-            "6": "Progress reviews and recommendations"
+            "0": "Full business and marketing discovery",
+            "1": "Marketing strategy",
+            "2": "Market and competitor analysis",
+            "3": "Audience segmentation",
+            "4": "Brand positioning review",
+            "5": "Communication strategy",
+            "6": "PR strategy",
+            "7": "Messaging framework",
+            "8": "Value proposition development",
+            "9": "Tone of voice",
+            "10": "Annual or project communication roadmap",
+            "11": "Content pillars",
+            "12": "Communication calendar",
+            "13": "Corporate content development",
+            "14": "Up to 10 PR or thought leadership materials",
+            "15": "Up to 20 visual communication assets",
+            "16": "Corporate presentation",
+            "17": "Company profile",
+            "18": "Media kit",
+            "19": "Graphic design support",
+            "20": "Research and insight support",
+            "21": "Ongoing strategic consultation",
+            "22": "Regular project meetings",
+            "23": "Progress reporting",
+            "24": "Final recommendations",
+            "25": "Dedicated project coordination"
           }
         }
-      }
+      },
+      "disclaimer": "Final scope and pricing are developed individually according to project scale, duration, markets, and required deliverables."
     },
     "needHelp": {
       "title": "Need Help Choosing a Marketing & Communications Package?",
       "subtitle": "Tell us what challenge you are trying to solve.",
       "text": "Whether you need to understand a market, refine your positioning, develop a PR strategy, improve corporate communication, create stronger branded materials, or coordinate several activities within one project, our team can recommend a suitable scope.",
-      "button": "Get in Touch"
+      "button": "Get in Touch",
+      "formTitle": "Get in Touch",
+      "formPrice": "Custom"
     }
   },
   "webDevCard": {
     "price": "Prezzo:",
-    "from": "da",
+    "from": "Da",
     "choosePackage": "Scegli il Pacchetto",
     "showLess": "mostra meno",
-    "showMore": "mostra di più"
+    "showMore": "mostra di più",
+    "includes": "Include:"
   },
   "requestPackageForm": {
     "firstName": {
@@ -781,12 +1033,12 @@
       "placeholder": "Inserisci la tua email"
     },
     "phone": {
-      "label": "Telefono:",
-      "placeholder": "Inserisci il tuo numero di telefono"
+      "label": "Phone:",
+      "placeholder": "Enter your phone number"
     },
     "timeline": {
-      "label": "Tempistiche:",
-      "placeholder": "Seleziona le tue tempistiche"
+      "label": "Timeline:",
+      "placeholder": "Choose your timeline"
     },
     "message": {
       "label": "Messaggio:",
@@ -797,7 +1049,12 @@
     "submitting": "Invio in corso...",
     "thankYou": "Grazie!",
     "close": "Chiudi",
-    "thankYouDescription": "La tua richiesta di pacchetto di servizi è stata ricevuta con successo. Il nostro team sta esaminando la tua richiesta e ti contatterà a breve per discutere i prossimi passi e rispondere a qualsiasi domanda tu possa avere."
+    "thankYouDescription": "Your service package request has been successfully received. Our team is reviewing your request and will contact you shortly to discuss the next steps and answer any questions you may have.",
+    "timelineValues": {
+      "0": "Short Term (1-3 months)",
+      "1": "Medium Term (3-6 months)",
+      "2": "Long Term (6+ months)"
+    }
   },
   "webHostingCard": {
     "off": "di sconto!",
@@ -843,24 +1100,24 @@
       "placeholder": "Inserisci la tua email"
     },
     "phone": {
-      "label": "Telefono:",
-      "placeholder": "Inserisci il tuo numero di telefono"
+      "label": "Phone:",
+      "placeholder": "Enter your phone number"
     },
     "companyName": {
-      "label": "Nome del Progetto:",
-      "placeholder": "Inserisci il nome del tuo progetto"
+      "label": "Project Name:",
+      "placeholder": "Enter your project name"
     },
     "projectType": {
-      "label": "Tipo di Progetto:",
-      "placeholder": "Scegli il tipo di progetto"
+      "label": "Service Required:",
+      "placeholder": "Choose your service"
     },
     "budget": {
       "label": "Budget:",
       "placeholder": "Scegli il tuo budget"
     },
     "timeline": {
-      "label": "Tempistiche:",
-      "placeholder": "Seleziona le tue tempistiche"
+      "label": "Timeline:",
+      "placeholder": "Choose your timeline"
     },
     "timelineValues": {
       "0": "Breve termine (1-3 mesi)",
@@ -873,14 +1130,17 @@
       "2": "€5.001 - €10.000"
     },
     "projectTypeValues": {
-      "0": "Web Hosting",
-      "1": "Sviluppo Web",
-      "2": "Soluzioni su Misura"
+      "0": "Advertising",
+      "1": "Marketing & Communications",
+      "2": "Media Planning & Placement",
+      "3": "Market & Audience Research",
+      "4": "PR & Communications",
+      "5": "Graphic Design"
     },
     "submit": "Invia la Richiesta",
     "submitting": "Invio in corso...",
     "cancel": "Annulla",
-    "nextStep": "Passaggio Successivo",
+    "nextStep": "Next step",
     "thankYou": {
       "title": "Siamo Entusiasti di Connetterci!",
       "text": "Ti ringraziamo per aver dedicato del tempo a condividere i tuoi dati con noi. Siamo entusiasti di saperne di più sulla tua idea di sito web e di aiutarti a realizzarla. Un membro del nostro team ti contatterà a breve.",
@@ -913,7 +1173,7 @@
         },
         "1": {
           "title": "Research & Strategic Planning",
-          "text": "We review relevant market information, audience insights, competitors, communication opportunities, and available channels before defining the strategic direction."
+          "text": "We review relevant market information, audience insights, competitors, and available channels before defining the strategic direction."
         },
         "2": {
           "title": "Creative & Communication Development",
@@ -974,43 +1234,40 @@
     }
   },
   "requestForm": {
-    "title": {
-      "0": "Il Tuo Percorso verso il Successo",
-      "1": "Digitale Inizia Qui"
-    },
-    "text": "Compila il modulo qui sotto e il nostro team ti contatterà per discutere del tuo sito web, delle tue idee e di come possiamo aiutarti a portarle online.",
+    "title": "Let’s Turn Your Goals Into a Clear Strategy",
+    "text": "Please fill out the form below, and our team will contact you to discuss your business, communication goals, project requirements, and how Hostixie can support your next initiative.",
     "secondStep": {
-      "additionalInfo": {
-        "title": "Informazioni Aggiuntive:",
-        "text": "Di quali funzionalità o caratteristiche specifiche hai bisogno? (es. e-commerce, design su misura, SEO, ecc.)",
-        "placeholder": "Inserisci le funzionalità specifiche"
+      "projectGoals": {
+        "title": "Project Goals:",
+        "text": "Tell us what you would like to achieve through this project. This may include increasing brand awareness, reaching a new audience, or launching a campaign.",
+        "placeholder": "Describe your goals"
       },
-      "preferredTechnology": {
-        "title": "Tecnologia Preferita:",
-        "text": "Se hai delle preferenze per la piattaforma del tuo sito web (WordPress, Shopify, sviluppo su misura, ecc.), faccelo sapere!",
-        "placeholder": "Inserisci la tecnologia preferita"
+      "targetAudience": {
+        "title": "Target Audience:",
+        "text": "Who would you like to reach? Share any information you already have about your customers, market segments, locations, or priority audiences.",
+        "placeholder": "Describe your target audience"
       },
-      "currentWebsite": {
-        "title": "Sito Web Attuale (se presente):",
-        "text": "Inserisci l'URL del tuo sito web, se ne hai uno, così da poter comprendere meglio la tua attuale presenza digitale.",
-        "placeholder": "Inserisci il tuo sito web attuale"
+      "currentActivities": {
+        "title": "Current Marketing & Communication Activities:",
+        "text": "Tell us about any advertising, marketing, PR, media, or communication activities you are currently running.",
+        "placeholder": "Describe your current activities"
       },
-      "designInspiration": {
-        "title": "Ispirazione di Design:",
-        "text": "Hai ispirazioni di design o siti web che ti piacciono? Condividi dei link di riferimento.",
-        "placeholder": "Fornisci link di riferimento"
+      "preferredChannels": {
+        "title": "Preferred Channels:",
+        "text": "If you already have preferred advertising or communication channels, let us know. These may include digital media, social platforms, print, or outdoor advertising.",
+        "placeholder": "Enter preferred channels"
       },
-      "cancel": "Annulla",
-      "submit": "Invia il Modulo",
-      "submitting": "Invio in corso..."
+      "cancel": "Cancel",
+      "submit": "Submit Form",
+      "submitting": "Submitting..."
     },
     "thankYou": {
       "title": {
-        "0": "Siamo Entusiasti di",
-        "1": "Connetterci!"
+        "0": "We’re Excited to",
+        "1": "Connect!"
       },
-      "text": "Ti ringraziamo per aver dedicato del tempo a condividere i tuoi dati con noi. Siamo entusiasti di collaborare e di iniziare il percorso verso il raggiungimento dei tuoi obiettivi digitali. Un membro del nostro team ti contatterà a breve.",
-      "close": "Chiudi"
+      "text": "Thank you for sharing your project details with us. We’re looking forward to learning more about your business, goals, and communication needs. One of our team members will be in touch shortly to discuss the next steps.",
+      "close": "Close"
     }
   },
   "companyOverview": {
@@ -1046,27 +1303,27 @@
     "coreValues": {
       "title": "Core Values",
       "subtitle": "The Principles Behind Our Work",
-      "text": "At Hostixie, our values shape how we approach every campaign, research project, communication strategy, and creative assignment. They help us build productive relationships, make better decisions, and deliver work with purpose.",
+      "text": "Our values shape how we approach every campaign, research project, and creative assignment — helping us build productive relationships and deliver work with purpose.",
       "cards": {
         "0": {
           "title": "Trust Through Transparency",
-          "text": "We believe strong partnerships depend on openness, clear communication, and responsible decision-making throughout every project."
+          "text": "Strong partnerships depend on openness, clear communication, and responsible decision-making."
         },
         "1": {
           "title": "Curiosity Drives Better Ideas",
-          "text": "We question assumptions, explore markets, study audiences, and look for new perspectives that can strengthen both strategy and creative thinking."
+          "text": "We question assumptions, explore markets, and seek perspectives that strengthen strategy and creative thinking."
         },
         "2": {
           "title": "Collaboration Creates Stronger Results",
-          "text": "We work closely with our clients, combining their knowledge of their business with our advertising, research, communication, and creative expertise."
+          "text": "We work closely with our clients, combining their business knowledge with our advertising and creative expertise."
         },
         "3": {
           "title": "Objectives Come First",
-          "text": "Every campaign, message, visual, and recommendation starts with a clear understanding of what the client wants to achieve."
+          "text": "Every campaign, message, and recommendation starts with a clear understanding of client goals."
         },
         "4": {
           "title": "Quality in Every Detail",
-          "text": "From research and strategic planning to copy, design, and media execution, we pay close attention to consistency, clarity, and quality."
+          "text": "From research and planning to copy, design, and media, we focus on consistency, clarity, and quality."
         }
       }
     },
@@ -1135,7 +1392,7 @@
           "text": "Every project is developed around your specific goals, audience, market, requirements, and available resources."
         },
         "2": {
-          "title": "Research-Informed Decisions",
+          "title": "Informed Decisions",
           "text": "We use relevant market, audience, competitor, and campaign information to support strategic and creative decisions."
         },
         "3": {
@@ -1346,27 +1603,27 @@
       "1": "Compila la candidatura qui sotto."
     },
     "fullName": {
-      "label": "Nome Completo:",
-      "placeholder": "Inserisci il tuo nome completo"
+      "label": "Nome Completo",
+      "placeholder": "Inserisci nome e cognome"
     },
     "email": {
-      "label": "Email:",
-      "placeholder": "Inserisci la tua email"
+      "label": "Email",
+      "placeholder": "La tua email di contatto principale"
     },
     "linkedinProfile": {
-      "label": "Profilo LinkedIn:",
-      "placeholder": "Inserisci il tuo profilo LinkedIn"
+      "label": "Profilo LinkedIn (opzionale)",
+      "placeholder": "Condividi un link al tuo LinkedIn o ad un altro profilo professionale"
     },
     "coverLetter": {
-      "label": "Lettera di Presentazione:",
-      "placeholder": "Carica la tua lettera di presentazione"
+      "label": "Lettera di Presentazione (PDF, DOC/DOCX) (opzionale)",
+      "placeholder": "Allega una breve nota sul perché sei adatto"
     },
     "position": {
-      "label": "Posizione per cui ti Candidi:",
+      "label": "Posizione per cui ti Candidi",
       "placeholder": "Scegli la tua posizione"
     },
     "resume": {
-      "label": "Curriculum (solo PDF):",
+      "label": "Curriculum (solo PDF) (obbligatorio)",
       "placeholder": "Carica il tuo curriculum aggiornato"
     },
     "message": {
@@ -1378,7 +1635,8 @@
       "0": "Advertising Account Manager",
       "1": "Marketing & Research Specialist",
       "2": "PR & Communications Specialist",
-      "3": "Graphic Designer"
+      "3": "Graphic Designer",
+      "4": "Candidatura Generale"
     },
     "submitting": "Invio in corso...",
     "cancel": "Annulla",
@@ -1392,269 +1650,190 @@
   "clients": {
     "hero": {
       "title": {
-        "0": "Progetti che Hanno",
-        "1": "Lasciato il Segno"
+        "0": "Projects That",
+        "1": "Made an Impact"
       },
-      "subtitle": "Hai una visione per qualcosa?",
-      "text": "Ogni risultato è frutto di una collaborazione. Abbiamo aiutato creator, proprietari di siti web, imprenditori e professionisti a lanciare siti web veloci, funzionali e pensati per la crescita.",
-      "button": "Parliamone"
+      "subtitle": "Have a challenge you want to discuss?",
+      "text": "Every successful project begins with understanding the business behind it. We work with companies across different sectors to solve advertising, marketing, research, communication, and visual challenges.",
+      "button": "Let's talk"
     },
     "whatProjectsWork": {
-      "title": "Cosa Rende Efficaci i Progetti Hostixie",
+      "title": "What Makes Hostixie Projects Work",
       "cards": {
-        "0": "Ambiti chiari e ben definiti",
-        "1": "Hosting veloce e sicuro",
-        "2": "Backend facili da gestire",
-        "3": "Struttura SEO-friendly",
-        "4": "Scalabili per la crescita futura",
-        "5": "Supporto e manutenzione dedicati"
+        "0": "Structured project management",
+        "1": "Defined audiences",
+        "2": "Relevant media selection",
+        "3": "Research-informed strategy",
+        "4": "Consistent messaging",
+        "5": "Strong creative direction"
       }
     },
     "clientResults": {
-      "title": "In Sintesi: Miglioramenti delle Prestazioni",
+      "title": "At a Glance: What We Measure",
       "cards": {
-        "0": "Miglioramenti della Velocità del Sito",
-        "1": "Aumento dei Tassi di Conversione",
-        "2": "Crescita del Traffico Organico",
-        "3": "Punteggio di Soddisfazione dei Clienti",
-        "4": "Tempo Medio di Consegna del Progetto"
+        "0": "Campaign Reach",
+        "1": "Audience Engagement",
+        "2": "Brand Awareness",
+        "3": "Client Satisfaction Score",
+        "4": "Typical Project Timeline"
+      },
+      "values": {
+        "0": "+40%",
+        "1": "+35%",
+        "2": "+30%",
+        "3": "98%",
+        "4": "3–8 weeks"
       },
       "exploreCard": {
-        "title": "Vuoi Vedere di Più?",
-        "text": "Dai uno sguardo più approfondito a come risolviamo problemi reali con soluzioni digitali intelligenti.",
-        "button": "Scopri il Nostro Processo"
+        "title": "Want to See More?",
+        "text": "Take a deeper look at the process behind our advertising, marketing, research, communication, and creative projects.",
+        "button": "Explore Our Process"
       }
     },
     "clientReviews": {
-      "client": "Cliente:",
-      "project": "Progetto:",
-      "services": "Servizi:",
-      "outcomes": "Risultati:",
-      "review": "Recensione:",
+      "client": "Client:",
+      "project": "Project:",
+      "services": "Services:",
+      "outcomes": "Outcome:",
+      "review": "Review:",
       "cards": {
         "0": {
-          "type": "Settore Creativo",
-          "title": "Portfolio per Fotografo",
-          "client": "Fotografo Professionista",
-          "project": "Sito Portfolio",
-          "services": {
-            "0": "Sviluppo Web su Misura",
-            "1": "Hosting"
-          },
+          "type": "Consumer Goods",
+          "title": "Consumer Product Launch",
+          "client": "Emerging Consumer Products Company",
+          "project": "New Product Advertising Campaign",
+          "services": "Advertising Strategy, Creative Development, Media Planning",
           "outcomes": {
-            "0": "Design pulito e minimalista incentrato sulla presentazione visiva",
-            "1": "Layout completamente responsivo con tempi di caricamento rapidi",
-            "2": "Aumento del 30% delle richieste di prenotazione"
+            "0": "Defined target audience and campaign positioning",
+            "1": "Developed a unified advertising concept",
+            "2": "Created campaign materials for multiple digital formats",
+            "3": "Coordinated media activity across selected channels",
+            "4": "Established a reporting framework for campaign performance"
           },
-          "review": "Il nuovo sito web mette in mostra il mio lavoro esattamente come lo avevo immaginato. Il team ha compreso il mio stile e ha creato un portfolio online professionale che rende semplice ai potenziali clienti scoprirmi e contattarmi."
+          "review": "We came to Hostixie with a product and a rough idea of how we wanted to introduce it. They helped us turn that into a much clearer campaign, from the audience and messaging to the creative materials and media plan.",
+          "author": "— Daniel Morris, Founder"
         },
         "1": {
-          "type": "Vendita Online",
-          "title": "E-Commerce per Prodotti Artigianali",
-          "client": "Creatrice di Prodotti Artigianali",
-          "project": "Negozio E-Commerce su Misura",
-          "services": {
-            "0": "Sviluppo WooCommerce",
-            "1": "Hosting VPS"
-          },
+          "type": "Retail",
+          "title": "Retail Market Expansion",
+          "client": "Growing Retail Business",
+          "project": "Market & Audience Research",
+          "services": "Market Research, Competitor Analysis, Marketing Consulting",
           "outcomes": {
-            "0": "Catalogo prodotti facile da gestire",
-            "1": "Esperienza di checkout semplificata",
-            "2": "Crescita 2× delle vendite online in 3 mesi"
+            "0": "Reviewed the competitive landscape",
+            "1": "Defined priority customer segments",
+            "2": "Identified relevant market trends"
           },
-          "review": "Il nuovo negozio online ha cambiato completamente il modo in cui vendo i miei prodotti. È facile da gestire, ha un bell'aspetto su ogni dispositivo e mi ha aiutato a raggiungere più clienti, creando un'esperienza di acquisto molto più fluida."
+          "review": "The research gave us a much better picture of where we stood in the market. More importantly, the findings were practical enough for us to use when deciding what to prioritize next.",
+          "author": "— Laura Bennett, Managing Director"
         },
         "2": {
-          "type": "Salute e Benessere",
-          "title": "Wellness Coach",
-          "client": "Società di Consulenza sul Benessere Aziendale",
-          "project": "Sito Web Incentrato sui Contenuti",
-          "services": {
-            "0": "Sviluppo WordPress",
-            "1": "Configurazione SEO"
-          },
+          "type": "Manufacturing",
+          "title": "Visual Communication Refresh",
+          "client": "Manufacturing Company",
+          "project": "Corporate Visual Communication Update",
+          "services": "Graphic Design, Presentation Design, Marketing Collateral",
           "outcomes": {
-            "0": "Ottimizzazione SEO completa e struttura del sito",
-            "1": "Backend pronto per il blog per aggiornamenti regolari dei contenuti",
-            "2": "Aumento dell'80% del traffico organico"
+            "0": "Refreshed corporate presentation materials",
+            "1": "Developed reusable communication templates",
+            "2": "Redesigned brochures and company profiles"
           },
-          "review": "Il processo è stato impeccabile dall'inizio alla fine. Il nuovo sito web ha un aspetto professionale, si posiziona bene nei risultati di ricerca e mi rende semplice pubblicare nuovi contenuti e restare in contatto con il mio pubblico."
+          "review": "The difference was not about making everything look more decorative. The team made our materials easier to understand and much more consistent, which was exactly what we needed.",
+          "author": "— Thomas Weber, Commercial Director"
         },
         "3": {
-          "type": "Fitness",
-          "title": "Restyling del Sito di un Trainer",
-          "client": "Personal Trainer di Fitness",
-          "project": "Restyling del Sito Web per le Prestazioni su Mobile",
-          "services": {
-            "0": "Restyling UI/UX",
-            "1": "Hosting WordPress Gestito"
-          },
+          "type": "Hospitality",
+          "title": "Hospitality Brand Campaign",
+          "client": "Independent Hospitality Group",
+          "project": "Seasonal Brand Awareness Campaign",
+          "services": "Campaign Strategy, Creative Advertising, Media Planning",
           "outcomes": {
-            "0": "Layout responsivo mobile-first",
-            "1": "Frequenza di rimbalzo ridotta del 25%",
-            "2": "40% in più di richieste di consulenza"
+            "0": "Developed a seasonal communication concept",
+            "1": "Defined priority audience groups",
+            "2": "Produced digital advertising materials"
           },
-          "review": "Il restyling ha trasformato completamente il mio sito web. I visitatori ora possono prenotare facilmente le sessioni di allenamento da qualsiasi dispositivo e il coinvolgimento complessivo è migliorato in modo significativo dopo il lancio."
-        },
-        "4": {
-          "type": "Settore Creativo",
-          "title": "Sito Portfolio di Architettura",
-          "client": "Architetto Indipendente",
-          "project": "Sito Portfolio e Vetrina di Progetti",
-          "services": {
-            "0": "Sviluppo Web su Misura",
-            "1": "Ottimizzazione delle Prestazioni"
-          },
-          "outcomes": {
-            "0": "Design elegante e incentrato sulle immagini che valorizza i progetti architettonici",
-            "1": "Moduli integrati di contatto e richiesta di consulenza",
-            "2": "Aumento del 50% delle richieste di progetto"
-          },
-          "review": "Il sito web presenta il mio lavoro esattamente come lo avevo immaginato. I potenziali clienti citano spesso il portfolio durante le nostre prime conversazioni e la presentazione complessiva risulta professionale, moderna e facile da navigare."
-        },
-        "5": {
-          "type": "Produzione Alimentare e di Bevande",
-          "title": "Sito Web di una Panetteria",
-          "client": "Panetteria Artigianale",
-          "project": "Sito Web con Menu e Pre-Ordini Online",
-          "services": {
-            "0": "Sviluppo WordPress",
-            "1": "Hosting e Supporto"
-          },
-          "outcomes": {
-            "0": "Menu e aggiornamenti dei contenuti facili da gestire",
-            "1": "Ottimizzato per la SEO locale e la navigazione da mobile",
-            "2": "Aumento 3× delle richieste di pre-ordine online"
-          },
-          "review": "Il sito web ha fatto un'enorme differenza per la nostra panetteria. I clienti possono facilmente sfogliare il menu, effettuare pre-ordini e contattarci direttamente. Abbiamo notato un sensibile aumento degli ordini online e del coinvolgimento dei clienti dopo il lancio."
-        },
-        "6": {
-          "type": "Istruzione",
-          "title": "Piattaforma di Apprendimento Online",
-          "client": "Creatore di Corsi Indipendente",
-          "project": "Piattaforma di Apprendimento Online con Accesso Riservato ai Membri",
-          "services": {
-            "0": "Integrazione LMS",
-            "1": "Configurazione del Sistema di Pagamento"
-          },
-          "outcomes": {
-            "0": "Iscrizione degli studenti ed elaborazione dei pagamenti senza intoppi",
-            "1": "Dashboard dei corsi con monitoraggio dei progressi",
-            "2": "Crescita 5× degli utenti nel primo trimestre"
-          },
-          "review": "La piattaforma è intuitiva sia per me sia per i miei studenti. Tutto, dall'iscrizione all'erogazione dei corsi, funziona in modo fluido e il supporto durante l'intero progetto è stato eccezionale. Non avrei potuto lanciarla senza il loro aiuto."
-        },
-        "7": {
-          "type": "Intrattenimento",
-          "title": "Landing Page per Eventi",
-          "client": "Organizzatore di Festival Musicali Indipendente",
-          "project": "Landing Page per Eventi con Integrazione Biglietteria",
-          "services": {
-            "0": "Design della Landing Page",
-            "1": "Integrazione della Biglietteria"
-          },
-          "outcomes": {
-            "0": "Sito web dell'evento accattivante e in linea con il brand",
-            "1": "Acquisto biglietti integrato e feed dei social media",
-            "2": "70% dei biglietti venduti tramite il sito web"
-          },
-          "review": "Il sito web ha catturato perfettamente l'atmosfera del nostro evento e ha reso l'acquisto dei biglietti incredibilmente semplice. L'intera esperienza è stata fluida sia per gli organizzatori sia per i partecipanti e useremo sicuramente di nuovo Hostixie per i futuri eventi."
+          "review": "The campaign finally felt like one campaign instead of several unrelated promotions. The messaging and visuals were consistent, and the whole process was much easier to manage.",
+          "author": "— Emily Carter, Co-Founder"
         }
       }
     },
     "clientsOften": {
-      "title": "Servizi Aggiuntivi più Popolari tra i Clienti",
-      "text": "I clienti spesso scelgono di combinare:",
+      "title": "Additional Services Clients Commonly Combine",
+      "text": "Clients often combine complementary services within one project:",
       "cards": {
         "0": {
-          "values": [
-            "Strategia SEO",
-            "Hosting"
-          ]
+          "values": {
+            "0": "Advertising Strategy",
+            "1": "Media Planning"
+          }
         },
         "1": {
-          "values": [
-            "Sviluppo E-commerce",
-            "Manutenzione"
-          ]
+          "values": {
+            "0": "Market Research",
+            "1": "Marketing Consulting"
+          }
         },
         "2": {
-          "values": [
-            "Configurazione WordPress",
-            "Supporto Continuo"
-          ]
+          "values": {
+            "0": "PR Strategy",
+            "1": "Corporate Communications"
+          }
         },
         "3": {
-          "values": [
-            "CMS su Misura",
-            "Formazione alla Gestione del Sito"
-          ]
+          "values": {
+            "0": "Brand Messaging",
+            "1": "Graphic Design"
+          }
         }
       }
     },
     "ourProcess": {
-      "title": "Il Nostro Processo di Collaborazione",
-      "text": "Le nostre collaborazioni seguono generalmente un formato strutturato ma flessibile:",
+      "title": "Our Collaboration Process",
+      "text": "Our collaborations typically follow a structured but flexible format:",
       "cards": {
         "0": {
-          "title": "Call di Avvio",
-          "text": "Ci allineiamo su visione e obiettivi"
+          "title": "Kickoff Call",
+          "text": "We clarify the business challenge, objectives, audiences, priorities, and scope."
         },
         "1": {
-          "title": "Proposta e Tempistiche",
-          "text": "Ricevi una roadmap chiara"
+          "title": "Proposal & Timeline",
+          "text": "We gather relevant information and define the recommended direction."
         },
         "2": {
-          "title": "Sviluppo e Configurazione dell'Hosting",
-          "text": "Completamente gestiti dal nostro team"
+          "title": "Development & Execution",
+          "text": "We create the required campaign, communication, research, or visual deliverables."
         },
         "3": {
-          "title": "Lancio e Supporto",
-          "text": "Il tuo sito web viene lanciato con cura e supporto continui"
+          "title": "Review & Improvement",
+          "text": "We evaluate outputs or results and identify opportunities for refinement."
         }
       }
     },
     "experience": {
-      "title": "Voci dall'Esperienza",
+      "title": "Voices of Experience",
       "reviews": {
         "0": {
-          "text": "“L'intero processo è stato semplice fin dal primo giorno. Il mio sito web funziona senza intoppi e ogni volta che ho bisogno di aiuto il loro team di supporto risponde in modo rapido e professionale.”",
-          "from": "Blogger di Finanza Personale"
+          "text": "They asked more questions at the beginning than agencies we had worked with before, but that made a difference. The final campaign felt much closer to what our business actually needed.",
+          "from": "Consumer Brand Founder"
         },
         "1": {
-          "text": "“La dashboard è incredibilmente facile da usare. Posso aggiornare i corsi, pubblicare nuovi contenuti e gestire tutto senza alcun grattacapo tecnico.”",
-          "from": "Creatore di Corsi Online"
+          "text": "The market report was detailed without becoming difficult to use. We were able to turn several of the findings directly into decisions for the next quarter.",
+          "from": "— Retail Operations Director"
         },
         "2": {
-          "text": "“Dopo il restyling, gli ordini online sono aumentati in modo evidente. L'esperienza di checkout risulta molto più fluida e i clienti trascorrono più tempo sul sito.”",
-          "from": "Titolare di un Negozio di Gioielli Artigianali"
+          "text": "What I appreciated most was the consistency. Strategy, messaging, and design all felt connected instead of coming from different teams.",
+          "from": "— Professional Services Managing Partner"
         },
         "3": {
-          "text": "“Hanno preso la mia idea e l'hanno trasformata in un sito web più bello di quanto immaginassi. I soli miglioramenti della velocità hanno fatto un'enorme differenza.”",
-          "from": "Creatore di Prodotti Digitali"
-        },
-        "4": {
-          "text": "“La nostra pagina di donazioni è ora molto più facile da navigare e i sostenitori possono contribuire senza alcun ostacolo. Abbiamo notato un aumento significativo delle donazioni dopo il lancio.”",
-          "from": "Fondatore di un'Organizzazione Benefica"
-        },
-        "5": {
-          "text": "L'attenzione ai dettagli è stata impressionante. Il sito ha un aspetto fantastico sui dispositivi mobili e crea un'esperienza molto migliore per i visitatori.”",
-          "from": "Sviluppatore di App Mobili"
-        },
-        "6": {
-          "text": "“La comunicazione è stata eccellente per tutto il progetto. Ogni aggiornamento era chiaro, le tempistiche sono state rispettate e il risultato finale ha superato le mie aspettative.”",
-          "from": "Consulente di Marketing Freelance"
-        },
-        "7": {
-          "text": "“Hanno gestito la migrazione del sito web senza intoppi. Tutto è più veloce, più facile da gestire e non c'è stata praticamente alcuna interruzione durante la transizione.”",
-          "from": "Titolare di uno Studio Medico Privato"
+          "text": "The PR materials sounded like our company rather than generic corporate copy. That was important to us.",
+          "from": "— Business Services CEO"
         }
       }
     },
     "startBuilding": {
-      "title": "Inizia a Costruire il Tuo Sito Web Oggi",
-      "text": "Che tu stia lanciando un nuovo sito web o migliorandone uno esistente, siamo qui per aiutarti a portare online le tue idee.",
-      "button": "Richiedi una Consulenza Gratuita"
+      "title": "Start Your Next Project",
+      "text": "Whether you are planning an advertising campaign, researching a market, refining your brand communication, developing a PR strategy, or creating new visual materials, we can help structure the project around your objectives.",
+      "button": "Request a Free Consultation"
     }
   },
   "news": {
@@ -1663,91 +1842,91 @@
         "0": "Hostixie",
         "1": "Newsroom"
       },
-      "subtitle": "Trasforma il Tuo Progetto con uno Sviluppo Web Esperto",
-      "text": "Scopri i nostri nuovi lanci, gli aggiornamenti delle piattaforme, i successi creativi e i progressi dietro le quinte.",
+      "subtitle": "Advertising, Marketing & Communications Insights for Business",
+      "text": "Explore recent client projects, market research initiatives, campaign developments, new capabilities, team updates, and industry activities from Hostixie.",
       "chips": {
-        "0": "Ultimi Successi e Lanci",
-        "1": "Aggiornamenti Tech e Team",
-        "2": "Partnership e Persone"
+        "0": "#Client Wins & Campaigns",
+        "1": "#Capabilities & Team Updates",
+        "2": "#Partnerships & Industry"
       }
     },
     "gotProject": {
-      "title": "Hai un Progetto o un'Idea?",
-      "text": "Trasformiamola in qualcosa di straordinario. Clicca qui sotto e parliamo di tempistiche, obiettivi e possibilità.",
-      "button": "Contatta il Nostro Team"
+      "title": "Got a Business Challenge or Campaign Idea?",
+      "text": "Let's turn it into something amazing. Click below, and let's talk timelines, goals, and possibilities.",
+      "button": "Contact Our Team"
     },
     "latestNews": {
-      "title": "Ultimi Successi e Lanci",
+      "title": "Client Wins & Campaigns",
       "cards": {
         "0": {
-          "date": "20 giugno 2025",
-          "title": "Appena Lanciato: Sito Portfolio Essenziale per un'Artista Visiva",
-          "description": "Elegante, veloce e ottimizzato per il mobile — questa artista ha ora lo spazio perfetto per mostrare il proprio lavoro online. Abbiamo creato un layout su misura incentrato sulle prestazioni delle immagini e sulla semplicità.",
-          "summary": "Tre nuovi clienti acquisiti nella prima settimana.",
-          "btnLabel": "Vedi il Progetto"
+          "date": "June 20, 2026",
+          "title": "B2B Brand Positioning Project Completed for a Professional Services Firm",
+          "description": "A professional services company came to us with a familiar challenge: its expertise had grown, but its brand message had not kept pace. We refined its positioning, value proposition, audience messages, and corporate communication framework.",
+          "summary": "The result: a clearer story that marketing, sales, and leadership can use consistently",
+          "btnLabel": "See Project"
         },
         "1": {
-          "date": "10 maggio 2025",
-          "title": "L'Hosting è Diventato Ancora Più Veloce",
-          "description": "Abbiamo aggiornato la nostra infrastruttura di hosting con SSD migliori, caching più intelligente e un'architettura più scalabile.",
-          "summary": "Tempi di caricamento migliorati del 36% su tutto il sito.",
-          "btnLabel": "Vedi i Piani di Hosting"
+          "date": "May 10, 2026",
+          "title": "Market Research Programme Shapes Expansion Strategy for a Manufacturing Client",
+          "description": "We completed a market and competitor research project for a manufacturing business evaluating expansion into new B2B segments. The work combined market analysis, competitor mapping, audience research, and opportunity assessment.",
+          "summary": "Three priority market segments were identified for further commercial development.",
+          "btnLabel": "Read the Research Story"
         },
         "2": {
-          "date": "30 maggio 2025",
-          "title": "Restyling E-commerce = Vendite Raddoppiate in 90 Giorni",
-          "description": "Abbiamo ridisegnato l'esperienza di acquisto per un negozio di prodotti artigianali. Layout più pulito. Checkout più veloce. UX mobile più solida.",
-          "summary": "Tasso di conversione aumentato del 45%.",
-          "btnLabel": "Leggi il Caso di Studio"
+          "date": "May 30, 2026",
+          "title": "Integrated B2B Campaign Supports a New Service Launch",
+          "description": "Hostixie developed an integrated campaign for a business services company introducing a new solution to corporate buyers. Strategy, messaging, creative materials, media planning, and campaign coordination were managed within one project.",
+          "summary": "A consistent campaign was delivered across several B2B audience touchpoints.",
+          "btnLabel": "View Case Study"
         }
       }
     },
     "techNews": {
-      "title": "Aggiornamenti Tech e Team",
+      "title": "Capabilities & Team Updates",
       "cards": {
         "0": {
-          "date": "5 aprile 2025",
-          "title": "Abbiamo Lanciato l'Hosting WordPress Gestito",
-          "description": "Facile, sicuro e veloce — i nostri nuovi piani WP sono ideali per creator e piccole imprese che vogliono risultati senza grattacapi.",
-          "summary": "Backup giornalieri, scansioni anti-malware e ottimizzazione della velocità inclusi.",
-          "btnLabel": "Vedi il Progetto"
+          "date": "April 5, 2026",
+          "title": "New Market Intelligence & Research Framework Introduced",
+          "description": "We've introduced a more structured research framework for projects involving market entry, competitor intelligence, audience analysis, and brand perception.",
+          "summary": "Research findings are now connected more directly with strategic recommendations and communication decisions.",
+          "btnLabel": "Read More"
         },
         "1": {
-          "date": "12 marzo 2025",
-          "title": "Fatturazione, Potenziata",
-          "description": "La fatturazione è ora semplice, intelligente e sicura. I clienti possono scaricare le fatture, controllare i dettagli del piano e gestire i rinnovi — tutto in un'unica dashboard.",
-          "summary": "Niente più email avanti e indietro.",
-          "btnLabel": "Vedi il Progetto"
+          "date": "March 12, 2026",
+          "title": "Client Reporting & Campaign Visibility Upgraded",
+          "description": "We've improved the way clients receive project updates, campaign reporting, deliverable status, and research findings. The new process creates a clearer view of what has been completed, what is being reviewed, and what comes next.",
+          "summary": "Less back-and-forth. More visibility.",
+          "btnLabel": "See the Update"
         },
         "2": {
-          "date": "30 maggio 2025",
-          "title": "Partnership e Persone",
-          "description": "Abbiamo unito le forze con un bootcamp di sviluppo locale per fare da mentori a sviluppatori junior su progetti reali di clienti. Loro imparano. Noi cresciamo. I clienti ne traggono vantaggio.",
-          "summary": "Il talento incontra la produzione, non solo la teoria.",
-          "btnLabel": "Leggi il Caso di Studio"
+          "date": "May 30, 2026",
+          "title": "New Partnership with a Business Marketing Programme",
+          "description": "We've started collaborating with a business and marketing education programme to give emerging professionals practical exposure to research, campaign planning, communication strategy, and agency workflows.",
+          "summary": "Practical experience meets structured mentorship.",
+          "btnLabel": "Learn More"
         }
       }
     },
     "partnershipNews": {
-      "title": "Partnership e Persone",
+      "title": "Partnerships & Industry",
       "cards": {
         "0": {
-          "date": "5 aprile 2025",
-          "title": "Organizzato un Workshop di Sviluppo Regionale",
-          "description": "Abbiamo organizzato un bootcamp pratico di sviluppo web per sviluppatori emergenti, guidandoli attraverso sfide reali di progetto.",
-          "btnLabel": "Leggi di Più"
+          "date": "April 5, 2026",
+          "title": "Regional B2B Marketing Workshop Hosted",
+          "description": "Our team hosted a practical workshop focused on B2B positioning, audience segmentation, communication planning, and turning market information into usable marketing decisions.",
+          "btnLabel": "Read More"
         },
         "1": {
-          "date": "12 marzo 2025",
-          "title": "Partecipazione a uno Sprint Open-Source",
-          "description": "Abbiamo contribuito con miglioramenti alle prestazioni e all'affidabilità di un CMS open-source ampiamente utilizzato, supportando la più vasta community di sviluppatori.",
-          "btnLabel": "Scopri di Più"
+          "date": "March 12, 2026",
+          "title": "Industry Research Roundtable Participation",
+          "description": "Hostixie participated in an industry research roundtable exploring changing B2B buying behavior, communication preferences, and the role of research in modern marketing decisions",
+          "btnLabel": "Learn More"
         },
         "2": {
-          "date": "1 luglio 2025",
-          "title": "Aggiunta Esperienza UX Senior",
-          "description": "Abbiamo inserito un professionista UX esperto per guidare le nostre iniziative di design, elevando usabilità ed estetica in tutti i progetti dei clienti.",
-          "btnLabel": "Conosci il Team"
+          "date": "July 1, 2026",
+          "title": "Senior Communications Strategy Expertise Added",
+          "description": "We've strengthened our communications capability with additional senior expertise in corporate messaging, PR strategy, executive communication, and brand positioning",
+          "btnLabel": "Meet the Team"
         }
       }
     }

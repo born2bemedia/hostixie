@@ -12,25 +12,18 @@ export const Hero = () => {
     <PageHero
       title={
         <>
-          {t('title.0', { fallback: 'Hostixie' })} <br />
-          <span className="text-primary">
-            {t('title.1', { fallback: 'Newsroom' })}
-          </span>
+          {t('title.0')} <br />
+          <span className="text-primary">{t('title.1')}</span>
         </>
       }
-      subtitle={t('subtitle', {
-        fallback: 'Transform Your Project with Expert Web Development',
-      })}
+      subtitle={t('subtitle')}
       layoutClassName="h-[680px] max-[1295px]:h-[820px] max-md:h-[620px]"
-      text={t('text', {
-        fallback:
-          'Explore our new launches, platform upgrades, creative wins, and behind-the-scenes progress.',
-      })}
+      text={t('text')}
       additionalContent={
         <div className="flex items-center gap-2 max-md:flex-col">
-          <Chip>{t('chips.0', { fallback: 'Latest Wins & Launches' })}</Chip>
-          <Chip>{t('chips.1', { fallback: 'Tech & Team Updates' })}</Chip>
-          <Chip>{t('chips.2', { fallback: 'Partnerships & People' })}</Chip>
+          <Chip>{t('chips.0')}</Chip>
+          <Chip>{t('chips.1')}</Chip>
+          <Chip>{t('chips.2')}</Chip>
         </div>
       }
     />

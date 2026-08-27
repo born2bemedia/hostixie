@@ -86,12 +86,12 @@ const BurgerContentNav = () => {
         items={[
           {
             label: t('webHosting', { fallback: 'Web Hosting' }),
-            href: '/web-hosting',
+            href: '/advertising-services',
             Icon: HostingIcon,
           },
           {
             label: t('webDevelopment', { fallback: 'Web Development' }),
-            href: '/web-development',
+            href: '/marketing-communications',
             Icon: CodeCircleIcon,
           },
         ]}

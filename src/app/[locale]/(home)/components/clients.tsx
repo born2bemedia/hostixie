@@ -11,55 +11,31 @@ import { VerticalSlider } from '@/shared/ui/components/vertical-slider';
 import { ArrowRightIcon } from '@/shared/ui/icons/arrow-right';
 import { Text } from '@/shared/ui/kit/text';
 
-const getArticles = (t: ReturnType<typeof useTranslations>) => [
-  {
-    title: t('articles.0.title', {
-      fallback: 'Brand Awareness Campaign for a Consumer Brand',
-    }),
-    text: t('articles.0.text', {
-      fallback:
-        'We developed an integrated advertising campaign designed to strengthen brand recognition and create more consistent communication across selected media channels. The project combined campaign strategy, creative development, visual assets, and coordinated advertising placement.',
-    }),
-    href: '/',
-    imgUrl: '/images/home/clients-1.jpg',
-  },
-  {
-    title: t('articles.1.title', {
-      fallback: 'Market Research for a Growing Retail Business',
-    }),
-    text: t('articles.1.text', {
-      fallback:
-        'We conducted market and audience research to help a growing retail business better understand customer expectations, competitive positioning, and opportunities for future communication. The findings supported a clearer marketing direction and campaign strategy.',
-    }),
-    href: '/',
-    imgUrl: '/images/home/clients-2.jpg',
-  },
-];
+const ARTICLE_IMAGES = [
+  '/images/home/clients-1.jpg',
+  '/images/home/clients-2.jpg',
+  '/images/home/clients-3.jpg',
+  '/images/home/clients-4.jpg',
+] as const;
+
+const getArticles = (t: ReturnType<typeof useTranslations>) =>
+  ARTICLE_IMAGES.map((imgUrl, index) => ({
+    title: t(`articles.${index}.title`),
+    text: t(`articles.${index}.text`),
+    href: '/clients',
+    imgUrl,
+  }));
 
 const getReviews = (t: ReturnType<typeof useTranslations>) => [
   {
-    review: t('reviews.0.review', {
-      fallback:
-        '“Hostixie helped us turn a collection of ideas into a clear advertising strategy. The campaign felt consistent across every channel and gave our brand a much stronger, more recognizable presence.”',
-    }),
-    person: t('reviews.0.person', {
-      fallback: 'Daniel Morris',
-    }),
-    position: t('reviews.0.position', {
-      fallback: 'Founder of Northline Consumer Goods',
-    }),
+    review: t('reviews.0.review'),
+    person: t('reviews.0.person'),
+    position: t('reviews.0.position'),
   },
   {
-    review: t('reviews.1.review', {
-      fallback:
-        '“What impressed me most was how quickly the team understood our business and the message we wanted to communicate. They gave us a clearer direction for both our brand communication and visual identity.”',
-    }),
-    person: t('reviews.1.person', {
-      fallback: 'Sophie Bennett',
-    }),
-    position: t('reviews.1.position', {
-      fallback: 'Managing Director of Verity Consulting',
-    }),
+    review: t('reviews.1.review'),
+    person: t('reviews.1.person'),
+    position: t('reviews.1.position'),
   },
 ];
 
@@ -68,23 +44,19 @@ export const Clients = () => {
 
   const articles = getArticles(t);
   const reviews = getReviews(t);
+
   return (
-    <section className="container flex flex-col gap-10">
+    <section className="container flex flex-col gap-[60px]">
       <HeroTitle
-        title={t('title', { fallback: 'Clients' })}
-        subtitle={t('subtitle', {
-          fallback: 'Real Challenges, Strategic Solutions',
-        })}
-        text={t('text', {
-          fallback:
-            'From emerging brands looking to establish their identity to established businesses preparing new campaigns or entering new markets, we help clients turn business objectives into focused advertising and communication initiatives.',
-        })}
+        title={t('title')}
+        subtitle={t('subtitle')}
+        text={t('text')}
       />
       <VerticalSlider navigation>
         {articles.map(article => (
           <div
             key={article.title}
-            className="min-w-full flex-shrink-0 md:min-w-[50%] lg:min-w-[33%]"
+            className="min-w-full flex-shrink-0 md:min-w-[50%]"
           >
             <Card {...article} />
           </div>
@@ -97,8 +69,8 @@ export const Clients = () => {
           ))}
         </section>
         <div className="rounded-xl border border-[#A4A189] p-4">
-          <LargeActionBtn href="/clients">
-            {t('button', { fallback: 'Explore More Projects' })}
+          <LargeActionBtn href="/clients" className="h-[100px] py-0">
+            {t('button')}
           </LargeActionBtn>
         </div>
       </section>
@@ -119,14 +91,9 @@ const ReviewCard = ({
     <Text size="3xl" className="leading-[120%] tracking-[-0.48px]">
       {review}
     </Text>
-    <span className="flex items-center gap-1 max-md:flex-col max-md:items-start">
-      <Text size="base" weight={700}>
-        {person},
-      </Text>
-      <Text size="base" color="grey">
-        {position}
-      </Text>
-    </span>
+    <Text size="base" weight={700} className="uppercase tracking-[0.12px]">
+      {person}, {position}
+    </Text>
   </article>
 );
 
@@ -141,7 +108,7 @@ const Card = ({
   text: string;
   href: string;
 }) => (
-  <article className="flex w-full max-w-[700px] cursor-grab flex-col gap-4 pr-8 max-md:max-w-[340px]">
+  <article className="flex w-full max-w-[700px] cursor-grab flex-col gap-4 pr-10 max-md:max-w-[340px] max-md:pr-0">
     <div className="rounded-xl border border-[#A4A189] p-4">
       <Image
         className="h-[184px] w-full object-cover"
@@ -152,12 +119,12 @@ const Card = ({
         unoptimized
       />
     </div>
-    <div className="flex flex-col gap-1.5">
+    <div className="flex flex-col gap-1">
       <span className="flex items-center justify-between gap-10">
         <Text size="lg" weight={700}>
           {title}
         </Text>
-        <Link href={href}>
+        <Link href={href} aria-label={title}>
           <ArrowRightIcon />
         </Link>
       </span>

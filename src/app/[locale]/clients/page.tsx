@@ -12,19 +12,19 @@ import {
 } from './components';
 
 export const metadata: Metadata = {
-  title: 'Hostixie Projects & Success Stories | Hostixie',
+  title: 'Projects That Made an Impact | Hostixie',
   description:
-    'See how Hostixie helps clients achieve success with custom websites, hosting, and e-commerce platforms.',
+    'See how Hostixie helps brands solve advertising, marketing, research, communication, and visual challenges.',
   openGraph: {
-    title: 'Hostixie Projects & Success Stories | Hostixie',
+    title: 'Projects That Made an Impact | Hostixie',
     description:
-      'See how Hostixie helps clients achieve success with custom websites, hosting, and e-commerce platforms.',
+      'See how Hostixie helps brands solve advertising, marketing, research, communication, and visual challenges.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Hostixie Projects & Success Stories | Hostixie',
+    title: 'Projects That Made an Impact | Hostixie',
     description:
-      'See how Hostixie helps clients achieve success with custom websites, hosting, and e-commerce platforms.',
+      'See how Hostixie helps brands solve advertising, marketing, research, communication, and visual challenges.',
   },
 };
 

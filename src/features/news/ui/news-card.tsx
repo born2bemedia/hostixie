@@ -33,7 +33,7 @@ export const NewsCard = ({
           <Text color="primary" size="xs" weight={700}>
             {date}
           </Text>
-          <Title color="black" size="xl" weight={700}>
+          <Title color="black" size="xl" weight={700} uppercase>
             {title}
           </Title>
           <Text color="black" size="base" className="opacity-60">

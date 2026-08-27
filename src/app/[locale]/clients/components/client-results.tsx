@@ -22,68 +22,30 @@ export const ClientResults = () => {
             weight={500}
             color="black"
           >
-            {t('title', { fallback: 'At a Glance: Client Results' })}
+            {t('title')}
           </Title>
           <section className="flex flex-col gap-8 max-md:hidden">
             <div className="flex min-h-[248px] gap-5">
-              <Card
-                label={t('cards.0', { fallback: 'Website Speed Improvements' })}
-                title="+60%"
-              />
-              <Card
-                label={t('cards.1', { fallback: 'Conversion Rates Increased' })}
-                title="+45%"
-              />
-              <Card
-                label={t('cards.2', { fallback: 'Organic Traffic Growth' })}
-                title="+70%"
-              />
+              <Card label={t('cards.0')} title={t('values.0')} />
+              <Card label={t('cards.1')} title={t('values.1')} />
+              <Card label={t('cards.2')} title={t('values.2')} />
             </div>
             <div className="flex min-h-[248px] gap-5">
-              <Card
-                label={t('cards.3', {
-                  fallback: 'Customer Satisfaction Score',
-                })}
-                title="98%"
-              />
-              <Card
-                label={t('cards.4', { fallback: 'Avg. Project Delivery Time' })}
-                title="3-6 weeks"
-              />
+              <Card label={t('cards.3')} title={t('values.3')} />
+              <Card label={t('cards.4')} title={t('values.4')} />
               <ExploreCard />
             </div>
           </section>
           <section className="hidden flex-col gap-2 max-md:flex">
             <div className="flex gap-2">
-              <Card
-                label={t('cards.0', { fallback: 'Website Speed Improvements' })}
-                title="+60%"
-                responsive
-              />
-              <Card
-                label={t('cards.1', { fallback: 'Conversion Rates Increased' })}
-                title="+45%"
-                responsive
-              />
+              <Card label={t('cards.0')} title={t('values.0')} responsive />
+              <Card label={t('cards.1')} title={t('values.1')} responsive />
             </div>
             <div className="flex gap-2">
-              <Card
-                label={t('cards.2', { fallback: 'Organic Traffic Growth' })}
-                title="+70%"
-                responsive
-              />
-              <Card
-                label={t('cards.3', {
-                  fallback: 'Customer Satisfaction Score',
-                })}
-                title="98%"
-                responsive
-              />
+              <Card label={t('cards.2')} title={t('values.2')} responsive />
+              <Card label={t('cards.3')} title={t('values.3')} responsive />
             </div>
-            <Card
-              label={t('cards.4', { fallback: 'Avg. Project Delivery Time' })}
-              title="3-6 weeks"
-            />
+            <Card label={t('cards.4')} title={t('values.4')} />
             <ExploreCard />
           </section>
         </section>
@@ -133,7 +95,7 @@ const ExploreCard = () => {
     <CardLayout className="flex-col items-start">
       <div className="flex flex-col gap-2">
         <Text size="xl" color="black" weight={500}>
-          {t('title', { fallback: 'Want to See More?' })}
+          {t('title')}
         </Text>
         <Text
           color="black"
@@ -141,10 +103,7 @@ const ExploreCard = () => {
           className="leading-[120%] tracking-[-0.48px] opacity-30"
           weight={500}
         >
-          {t('text', {
-            fallback:
-              'Take a deeper look at how we solve real problems with smart digital solutions.',
-          })}
+          {t('text')}
         </Text>
       </div>
       <Link
@@ -152,7 +111,7 @@ const ExploreCard = () => {
         className="flex h-[100px] w-full items-center justify-center rounded-[4px] bg-black/10"
       >
         <Text color="black" size="lg" weight={700}>
-          {t('button', { fallback: 'Explore Our Process' })}
+          {t('button')}
         </Text>
       </Link>
     </CardLayout>

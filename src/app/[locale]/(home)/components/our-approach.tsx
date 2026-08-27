@@ -3,11 +3,14 @@
 import type { JSX } from 'react';
 import { useTranslations } from 'next-intl';
 
+import { useRequestForm } from '@/features/request-form/model/use-request-form';
+
 import { GreyDot } from '@/shared/ui/components/grey-dot';
 import { HeroTitle } from '@/shared/ui/components/hero-title';
 import { VerticalSlider } from '@/shared/ui/components/vertical-slider';
 import { ConnectedWorldIcon } from '@/shared/ui/icons/connected-world';
 import { DevWorldIcon } from '@/shared/ui/icons/dev-world';
+import { LaunchWorldIcon } from '@/shared/ui/icons/launch-world';
 import { WorldIcon } from '@/shared/ui/icons/world';
 import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
@@ -16,52 +19,44 @@ import { Title } from '@/shared/ui/kit/title';
 const getSlides = (t: ReturnType<typeof useTranslations>) => [
   {
     icon: WorldIcon,
-    title: t('slides.0.title', { fallback: 'Discovery & Consultation' }),
-    text: t('slides.0.text', {
-      fallback:
-        'We begin by learning about your business, objectives, audience, current market position, and communication challenges.',
-    }),
+    title: t('slides.0.title'),
+    text: t('slides.0.text'),
   },
   {
     icon: ConnectedWorldIcon,
-    title: t('slides.1.title', { fallback: 'Research & Strategy' }),
-    text: t('slides.1.text', {
-      fallback:
-        'We analyze relevant market information, audiences, competitors, and communication opportunities before defining a clear strategic direction.',
-    }),
+    title: t('slides.1.title'),
+    text: t('slides.1.text'),
   },
   {
     icon: DevWorldIcon,
-    title: t('slides.2.title', { fallback: 'Creative Development' }),
-    text: t('slides.2.text', {
-      fallback:
-        'Our team develops campaign concepts, messages, visual materials, communication assets, and media plans aligned with the agreed strategy.',
-    }),
+    title: t('slides.2.title'),
+    text: t('slides.2.text'),
+  },
+  {
+    icon: LaunchWorldIcon,
+    title: t('slides.3.title'),
+    text: t('slides.3.text'),
   },
 ];
 
 export const OurApproach = () => {
   const t = useTranslations('home.ourApproach');
+  const { openRequestForm } = useRequestForm();
 
   const slides = getSlides(t);
 
   return (
     <section className="container flex flex-col gap-[100px] pt-[110px]">
       <HeroTitle
-        title={t('title', { fallback: 'Our Approach' })}
-        subtitle={t('subtitle', {
-          fallback: 'From Insight to Communication That Makes an Impact',
-        })}
-        text={t('text', {
-          fallback:
-            "Every project starts with understanding the business behind the message. We combine research, strategic thinking, creative development, and thoughtful execution to create advertising and communication solutions aligned with each client's goals.",
-        })}
+        title={t('title')}
+        subtitle={t('subtitle')}
+        text={t('text')}
       />
       <section className="flex flex-col gap-12">
         <Divider />
         <div className="flex flex-col gap-5">
           <Title as="h3" size="5xl">
-            {t('stepByStep', { fallback: 'Step-by-Step Process:' })}
+            {t('stepByStep')}
           </Title>
           <VerticalSlider navigation>
             {slides.map((slide, i) => (
@@ -73,6 +68,15 @@ export const OurApproach = () => {
               </div>
             ))}
           </VerticalSlider>
+          <button
+            type="button"
+            onClick={openRequestForm}
+            className="flex h-[100px] w-full cursor-pointer items-center justify-center rounded bg-[#FFF4E1]/10 transition-all duration-300 ease-in-out hover:bg-[#FFF4E1]/20"
+          >
+            <Text size="lg" weight={700}>
+              {t('button')}
+            </Text>
+          </button>
         </div>
       </section>
     </section>

@@ -35,22 +35,19 @@ export const StartBuilding = () => {
                 weight={500}
                 className="text-[45px] max-md:text-[20px]"
               >
-                {t('title', { fallback: 'Start Building With Us' })}
+                {t('title')}
               </Title>
               <Text
                 size="xl"
-                color="black"
+                color="muted"
                 weight={500}
-                className="leading-[120%] tracking-[-0.48px] opacity-30"
+                className="leading-[120%] tracking-[-0.48px]"
               >
-                {t('text', {
-                  fallback:
-                    "Whether you're starting from scratch or need to rebuild, we’re",
-                })}
+                {t('text')}
               </Text>
             </section>
             <Button variant="primary" onClick={openRequestForm}>
-              {t('button', { fallback: 'Request a Free Consultation' })}
+              {t('button')}
             </Button>
           </div>
         </section>

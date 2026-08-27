@@ -115,7 +115,7 @@ export const FirstStepForm = ({
                 name={field.name}
                 label={t('phone.label', { fallback: 'Phone:' })}
                 placeholder={t('phone.placeholder', {
-                  fallback: 'Enter your phone',
+                  fallback: 'Enter your phone number',
                 })}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
@@ -150,28 +150,48 @@ export const FirstStepForm = ({
           <Field name="projectType">
             {field => (
               <Select
-                label={t('projectType.label', { fallback: 'Project Type:' })}
+                label={t('projectType.label', {
+                  fallback: 'Service Required:',
+                })}
                 placeholder={t('projectType.placeholder', {
-                  fallback: 'Choose your project type',
+                  fallback: 'Choose your service',
                 })}
                 values={[
                   {
                     label: t('projectTypeValues.0', {
-                      fallback: 'Web Hosting',
+                      fallback: 'Advertising',
                     }),
-                    value: 'Web Hosting',
+                    value: 'Advertising',
                   },
                   {
                     label: t('projectTypeValues.1', {
-                      fallback: 'Web Development',
+                      fallback: 'Marketing & Communications',
                     }),
-                    value: 'Web Development',
+                    value: 'Marketing & Communications',
                   },
                   {
                     label: t('projectTypeValues.2', {
-                      fallback: 'Custom Solutions',
+                      fallback: 'Media Planning & Placement',
                     }),
-                    value: 'Custom Solutions',
+                    value: 'Media Planning & Placement',
+                  },
+                  {
+                    label: t('projectTypeValues.3', {
+                      fallback: 'Market & Audience Research',
+                    }),
+                    value: 'Market & Audience Research',
+                  },
+                  {
+                    label: t('projectTypeValues.4', {
+                      fallback: 'PR & Communications',
+                    }),
+                    value: 'PR & Communications',
+                  },
+                  {
+                    label: t('projectTypeValues.5', {
+                      fallback: 'Graphic Design',
+                    }),
+                    value: 'Graphic Design',
                   },
                 ]}
                 onSelect={value => field.handleChange(value)}
@@ -216,7 +236,7 @@ export const FirstStepForm = ({
               <Select
                 label={t('timeline.label', { fallback: 'Timeline:' })}
                 placeholder={t('timeline.placeholder', {
-                  fallback: 'Select your timeline',
+                  fallback: 'Choose your timeline',
                 })}
                 values={[
                   {
@@ -266,7 +286,7 @@ export const FirstStepForm = ({
               disabled={!canSubmit}
             >
               {!isSubmitting
-                ? t('nextStep', { fallback: 'Next Step' })
+                ? t('nextStep', { fallback: 'Next step' })
                 : t('submitting', { fallback: 'Submitting...' })}
             </Button>
           )}

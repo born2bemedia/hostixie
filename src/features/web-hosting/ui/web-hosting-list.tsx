@@ -42,8 +42,8 @@ const Heading = ({
       </Title>
       <Text
         size="xl"
-        color="white"
-        className="w-[800px] opacity-30 max-lg:w-full"
+        color="grey"
+        className="w-[800px] max-lg:w-full"
       >
         {description}
       </Text>

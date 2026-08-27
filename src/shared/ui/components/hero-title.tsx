@@ -46,7 +46,7 @@ export const HeroTitle = ({
               {subtitle}
             </Title>
           )}
-          <Text size="xl" color={color} className="opacity-30 max-md:text-base">
+          <Text size="xl" color={color === 'white' ? 'grey' : 'black'} className="max-md:text-base">
             {text}
           </Text>
         </div>

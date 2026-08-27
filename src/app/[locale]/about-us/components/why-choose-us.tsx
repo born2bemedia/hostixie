@@ -33,9 +33,8 @@ export const WhyChooseUs = () => {
           </Title>
           <Text
             size="xl"
-            color="white"
             weight={500}
-            className="w-[800px] opacity-30 max-lg:w-full"
+            className="w-[800px] max-lg:w-full"
           >
             {t('text')}
           </Text>
@@ -64,13 +63,13 @@ const Card = ({
   text: string;
   icon: () => JSX.Element;
 }) => (
-  <article className="flex flex-1 flex-col gap-[65px] rounded-xl border border-[#A4A189] p-6 max-md:gap-5">
+  <article className="flex flex-1 flex-col gap-8 rounded-xl border border-[#A4A189] p-6 max-md:gap-5">
     <Icon />
     <div className="flex flex-col gap-2">
       <Text size="xl" weight={700} uppercase>
         {title}
       </Text>
-      <Text size="base" color="grey">
+      <Text size="base">
         {text}
       </Text>
     </div>

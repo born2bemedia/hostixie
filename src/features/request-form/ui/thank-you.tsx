@@ -28,16 +28,11 @@ export const ThankYou = ({ onClose }: { onClose: () => void }) => {
           color="black"
           weight={500}
         >
-          {t('title.0', { fallback: 'We’re Excited to' })}{' '}
-          <span className="text-primary">
-            {t('title.1', { fallback: 'Connect!' })}
-          </span>
+          {t('title.0')}{' '}
+          <span className="text-primary">{t('title.1')}</span>
         </Title>
         <Text size="xl" color="black" weight={400}>
-          {t('text', {
-            fallback:
-              'We appreciate you taking the time to share your details with us. We’re excited to work together and start the journey toward achieving your digital goals. One of our team members will be in touch with you shortly.',
-          })}
+          {t('text')}
         </Text>
       </div>
       <Button

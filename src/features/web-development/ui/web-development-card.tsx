@@ -64,8 +64,15 @@ export const WebDevelopmentCard = ({
         height={400}
         unoptimized
       />
-      <section className="z-10 flex flex-col gap-5">
-        <Title as="h3" size="4xl" color="black" weight={700} uppercase>
+      <section className="z-10 flex flex-1 flex-col gap-5">
+        <Title
+          as="h3"
+          size="4xl"
+          color="black"
+          weight={700}
+          uppercase
+          className="min-h-[80px] leading-[40px] max-md:min-h-0"
+        >
           {title}
         </Title>
         <Text size="base" color="black">
@@ -120,26 +127,39 @@ export const WebDevelopmentCard = ({
             {isShowMore
               ? t('showLess', { fallback: 'show less' })
               : t('showMore', { fallback: 'show more' })}
-            <ChevronDownIcon />
+            <span
+              className={cn(
+                'inline-flex transition-transform duration-300',
+                isShowMore && 'rotate-180',
+              )}
+            >
+              <ChevronDownIcon />
+            </span>
           </Button>
-          <ul
+          <div
             className={cn(
-              'flex flex-col gap-1.5',
               'overflow-hidden transition-all duration-500 ease-in-out',
               isShowMore
-                ? 'max-h-[500px] p-5 opacity-100'
+                ? 'max-h-[2000px] p-5 opacity-100'
                 : 'max-h-0 opacity-0',
             )}
           >
-            {includes.map(include => (
-              <li key={include} className="flex items-center gap-2.5">
-                <ChooseIcon />
-                <Text size="base" color="black">
-                  {include}
-                </Text>
-              </li>
-            ))}
-          </ul>
+            <div className="flex flex-col gap-2.5">
+              <Text size="xs" color="black" weight={700}>
+                {t('includes', { fallback: 'Includes:' })}
+              </Text>
+              <ul className="flex flex-col gap-1.5">
+                {includes.map(include => (
+                  <li key={include} className="flex items-start gap-2.5">
+                    <ChooseIcon />
+                    <Text size="base" color="black">
+                      {include}
+                    </Text>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
     </article>
@@ -153,6 +173,7 @@ const ChooseIcon = () => (
     height="9"
     viewBox="0 0 10 9"
     fill="none"
+    className="mt-1.5 shrink-0"
   >
     <path
       d="M1.5 4.49998V2.94248C1.5 1.01164 2.87083 0.218309 4.545 1.18664L5.8925 1.96831L7.24 2.74998C8.91417 3.71831 8.91417 5.29914 7.24 6.26748L5.8925 7.04914L4.545 7.83081C2.87083 8.78164 1.5 7.99414 1.5 6.05748V4.49998Z"

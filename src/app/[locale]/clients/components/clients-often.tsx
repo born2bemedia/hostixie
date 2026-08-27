@@ -1,6 +1,5 @@
 'use client';
 
-
 import type { JSX } from 'react';
 import { useTranslations } from 'next-intl';
 
@@ -12,13 +11,23 @@ import { WPWorldIcon } from '@/shared/ui/icons/wp-world';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-
-
 const getCards = (t: ReturnType<typeof useTranslations>) => [
-  { icon: SeoWorldIcon, values: [t('cards.0.values.0', { fallback: 'SEO Strategy' }), t('cards.0.values.1', { fallback: 'Hosting' })] },
-  { icon: EcommerceWorldIcon, values: [t('cards.1.values.0', { fallback: 'E-commerce Dev' }), t('cards.1.values.1', { fallback: 'Maintenance' })] },
-  { icon: WPWorldIcon, values: [t('cards.2.values.0', { fallback: 'WordPress Setup' }), t('cards.2.values.1', { fallback: 'Ongoing Support' })] },
-  { icon: CmsWorldIcon, values: [t('cards.3.values.0', { fallback: 'Custom CMS' }), t('cards.3.values.1', { fallback: 'Training for Their Team' })] },
+  {
+    icon: SeoWorldIcon,
+    values: [t('cards.0.values.0'), t('cards.0.values.1')],
+  },
+  {
+    icon: EcommerceWorldIcon,
+    values: [t('cards.1.values.0'), t('cards.1.values.1')],
+  },
+  {
+    icon: WPWorldIcon,
+    values: [t('cards.2.values.0'), t('cards.2.values.1')],
+  },
+  {
+    icon: CmsWorldIcon,
+    values: [t('cards.3.values.0'), t('cards.3.values.1')],
+  },
 ];
 
 export const ClientsOften = () => {
@@ -33,10 +42,10 @@ export const ClientsOften = () => {
             className="max-md:text-[40px] max-md:leading-[130%] max-md:tracking-[1.12px]"
             uppercase
           >
-            {t('title', { fallback: 'Add-On Services Most Popular with Customers' })}
+            {t('title')}
           </Title>
-          <Text size="xl" className="opacity-30">
-            {t('text', { fallback: 'Clients often choose to bundle:' })}
+          <Text size="xl" color="grey">
+            {t('text')}
           </Text>
         </section>
         <section className="flex gap-5 max-md:flex-col">

@@ -22,24 +22,19 @@ export const GotProject = () => {
               weight={500}
               className="text-[45px] max-md:text-[20px]"
             >
-              {t('title', { fallback: 'Got a Project or Idea?' })}
+              {t('title')}
             </Title>
             <Text
               size="xl"
-              color="black"
+              color="muted"
               weight={500}
-              className="leading-[120%] tracking-[-0.48px] opacity-30"
+              className="leading-[120%] tracking-[-0.48px]"
             >
-              {t('text', {
-                fallback:
-                  'Let’s turn it into something amazing. Click below, and let’s talk timelines, goals, and possibilities.',
-              })}
+              {t('text')}
             </Text>
           </section>
           <Link href="/contact">
-            <Button variant="primary">
-              {t('button', { fallback: 'Contact Our Team' })}
-            </Button>
+            <Button variant="primary">{t('button')}</Button>
           </Link>
         </div>
       </section>

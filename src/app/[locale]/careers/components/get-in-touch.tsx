@@ -26,7 +26,7 @@ export const GetInTouch = () => {
             >
               {t('title', { fallback: 'Get in Touch with Hostixie' })}
             </Title>
-            <Text size="xl" color="black" weight={500} className="opacity-30">
+            <Text size="xl" color="muted" weight={500}>
               {t('text', {
                 fallback:
                   "Even if you're not ready to apply but want to connect, we’d love to hear from you. Have an idea, a skillset, or a question? Let’s start a conversation.",

@@ -56,35 +56,37 @@ const getDevSteps = (t: ReturnType<typeof useTranslations>) => [
     }),
     text: t('devSteps.0.text', {
       fallback:
-        'We advise on marketing direction, business positioning, and communication priorities to help align commercial goals with market opportunities.',
+        'We help businesses evaluate opportunities, clarify priorities, and develop marketing approaches aligned with their broader commercial goals.',
     }),
   },
   {
     title: t('devSteps.1.title', { fallback: 'Market Research' }),
     text: t('devSteps.1.text', {
       fallback:
-        'We gather and interpret audience, competitor, and market insights to support clearer decisions before campaigns and brand initiatives begin.',
+        'We collect and analyze relevant market, audience, competitor, and consumer information to support better-informed decisions.',
     }),
   },
   {
-    title: t('devSteps.2.title', { fallback: 'Public Relations' }),
+    title: t('devSteps.2.title', { fallback: 'PR & Communications' }),
     text: t('devSteps.2.text', {
       fallback:
-        'We help shape public messaging and media relationships so your brand communicates with credibility across relevant channels.',
+        'We develop communication strategies that help businesses communicate consistently with customers, partners, and media.',
     }),
   },
   {
-    title: t('devSteps.3.title', { fallback: 'Brand Communications' }),
+    title: t('devSteps.3.title', {
+      fallback: 'Brand & Visual Communications',
+    }),
     text: t('devSteps.3.text', {
       fallback:
-        'We build coherent messaging frameworks that keep your brand voice consistent across campaigns, channels, and customer touchpoints.',
+        'We create visual materials that strengthen brand recognition and deliver clear, consistent communication across different channels.',
     }),
   },
   {
     title: t('devSteps.4.title', { fallback: 'Graphic Design' }),
     text: t('devSteps.4.text', {
       fallback:
-        'We create visual systems and design assets that support campaign ideas and strengthen brand recognition.',
+        'From advertising creatives and presentations to visual communication assets, we design content that brings ideas to life.',
     }),
   },
 ];
@@ -187,7 +189,9 @@ export const WhatWeDo = () => {
         <div className="rounded-xl border-t border-[#A4A189] p-4">
           <LargeActionBtn
             href={
-              displayType === 'hosting' ? '/web-hosting' : '/web-development'
+              displayType === 'hosting'
+                ? '/advertising-services'
+                : '/marketing-communications'
             }
           >
             {displayType === 'hosting'

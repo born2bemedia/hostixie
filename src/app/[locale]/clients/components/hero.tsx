@@ -14,23 +14,19 @@ export const Hero = () => {
 
   return (
     <PageHero
+      textFirst
       title={
         <>
-          {t('title.0', { fallback: 'Projects That' })} <br />
-          <span className="text-primary">
-            {t('title.1', { fallback: 'Made an Impact' })}
-          </span>
+          {t('title.0')} <br />
+          <span className="text-primary">{t('title.1')}</span>
         </>
       }
-      subtitle={t('subtitle', { fallback: 'Got a vision for something?' })}
+      subtitle={t('subtitle')}
       layoutClassName="h-[620px] max-[1295px]:h-[820px] max-md:h-[620px]"
-      text={t('text', {
-        fallback:
-          'Every result is a collaboration. We’ve helped businesses, creators, and professionals launch platforms that are fast, functional, and built for growth.',
-      })}
+      text={t('text')}
       additionalContent={
         <Button variant="primary" onClick={openRequestForm}>
-          {t('button', { fallback: "Let's Talk" })}
+          {t('button')}
         </Button>
       }
     />

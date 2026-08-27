@@ -34,19 +34,18 @@ export async function sendRequestForm({
       subject: `New Contact Request`,
       html: `
       <h2>New Request Form Submission</h2>
-      <p><strong>First Name:</strong> ${firstName}}</p>
-      <p><strong>Last Name:</strong> ${lastName}}</p>
+      <p><strong>First Name:</strong> ${firstName}</p>
+      <p><strong>Last Name:</strong> ${lastName}</p>
       <p><strong>Email:</strong> ${email}</p>
-      <p><strong>Business:</strong> ${companyName}</p>
       <p><strong>Phone:</strong> ${phone}</p>
+      <p><strong>Project Name:</strong> ${companyName}</p>
+      <p><strong>Service Required:</strong> ${projectType}</p>
       <p><strong>Budget:</strong> ${budget}</p>
-      <p><strong>Company Name:</strong> ${companyName}</p>
-      <p><strong>Project Type:</strong> ${projectType}</p>
       <p><strong>Timeline:</strong> ${timeline}</p>
-      <p><strong>Additional Info:</strong> ${additionalInfo}</p>
-      <p><strong>Preferred Technology:</strong> ${preferredTechnology}</p>
-      <p><strong>Current Website:</strong> ${currentWebsite}</p>
-      <p><strong>Design Inspiration:</strong> ${designInspiration}</p>
+      <p><strong>Project Goals:</strong> ${additionalInfo}</p>
+      <p><strong>Target Audience:</strong> ${designInspiration}</p>
+      <p><strong>Current Marketing & Communication Activities:</strong> ${currentWebsite}</p>
+      <p><strong>Preferred Channels:</strong> ${preferredTechnology}</p>
     `,
     };
 

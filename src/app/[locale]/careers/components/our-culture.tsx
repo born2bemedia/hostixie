@@ -94,7 +94,7 @@ const Card = ({
       <Text size="3xl" weight={500}>
         {title}
       </Text>
-      <Text size="xl" weight={500} className="opacity-50">
+      <Text size="xl" weight={500} color="grey">
         {text}
       </Text>
       <ul className="flex flex-col gap-2">
@@ -117,7 +117,7 @@ const Card = ({
                 strokeLinejoin="round"
               />
             </svg>
-            <Text size="xl" weight={500} className="opacity-50">
+            <Text size="xl" weight={500} color="grey">
               {item}
             </Text>
           </li>
