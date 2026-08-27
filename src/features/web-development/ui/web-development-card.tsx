@@ -29,6 +29,7 @@ export const WebDevelopmentCard = ({
   includes,
   imgUrl,
   showFrom = true,
+  fullWidth = false,
 }: WebDevPackage) => {
   const [isShowMore, setIsShowMore] = useState(false);
 
@@ -49,7 +50,12 @@ export const WebDevelopmentCard = ({
   };
 
   return (
-    <article className="relative flex min-h-[495px] w-1/2 flex-col justify-between gap-20 rounded-[12px] border border-[rgba(163,161,137,0.8)] bg-[rgba(163,161,137,0.8)] px-6 pt-[100px] pb-6 max-md:w-full">
+    <article
+      className={cn(
+        'relative flex min-h-[495px] flex-col justify-between gap-20 rounded-[12px] border border-[rgba(163,161,137,0.8)] bg-[rgba(163,161,137,0.8)] px-6 pt-[100px] pb-6 max-md:w-full',
+        fullWidth ? 'w-full' : 'w-1/2',
+      )}
+    >
       <Image
         className="absolute top-0 right-0 z-0 opacity-30"
         src={imgUrl}

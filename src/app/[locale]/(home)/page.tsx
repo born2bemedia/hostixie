@@ -12,19 +12,19 @@ import {
 } from './components';
 
 export const metadata: Metadata = {
-  title: 'Web Hosting & Web Development Services | Hostixie',
+  title: 'Advertising, Marketing & Communications | Hostixie',
   description:
-    'Hostixie offers fast, secure hosting and professional web development. Fast hosting, custom websites, online stores, and web solutions built around your goals.',
+    'Hostixie helps brands get noticed with advertising, marketing strategy, communications, research, and creative design built around clear business goals.',
   openGraph: {
-    title: 'Web Hosting & Web Development Services | Hostixie',
+    title: 'Advertising, Marketing & Communications | Hostixie',
     description:
-      'Hostixie offers fast, secure hosting and professional web development. Fast hosting, custom websites, online stores, and web solutions built around your goals.',
+      'Hostixie helps brands get noticed with advertising, marketing strategy, communications, research, and creative design built around clear business goals.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Web Hosting & Web Development Services | Hostixie',
+    title: 'Advertising, Marketing & Communications | Hostixie',
     description:
-      'Hostixie offers fast, secure hosting and professional web development. Fast hosting, custom websites, online stores, and web solutions built around your goals.',
+      'Hostixie helps brands get noticed with advertising, marketing strategy, communications, research, and creative design built around clear business goals.',
   },
 };
 
@@ -36,7 +36,7 @@ export default function Home() {
       <OurApproach />
       <section className="relative mt-[180px] mb-[72px] h-[1200px] max-md:h-[800px]">
         <Image
-          className="max-md:object-cover"
+          className="object-cover"
           src="/images/home/server.jpg"
           alt="server"
           fill
@@ -55,11 +55,15 @@ export default function Home() {
       <WhoWeAre />
       <section className="relative mt-[175px] h-[1200px] max-md:h-[800px]">
         <Image
-          className="max-md:object-cover"
+          className="object-cover"
           src="/images/home/networks.jpg"
-          alt="server"
+          alt="networks"
           fill
           unoptimized
+        />
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black to-[rgba(0,0,0,0)] to-[7.3%]"
         />
         <Image
           className="absolute right-0 bottom-0 h-[100px] w-full object-cover"

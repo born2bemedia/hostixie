@@ -5,4 +5,5 @@ export type WebDevPackage = {
   includes: string[];
   imgUrl: string;
   showFrom?: boolean;
+  fullWidth?: boolean;
 };

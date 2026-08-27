@@ -15,19 +15,19 @@ import {
 } from './components';
 
 export const metadata: Metadata = {
-  title: 'About Hostixie | Our Story, Mission & Expertise | Hostixie',
+  title: 'About Hostixie | Helping Brands Communicate With Purpose',
   description:
-    'Learn about Hostixie’s mission, vision, and expertise. Over 500 projects delivered with excellence in hosting and web development.',
+    'Hostixie brings together advertising, marketing strategy, research, media, PR, communications, and graphic design to help brands communicate with purpose.',
   openGraph: {
-    title: 'About Hostixie | Our Story, Mission & Expertise | Hostixie',
+    title: 'About Hostixie | Helping Brands Communicate With Purpose',
     description:
-      'Learn about Hostixie’s mission, vision, and expertise. Over 500 projects delivered with excellence in hosting and web development.',
+      'Hostixie brings together advertising, marketing strategy, research, media, PR, communications, and graphic design to help brands communicate with purpose.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About Hostixie | Our Story, Mission & Expertise | Hostixie',
+    title: 'About Hostixie | Helping Brands Communicate With Purpose',
     description:
-      'Learn about Hostixie’s mission, vision, and expertise. Over 500 projects delivered with excellence in hosting and web development.',
+      'Hostixie brings together advertising, marketing strategy, research, media, PR, communications, and graphic design to help brands communicate with purpose.',
   },
 };
 
@@ -41,56 +41,42 @@ export default async function CompanyOverview() {
         title={
           <>
             <span className="text-[40px] leading-[48px] max-md:text-base max-md:leading-[120%]">
-              {t('title.0', { fallback: 'Company Overview:' })}
-            </span>{' '}
-            <br /> {t('title.1', { fallback: 'Shaping Your' })} <br />
-            <span className="text-primary">
-              {t('title.2', { fallback: 'Brand’s Digital Success' })}
+              {t('title.0')}
             </span>
+            <br />
+            {t('title.1')}
           </>
         }
-        subtitle={t('subtitle', {
-          fallback:
-            'A Trusted Partner for Businesses Seeking Scalable, High-Impact Web Solutions',
-        })}
-        layoutClassName="h-[950px] max-[1300px]:h-[1250px] max-md:h-[900px]"
-        text={t('text', {
-          fallback:
-            'At Hostixie, our strategy combines industry expertise with cutting-edge technology to create seamless, scalable solutions that drive results. From startups to established enterprises, we collaborate with our clients to help them achieve their digital goals and enhance their online presence. Here’s an inside look at who we are, what we do, and how we can help your project thrive in the digital landscape.',
-        })}
+        subtitle={t('subtitle')}
+        layoutClassName="h-225 max-[1300px]:h-300"
+        text={t('text')}
       />
       <OurStory />
       <CoreValues />
       <WhatWeDo />
       <TextValue
-        title={to('ourTeam.title', { fallback: 'Our Team' })}
-        subtitle={to('ourTeam.subtitle', {
-          fallback: 'The Experts Behind Your Success',
-        })}
-        text={to('ourTeam.text', {
-          fallback:
-            'At Hostixie, we have a talented team of experts who bring their knowledge, creativity, and passion to every project. From skilled web developers and innovative designers to marketing specialists and customer support professionals, our team works seamlessly together to deliver high-quality, tailored solutions. We are committed to pushing the boundaries of what’s possible, ensuring that each client receives personalized service and outstanding results every time.',
-        })}
+        title={to('ourTeam.title')}
+        subtitle={to('ourTeam.subtitle')}
+        text={to('ourTeam.text')}
+        bullets={[
+          to('ourTeam.bullets.0'),
+          to('ourTeam.bullets.1'),
+          to('ourTeam.bullets.2'),
+          to('ourTeam.bullets.3'),
+          to('ourTeam.bullets.4'),
+        ]}
       />
       <Achievments />
       <WhyChooseUs />
       <TextValue
-        title="Our Impact"
+        title={to('ourImpact.title')}
         subtitle={
           <>
-            {to('ourImpact.subtitle.0', {
-              fallback: 'Shaping the Digital World,',
-            })}{' '}
-            <br />
-            {to('ourImpact.subtitle.1', {
-              fallback: 'One Project at a Time',
-            })}
+            {to('ourImpact.subtitle.0')} <br />
+            {to('ourImpact.subtitle.1')}
           </>
         }
-        text={to('ourImpact.text', {
-          fallback:
-            'We’re not just building websites — we’re helping businesses grow, innovate, and thrive in the digital world. From increasing traffic and conversions to enhancing user engagement and delivering long-term digital solutions, our work makes a tangible difference for our clients. We take pride in knowing that our solutions help our clients achieve measurable success and drive real business results.',
-        })}
+        text={to('ourImpact.text')}
         additionalContent={
           <Image
             className="absolute bottom-0 left-0 h-[204px] w-full object-cover"

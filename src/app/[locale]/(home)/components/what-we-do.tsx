@@ -13,78 +13,78 @@ import { Title } from '@/shared/ui/kit/title';
 
 const getSteps = (t: ReturnType<typeof useTranslations>) => [
   {
-    title: t('steps.0.title', { fallback: 'Shared Hosting' }),
+    title: t('steps.0.title', { fallback: 'Advertising Campaigns' }),
     text: t('steps.0.text', {
       fallback:
-        'Ideal for small websites and businesses, offering a cost-effective and reliable way to get online quickly.',
+        'We develop advertising concepts and campaigns aligned with your objectives, audience, positioning, and communication goals.',
     }),
   },
   {
-    title: t('steps.1.title', { fallback: 'VPS Hosting' }),
+    title: t('steps.1.title', { fallback: 'Media Planning & Placement' }),
     text: t('steps.1.text', {
       fallback:
-        'A more robust and scalable option for websites that require dedicated resources. Enjoy the benefits of a dedicated server at a fraction of the cost.',
+        'We identify suitable media channels, plan advertising placements, and coordinate campaign delivery to help your message reach relevant audiences.',
     }),
   },
   {
-    title: t('steps.2.title', { fallback: 'Dedicated Hosting' }),
+    title: t('steps.2.title', { fallback: 'Creative Advertising' }),
     text: t('steps.2.text', {
       fallback:
-        'Complete control over your hosting environment. Perfect for high-traffic websites, e-commerce platforms, or projects that require top-tier performance.',
+        'From campaign concepts to visual materials and advertising assets, we transform ideas into consistent creative communication.',
     }),
   },
   {
-    title: t('steps.3.title', { fallback: 'Cloud Hosting' }),
+    title: t('steps.3.title', { fallback: 'Campaign Strategy' }),
     text: t('steps.3.text', {
       fallback:
-        'Scalable and flexible cloud-based hosting solutions for dynamic websites that need to adapt quickly to increasing traffic or complex demands.',
+        'We define campaign objectives, audiences, messaging, channels, and execution plans to provide every advertising initiative with a clear direction.',
     }),
   },
   {
-    title: t('steps.4.title', { fallback: 'Managed WordPress Hosting' }),
+    title: t('steps.4.title', { fallback: 'Advertising Performance Analysis' }),
     text: t('steps.4.text', {
       fallback:
-        'Optimized hosting designed specifically for WordPress websites, with automatic updates, daily backups, and enhanced security.',
+        'We review campaign results and audience response to identify opportunities for stronger future communication.',
     }),
   },
 ];
 
 const getDevSteps = (t: ReturnType<typeof useTranslations>) => [
   {
-    title: t('devSteps.0.title', { fallback: 'Custom Website Development' }),
+    title: t('devSteps.0.title', {
+      fallback: 'Marketing & Business Consulting',
+    }),
     text: t('devSteps.0.text', {
       fallback:
-        'Whether you need a portfolio, personal blog, or custom business website, we craft tailored solutions that perfectly match your needs.',
+        'We advise on marketing direction, business positioning, and communication priorities to help align commercial goals with market opportunities.',
     }),
   },
   {
-    title: t('devSteps.1.title', { fallback: 'E-commerce Solutions' }),
+    title: t('devSteps.1.title', { fallback: 'Market Research' }),
     text: t('devSteps.1.text', {
       fallback:
-        'Build your online store with powerful e-commerce platforms like Shopify, WooCommerce, and Magento to deliver an exceptional shopping experience.',
+        'We gather and interpret audience, competitor, and market insights to support clearer decisions before campaigns and brand initiatives begin.',
     }),
   },
   {
-    title: t('devSteps.2.title', { fallback: 'UX/UI Design' }),
+    title: t('devSteps.2.title', { fallback: 'Public Relations' }),
     text: t('devSteps.2.text', {
       fallback:
-        'By focusing on user needs, accessibility, and responsive design, we create intuitive, user-friendly designs that ensure your visitors have a pleasant and engaging experience.',
+        'We help shape public messaging and media relationships so your brand communicates with credibility across relevant channels.',
     }),
   },
   {
-    title: t('devSteps.3.title', {
-      fallback: 'Website Redesign & Maintenance',
-    }),
+    title: t('devSteps.3.title', { fallback: 'Brand Communications' }),
     text: t('devSteps.3.text', {
       fallback:
-        'Need a refresh or continuous support? Our team can redesign your website to reflect modern design trends and maintain it for optimal performance.',
+        'We build coherent messaging frameworks that keep your brand voice consistent across campaigns, channels, and customer touchpoints.',
     }),
   },
   {
-    title: t('devSteps.4.title', { fallback: 'SEO Optimization' }),
+    title: t('devSteps.4.title', { fallback: 'Graphic Design' }),
     text: t('devSteps.4.text', {
       fallback:
-        'We implement best practices for on-page SEO, ensuring your website ranks higher on search engines and attracts organic traffic.',
+        'We create visual systems and design assets that support campaign ideas and strengthen brand recognition.',
     }),
   },
 ];
@@ -105,11 +105,11 @@ export const WhatWeDo = () => {
         title={t('title', { fallback: 'What We Do' })}
         subtitle={t('subtitle', {
           fallback:
-            'Our Services at a Glance: Hosting & Web Solutions for Every Project',
+            'Strategic Advertising and Communications for Brands Ready to Be Seen',
         })}
         text={t('text', {
           fallback:
-            'At Hostixie, we provide reliable web hosting and custom web development services for websites, personal brands, online stores, portfolios, and digital projects of all sizes.',
+            'At Hostixie, we combine advertising, marketing strategy, communications, research, and creative design to help businesses strengthen their market presence.',
         })}
       />
       <section className="rounded-xl border border-[#A4A189]">
@@ -118,14 +118,14 @@ export const WhatWeDo = () => {
             <Image
               className="h-[429px] w-full object-cover"
               src="/images/home/web-hosting.jpg"
-              alt="web-hosting"
+              alt="advertising-services"
               width={632}
               height={429}
               unoptimized
             />
             <section className="flex flex-col gap-2.5">
               <button
-                className="flex cursor-pointer items-center gap-5 transition-opacity duration-300 ease-in-out hover:opacity-80 max-md:text-left"
+                className="flex w-full cursor-pointer items-center justify-start gap-5 text-left transition-opacity duration-300 ease-in-out hover:opacity-80"
                 onClick={() => setDisplayType('hosting')}
               >
                 {displayType === 'hosting' && <BlendIcon />}
@@ -133,16 +133,17 @@ export const WhatWeDo = () => {
                   as="h4"
                   size="6xl"
                   className={cn(
+                    'text-left',
                     displayType === 'development'
                       ? 'opacity-20'
                       : 'opacity-100',
                   )}
                 >
-                  {t('webHosting', { fallback: 'Web Hosting' })}
+                  {t('webHosting', { fallback: 'Advertising Services' })}
                 </Title>
               </button>
               <button
-                className="flex cursor-pointer items-center gap-5 transition-opacity duration-300 ease-in-out hover:opacity-80 max-md:text-left"
+                className="flex w-full cursor-pointer items-center justify-start gap-5 text-left transition-opacity duration-300 ease-in-out hover:opacity-80"
                 onClick={() => setDisplayType('development')}
               >
                 {displayType === 'development' && <BlendIcon />}
@@ -150,12 +151,15 @@ export const WhatWeDo = () => {
                   as="h4"
                   size="6xl"
                   className={cn(
+                    'text-left',
                     displayType === 'development'
                       ? 'opacity-100'
                       : 'opacity-20',
                   )}
                 >
-                  {t('webDevelopment', { fallback: 'Web Development' })}
+                  {t('webDevelopment', {
+                    fallback: 'Marketing & Communications',
+                  })}
                 </Title>
               </button>
             </section>
@@ -187,8 +191,12 @@ export const WhatWeDo = () => {
             }
           >
             {displayType === 'hosting'
-              ? t('uncoverMoreOptions', { fallback: 'Uncover More Options' })
-              : t('browseMoreOfferings', { fallback: 'Browse More Offerings' })}
+              ? t('uncoverMoreOptions', {
+                  fallback: 'Explore Advertising Services',
+                })
+              : t('browseMoreOfferings', {
+                  fallback: 'Explore Marketing & Communications',
+                })}
           </LargeActionBtn>
         </div>
       </section>

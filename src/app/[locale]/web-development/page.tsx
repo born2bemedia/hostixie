@@ -10,23 +10,25 @@ import {
   OurFullRange,
   OurPath,
   WebPackages,
-  YourPartner,
 } from './components';
 
 export const metadata: Metadata = {
-  title: 'Custom Website Development & E-commerce Solutions | Hostixie',
+  title:
+    'Marketing & Communications – Strategy, Research, PR & Design | Hostixie',
   description:
-    'Build your online presence with custom websites, e-commerce platforms, and web applications designed for growth.',
+    'Hostixie marketing and communications services cover consulting, market research, PR, brand communication, and visual solutions built around your business goals.',
   openGraph: {
-    title: 'Custom Website Development & E-commerce Solutions | Hostixie',
+    title:
+      'Marketing & Communications – Strategy, Research, PR & Design | Hostixie',
     description:
-      'Build your online presence with custom websites, e-commerce platforms, and web applications designed for growth.',
+      'Hostixie marketing and communications services cover consulting, market research, PR, brand communication, and visual solutions built around your business goals.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Custom Website Development & E-commerce Solutions | Hostixie',
+    title:
+      'Marketing & Communications – Strategy, Research, PR & Design | Hostixie',
     description:
-      'Build your online presence with custom websites, e-commerce platforms, and web applications designed for growth.',
+      'Hostixie marketing and communications services cover consulting, market research, PR, brand communication, and visual solutions built around your business goals.',
   },
 };
 
@@ -36,22 +38,16 @@ export default async function WebDevelopment() {
   return (
     <main className="overflow-x-hidden">
       <FeatureHero
-        title={t('hero.title', { fallback: 'Web Development That Delivers' })}
-        subtitle={t('hero.subtitle', {
-          fallback: 'Transform Your Project with Expert Web Development',
-        })}
-        text={t('hero.text', {
-          fallback:
-            'At Hostixie, we specialize in crafting custom web development solutions tailored to your unique company needs. From building a business card website to launching an e-commerce platform or developing a custom web application, we offer services designed to meet your goals and grow with your projects.',
-        })}
+        title={t('hero.title')}
+        subtitle={t('hero.subtitle')}
+        text={t('hero.text')}
       />
-      <YourPartner />
       <OurPath />
       <OurFullRange />
       <DownloadPrice />
       <section className="relative h-[1200px] max-md:h-[800px]">
         <Image
-          className="max-md:object-cover"
+          className="object-cover"
           src="/images/home/server.jpg"
           alt="server"
           fill

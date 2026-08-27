@@ -20,13 +20,13 @@ export const Hero = () => {
         <div className="z-10 flex flex-col gap-2.5">
           <Title as="h1" uppercase>
             {t('title', {
-              fallback: 'Empowering Your Project’s Digital Presence',
+              fallback: 'Ideas That Get Brands Noticed',
             })}
           </Title>
           <Text>
             {t('subtitle', {
               fallback:
-                'Fast, Secure, and Affordable Hosting & Custom Web Development Solutions for Personal Projects, Creators, and Small Websites',
+                'Advertising, Marketing & Communication Solutions Built to Connect Brands with the Right Audiences',
             })}
           </Text>
         </div>
@@ -36,7 +36,7 @@ export const Hero = () => {
           onClick={openRequestForm}
         >
           {t('button', {
-            fallback: 'Start Your Journey Today',
+            fallback: 'Start Your Project Today',
           })}
         </Button>
       </section>

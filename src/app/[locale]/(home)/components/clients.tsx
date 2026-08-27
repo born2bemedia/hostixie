@@ -14,47 +14,25 @@ import { Text } from '@/shared/ui/kit/text';
 const getArticles = (t: ReturnType<typeof useTranslations>) => [
   {
     title: t('articles.0.title', {
-      fallback: 'Custom Portfolio Website for a Creative Agency',
+      fallback: 'Brand Awareness Campaign for a Consumer Brand',
     }),
     text: t('articles.0.text', {
       fallback:
-        'We developed a professional portfolio website for a creative agency, showcasing their work with a sleek and modern design. The site helped increase both brand awareness and client inquiries by 30%.',
+        'We developed an integrated advertising campaign designed to strengthen brand recognition and create more consistent communication across selected media channels. The project combined campaign strategy, creative development, visual assets, and coordinated advertising placement.',
     }),
     href: '/',
     imgUrl: '/images/home/clients-1.jpg',
   },
   {
     title: t('articles.1.title', {
-      fallback: 'Tailored E-Commerce Platform for a Retail Business',
+      fallback: 'Market Research for a Growing Retail Business',
     }),
     text: t('articles.1.text', {
       fallback:
-        'We designed and developed a custom e-commerce platform for a retail company, featuring a user-friendly interface and seamless checkout process. This platform doubled the client’s sales within the first three months of launch.',
+        'We conducted market and audience research to help a growing retail business better understand customer expectations, competitive positioning, and opportunities for future communication. The findings supported a clearer marketing direction and campaign strategy.',
     }),
     href: '/',
     imgUrl: '/images/home/clients-2.jpg',
-  },
-  {
-    title: t('articles.2.title', {
-      fallback: 'SEO-Optimized Website for a Consulting Firm',
-    }),
-    text: t('articles.2.text', {
-      fallback:
-        'We partnered with a consulting firm to create an SEO-optimized website, which significantly enhanced their online visibility. By implementing proven SEO strategies, we helped them attract a wider audience and improve their lead generation.',
-    }),
-    href: '/',
-    imgUrl: '/images/home/clients-3.jpg',
-  },
-  {
-    title: t('articles.3.title', {
-      fallback: 'Responsive Website Redesign for a Fitness Business',
-    }),
-    text: t('articles.3.text', {
-      fallback:
-        'We redesigned a fitness business website to be fully responsive, ensuring optimal functionality on all devices. As a result, the business saw a 40% increase in sign-ups and a 25% improvement in customer engagement.',
-    }),
-    href: '/',
-    imgUrl: '/images/home/clients-4.jpg',
   },
 ];
 
@@ -62,25 +40,25 @@ const getReviews = (t: ReturnType<typeof useTranslations>) => [
   {
     review: t('reviews.0.review', {
       fallback:
-        '“The website perfectly showcases our agency’s work. The team truly understood our brand and brought our vision to life in a way that resonates with our clients.”',
+        '“Hostixie helped us turn a collection of ideas into a clear advertising strategy. The campaign felt consistent across every channel and gave our brand a much stronger, more recognizable presence.”',
     }),
     person: t('reviews.0.person', {
-      fallback: 'John D.',
+      fallback: 'Daniel Morris',
     }),
     position: t('reviews.0.position', {
-      fallback: 'Managing Director at Creative Agency',
+      fallback: 'Founder of Northline Consumer Goods',
     }),
   },
   {
     review: t('reviews.1.review', {
       fallback:
-        '“The new e-commerce platform has transformed my business. It’s easy to use, and we’ve seen an increase in traffic and customer engagement. A game-changer for our sales!”',
+        '“What impressed me most was how quickly the team understood our business and the message we wanted to communicate. They gave us a clearer direction for both our brand communication and visual identity.”',
     }),
     person: t('reviews.1.person', {
-      fallback: 'Emma W.',
+      fallback: 'Sophie Bennett',
     }),
     position: t('reviews.1.position', {
-      fallback: 'Retail Business Owner',
+      fallback: 'Managing Director of Verity Consulting',
     }),
   },
 ];
@@ -95,11 +73,11 @@ export const Clients = () => {
       <HeroTitle
         title={t('title', { fallback: 'Clients' })}
         subtitle={t('subtitle', {
-          fallback: 'Success Stories Across Various Industries',
+          fallback: 'Real Challenges, Strategic Solutions',
         })}
         text={t('text', {
           fallback:
-            'We have had the pleasure of working with clients from various sectors, helping them achieve their digital objectives through reliable web hosting and expert web development services.',
+            'From emerging brands looking to establish their identity to established businesses preparing new campaigns or entering new markets, we help clients turn business objectives into focused advertising and communication initiatives.',
         })}
       />
       <VerticalSlider navigation>
@@ -120,7 +98,7 @@ export const Clients = () => {
         </section>
         <div className="rounded-xl border border-[#A4A189] p-4">
           <LargeActionBtn href="/clients">
-            {t('button', { fallback: 'Check Out Our Full Client Portfolio' })}
+            {t('button', { fallback: 'Explore More Projects' })}
           </LargeActionBtn>
         </div>
       </section>
@@ -165,7 +143,7 @@ const Card = ({
 }) => (
   <article className="flex w-full max-w-[700px] cursor-grab flex-col gap-4 pr-8 max-md:max-w-[340px]">
     <div className="rounded-xl border border-[#A4A189] p-4">
-      <Image  
+      <Image
         className="h-[184px] w-full object-cover"
         src={imgUrl}
         alt={title}

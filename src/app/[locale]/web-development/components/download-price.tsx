@@ -11,16 +11,8 @@ export const DownloadPrice = () => {
     <section>
       <GetInTouch
         color="white"
-        title={t('title', {
-          fallback: 'Need Our Pricing in PDF?',
-        })}
-        text={t('text', {
-          fallback:
-            'While all our prices are available on the website, we understand you might prefer a convenient, downloadable version. Get our complete pricing details in PDF format, neatly organized for easy reference and comparison.',
-        })}
-        // button={t('button', {
-        //   fallback: 'Download Full Pricing PDF',
-        // })}
+        title={t('title')}
+        text={t('text')}
         titleClassName="text-[80px] max-md:text-[40px] font-normal leading-[120%] tracking-[1.12px] md:leading-[120%]"
         layoutClassName="bg-black py-20"
       />

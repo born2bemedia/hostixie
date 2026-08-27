@@ -8,7 +8,6 @@ import { HeroTitle } from '@/shared/ui/components/hero-title';
 import { VerticalSlider } from '@/shared/ui/components/vertical-slider';
 import { ConnectedWorldIcon } from '@/shared/ui/icons/connected-world';
 import { DevWorldIcon } from '@/shared/ui/icons/dev-world';
-import { SupportWorldIcon } from '@/shared/ui/icons/support-world';
 import { WorldIcon } from '@/shared/ui/icons/world';
 import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
@@ -17,34 +16,26 @@ import { Title } from '@/shared/ui/kit/title';
 const getSlides = (t: ReturnType<typeof useTranslations>) => [
   {
     icon: WorldIcon,
-    title: t('slides.0.title', { fallback: 'Consultation' }),
+    title: t('slides.0.title', { fallback: 'Discovery & Consultation' }),
     text: t('slides.0.text', {
       fallback:
-        'We begin by understanding your project’s goals, vision, and the challenges you face. Through a personalized consultation, we ensure that we’re aligned with your needs.',
+        'We begin by learning about your business, objectives, audience, current market position, and communication challenges.',
     }),
   },
   {
     icon: ConnectedWorldIcon,
-    title: t('slides.1.title', { fallback: 'Planning & Strategy' }),
+    title: t('slides.1.title', { fallback: 'Research & Strategy' }),
     text: t('slides.1.text', {
       fallback:
-        'After identifying your objectives, we design a plan that best suits your business, whether it involves selecting the right hosting solution or creating a custom website.',
+        'We analyze relevant market information, audiences, competitors, and communication opportunities before defining a clear strategic direction.',
     }),
   },
   {
     icon: DevWorldIcon,
-    title: t('slides.2.title', { fallback: 'Development' }),
+    title: t('slides.2.title', { fallback: 'Creative Development' }),
     text: t('slides.2.text', {
       fallback:
-        'Our team of experts works diligently to build a seamless and user-friendly platform. From responsive design to robust hosting, we handle it all.',
-    }),
-  },
-  {
-    icon: SupportWorldIcon,
-    title: t('slides.3.title', { fallback: 'Launch & Support' }),
-    text: t('slides.3.text', {
-      fallback:
-        'Once your website is ready, we help you launch it smoothly, ensuring that all features function as expected. We offer ongoing support and maintenance to guarantee long-term success.',
+        'Our team develops campaign concepts, messages, visual materials, communication assets, and media plans aligned with the agreed strategy.',
     }),
   },
 ];
@@ -59,11 +50,11 @@ export const OurApproach = () => {
       <HeroTitle
         title={t('title', { fallback: 'Our Approach' })}
         subtitle={t('subtitle', {
-          fallback: 'A Tailored Digital Framework for Your Business Ambitions',
+          fallback: 'From Insight to Communication That Makes an Impact',
         })}
         text={t('text', {
           fallback:
-            'We focus on understanding your project-specific goals and crafting customized solutions that make your digital presence stand out. Our approach centers on collaboration, ensuring we deliver the right solutions to help your business grow and succeed online.',
+            "Every project starts with understanding the business behind the message. We combine research, strategic thinking, creative development, and thoughtful execution to create advertising and communication solutions aligned with each client's goals.",
         })}
       />
       <section className="flex flex-col gap-12">
@@ -102,7 +93,7 @@ const Card = ({
   <article className="flex max-w-[640px] cursor-grab flex-col gap-4.5 pr-8 max-md:max-w-[340px] max-md:pr-0">
     <section className="relative flex flex-col items-center justify-center rounded-xl border border-[#A4A189]">
       <Text size="xs" className="absolute top-6 left-6">
-        {++index}
+        {String(++index).padStart(3, '0')}
       </Text>
       <Icon />
       <GreyDot className="absolute top-6 right-6" />

@@ -8,6 +8,7 @@ export const TextValue = ({
   title,
   subtitle,
   text,
+  bullets,
   lineUpClassName,
   titleClassName,
   additionalContent,
@@ -16,6 +17,7 @@ export const TextValue = ({
   title: string;
   subtitle: React.ReactNode;
   text: string;
+  bullets?: string[];
   lineUpClassName?: string;
   titleClassName?: string;
   additionalContent?: React.ReactNode;
@@ -42,18 +44,36 @@ export const TextValue = ({
           <LineUp
             className={cn('hidden shrink-0 max-lg:block', lineUpClassName)}
           />
-          <div className="flex flex-col gap-2">
-            <Title as="h3" size="3xl" weight={500} color="white">
-              {subtitle}
-            </Title>
-            <Text
-              size="xl"
-              color="white"
-              weight={500}
-              className="leading-[120%] opacity-50"
-            >
-              {text}
-            </Text>
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2">
+              <Title as="h3" size="3xl" weight={500} color="white">
+                {subtitle}
+              </Title>
+              <Text
+                size="xl"
+                color="white"
+                weight={500}
+                className="leading-[120%] opacity-50"
+              >
+                {text}
+              </Text>
+            </div>
+            {bullets?.length ? (
+              <ul className="list-disc space-y-1 pl-[30px]">
+                {bullets.map(bullet => (
+                  <li key={bullet}>
+                    <Text
+                      size="xl"
+                      color="white"
+                      weight={500}
+                      className="leading-[120%] opacity-50"
+                    >
+                      {bullet}
+                    </Text>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
           </div>
         </section>
       </div>

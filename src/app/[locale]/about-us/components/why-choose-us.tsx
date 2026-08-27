@@ -11,60 +11,25 @@ import { TechCircleIcon } from '@/shared/ui/icons/tech-circle';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const getCards = (t: ReturnType<typeof useTranslations>) => [
-  {
-    icon: StopCircleIcon,
-    title: t('cards.0.title', { fallback: 'Proven Track Record' }),
-    text: t('cards.0.text', {
-      fallback:
-        'A dynamic, young agency with 10+ years of combined experience delivering high-quality web solutions that drive results.',
-    }),
-  },
-  {
-    icon: RoutingCircleIcon,
-    title: t('cards.1.title', { fallback: 'Custom Solutions' }),
-    text: t('cards.1.text', {
-      fallback:
-        'Tailored services designed to meet the unique needs of each client.',
-    }),
-  },
-  {
-    icon: HeadphoneCircleIcon,
-    title: t('cards.2.title', { fallback: 'Dedicated Support' }),
-    text: t('cards.2.text', {
-      fallback:
-        'Ongoing maintenance and support to ensure your website remains optimal.',
-    }),
-  },
-  {
-    icon: TechCircleIcon,
-    title: t('cards.3.title', { fallback: 'Cutting-Edge Technology' }),
-    text: t('cards.3.text', {
-      fallback:
-        'We leverage the latest tools and technologies to stay ahead of the curve.',
-    }),
-  },
-  {
-    icon: ProcCircleIcon,
-    title: t('cards.4.title', { fallback: 'Collaborative Process' }),
-    text: t('cards.4.text', {
-      fallback:
-        'We work closely with clients to ensure their vision is brought to life.',
-    }),
-  },
-];
+const CARD_ICONS = [
+  StopCircleIcon,
+  RoutingCircleIcon,
+  HeadphoneCircleIcon,
+  TechCircleIcon,
+  ProcCircleIcon,
+] as const;
+
+const CARD_KEYS = ['0', '1', '2', '3', '4'] as const;
 
 export const WhyChooseUs = () => {
   const t = useTranslations('companyOverview.whyChooseUs');
-
-  const cards = getCards(t);
 
   return (
     <section className="py-[60px]">
       <div className="container flex flex-col gap-10">
         <section className="flex flex-col gap-5">
           <Title className="max-md:text-[40px] max-md:leading-[130%]" uppercase>
-            {t('title', { fallback: 'Why Choose Us?' })}
+            {t('title')}
           </Title>
           <Text
             size="xl"
@@ -72,15 +37,17 @@ export const WhyChooseUs = () => {
             weight={500}
             className="w-[800px] opacity-30 max-lg:w-full"
           >
-            {t('text', {
-              fallback:
-                'Hostixie believes in delivering more than just websites — we create digital experiences that drive business success. Here’s why businesses choose us:',
-            })}
+            {t('text')}
           </Text>
         </section>
         <section className="flex gap-2.5 max-lg:flex-col">
-          {cards.map(card => (
-            <Card key={card.title} {...card} />
+          {CARD_KEYS.map((key, index) => (
+            <Card
+              key={key}
+              icon={CARD_ICONS[index]}
+              title={t(`cards.${key}.title`)}
+              text={t(`cards.${key}.text`)}
+            />
           ))}
         </section>
       </div>

@@ -22,19 +22,14 @@ export const OurPhilosophy = () => {
       <div className="z-10 py-20 max-md:pt-0 max-md:pb-10">
         <div className="relative container flex flex-col gap-10">
           <Title color="black" uppercase>
-            {t('title', { fallback: 'Our Philosophy' })}
+            {t('title')}
           </Title>
-          <div className="ml-auto flex w-[80%] flex-col gap-2">
+          <div className="ml-auto flex w-[80%] flex-col gap-2 max-md:w-full">
             <Title size="5xl" weight={500} color="black">
-              {t('subtitle', {
-                fallback: 'Building Strong, Long-Lasting Relationships',
-              })}
+              {t('subtitle')}
             </Title>
             <Text size="xl" color="black" className="opacity-50">
-              {t('text', {
-                fallback:
-                  'We don’t just deliver projects; we build partnerships. Our philosophy centers on understanding your business goals and collaborating to achieve them. We prioritize collaboration, creativity, and commitment, ensuring that we create web solutions that not only meet but inspire. Your vision drives us, and we make sure it’s brought to life in the most impactful way possible.',
-              })}
+              {t('text')}
             </Text>
           </div>
           <LineUpIcon />

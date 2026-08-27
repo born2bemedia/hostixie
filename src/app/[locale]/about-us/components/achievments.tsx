@@ -8,51 +8,34 @@ import { Title } from '@/shared/ui/kit/title';
 
 import { TextValue } from './text-value';
 
-const getCards = (t: ReturnType<typeof useTranslations>) => [
-  t('cards.0', { fallback: '500+ Successful Projects Delivered' }),
-  t('cards.1', { fallback: 'Over 50+ Websites Developed From Scratch' }),
-  t('cards.2', { fallback: 'Collaborations with Leading Industry Partners' }),
-  t('cards.3', {
-    fallback: 'Recognition in Industry Reports and Publications',
-  }),
-  t('cards.4', {
-    fallback: 'Consistently Delivering Innovative Web Solutions',
-  }),
-];
+const CARD_KEYS = ['0', '1', '2', '3', '4'] as const;
 
 export const Achievments = () => {
   const t = useTranslations('companyOverview.achievments');
-
-  const cards = getCards(t);
 
   return (
     <section className="flex flex-col bg-black py-20">
       <div className="container">
         <Title className="upp text-[112px] leading-[89.6px] tracking-[1.12px] text-[#FFF4E1] uppercase max-lg:text-[96px] max-md:text-[40px] max-md:leading-[130%] max-md:tracking-[1.12px]">
-          {t('title', { fallback: 'Achievements & Milestones' })}
+          {t('title')}
         </Title>
       </div>
       <TextValue
         title="Our Team"
-        subtitle={t('subtitle', {
-          fallback: 'Reflecting Our Growth and Progress',
-        })}
-        text={t('text', {
-          fallback:
-            'Throughout our journey, we’ve reached several key milestones that demonstrate our commitment to delivering exceptional web development solutions. These accomplishments underscore our ongoing commitment to creating impactful digital experiences and cultivating lasting relationships. Here are some of the milestones we’re proud of:',
-        })}
+        subtitle={t('subtitle')}
+        text={t('text')}
         titleClassName="opacity-0 max-md:hidden"
         lineUpClassName="opacity-50"
       />
       <section className="container flex flex-col gap-5">
         <div className="flex min-h-[300px] gap-5 max-lg:flex-col">
-          {cards.slice(0, 3).map(card => (
-            <Card key={card} title={card} />
+          {CARD_KEYS.slice(0, 3).map(key => (
+            <Card key={key} title={t(`cards.${key}`)} />
           ))}
         </div>
         <div className="flex min-h-[262px] gap-5 max-lg:min-h-auto max-lg:flex-col">
-          {cards.slice(3).map(card => (
-            <Card key={card} title={card} />
+          {CARD_KEYS.slice(3).map(key => (
+            <Card key={key} title={t(`cards.${key}`)} />
           ))}
         </div>
       </section>

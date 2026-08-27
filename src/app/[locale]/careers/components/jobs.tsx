@@ -14,198 +14,32 @@ import { useDialogStore } from '@/shared/ui/kit/dialog';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const getJobs = (t: ReturnType<typeof useTranslations>) => [
-  {
-    type: t('items.0.type', { fallback: '(Remote - Full Time)' }),
-    name: t('items.0.name', { fallback: 'Frontend Developer' }),
+const JOB_COUNTS = [
+  { responsibilities: 12, requirements: 9 },
+  { responsibilities: 8, requirements: 7 },
+  { responsibilities: 8, requirements: 7 },
+  { responsibilities: 8, requirements: 7 },
+] as const;
+
+const getJobs = (t: ReturnType<typeof useTranslations>) =>
+  JOB_COUNTS.map((counts, index) => ({
+    type: t(`items.${index}.type`),
+    name: t(`items.${index}.name`),
     description: (
       <>
-        {t('items.0.description.0', {
-          fallback:
-            'As our Frontend Developer, you’ll turn Figma designs into pixel-perfect',
-        })}
+        {t(`items.${index}.description.0`)}
         <br />
         <br />
-        {t('items.0.description.1', {
-          fallback:
-            'Your day-to-day includes writing clean, accessible markup, optimizing',
-        })}
+        {t(`items.${index}.description.1`)}
       </>
     ),
-    responsibilities: [
-      t('items.0.responsibilities.0', {
-        fallback: 'Build and maintain React components using Tailwind CSS',
-      }),
-      t('items.0.responsibilities.1', {
-        fallback: 'Integrate REST and GraphQL APIs into frontend logic',
-      }),
-      t('items.0.responsibilities.2', {
-        fallback: 'Optimize application performance and bundle size',
-      }),
-      t('items.0.responsibilities.3', {
-        fallback: 'Write accessible HTML and semantic markup',
-      }),
-      t('items.0.responsibilities.4', {
-        fallback: 'Implement testing strategies (unit and end-to-end)',
-      }),
-      t('items.0.responsibilities.5', {
-        fallback: 'Collaborate with UX designers and backend developers',
-      }),
-      t('items.0.responsibilities.6', {
-        fallback: 'Follow code review and Git workflow standards',
-      }),
-    ],
-    requirements: [
-      t('items.0.requirements.0', {
-        fallback: '3+ years of experience with React and JavaScript (ES6+)',
-      }),
-      t('items.0.requirements.1', {
-        fallback: 'Strong CSS skills, especially with Tailwind',
-      }),
-      t('items.0.requirements.2', {
-        fallback: 'Experience working with REST and GraphQL APIs',
-      }),
-      t('items.0.requirements.3', {
-        fallback: 'Familiarity with frontend performance optimization',
-      }),
-      t('items.0.requirements.4', {
-        fallback: 'Comfortable using Git, GitHub, and CI/CD pipelines',
-      }),
-      t('items.0.requirements.5', {
-        fallback: 'Experience with testing libraries like Jest or Playwright',
-      }),
-      t('items.0.requirements.6', {
-        fallback: 'Strong attention to detail and UX/UI alignment',
-      }),
-    ],
-  },
-  {
-    type: t('items.1.type', { fallback: '(Remote - Full Time)' }),
-    name: t('items.1.name', { fallback: 'Customer Support Manager' }),
-    description: (
-      <>
-        {t('items.1.description.0', {
-          fallback:
-            'In the Customer Support Manager role, you’re the trusted advisor for our hosting and development clients. You’ll own the entire customer lifecycle, from custom onboarding walkthroughs and platform training to ticket triage and SLA-driven support. You’ll manage our Zendesk (or comparable) queue, escalate complex issues to engineering, and keep clients in the loop with clear status updates.',
-        })}
-        <br /> <br />
-        {t('items.1.description.1', {
-          fallback:
-            'Beyond reactive support, you’ll drive proactive customer feedback sessions to identify identify customer needs, capture feedback for product enhancements, and maintain our self-service knowledge base. Exceptional written and verbal communication skills, strong organizational habits, and a genuine desire to build lasting client relationships are key to thriving in this position.',
-        })}
-      </>
+    responsibilities: Array.from({ length: counts.responsibilities }, (_, i) =>
+      t(`items.${index}.responsibilities.${i}`),
     ),
-    responsibilities: [
-      t('items.1.responsibilities.0', {
-        fallback: 'Serve as the main point of contact for active accounts',
-      }),
-      t('items.1.responsibilities.1', {
-        fallback: 'Deliver onboarding sessions and product walkthroughs',
-      }),
-      t('items.1.responsibilities.2', {
-        fallback: 'Manage customer support tickets and track SLAs',
-      }),
-      t('items.1.responsibilities.3', {
-        fallback: 'Escalate technical issues with full context to the dev team',
-      }),
-      t('items.1.responsibilities.4', {
-        fallback: 'Conduct periodic customer feedback sessions and check-ins',
-      }),
-      t('items.1.responsibilities.5', {
-        fallback: 'Update and maintain internal documentation and FAQs',
-      }),
-      t('items.1.responsibilities.6', {
-        fallback: 'Collect and share feedback for product improvements',
-      }),
-    ],
-    requirements: [
-      t('items.1.requirements.0', {
-        fallback:
-          '2+ years in customer success, account management, or technical support',
-      }),
-      t('items.1.requirements.1', {
-        fallback: 'Strong written and verbal communication skills',
-      }),
-      t('items.1.requirements.2', {
-        fallback:
-          'Experience with helpdesk tools like Zendesk, Intercom, or Freshdesk',
-      }),
-      t('items.1.requirements.3', {
-        fallback:
-          'Solid understanding of web development or hosting environments',
-      }),
-      t('items.1.requirements.4', {
-        fallback: 'Excellent multitasking and prioritization skills',
-      }),
-      t('items.1.requirements.5', {
-        fallback: 'Empathy, patience, and professionalism under pressure',
-      }),
-    ],
-  },
-  {
-    type: t('items.2.type', { fallback: '(Remote - Part Time)' }),
-    name: t('items.2.name', { fallback: 'Hosting Infrastructure Engineer' }),
-    description: (
-      <>
-        {t('items.2.description.0', {
-          fallback:
-            'Our Hosting Infrastructure Engineer ensures that every website we host stays fast, secure, and online. You will architect and maintain Linux servers — tuning NGINX and Apache configurations, automating deployments with Docker or similar tools, and setting up monitoring and alerting for uptime and performance.',
-        })}
-        <br />
-        <br />
-        {t('items.2.description.1', {
-          fallback:
-            'You’ll own the security stack for WordPress environments, implementing hardening practices, automated malware scans, and regular patch management. When incidents occur, you’ll lead root-cause analysis and implement fixes in source-controlled scripts. This part-time role is perfect if you have deep Linux sysadmin skills, hands-on experience with containerization or IaC (Terraform/Ansible), and a proven track record of keeping high-traffic sites humming under pressure.',
-        })}
-      </>
+    requirements: Array.from({ length: counts.requirements }, (_, i) =>
+      t(`items.${index}.requirements.${i}`),
     ),
-    responsibilities: [
-      t('items.2.responsibilities.0', {
-        fallback: 'Configure, monitor, and maintain Linux-based web servers',
-      }),
-      t('items.2.responsibilities.1', {
-        fallback: 'Manage NGINX/Apache, SSL certs, and caching strategies',
-      }),
-      t('items.2.responsibilities.2', {
-        fallback: 'Automate deployments and backups using Docker or CI tools',
-      }),
-      t('items.2.responsibilities.3', {
-        fallback: 'Implement uptime and performance monitoring tools',
-      }),
-      t('items.2.responsibilities.4', {
-        fallback: 'Perform incident response and root-cause analysis',
-      }),
-      t('items.2.responsibilities.5', {
-        fallback: 'Ensure server security with best-practice hardening',
-      }),
-      t('items.2.responsibilities.6', {
-        fallback: 'Maintain infrastructure scripts in version control',
-      }),
-    ],
-    requirements: [
-      t('items.2.requirements.0', {
-        fallback:
-          '4+ years of experience as a Linux sysadmin or DevOps engineer',
-      }),
-      t('items.2.requirements.1', {
-        fallback: 'Strong knowledge of NGINX, Apache, and server security',
-      }),
-      t('items.2.requirements.2', {
-        fallback: 'Familiar with Docker, shell scripting, and automation tools',
-      }),
-      t('items.2.requirements.3', {
-        fallback: 'Experience with infrastructure-as-code (Terraform, Ansible)',
-      }),
-      t('items.2.requirements.4', {
-        fallback: 'Understanding of WordPress-specific hosting needs',
-      }),
-      t('items.2.requirements.5', {
-        fallback:
-          'Ability to work independently and handle off-hour incidents if needed',
-      }),
-    ],
-  },
-];
+  }));
 
 export const Jobs = () => {
   const t = useTranslations('careers.jobs');
@@ -227,8 +61,8 @@ export const Jobs = () => {
         <section className="sticky top-5 flex h-fit w-1/2 flex-col gap-10 self-start max-lg:relative max-lg:top-0 max-lg:w-full">
           <div className="flex justify-between">
             <Title uppercase>
-              {t('title.0', { fallback: 'Current' })} <br />
-              {t('title.1', { fallback: 'Openings' })}
+              {t('title.0')} <br />
+              {t('title.1')}
             </Title>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -256,15 +90,10 @@ export const Jobs = () => {
               weight={500}
               className="leading-[120%] tracking-[-0.48px]"
             >
-              {t('subtitle', {
-                fallback:
-                  'If you don’t see an open role that fits, feel free to reach out —',
-              })}
+              {t('subtitle')}
             </Text>
             <Link href="/contact">
-              <Button variant="primary">
-                {t('button', { fallback: 'Contact Us' })}
-              </Button>
+              <Button variant="primary">{t('button')}</Button>
             </Link>
           </div>
         </section>
@@ -308,7 +137,7 @@ const JobCard = ({
     <article className="flex gap-10 rounded-xl border border-[#A4A189] p-6 max-lg:flex-col">
       <span className="bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl">
         <Text size="sm" weight={500} color="black">
-          {++index}
+          {index + 1}
         </Text>
       </span>
       <div className="flex flex-col gap-10">
@@ -332,13 +161,13 @@ const JobCard = ({
           </section>
           <section className="flex justify-between">
             <Button variant="primary" onClick={onApply}>
-              {t('applyNow', { fallback: 'Apply Now' })}
+              {t('applyNow')}
             </Button>
             <Button
               variant="outline"
               onClick={() => setIsShowMore(prev => !prev)}
             >
-              {t('showMore', { fallback: 'Show more' })}
+              {isShowMore ? t('showLess') : t('showMore')}
             </Button>
           </section>
         </section>
@@ -346,13 +175,13 @@ const JobCard = ({
           className={cn(
             'flex flex-col gap-10 overflow-hidden transition-all duration-500 ease-in-out',
             isShowMore
-              ? 'mt-4 max-h-[1200px] opacity-100'
+              ? 'mt-4 max-h-[2500px] opacity-100'
               : 'mt-0 max-h-0 opacity-0',
           )}
         >
           <div className="flex flex-col gap-2">
             <Text size="xs" weight={700}>
-              {t('responsibilities', { fallback: 'Responsibilities' })}
+              {t('responsibilities')}
             </Text>
             <ul className="flex flex-col gap-2">
               {responsibilities.map(responsibility => (
@@ -366,7 +195,7 @@ const JobCard = ({
 
           <div className="flex flex-col gap-2">
             <Text size="xs" weight={700}>
-              {t('requirements', { fallback: 'Requirements' })}
+              {t('requirements')}
             </Text>
             <ul className="flex flex-col gap-2">
               {requirements.map(requirement => (

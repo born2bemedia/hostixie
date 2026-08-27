@@ -164,18 +164,26 @@ export const ApplicationForm = ({ onCancel }: { onCancel: () => void }) => {
                 })}
                 values={[
                   {
-                    label: t('jobs.0', { fallback: 'Frontend Developer' }),
-                    value: 'Frontend Developer',
+                    label: t('jobs.0', {
+                      fallback: 'Advertising Account Manager',
+                    }),
+                    value: 'Advertising Account Manager',
                   },
                   {
-                    label: t('jobs.1', { fallback: 'Customer Support Manager' }),
-                    value: 'Customer Support Manager',
+                    label: t('jobs.1', {
+                      fallback: 'Marketing & Research Specialist',
+                    }),
+                    value: 'Marketing & Research Specialist',
                   },
                   {
                     label: t('jobs.2', {
-                      fallback: 'Hosting Infrastructure Engineer',
+                      fallback: 'PR & Communications Specialist',
                     }),
-                    value: 'Hosting Infrastructure Engineer',
+                    value: 'PR & Communications Specialist',
+                  },
+                  {
+                    label: t('jobs.3', { fallback: 'Graphic Designer' }),
+                    value: 'Graphic Designer',
                   },
                 ]}
                 onSelect={value => field.handleChange(value)}

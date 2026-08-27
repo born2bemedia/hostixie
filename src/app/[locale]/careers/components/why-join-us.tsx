@@ -49,11 +49,11 @@ const getSlides = (t: ReturnType<typeof useTranslations>) => [
   {
     icon: SaleWorldIcon,
     title: t('cards.3.title', {
-      fallback: 'Exclusive Perks & Lifestyle Discounts',
+      fallback: 'Professional Tools & Resources',
     }),
     text: t('cards.3.text', {
       fallback:
-        'Enjoy team perks, software tool access, and partner discounts to make work (and life) more enjoyable, balanced, fulfilling, and rewarding.',
+        'Team members receive access to the research, communication, project-management, and tools required to do their work effectively.',
     }),
   },
   {

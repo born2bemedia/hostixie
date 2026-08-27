@@ -11,19 +11,19 @@ import {
 } from './components';
 
 export const metadata: Metadata = {
-  title: 'Our Approach to Hosting & Web Development | Hostixie',
+  title: 'Our Approach – Turning Insight Into Impact | Hostixie',
   description:
-    'Discover Hostixie’s step-by-step process: consultation, strategy, development, launch, and continuous support.',
+    'Discover Hostixie’s strategic process connecting research, creativity, advertising, and communication — from discovery to continuous improvement.',
   openGraph: {
-    title: 'Our Approach to Hosting & Web Development | Hostixie',
+    title: 'Our Approach – Turning Insight Into Impact | Hostixie',
     description:
-      'Discover Hostixie’s step-by-step process: consultation, strategy, development, launch, and continuous support.',
+      'Discover Hostixie’s strategic process connecting research, creativity, advertising, and communication — from discovery to continuous improvement.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Our Approach to Hosting & Web Development | Hostixie',
+    title: 'Our Approach – Turning Insight Into Impact | Hostixie',
     description:
-      'Discover Hostixie’s step-by-step process: consultation, strategy, development, launch, and continuous support.',
+      'Discover Hostixie’s strategic process connecting research, creativity, advertising, and communication — from discovery to continuous improvement.',
   },
 };
 
@@ -37,22 +37,14 @@ export default async function OurApproach() {
         title={
           <>
             <span className="text-[40px] leading-[48px] max-md:text-base max-md:leading-[120%]">
-              {t('title.0', { fallback: 'Our Approach:' })}
+              {t('title.0')}
             </span>{' '}
-            <br /> {t('title.1', { fallback: 'Building Your' })} <br />
-            <span className="text-primary">
-              {t('title.2', { fallback: 'Digital Future' })}
-            </span>
+            <br /> {t('title.1')}{' '}
+            <span className="text-primary">{t('title.2')}</span>
           </>
         }
-        subtitle={t('subtitle', {
-          fallback:
-            'A Collaborative and Results-Driven Process to Turn Your Business Ambitions into Seamless, Scalable Solutions',
-        })}
-        text={t('text', {
-          fallback:
-            'We believe that every enterprise is unique and requires a personalized approach. Our process focuses on collaboration, innovation, and delivering exceptional results. We work closely with you at every stage, ensuring that your website or application not only meets your company’s goals but also exceeds your expectations. Here’s a deeper look into how we approach every project we undertake.',
-        })}
+        subtitle={t('subtitle')}
+        text={t('text')}
       />
       <OurPhilosophy />
       <OurStepByStep />

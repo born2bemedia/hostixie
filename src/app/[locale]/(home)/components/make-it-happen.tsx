@@ -14,10 +14,12 @@ export const MakeItHappen = () => {
   return (
     <GetInTouch
       title={t('title', { fallback: 'Get in Touch' })}
-      subtitle={t('subtitle', { fallback: 'Ready to Start Your Project?' })}
+      subtitle={t('subtitle', {
+        fallback: 'Ready to Put Your Brand in the Right Conversation?',
+      })}
       text={t('text', {
         fallback:
-          'We’re here to help you bring your digital presence to life. Whether you need web hosting or a custom-built website, our team is ready to support you.',
+          'Our team is ready to help turn your objectives into a clear plan.',
       })}
       button={t('button', { fallback: 'Let’s Make It Happen' })}
       onClickButtonAction={openRequestForm}

@@ -16,11 +16,15 @@ const getSteps = (t: ReturnType<typeof useTranslations>) => [
     value: t('steps.0.value', { fallback: '10+ Years' }),
   },
   {
-    label: t('steps.1.label', { fallback: 'successful projects delivered' }),
+    label: t('steps.1.label', {
+      fallback: 'advertising and communication projects delivered',
+    }),
     value: t('steps.1.value', { fallback: '500+' }),
   },
   {
-    label: t('steps.2.label', { fallback: 'satisfied clients' }),
+    label: t('steps.2.label', {
+      fallback: 'clients and businesses supported',
+    }),
     value: t('steps.2.value', { fallback: '200+' }),
   },
   {
@@ -28,11 +32,13 @@ const getSteps = (t: ReturnType<typeof useTranslations>) => [
     value: t('steps.3.value', { fallback: '99.9%' }),
   },
   {
-    label: t('steps.4.label', { fallback: 'websites developed from scratch' }),
+    label: t('steps.4.label', {
+      fallback: 'brand and visual communication projects completed',
+    }),
     value: t('steps.4.value', { fallback: '50+' }),
   },
   {
-    label: t('steps.5.label', { fallback: 'client satisfaction rate' }),
+    label: t('steps.5.label', { fallback: 'customer satisfaction rate' }),
     value: t('steps.5.value', { fallback: '98%' }),
   },
 ];
@@ -47,11 +53,11 @@ export const WhoWeAre = () => {
       <HeroTitle
         title={t('title', { fallback: 'Who We Are' })}
         subtitle={t('subtitle', {
-          fallback: 'Driven by Results and Innovation',
+          fallback: 'Strategy, Creativity and Communication Working Together',
         })}
         text={t('text', {
           fallback:
-            'Hostixie is a young and dynamic agency passionate about providing reliable, scalable web hosting and web development solutions. We’re proud to work with clients across various sectors, consistently delivering top-notch results.',
+            'Hostixie is an advertising and communications agency focused on helping businesses communicate their value clearly and effectively. Our expertise brings together advertising, media placement, marketing and business consulting, market research, PR, communications, and graphic design.',
         })}
       />
       <section className="flex flex-col gap-10 border-t border-t-[#A4A189] pt-[48px]">

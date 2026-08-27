@@ -5,75 +5,33 @@ import { useTranslations } from 'next-intl';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const getCards = (t: ReturnType<typeof useTranslations>) => [
-  {
-    title: t('cards.0.title', { fallback: 'The Foundation of Trust' }),
-    text: t('cards.0.text', {
-      fallback:
-        'We believe in honesty, openness, and doing the right thing, even when no one’s watching. Trust is the cornerstone of every partnership.',
-    }),
-  },
-  {
-    title: t('cards.1.title', {
-      fallback: 'Pushing Boundaries, Setting Trends',
-    }),
-    text: t('cards.1.text', {
-      fallback:
-        'We’re not just keeping up with trends — we’re setting them. We push the limits of technology to deliver groundbreaking solutions that keep you ahead of the competition.',
-    }),
-  },
-  {
-    title: t('cards.2.title', {
-      fallback: 'Building Together, Succeeding Together',
-    }),
-    text: t('cards.2.text', {
-      fallback:
-        'We’re not just service providers; we’re partners. By working closely with you, we bring your vision to life, creating solutions that truly reflect your objectives.',
-    }),
-  },
-  {
-    title: t('cards.3.title', { fallback: 'Your Success is Our Success' }),
-    text: t('cards.3.text', {
-      fallback:
-        'Your success is our success. We’re committed to understanding your needs and ensuring every project is tailored to help you achieve your vision.',
-    }),
-  },
-  {
-    title: t('cards.4.title', {
-      fallback: 'Striving for Perfection in Every Detail',
-    }),
-    text: t('cards.4.text', {
-      fallback:
-        'Mediocrity has no place here. We deliver flawless execution in every detail, creating work that’s not only functional but exceptional in every way.',
-    }),
-  },
-];
+const CARD_KEYS = ['0', '1', '2', '3', '4'] as const;
 
 export const CoreValues = () => {
   const t = useTranslations('companyOverview.coreValues');
-
-  const cards = getCards(t);
 
   return (
     <section className="relative overflow-hidden bg-[#FFF4E1] py-[60px]">
       <div className="container flex flex-col gap-10">
         <section className="flex flex-col gap-5">
-          <Title color="black">{t('title', { fallback: 'Core Values' })}</Title>
+          <Title color="black">{t('title')}</Title>
           <div className="flex flex-col gap-2">
             <Title as="h3" size="3xl" color="black">
-              {t('subtitle', { fallback: 'The Heartbeat of Our Success' })}
+              {t('subtitle')}
             </Title>
             <Text size="xl" color="black" className="opacity-50">
-              {t('text', {
-                fallback:
-                  'At Hostixie, our values aren’t just principles — they’re the foundation of everything we do. They guide us in delivering exceptional results, building strong relationships, and continuously evolving in the digital world. Here’s what drives us:',
-              })}
+              {t('text')}
             </Text>
           </div>
         </section>
         <section className="flex gap-2.5 max-lg:flex-col">
-          {cards.map((card, index) => (
-            <Card key={index} {...card} index={index} />
+          {CARD_KEYS.map((key, index) => (
+            <Card
+              key={key}
+              index={index}
+              title={t(`cards.${key}.title`)}
+              text={t(`cards.${key}.text`)}
+            />
           ))}
         </section>
       </div>

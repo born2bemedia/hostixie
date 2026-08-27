@@ -6,16 +6,16 @@
     "clients": "Clienti",
     "news": "Notizie",
     "store": "Negozio",
-    "webHosting": "Web Hosting",
-    "webDevelopment": "Sviluppo Web",
+    "webHosting": "Advertising Services",
+    "webDevelopment": "Marketing & Communications",
     "companyOverview": "Chi Siamo",
     "careers": "Lavora con Noi",
     "contact": "Contatti"
   },
   "footer": {
     "whatWeDo": "Cosa Facciamo",
-    "webHosting": "Web Hosting",
-    "webDevelopment": "Sviluppo Web",
+    "webHosting": "Advertising Services",
+    "webDevelopment": "Marketing & Communications",
     "about": "Chi Siamo",
     "companyOverview": "Chi Siamo",
     "careers": "Lavora con Noi",
@@ -35,918 +35,729 @@
   },
   "home": {
     "hero": {
-      "title": "Potenzia la Presenza Digitale del Tuo Progetto",
-      "subtitle": "Soluzioni di hosting veloci, sicure ed economiche e sviluppo web su misura per progetti personali, creator e piccoli siti web",
-      "button": "Inizia Oggi il Tuo Percorso"
+      "title": "Ideas That Get Brands Noticed",
+      "subtitle": "Advertising, Marketing & Communication Solutions Built to Connect Brands with the Right Audiences",
+      "button": "Start Your Project Today"
     },
     "whatWeDo": {
-      "title": "Cosa Facciamo",
-      "subtitle": "I Nostri Servizi in Sintesi: Hosting e Soluzioni Web per Ogni Progetto",
-      "text": "In Hostixie offriamo servizi affidabili di web hosting e sviluppo web su misura per siti web, brand personali, negozi online, portfolio e progetti digitali di ogni dimensione.",
-      "webHosting": "Web Hosting",
-      "webDevelopment": "Sviluppo Web",
-      "uncoverMoreOptions": "Scopri Altre Opzioni",
-      "browseMoreOfferings": "Esplora Altre Offerte",
+      "title": "What We Do",
+      "subtitle": "Strategic Advertising and Communications for Brands Ready to Be Seen",
+      "text": "At Hostixie, we combine advertising, marketing strategy, communications, research, and creative design to help businesses strengthen their market presence.",
+      "webHosting": "Advertising Services",
+      "webDevelopment": "Marketing & Communications",
+      "uncoverMoreOptions": "Explore Advertising Services",
+      "browseMoreOfferings": "Explore Marketing & Communications",
       "steps": {
         "0": {
-          "title": "Hosting Condiviso",
-          "text": "Ideale per siti web personali, blog, portfolio e piccoli progetti online, offre un modo conveniente e affidabile per essere online rapidamente."
+          "title": "Advertising Campaigns",
+          "text": "We develop advertising concepts and campaigns aligned with your objectives, audience, positioning, and communication goals."
         },
         "1": {
-          "title": "Hosting VPS",
-          "text": "Un'opzione più robusta e scalabile per i siti web che richiedono risorse dedicate. Goditi i vantaggi di un server dedicato a una frazione del costo."
+          "title": "Media Planning & Placement",
+          "text": "We identify suitable media channels, plan advertising placements, and coordinate campaign delivery to help your message reach relevant audiences."
         },
         "2": {
-          "title": "Hosting Dedicato",
-          "text": "Controllo completo sul tuo ambiente di hosting. Perfetto per siti web ad alto traffico, piattaforme e-commerce o progetti che richiedono prestazioni di altissimo livello."
+          "title": "Creative Advertising",
+          "text": "From campaign concepts to visual materials and advertising assets, we transform ideas into consistent creative communication."
         },
         "3": {
-          "title": "Hosting Cloud",
-          "text": "Soluzioni di hosting cloud scalabili e flessibili per siti web dinamici che devono adattarsi rapidamente all'aumento del traffico o a esigenze complesse."
+          "title": "Campaign Strategy",
+          "text": "We define campaign objectives, audiences, messaging, channels, and execution plans to provide every advertising initiative with a clear direction."
         },
         "4": {
-          "title": "Hosting WordPress Gestito",
-          "text": "Hosting ottimizzato progettato appositamente per i siti WordPress, con aggiornamenti automatici, backup giornalieri e sicurezza potenziata."
+          "title": "Advertising Performance Analysis",
+          "text": "We review campaign results and audience response to identify opportunities for stronger future communication."
         }
       },
       "devSteps": {
         "0": {
-          "title": "Sviluppo di Siti Web su Misura",
-          "text": "Che tu abbia bisogno di un portfolio, un sito web personale, un blog, un negozio online o un progetto web personalizzato, creiamo soluzioni su misura che si adattano perfettamente ai tuoi obiettivi."
+          "title": "Marketing & Business Consulting",
+          "text": "We advise on marketing direction, business positioning, and communication priorities to help align commercial goals with market opportunities."
         },
         "1": {
-          "title": "Soluzioni E-commerce",
-          "text": "Lancia e fai crescere il tuo negozio online con potenti piattaforme e-commerce come Shopify, WooCommerce e Magento."
+          "title": "Market Research",
+          "text": "We gather and interpret audience, competitor, and market insights to support clearer decisions before campaigns and brand initiatives begin."
         },
         "2": {
-          "title": "Design UX/UI",
-          "text": "Concentrandoci sulle esigenze degli utenti, sull'accessibilità e sul design responsivo, creiamo interfacce intuitive e facili da usare che garantiscono ai tuoi visitatori un'esperienza piacevole e coinvolgente."
+          "title": "Public Relations",
+          "text": "We help shape public messaging and media relationships so your brand communicates with credibility across relevant channels."
         },
         "3": {
-          "title": "Restyling e Manutenzione del Sito Web",
-          "text": "Hai bisogno di un rinnovamento o di un supporto continuo? Il nostro team può ridisegnare il tuo sito web per riflettere le tendenze di design moderne e mantenerlo per prestazioni ottimali."
+          "title": "Brand Communications",
+          "text": "We build coherent messaging frameworks that keep your brand voice consistent across campaigns, channels, and customer touchpoints."
         },
         "4": {
-          "title": "Ottimizzazione SEO",
-          "text": "Applichiamo le migliori pratiche SEO per aiutare il tuo sito web a migliorare la visibilità, attrarre più visitatori e crescere in modo organico."
+          "title": "Graphic Design",
+          "text": "We create visual systems and design assets that support campaign ideas and strengthen brand recognition."
         }
       }
     },
     "ourApproach": {
-      "title": "Il Nostro Approccio",
-      "subtitle": "Un Framework Digitale su Misura per i Tuoi Obiettivi Online",
-      "text": "Ci concentriamo sulla comprensione degli obiettivi specifici del tuo progetto e sulla creazione di soluzioni personalizzate che fanno risaltare la tua presenza digitale. Il nostro approccio si fonda sulla collaborazione, garantendo soluzioni adeguate per aiutare il tuo sito web, progetto o presenza online a crescere e avere successo.",
-      "stepByStep": "Processo Passo dopo Passo:",
+      "title": "Our Approach",
+      "subtitle": "From Insight to Communication That Makes an Impact",
+      "text": "Every project starts with understanding the business behind the message. We combine research, strategic thinking, creative development, and thoughtful execution to create advertising and communication solutions aligned with each client's goals.",
+      "stepByStep": "Step-by-Step Process:",
       "slides": {
         "0": {
-          "title": "Consulenza",
-          "text": "Iniziamo comprendendo gli obiettivi, la visione e le sfide del tuo progetto. Attraverso una consulenza personalizzata, ci assicuriamo di essere allineati alle tue esigenze."
+          "title": "Discovery & Consultation",
+          "text": "We begin by learning about your business, objectives, audience, current market position, and communication challenges."
         },
         "1": {
-          "title": "Pianificazione e Strategia",
-          "text": "Dopo aver individuato i tuoi obiettivi, progettiamo un piano che si adatta al meglio al tuo progetto, che si tratti di scegliere la soluzione di hosting giusta o di creare un sito web su misura."
+          "title": "Research & Strategy",
+          "text": "We analyze relevant market information, audiences, competitors, and communication opportunities before defining a clear strategic direction."
         },
         "2": {
-          "title": "Sviluppo",
-          "text": "Il nostro team di esperti lavora con impegno per costruire una piattaforma fluida e facile da usare. Dal design responsivo all'hosting robusto, ci occupiamo di tutto."
-        },
-        "3": {
-          "title": "Lancio e Supporto",
-          "text": "Una volta che il tuo sito web è pronto, ti aiutiamo a lanciarlo senza intoppi, assicurandoci che tutte le funzionalità operino come previsto. Offriamo supporto e manutenzione continui per garantire un successo a lungo termine."
+          "title": "Creative Development",
+          "text": "Our team develops campaign concepts, messages, visual materials, communication assets, and media plans aligned with the agreed strategy."
         }
       }
     },
     "clients": {
-      "title": "Clienti",
-      "subtitle": "Progetti Reali, Risultati Reali",
-      "text": "Dai brand personali e portfolio creativi ai negozi online e ai progetti di passione, abbiamo aiutato i proprietari di siti web a costruire esperienze online più rapide ed efficaci.",
+      "title": "Clients",
+      "subtitle": "Real Challenges, Strategic Solutions",
+      "text": "From emerging brands looking to establish their identity to established businesses preparing new campaigns or entering new markets, we help clients turn business objectives into focused advertising and communication initiatives.",
       "articles": {
         "0": {
-          "title": "Sito Portfolio per un Fotografo Professionista",
-          "text": "Abbiamo sviluppato un moderno sito portfolio per un fotografo professionista, rendendo più semplice mostrare il proprio lavoro online e attrarre nuove richieste. Il sito ridisegnato ha aumentato il coinvolgimento dei visitatori e generato più richieste di contatto diretto."
+          "title": "Brand Awareness Campaign for a Consumer Brand",
+          "text": "We developed an integrated advertising campaign designed to strengthen brand recognition and create more consistent communication across selected media channels. The project combined campaign strategy, creative development, visual assets, and coordinated advertising placement."
         },
         "1": {
-          "title": "Negozio Online su Misura per un Brand di Prodotti Artigianali",
-          "text": "Abbiamo progettato e sviluppato un negozio online su misura per un brand indipendente di prodotti artigianali, con un'esperienza di acquisto semplificata e un design ottimizzato per dispositivi mobili. La piattaforma ha contribuito ad aumentare le vendite e a migliorare la fidelizzazione dei clienti nei primi mesi dopo il lancio."
-        },
-        "2": {
-          "title": "Sito Web Ottimizzato per la SEO per un Blog di Finanza Personale",
-          "text": "Abbiamo creato un sito web orientato alla SEO per un creator di contenuti di finanza personale che desiderava ampliare il proprio pubblico. Grazie all'ottimizzazione tecnica e a una migliore struttura del sito, il traffico organico e il coinvolgimento dei lettori sono aumentati in modo significativo."
-        },
-        "3": {
-          "title": "Restyling del Sito Web per un Coach di Fitness",
-          "text": "Abbiamo ridisegnato il sito web di un coach di fitness per migliorarne l'usabilità su tutti i dispositivi e creare un'esperienza più fluida per i visitatori. Dopo il lancio, il sito web ha registrato livelli di coinvolgimento più elevati e un notevole aumento delle richieste di consulenza."
+          "title": "Market Research for a Growing Retail Business",
+          "text": "We conducted market and audience research to help a growing retail business better understand customer expectations, competitive positioning, and opportunities for future communication. The findings supported a clearer marketing direction and campaign strategy."
         }
       },
-      "button": "Scopri Altri Progetti",
+      "button": "Explore More Projects",
       "reviews": {
         "0": {
-          "review": "“Il sito web mette in mostra perfettamente il mio lavoro e rende semplice per i potenziali clienti mettersi in contatto. L'intero processo è stato fluido dall'inizio alla fine.”",
-          "person": "Michael R.",
-          "position": "Fotografo Professionista"
+          "review": "“Hostixie helped us turn a collection of ideas into a clear advertising strategy. The campaign felt consistent across every channel and gave our brand a much stronger, more recognizable presence.”",
+          "person": "Daniel Morris",
+          "position": "Founder of Northline Consumer Goods"
         },
         "1": {
-          "review": "“Il nuovo negozio online ha trasformato completamente il modo in cui vendo i miei prodotti. È facile da gestire, ha un bell'aspetto e mi ha aiutato a raggiungere più clienti.”",
-          "person": "Emma W.",
-          "position": "Creatrice di Prodotti Artigianali"
+          "review": "“What impressed me most was how quickly the team understood our business and the message we wanted to communicate. They gave us a clearer direction for both our brand communication and visual identity.”",
+          "person": "Sophie Bennett",
+          "position": "Managing Director of Verity Consulting"
         }
       }
     },
     "whoWeAre": {
-      "title": "Chi Siamo",
-      "subtitle": "Spinti da Risultati e Innovazione",
-      "text": "Hostixie è un'agenzia giovane e dinamica, appassionata nel fornire soluzioni affidabili e scalabili di web hosting e sviluppo web. Siamo orgogliosi di aiutare privati, creator, imprenditori e proprietari di siti web a dare vita alle loro idee online grazie a un hosting affidabile e a soluzioni web su misura.",
-      "keyStats": "Dati Chiave su di Noi:",
-      "exploreOurStory": "Scopri la Nostra Storia",
+      "title": "Who We Are",
+      "subtitle": "Strategy, Creativity and Communication Working Together",
+      "text": "Hostixie is an advertising and communications agency focused on helping businesses communicate their value clearly and effectively. Our expertise brings together advertising, media placement, marketing and business consulting, market research, PR, communications, and graphic design.",
+      "keyStats": "Key Stats About Us:",
+      "exploreOurStory": "Explore Our Story",
       "steps": {
         "0": {
-          "label": "di esperienza combinata del team",
-          "value": "10+ Anni"
+          "label": "of the team’s combined experience",
+          "value": "10+ Years"
         },
         "1": {
-          "label": "progetti completati con successo",
+          "label": "advertising and communication projects delivered",
           "value": "500+"
         },
         "2": {
-          "label": "proprietari di siti web soddisfatti",
+          "label": "clients and businesses supported",
           "value": "200+"
         },
         "3": {
-          "label": "uptime per le nostre soluzioni di hosting",
+          "label": "uptime for our hosting solutions",
           "value": "99.9%"
         },
         "4": {
-          "label": "siti web sviluppati da zero",
+          "label": "brand and visual communication projects completed",
           "value": "50+"
         },
         "5": {
-          "label": "tasso di soddisfazione dei clienti",
+          "label": "customer satisfaction rate",
           "value": "98%"
         }
       }
     },
     "insightsAndNews": {
-      "title": "Approfondimenti e Notizie",
-      "subtitle": "Resta Aggiornato sulle Ultime Novità di Hostixie",
-      "text": "Crediamo nella condivisione di approfondimenti e aggiornamenti preziosi con i nostri clienti. Il nostro blog tratta un'ampia gamma di argomenti, dalle tendenze dello sviluppo web alle migliori pratiche per le soluzioni di hosting.",
-      "readMore": "Leggi di Più",
+      "title": "Insights & News",
+      "subtitle": "Ideas, Research & Perspectives from Hostixie",
+      "text": "Our News section explores advertising trends, audience behavior, media strategy, market research, public relations, brand communication, graphic design, and other developments that shape how businesses connect with people.",
+      "readMore": "Read More",
       "news": {
         "0": {
-          "title": "Lanciate Nuove Funzionalità di Hosting – Velocità Superiori e Maggiore Affidabilità",
-          "text": "Abbiamo introdotto nuove funzionalità di hosting che garantiscono tempi di caricamento delle pagine più rapidi, una maggiore affidabilità dei server e un'esperienza complessivamente più fluida per i visitatori del tuo sito web."
+          "title": "Why Audience Insight Should Come Before the Campaign Idea",
+          "text": "We explore how audience research can uncover motivations, preferences, and behaviors that shape stronger campaign decisions."
         },
         "1": {
-          "title": "Presentiamo il Nostro Nuovo Framework di Sviluppo Web – Pensato per le Prestazioni",
-          "text": "Il nostro ultimo framework è ottimizzato per creare siti web più veloci e sicuri, garantendo prestazioni migliori, scalabilità ed esperienze utente superiori."
+          "title": "Building Consistent Brand Communication Across Multiple Channels",
+          "text": "We look at why consistent messaging and visual communication matter across every customer touchpoint."
         }
       }
     },
     "getInTouch": {
-      "title": "Mettiti in Contatto",
-      "subtitle": "Pronto a Portare Online la Tua Idea?",
-      "text": "Siamo qui per aiutarti a creare, lanciare e far crescere il tuo sito web con un hosting affidabile e un supporto esperto allo sviluppo web.",
-      "button": "Realizziamolo Insieme"
+      "title": "Get in Touch",
+      "subtitle": "Ready to Put Your Brand in the Right Conversation?",
+      "text": "Our team is ready to help turn your objectives into a clear plan.",
+      "button": "Let’s Make It Happen"
     }
   },
   "webHosting": {
     "hero": {
-      "title": "Soluzioni di Web Hosting",
-      "subtitle": "Risveglia il Potenziale del Tuo Sito Web con l'Hosting Hostixie",
-      "text": "Il web hosting è la base di ogni sito web di successo e aiuta creator, proprietari di siti web, blogger, negozi online e progetti digitali a rimanere accessibili online. Che tu stia lanciando un blog, un portfolio, un negozio online, un sito personale o un progetto online in crescita, le nostre soluzioni di hosting sono progettate per offrire velocità, affidabilità e sicurezza."
+      "title": "Advertising That Moves Brands Forward",
+      "subtitle": "Strategic Campaign Planning, Creative Advertising & Media Placement Built Around Your Business Goals",
+      "text": "Advertising works best when strategy, creativity, media, and execution work together. At Hostixie, we develop advertising solutions designed to help businesses reach relevant audiences, communicate clear messages, and build stronger brand presence across selected channels."
     },
-    "vps": {
-      "title": "Hosting VPS",
-      "description": "Un'opzione più robusta e scalabile per i siti web che richiedono risorse dedicate. Goditi i vantaggi di un server dedicato a una frazione del costo.",
-      "items": {
+    "services": {
+      "0": {
+        "title": "Advertising Campaign Strategy",
+        "subtitle": "Giving Every Campaign a Clear Direction",
+        "text": "A successful campaign starts with understanding what you need to achieve and who needs to receive the message. We develop structured advertising strategies based on your business objectives, audience, market position, campaign priorities, and available budget.",
+        "listTitle": "Our campaign strategy services may include:",
+        "items": {
+          "0": "Advertising objective definition",
+          "1": "Target audience identification",
+          "2": "Campaign positioning",
+          "3": "Key message development",
+          "4": "Channel recommendations",
+          "5": "Campaign structure",
+          "6": "Budget allocation planning",
+          "7": "Advertising timeline",
+          "8": "Creative direction",
+          "9": "Performance measurement framework"
+        },
+        "result": "The result is a practical campaign plan that connects business objectives with creative execution and media activity."
+      },
+      "1": {
+        "title": "Creative Advertising",
+        "subtitle": "Turning Strategy Into Ideas People Notice",
+        "text": "Strong advertising needs more than visibility — it needs a message and creative direction people can understand and remember. Our team develops advertising concepts and campaign materials that translate strategic ideas into clear, engaging communication.",
+        "listTitle": "Creative advertising services include:",
+        "items": {
+          "0": "Campaign concepts",
+          "1": "Advertising messages",
+          "2": "Campaign headlines and copy",
+          "3": "Digital advertising creatives",
+          "4": "Social advertising materials",
+          "5": "Display advertising assets",
+          "6": "Print advertising concepts",
+          "7": "Outdoor advertising materials",
+          "8": "Promotional visuals",
+          "9": "Campaign adaptations for different media formats"
+        },
+        "result": "We develop every creative direction around the campaign objective, target audience, media environment, and existing brand identity."
+      },
+      "2": {
+        "title": "Digital Advertising",
+        "subtitle": "Reach Relevant Audiences Across Digital Channels",
+        "text": "Digital advertising provides businesses with flexible ways to reach specific audiences and adapt campaigns based on measurable performance. We plan and coordinate digital advertising campaigns across suitable platforms and formats according to each client's objectives.",
+        "listTitle": "Our digital advertising services may include:",
+        "items": {
+          "0": "Search advertising",
+          "1": "Display advertising",
+          "2": "Social media advertising",
+          "3": "Video advertising",
+          "4": "Native advertising",
+          "5": "Retargeting campaigns",
+          "6": "Programmatic advertising coordination",
+          "7": "Audience targeting",
+          "8": "Campaign setup",
+          "9": "Ad variation development",
+          "10": "Performance monitoring",
+          "11": "Campaign optimization"
+        },
+        "result": "We determine platform selection and campaign structure based on audience behavior, available budget, campaign goals, and market requirements."
+      },
+      "3": {
+        "title": "Media Planning & Placement",
+        "subtitle": "Putting Your Message in the Right Places",
+        "text": "Choosing where advertising appears is just as important as deciding what it says. Our media planning process evaluates available channels, audience relevance, campaign objectives, timing, frequency, and budget before recommending suitable placements.",
+        "listTitle": "Media planning and placement services may include:",
+        "items": {
+          "0": "Digital media planning",
+          "1": "Social media placements",
+          "2": "Search advertising placements",
+          "3": "Display network placements",
+          "4": "Online publication advertising",
+          "5": "Print advertising",
+          "6": "Magazine and newspaper placements",
+          "7": "Outdoor advertising coordination",
+          "8": "Radio advertising coordination",
+          "9": "Video and streaming placements",
+          "10": "Sponsored media opportunities",
+          "11": "Multi-channel media planning"
+        },
+        "result": "We can also coordinate communication with publishers, media owners, advertising platforms, and other placement partners on the client's behalf. Media purchasing costs and third-party placement fees are quoted separately from Hostixie's agency fees unless specifically included in an individual proposal."
+      },
+      "4": {
+        "title": "Multi-Channel Advertising",
+        "subtitle": "One Campaign, Multiple Audience Touchpoints",
+        "text": "Audiences rarely interact with a brand through only one channel. Multi-channel advertising allows a campaign to maintain a consistent idea while adapting its message and creative execution to different media environments.",
+        "listTitle": "Depending on the campaign, we can coordinate advertising across combinations of:",
+        "items": {
+          "0": "Search",
+          "1": "Social platforms",
+          "2": "Display networks",
+          "3": "Online publications",
+          "4": "Video",
+          "5": "Print",
+          "6": "Outdoor media",
+          "7": "Sponsored placements",
+          "8": "Other relevant advertising channels"
+        },
+        "result": "Our role is to keep campaign strategy, messaging, creative materials, timing, and media activity aligned across every selected channel."
+      },
+      "5": {
+        "title": "Campaign Management",
+        "subtitle": "Keeping Advertising Activities Organized and On Track",
+        "text": "Once a campaign goes live, effective coordination becomes essential. Hostixie manages advertising activities throughout the agreed campaign period, helping keep media delivery, creative materials, schedules, and campaign adjustments organized.",
+        "listTitle": "Campaign management may include:",
+        "items": {
+          "0": "Campaign setup",
+          "1": "Advertising schedule coordination",
+          "2": "Creative asset management",
+          "3": "Media placement coordination",
+          "4": "Budget monitoring",
+          "5": "Campaign status reviews",
+          "6": "Advertising adjustments",
+          "7": "Creative variation management",
+          "8": "Communication with media partners",
+          "9": "Performance monitoring",
+          "10": "Client reporting"
+        },
+        "result": "This gives clients one coordinated process rather than multiple disconnected advertising activities."
+      },
+      "6": {
+        "title": "Performance Analysis & Optimization",
+        "subtitle": "Learning From Every Campaign",
+        "text": "Advertising performance provides valuable information about how audiences respond to messages, creative ideas, formats, and media channels.",
+        "listTitle": "Depending on the campaign and available data, we analyze relevant indicators such as:",
+        "items": {
+          "0": "Reach",
+          "1": "Impressions",
+          "2": "Clicks",
+          "3": "Engagement",
+          "4": "Response rates",
+          "5": "Cost efficiency",
+          "6": "Audience performance",
+          "7": "Channel performance",
+          "8": "Creative performance",
+          "9": "Campaign delivery"
+        },
+        "result": "We use these findings to identify what is working, where adjustments may help, and how to improve future advertising activity. Performance objectives and reporting metrics are agreed on for each campaign."
+      }
+    },
+    "fullRange": {
+      "title": "Our Full Range of Advertising Services",
+      "subtitle": "Everything Needed to Plan, Create and Coordinate Advertising Campaigns",
+      "button": "Start Your Project Today",
+      "columns": {
         "0": {
-          "name": "Piano Foundation",
-          "description": "Una soluzione affidabile per siti web in crescita, negozi online e progetti digitali che necessitano di maggiore controllo, potenza e scalabilità.",
-          "includes": {
-            "0": "2GB di RAM",
-            "1": "CPU 2 Core",
-            "2": "120 GB SSD",
-            "3": "Banda illimitata",
-            "4": "Licenza cPanel inclusa"
+          "title": "Campaign Strategy & Planning",
+          "items": {
+            "0": "Advertising strategy",
+            "1": "Campaign objective planning",
+            "2": "Audience definition",
+            "3": "Channel strategy",
+            "4": "Campaign structure",
+            "5": "Budget planning",
+            "6": "Campaign calendar",
+            "7": "KPI framework",
+            "8": "Campaign positioning",
+            "9": "Advertising consultation"
           }
         },
         "1": {
-          "name": "Piano Elevate",
-          "description": "Progettato per siti web ad alto traffico che richiedono risorse aggiuntive e prestazioni migliorate.",
-          "includes": {
-            "0": "4GB di RAM",
-            "1": "CPU 2 Core",
-            "2": "165 GB SSD",
-            "3": "Banda illimitata",
-            "4": "Licenza cPanel inclusa"
+          "title": "Creative Advertising",
+          "items": {
+            "0": "Campaign concept development",
+            "1": "Advertising copy",
+            "2": "Campaign headlines",
+            "3": "Digital ad creatives",
+            "4": "Display advertising materials",
+            "5": "Social advertising assets",
+            "6": "Print advertising concepts",
+            "7": "Outdoor advertising layouts",
+            "8": "Multi-format creative adaptation",
+            "9": "Campaign creative direction"
           }
         },
         "2": {
-          "name": "Piano Supreme",
-          "description": "Su misura per siti web di grandi dimensioni o applicazioni a forte consumo di risorse che richiedono velocità di altissimo livello.",
-          "includes": {
-            "0": "8GB di RAM",
-            "1": "CPU 4 Core",
-            "2": "240 GB SSD",
-            "3": "Banda illimitata",
-            "4": "Licenza cPanel inclusa"
+          "title": "Digital Advertising",
+          "items": {
+            "0": "Search advertising",
+            "1": "Social media advertising",
+            "2": "Display advertising",
+            "3": "Video advertising",
+            "4": "Native advertising",
+            "5": "Retargeting",
+            "6": "Audience targeting",
+            "7": "Campaign setup",
+            "8": "Campaign optimization",
+            "9": "Performance monitoring"
+          }
+        },
+        "3": {
+          "title": "Media Planning & Placement",
+          "items": {
+            "0": "Media strategy",
+            "1": "Digital media planning",
+            "2": "Media selection",
+            "3": "Advertising placement",
+            "4": "Publisher coordination",
+            "5": "Sponsored placements",
+            "6": "Print placement coordination",
+            "7": "Outdoor media coordination",
+            "8": "Multi-channel planning",
+            "9": "Placement scheduling"
+          }
+        },
+        "4": {
+          "title": "Campaign Management",
+          "items": {
+            "0": "Campaign coordination",
+            "1": "Creative asset management",
+            "2": "Media schedule management",
+            "3": "Budget monitoring",
+            "4": "Placement coordination",
+            "5": "Campaign adjustments",
+            "6": "Ongoing optimization",
+            "7": "Status updates",
+            "8": "Media partner communication",
+            "9": "Client reporting"
+          }
+        },
+        "5": {
+          "title": "Advertising Analysis",
+          "items": {
+            "0": "Campaign reporting",
+            "1": "Channel performance analysis",
+            "2": "Creative performance review",
+            "3": "Audience response analysis",
+            "4": "Cost-efficiency review",
+            "5": "Advertising insights",
+            "6": "Campaign comparisons",
+            "7": "Recommendations",
+            "8": "Post-campaign review",
+            "9": "Future campaign planning"
           }
         }
       }
     },
-    "shared": {
-      "title": "Hosting Condiviso",
-      "description": "Ottimo per siti web personali, blog, portfolio e piccoli progetti online, offre un modo conveniente e affidabile per essere online in modo rapido ed efficiente.",
-      "items": {
-        "0": {
-          "name": "Piano Base",
-          "description": "Perfetto per siti web personali, blog e portfolio che richiedono un hosting affidabile con funzionalità essenziali.",
-          "includes": {
-            "0": "1 sito web",
-            "1": "10 GB di spazio SSD",
-            "2": "SSL gratuito",
-            "3": "CDN gratuita",
-            "4": "Email professionale - Prova gratuita",
-            "5": "Backup giornaliero del sito - 1° anno gratuito"
-          }
-        },
-        "1": {
-          "name": "Piano Avanzato",
-          "description": "Ideale per piccoli progetti o siti web in crescita che necessitano di maggiore flessibilità e risorse.",
-          "includes": {
-            "0": "3 siti web",
-            "1": "40 GB di spazio SSD",
-            "2": "SSL gratuito",
-            "3": "CDN gratuita",
-            "4": "Dominio gratuito per il 1° anno",
-            "5": "Email professionale - Prova gratuita",
-            "6": "Backup giornaliero del sito - 1° anno gratuito"
-          }
-        },
-        "2": {
-          "name": "Piano E-Commerce",
-          "description": "Ideale per i negozi online, con funzionalità di sicurezza potenziate e analisi approfondite del negozio.",
-          "includes": {
-            "0": "3 siti web",
-            "1": "40 GB di spazio SSD",
-            "2": "SSL gratuito",
-            "3": "CDN gratuita",
-            "4": "Dominio gratuito per il 1° anno",
-            "5": "Email professionale - Prova gratuita",
-            "6": "Backup giornaliero del sito - 1° anno gratuito",
-            "7": "Analisi del negozio"
-          }
-        }
-      }
+    "downloadPrice": {
+      "title": "Need Our Pricing in PDF?",
+      "text": "While all our prices are available on the website, we understand you might prefer a convenient, downloadable version. Get our complete pricing details in PDF format, neatly organized for easy reference and comparison."
     },
-    "dedicatedHosting": {
-      "title": "Hosting Dedicato",
-      "description": "Controllo completo sul tuo ambiente di hosting. Perfetto per siti web ad alto traffico, grandi negozi online, community e progetti a forte consumo di risorse che richiedono prestazioni di altissimo livello.",
+    "packages": {
+      "title": "Our Advertising Packages",
+      "subtitle": "Flexible Advertising Packages for Different Campaign Goals",
+      "from": "From",
+      "choosePackage": "Choose Package",
+      "showMore": "show more",
+      "showLess": "show less",
       "items": {
         "0": {
-          "name": "Piano Starter",
-          "description": "Una soluzione di hosting conveniente per siti web in crescita e progetti online che necessitano di risorse server esclusive.",
-          "includes": {
-            "0": "4 Core / 8 Thread",
-            "1": "8 GB di RAM",
-            "2": "1 TB di spazio HDD",
-            "3": "Banda illimitata",
-            "4": "Sistema operativo Linux",
-            "5": "cPanel con accesso root"
-          }
+          "title": "Campaign Starter",
+          "price": "€3,000",
+          "description": "A focused package for businesses preparing a smaller advertising campaign or testing a new campaign direction."
         },
         "1": {
-          "name": "Piano Progressive",
-          "description": "Per i proprietari di siti web che richiedono maggiori prestazioni, flessibilità e risorse dedicate.",
-          "includes": {
-            "0": "3 siti web",
-            "1": "8 Core / 16 Thread",
-            "2": "16 GB di RAM",
-            "3": "2 TB di spazio HDD",
-            "4": "Banda illimitata",
-            "5": "Sistema operativo Linux",
-            "6": "cPanel con accesso root"
-          }
+          "title": "Advertising Launch",
+          "price": "€5,500",
+          "description": "Designed for businesses launching a new campaign, product, service, offer, or promotional initiative across selected advertising channels."
         },
         "2": {
-          "name": "Piano Elite",
-          "description": "Il piano definitivo per siti web e applicazioni esigenti che richiedono i massimi livelli di prestazioni, sicurezza e uptime.",
-          "includes": {
-            "0": "8 Core / 16 Thread",
-            "1": "30 GB di RAM",
-            "2": "2 TB di spazio HDD",
-            "3": "Banda illimitata",
-            "4": "Sistema operativo Linux",
-            "5": "cPanel con accesso root"
-          }
-        }
-      }
-    },
-    "cloud": {
-      "title": "Hosting Cloud",
-      "description": "Soluzioni di hosting cloud scalabili e flessibili per siti web dinamici che devono adattarsi rapidamente all'aumento del traffico o a esigenze complesse.",
-      "items": {
-        "0": {
-          "name": "Piano Cloud Essentials",
-          "description": "Ideale per siti web in crescita, negozi online e progetti digitali che cercano un hosting cloud flessibile con prestazioni affidabili.",
-          "includes": {
-            "0": "50 GB di spazio SSD",
-            "1": "2 GB di RAM",
-            "2": "Banda illimitata",
-            "3": "SSL gratuito",
-            "4": "CDN gratuita"
-          }
+          "title": "Multi-Channel Growth",
+          "price": "€9,500",
+          "description": "A broader advertising package for brands that need coordinated campaign activity across several audience touchpoints."
         },
-        "1": {
-          "name": "Piano Cloud Pro",
-          "description": "Per progetti in crescita o siti ad alto traffico, fornire maggiori risorse e una flessibilità potenziata è fondamentale.",
-          "includes": {
-            "0": "100 GB di spazio SSD",
-            "1": "4 GB di RAM",
-            "2": "Banda illimitata",
-            "3": "SSL gratuito",
-            "4": "CDN gratuita",
-            "5": "Backup giornalieri"
-          }
+        "3": {
+          "title": "Integrated Advertising Campaign",
+          "price": "€15,000",
+          "description": "For established businesses requiring a substantial advertising campaign with deeper planning, broader creative development, and coordinated media activity."
         },
-        "2": {
-          "name": "Piano Cloud Ultimate",
-          "description": "La scelta migliore per siti ad alte prestazioni che richiedono i massimi livelli di scalabilità e risorse.",
-          "includes": {
-            "0": "150 GB di spazio SSD",
-            "1": "8 GB di RAM",
-            "2": "Banda illimitata",
-            "3": "SSL gratuito",
-            "4": "CDN gratuita",
-            "5": "Backup giornalieri",
-            "6": "Sicurezza avanzata"
-          }
-        }
-      }
-    },
-    "wordpress": {
-      "title": "Hosting WordPress Gestito",
-      "description": "Hosting ottimizzato progettato appositamente per i siti WordPress, con aggiornamenti automatici, backup giornalieri e sicurezza potenziata.",
-      "items": {
-        "0": {
-          "name": "Piano WP Base",
-          "description": "Per piccoli siti WordPress che necessitano di una gestione semplice, prestazioni rapide e uptime affidabile.",
-          "includes": {
-            "0": "1 sito web",
-            "1": "10 GB di spazio SSD",
-            "2": "SSL gratuito",
-            "3": "CDN gratuita",
-            "4": "Dominio gratuito per il 1° anno"
-          }
-        },
-        "1": {
-          "name": "Piano WP Avanzato",
-          "description": "Per siti WordPress in crescita con traffico più elevato, offre risorse potenziate e prestazioni migliorate.",
-          "includes": {
-            "0": "3 siti web",
-            "1": "40 GB di spazio SSD",
-            "2": "SSL gratuito",
-            "3": "CDN gratuita",
-            "4": "Dominio gratuito per il 1° anno"
-          }
-        },
-        "2": {
-          "name": "Piano WP Pro",
-          "description": "Per siti WordPress affermati che richiedono prestazioni, sicurezza e risorse avanzate.",
-          "includes": {
-            "0": "5 siti web",
-            "1": "80 GB di spazio SSD",
-            "2": "SSL gratuito",
-            "3": "CDN gratuita",
-            "4": "Dominio gratuito per il 1° anno",
-            "5": "Backup giornalieri"
-          }
+        "4": {
+          "title": "Full-Service Advertising Partnership",
+          "price": "€25,000",
+          "description": "Our most comprehensive advertising solution for complex campaigns, major launches, broader geographic coverage, or brands requiring an integrated agency partner."
         }
       }
     },
     "getInTouch": {
-      "title": "Pronto a Scegliere un Piano?",
-      "subtitle": "Ricevi una Consulenza Esperta",
-      "text": "Se non sei sicuro di quale piano di hosting sia il più adatto al tuo sito web, blog, negozio online o progetto digitale, il nostro team è qui per aiutarti.",
-      "button": "Contattaci per Maggiori Dettagli"
+      "title": "Not Sure Which Advertising Approach Fits Your Goals?",
+      "subtitle": "Get Expert Guidance",
+      "text": "Our team can help you determine the right level of support based on your objectives, audience, campaign scale, preferred channels, timeline, and available budget.",
+      "button": "Contact Us for More Details"
     }
   },
   "webDevelopment": {
-    "needHelp": {
-      "title": "Hai Bisogno di Aiuto nella Scelta di un Servizio o di un Pacchetto?",
-      "subtitle": "Non sai quale servizio o pacchetto sia giusto per il tuo sito web o progetto online? Nessun problema!",
-      "text": "Il nostro team è qui per guidarti in ogni fase del processo. Che tu abbia bisogno di consigli su un sito web su misura, una piattaforma e-commerce o qualsiasi altra cosa, siamo lieti di fornirti raccomandazioni personalizzate basate sui tuoi obiettivi, sulle tue idee e sui requisiti del tuo sito web. Contattaci oggi ed esploriamo insieme come dare vita alla tua visione con la soluzione ideale per il tuo sito web o progetto online.",
-      "button": "Mettiti in Contatto"
-    },
     "hero": {
-      "title": "Sviluppo Web che Fa la Differenza",
-      "subtitle": "Trasforma il Tuo Sito Web con uno Sviluppo Web Esperto",
-      "text": "In Hostixie siamo specializzati nella creazione di soluzioni di sviluppo web su misura, adattate ai tuoi obiettivi e alle tue idee uniche. Dalla realizzazione di un sito personale o di un portfolio al lancio di un negozio online o di un'applicazione web personalizzata, offriamo servizi pensati per dare vita alle tue idee online."
-    },
-    "yourPartner": {
-      "title": "Perché Siamo il Tuo Partner Digitale Perfetto",
-      "text": "Non costruiamo solo siti web; creiamo esperienze digitali pensate per aiutarti a far crescere la tua presenza online. Ecco perché le persone scelgono Hostixie per i loro siti web e progetti online:",
-      "cards": {
-        "0": {
-          "title": "Maestria di Esperti",
-          "text": "Il nostro team unisce anni di competenza a un design innovativo per offrire soluzioni che sono al tempo stesso funzionali e di bell'aspetto."
-        },
-        "1": {
-          "title": "L'Innovazione nel Nostro DNA",
-          "text": "Utilizziamo strumenti e tecnologie all'avanguardia per garantire che il tuo sito web resti sempre un passo avanti, offrendo la migliore esperienza utente possibile."
-        },
-        "2": {
-          "title": "Su Misura alla Perfezione",
-          "text": "Niente template, niente soluzioni preconfezionate — ogni progetto è realizzato su misura per adattarsi alla tua visione e ai tuoi obiettivi unici."
-        },
-        "3": {
-          "title": "Una Partnership Oltre lo Sviluppo",
-          "text": "Crediamo nelle relazioni a lungo termine. Dalla prima consulenza al supporto continuo, siamo impegnati nella tua crescita digitale."
-        }
-      }
+      "title": "Strategy That Gives Your Brand a Clearer Voice",
+      "subtitle": "Marketing Consulting, Market Research, PR, Brand Communication & Visual Solutions Built Around Your Business Goals",
+      "text": "At Hostixie, we combine marketing strategy, business consulting, market research, public relations, communications, and visual design to help businesses make informed decisions and communicate more clearly and consistently."
     },
     "ourPath": {
-      "title": "Il Nostro Percorso Collaudato verso il Successo Digitale",
-      "text": "Crediamo nella trasparenza, nella collaborazione e nell'eccellenza. Il nostro approccio è studiato con cura per garantire che ogni sito web che sviluppiamo soddisfi le tue esigenze, superi le tue aspettative e ti aiuti a raggiungere i tuoi obiettivi online.",
-      "link": "Scopri il Nostro Approccio",
+      "title": "Our Marketing & Communications Process",
+      "text": "From Understanding the Challenge to Delivering the Solution",
+      "link": "Discover Our Approach",
       "cards": {
         "0": {
-          "title": "Scoperta e Mappatura della Visione",
-          "text": "Iniziamo comprendendo i tuoi obiettivi, le tue idee e i tuoi requisiti. La tua visione guida la direzione del progetto — nessuna sorpresa, solo passi chiari e concreti."
+          "title": "Discovery & Business Review",
+          "text": "We learn about your organization, objectives, audiences, market position, existing activities, and communication challenges."
         },
         "1": {
-          "title": "Creazione di un Piano Strategico",
-          "text": "Dopo aver compreso le tue esigenze, progettiamo una roadmap personalizzata per il successo, definendo design, funzionalità e tempistiche."
+          "title": "Research & Analysis",
+          "text": "We review available market, audience, competitor, brand, and communication information relevant to the project."
         },
         "2": {
-          "title": "Progettazione del Tuo Capolavoro Digitale",
-          "text": "I nostri designer e sviluppatori collaborano per costruire un sito web visivamente straordinario, intuitivo e ottimizzato per un'esperienza utente fluida."
+          "title": "Strategy Development",
+          "text": "We define the recommended positioning, messages, communication priorities, channels, or marketing direction."
         },
         "3": {
-          "title": "Lancio con Sicurezza",
-          "text": "Testiamo accuratamente ogni elemento per garantire che il tuo sito web funzioni alla perfezione su tutti i dispositivi e le piattaforme, per poi lanciarlo con precisione."
+          "title": "Content & Creative Development",
+          "text": "Our team develops the required communication materials, content, designs, reports, presentations, or PR assets."
         },
         "4": {
-          "title": "Evoluzione Continua",
-          "text": "Il nostro impegno non finisce con il lancio. Con supporto, manutenzione e monitoraggio delle prestazioni continui, garantiamo che il tuo sito web resti sempre al top."
-        },
-        "5": {
-          "title": "Evoluzione Continua",
-          "text": "Il nostro impegno non finisce con il lancio. Con supporto, manutenzione e monitoraggio delle prestazioni continui, garantiamo che il tuo sito web resti sempre al top."
+          "title": "Delivery, Review & Recommendations",
+          "text": "We finalize deliverables, review results where applicable, and provide recommendations for future activity."
         }
       }
     },
     "ourFullRange": {
-      "title": "La Nostra Gamma Completa di Servizi di Sviluppo Web",
-      "text": "Offriamo una suite completa di servizi di sviluppo web pensati per dare vita alle tue idee per il sito web e ai tuoi obiettivi online. Dai siti web personali e portfolio ai negozi online scalabili, applicazioni web e integrazioni senza soluzione di continuità, forniamo tutto ciò di cui hai bisogno per costruire una solida presenza online.",
+      "title": "Our Full Range of Marketing & Communications Services",
+      "text": "Flexible Expertise for Different Business and Communication Needs",
       "slider": {
-        "hide": "Nascondi",
-        "show": "Mostra",
-        "allServices": "tutti i servizi",
+        "hide": "Hide",
+        "show": "Show",
+        "allServices": "all services",
         "0": {
-          "title": "Sviluppo di Siti Web su Misura",
-          "text": "Progettiamo e sviluppiamo siti web su misura per adattarsi ai tuoi obiettivi personali, alle tue idee creative e alla tua visione digitale.",
+          "title": "Marketing & Business Consulting",
+          "text": "We advise on marketing direction, business positioning, and communication priorities to help align commercial goals with market opportunities.",
           "includes": {
             "0": {
-              "title": "Web Design su Misura",
-              "text": "Crea un design unico in linea con l'identità del tuo brand e con le aspettative degli utenti."
+              "title": "Marketing Direction",
+              "text": "Clarify marketing priorities, goals, and the role of communication in your commercial plan."
             },
             "1": {
-              "title": "Layout Responsivo",
-              "text": "Costruisci siti web flessibili che si adattano perfettamente a tutte le dimensioni dello schermo, garantendo un'esperienza ottimale su ogni dispositivo."
+              "title": "Business Positioning",
+              "text": "Define how your offer should sit in the market relative to competitors and customer needs."
             },
             "2": {
-              "title": "Sviluppo Incentrato sull'Utente",
-              "text": "Progettiamo pensando all'utente per garantire una navigazione intuitiva e coinvolgente."
+              "title": "Audience Priorities",
+              "text": "Identify the audiences that matter most and how to speak to them effectively."
             },
             "3": {
-              "title": "Soluzioni Scalabili",
-              "text": "Siti web costruiti con la scalabilità in mente, per crescere insieme al tuo sito e ai tuoi obiettivi futuri."
+              "title": "Channel Recommendations",
+              "text": "Recommend communication and marketing channels that fit your objectives and resources."
             },
             "4": {
-              "title": "Ottimizzazione delle Prestazioni",
-              "text": "Garantisci tempi di caricamento rapidi e un funzionamento fluido ottimizzando le prestazioni del sito."
+              "title": "Go-to-Market Guidance",
+              "text": "Structure launch and growth activities around a coherent marketing plan."
             },
             "5": {
-              "title": "Sviluppo Pronto per la SEO",
-              "text": "Sviluppa siti web con le migliori pratiche SEO integrate, per una migliore visibilità sui motori di ricerca."
-            },
-            "6": {
-              "title": "Integrazione di Content Management",
-              "text": "Implementa un CMS facile da usare come WordPress, Joomla e altri per aggiornamenti dei contenuti semplici."
-            },
-            "7": {
-              "title": "Integrazione API",
-              "text": "Integra senza soluzione di continuità servizi di terze parti come gateway di pagamento, strumenti di prenotazione, piattaforme email o moduli di contatto."
-            },
-            "8": {
-              "title": "Sviluppo E-Commerce",
-              "text": "Costruisci negozi online sicuri e scalabili che offrono esperienze di acquisto fluide."
-            },
-            "9": {
-              "title": "Integrazione della Sicurezza",
-              "text": "Aggiungi funzionalità di sicurezza di altissimo livello, come certificati SSL e crittografia dei dati, per garantire la sicurezza del tuo sito."
+              "title": "Stakeholder Alignment",
+              "text": "Help internal teams align on messaging, priorities, and next steps."
             }
           }
         },
         "1": {
-          "title": "Sviluppo E-commerce",
-          "text": "Potenzia il tuo negozio online con una piattaforma e-commerce fluida, ricca di funzionalità e sicura.",
+          "title": "Market Research",
+          "text": "We gather and interpret audience, competitor, and market insights to support clearer decisions before campaigns and brand initiatives begin.",
           "includes": {
             "0": {
-              "title": "Soluzioni E-Commerce su Misura",
-              "text": "Soluzioni su misura per il tuo negozio online, adatte ai tuoi prodotti, al tuo pubblico e ai tuoi obiettivi di vendita."
+              "title": "Audience Insights",
+              "text": "Understand who your customers are, what they need, and how they make decisions."
             },
             "1": {
-              "title": "Esperienza di Acquisto Intuitiva",
-              "text": "Creazione di un processo di acquisto fluido e intuitivo, dalla navigazione al checkout."
+              "title": "Competitor Review",
+              "text": "Map competitor positioning, messaging, and visible communication activity."
             },
             "2": {
-              "title": "Integrazione di Pagamenti Sicuri",
-              "text": "Implementa gateway di pagamento sicuri e affidabili che proteggono i dati sensibili dei clienti."
+              "title": "Market Context",
+              "text": "Summarize category trends and opportunities relevant to your business."
             },
             "3": {
-              "title": "E-Commerce Ottimizzato per Mobile",
-              "text": "Sviluppa piattaforme e-commerce con design mobile-first per migliorare l'usabilità su tutti i dispositivi e le piattaforme, garantendo esperienze utente fluide."
+              "title": "Brand Perception",
+              "text": "Assess how your brand is currently perceived where information is available."
             },
             "4": {
-              "title": "Gestione dell'Inventario",
-              "text": "Integra sofisticati sistemi di gestione dell'inventario per semplificare la gestione delle scorte e l'elaborazione degli ordini."
+              "title": "Opportunity Mapping",
+              "text": "Highlight gaps and openings for stronger marketing and communication."
             },
             "5": {
-              "title": "Varianti e Opzioni di Prodotto",
-              "text": "Personalizza le pagine prodotto con opzioni come taglia, colore e quantità per una migliore selezione da parte dell'utente."
-            },
-            "6": {
-              "title": "Calcolatori di Spedizione e Tasse",
-              "text": "Implementa strumenti automatizzati per calcolare spese di spedizione e tasse durante il processo di checkout."
-            },
-            "7": {
-              "title": "Funzionalità Account Cliente",
-              "text": "Consenti agli utenti di creare account per ordinare, tracciare e restituire più facilmente."
-            },
-            "8": {
-              "title": "Tracciamento e Gestione degli Ordini",
-              "text": "Sviluppa sistemi per gestire e tracciare gli ordini dei clienti in modo efficiente."
-            },
-            "9": {
-              "title": "Promozioni e Codici Sconto",
-              "text": "Abilita offerte speciali e funzionalità di sconto per incrementare le vendite e fidelizzare i clienti."
+              "title": "Research Summary",
+              "text": "Deliver clear findings and recommendations ready for strategic decisions."
             }
           }
         },
         "2": {
-          "title": "Web Design Responsivo",
-          "text": "Creiamo siti web che hanno un aspetto eccellente e funzionano perfettamente su qualsiasi dispositivo.",
+          "title": "Public Relations",
+          "text": "We help shape public messaging and media relationships so your brand communicates with credibility across relevant channels.",
           "includes": {
             "0": {
-              "title": "Design Mobile-First",
-              "text": "Progetta pensando innanzitutto agli utenti mobili, garantendo un funzionamento fluido sugli schermi più piccoli."
+              "title": "PR Strategy",
+              "text": "Define objectives, narratives, and priority media or stakeholder channels."
             },
             "1": {
-              "title": "Compatibilità Cross-Device",
-              "text": "Assicurati che il tuo sito funzioni perfettamente su diversi dispositivi e dimensioni dello schermo."
+              "title": "Message Development",
+              "text": "Craft clear public messages for announcements, interviews, and media outreach."
             },
             "2": {
-              "title": "Layout a Griglia Flessibili",
-              "text": "Implementa layout flessibili che si adattano automaticamente al dispositivo e alla dimensione dello schermo dell'utente."
+              "title": "Press Materials",
+              "text": "Prepare press releases, media kits, and supporting communication assets."
             },
             "3": {
-              "title": "Rendering Ottimizzato delle Immagini",
-              "text": "Utilizza dimensioni e formati di immagine che si regolano automaticamente in base al tipo di dispositivo."
+              "title": "Media Outreach Support",
+              "text": "Support outreach planning and coordination with relevant media contacts."
             },
             "4": {
-              "title": "Ottimizzazione per Touchscreen",
-              "text": "Ottimizza il tuo sito per i touchscreen per offrire un'esperienza utente fluida sui dispositivi mobili."
+              "title": "Reputation Guidance",
+              "text": "Advise on consistent external communication during key moments."
             },
             "5": {
-              "title": "Velocità di Caricamento Rapida",
-              "text": "Ottimizza la velocità del tuo sito web per i dispositivi mobili, garantendo tempi di caricamento rapidi su qualsiasi rete."
-            },
-            "6": {
-              "title": "Adattamenti del Viewport",
-              "text": "Assicurati che contenuti ed elementi di design si ridimensionino correttamente per adattarsi alla dimensione dello schermo dell'utente con viewport responsivi."
-            },
-            "7": {
-              "title": "Menu Adattivi",
-              "text": "Implementa menu che si adattano ai diversi dispositivi, come i menu a tendina per gli utenti mobili."
-            },
-            "8": {
-              "title": "Funzionalità Specifiche per Mobile",
-              "text": "Aggiungi funzionalità specifiche per il mobile, come il click-to-call o la geolocalizzazione, per migliorare l'esperienza utente."
-            },
-            "9": {
-              "title": "Test sui Dispositivi",
-              "text": "Esegui test approfonditi su più dispositivi per garantire prestazioni costanti su tutti i dispositivi."
+              "title": "Coverage Review",
+              "text": "Review results and recommend next steps for ongoing PR activity."
             }
           }
         },
         "3": {
-          "title": "Sistemi di Gestione dei Contenuti (CMS)",
-          "text": "Gestisci e aggiorna il tuo sito web con facilità grazie a un potente sistema di gestione dei contenuti.",
+          "title": "Brand Communications",
+          "text": "We build coherent messaging frameworks that keep your brand voice consistent across campaigns, channels, and customer touchpoints.",
           "includes": {
             "0": {
-              "title": "Sviluppo WordPress",
-              "text": "Costruisci siti WordPress su misura con funzionalità avanzate adattate alle tue esigenze."
+              "title": "Messaging Framework",
+              "text": "Define core messages, proof points, and how they adapt by audience."
             },
             "1": {
-              "title": "Sviluppo Joomla e Drupal",
-              "text": "Sviluppo e personalizzazione esperti per altre piattaforme CMS popolari come Joomla e Drupal."
+              "title": "Brand Voice",
+              "text": "Establish tone and language guidelines for consistent communication."
             },
             "2": {
-              "title": "Dashboard Intuitive",
-              "text": "Implementa dashboard facili da usare che consentono agli utenti di aggiornare i contenuti senza conoscenze tecniche."
+              "title": "Channel Adaptation",
+              "text": "Adapt messages for website, social, print, presentations, and campaigns."
             },
             "3": {
-              "title": "Funzionalità CMS su Misura",
-              "text": "Sviluppa funzionalità CMS uniche, adattate al modo in cui gestisci contenuti, prodotti, aggiornamenti o sezioni del sito."
+              "title": "Corporate Narratives",
+              "text": "Develop stories that explain who you are and what you offer."
             },
             "4": {
-              "title": "Supporto CMS Multilingue",
-              "text": "Integra opzioni multilingua nel tuo CMS per una portata globale."
+              "title": "Internal Alignment",
+              "text": "Help teams use the same language across departments and partners."
             },
             "5": {
-              "title": "Funzionalità di Sicurezza",
-              "text": "Implementa protocolli di sicurezza integrati per proteggere il tuo CMS da hacking e violazioni dei dati."
-            },
-            "6": {
-              "title": "CMS Pronto per la SEO",
-              "text": "Ottimizza le pagine del CMS per la SEO per migliorarne il posizionamento sui motori di ricerca."
-            },
-            "7": {
-              "title": "Gestione dei Media",
-              "text": "Integra librerie multimediali e funzionalità di gestione dei contenuti che semplificano la creazione dei contenuti."
-            },
-            "8": {
-              "title": "Controllo degli Accessi Basato sui Ruoli",
-              "text": "Imposta diversi livelli di accesso per gli utenti per controllare chi può modificare o aggiornare i contenuti."
-            },
-            "9": {
-              "title": "Manutenzione e Supporto CMS",
-              "text": "Forniamo supporto e manutenzione continui per il tuo CMS, garantendo che sia sempre aggiornato."
+              "title": "Communication Guidelines",
+              "text": "Document practical rules for ongoing brand communication."
             }
           }
         },
         "4": {
-          "title": "Sviluppo di Applicazioni Web",
-          "text": "Sviluppiamo applicazioni web potenti e personalizzate, progettate attorno alle tue idee, ai tuoi flussi di lavoro e ai tuoi obiettivi digitali.",
+          "title": "Graphic & Visual Communications",
+          "text": "We create visual systems and design assets that support campaign ideas and strengthen brand recognition.",
           "includes": {
             "0": {
-              "title": "Applicazioni Web su Misura",
-              "text": "Costruisci applicazioni web completamente personalizzate in base alle esigenze e al flusso di lavoro del tuo progetto."
+              "title": "Visual Identity Support",
+              "text": "Develop or refine visual elements that express your brand clearly."
             },
             "1": {
-              "title": "Integrazione del Database",
-              "text": "Integra database robusti per archiviare, recuperare e gestire i dati in modo efficiente."
+              "title": "Campaign Creatives",
+              "text": "Design advertising and campaign visuals aligned with your messaging."
             },
             "2": {
-              "title": "Soluzioni Web Avanzate",
-              "text": "Sviluppa applicazioni web avanzate con funzionalità personalizzate, account utente, dashboard, integrazioni e architettura scalabile."
+              "title": "Brand Materials",
+              "text": "Produce presentations, brochures, reports, and other branded documents."
             },
             "3": {
-              "title": "Analisi dei Dati e Reportistica",
-              "text": "Costruisci applicazioni web che forniscono analisi dei dati e reportistica in tempo reale."
+              "title": "Digital Assets",
+              "text": "Create social, web, and digital graphics ready for use across channels."
             },
             "4": {
-              "title": "App Web per Mobile",
-              "text": "Progetta e sviluppa app web che funzionano perfettamente sia su desktop sia su dispositivi mobili."
+              "title": "Layout & Typography",
+              "text": "Ensure clear hierarchy, readability, and professional presentation."
             },
             "5": {
-              "title": "Integrazioni API",
-              "text": "Integra API di terze parti nelle tue app web per funzionalità potenziate."
-            },
-            "6": {
-              "title": "Sicurezza e Autenticazione",
-              "text": "Implementa protocolli sicuri di autenticazione degli utenti e di protezione dei dati."
-            },
-            "7": {
-              "title": "Integrazione del Gateway di Pagamento",
-              "text": "Configura sistemi di pagamento sicuri e affidabili all'interno delle tue applicazioni web."
-            },
-            "8": {
-              "title": "Applicazioni Dashboard su Misura",
-              "text": "Sviluppa dashboard, portali e strumenti di gestione su misura che ti aiutano a organizzare utenti, contenuti, ordini, prenotazioni o attività del sito web."
-            },
-            "9": {
-              "title": "Supporto e Manutenzione Continui",
-              "text": "Offriamo manutenzione e aggiornamenti continui per garantire che la tua app web resti pienamente funzionante."
-            }
-          }
-        },
-        "5": {
-          "title": "Sviluppo Web SEO",
-          "text": "Ottimizza il tuo sito web per i motori di ricerca fin dalla fase di sviluppo.",
-          "includes": {
-            "0": {
-              "title": "Ottimizzazione SEO On-Page",
-              "text": "Assicurati che il tuo sito web sia completamente ottimizzato per i motori di ricerca con contenuti incentrati sulle parole chiave."
-            },
-            "1": {
-              "title": "Implementazione dei Meta Tag",
-              "text": "Aggiungi i meta tag necessari, come titolo, descrizione e parole chiave, per aiutare i motori di ricerca a indicizzare correttamente il tuo sito."
-            },
-            "2": {
-              "title": "URL SEO-Friendly",
-              "text": "Struttura gli URL in modo SEO-friendly per migliorare la visibilità sui motori di ricerca."
-            },
-            "3": {
-              "title": "SEO per Mobile",
-              "text": "Ottimizza il tuo sito per le ricerche da mobile per garantire visibilità sui dispositivi mobili."
-            },
-            "4": {
-              "title": "Ottimizzazione della Velocità del Sito",
-              "text": "Migliora la velocità di caricamento del tuo sito web, un fattore chiave per il posizionamento SEO."
-            },
-            "5": {
-              "title": "Markup dei Dati Strutturati",
-              "text": "Implementa lo schema markup per aiutare i motori di ricerca a comprendere meglio i tuoi contenuti e a migliorarne la visibilità."
-            },
-            "6": {
-              "title": "Strategie di Link Interni",
-              "text": "Stabilisci una solida struttura di link interni per migliorare sia la SEO sia la navigazione degli utenti."
-            },
-            "7": {
-              "title": "Ottimizzazione dei Contenuti",
-              "text": "Ottimizza i contenuti del tuo sito con parole chiave pertinenti e le migliori pratiche SEO per ottenere un posizionamento più alto sui motori di ricerca."
-            },
-            "8": {
-              "title": "Strategia di Backlink",
-              "text": "Sviluppa strategie per costruire backlink di alta qualità e rafforzare l'autorità di dominio del tuo sito web."
-            },
-            "9": {
-              "title": "Monitoraggio SEO Continuo",
-              "text": "Forniamo monitoraggio SEO continuo e aggiustamenti per garantire che il tuo sito rimanga ottimizzato."
-            }
-          }
-        },
-        "6": {
-          "title": "Manutenzione e Supporto del Sito Web",
-          "text": "Garantisci prestazioni ottimali al tuo sito web con supporto continuo e aggiornamenti regolari.",
-          "includes": {
-            "0": {
-              "title": "Aggiornamenti Software Regolari",
-              "text": "Mantieni aggiornato tutto il software del tuo sito web per evitare vulnerabilità di sicurezza."
-            },
-            "1": {
-              "title": "Monitoraggio della Sicurezza",
-              "text": "Implementa scansioni di sicurezza continue per rilevare e prevenire le minacce."
-            },
-            "2": {
-              "title": "Soluzioni di Backup",
-              "text": "Assicurati che vengano eseguiti backup regolari per prevenire la perdita di dati."
-            },
-            "3": {
-              "title": "Monitoraggio delle Prestazioni",
-              "text": "Controlla regolarmente le prestazioni del tuo sito web per garantire che funzioni alla massima efficienza."
-            },
-            "4": {
-              "title": "Aggiornamenti dei Contenuti",
-              "text": "Offriamo aggiornamenti tempestivi dei contenuti per mantenere il tuo sito web pertinente e coinvolgente."
-            },
-            "5": {
-              "title": "Risoluzione dei Bug",
-              "text": "Risolviamo rapidamente i problemi per garantire che il tuo sito web rimanga pienamente funzionante."
-            },
-            "6": {
-              "title": "Supporto Hosting",
-              "text": "Forniamo risoluzione dei problemi e assistenza per le questioni relative all'hosting."
-            },
-            "7": {
-              "title": "Manutenzione SEO",
-              "text": "Monitoriamo e aggiorniamo continuamente la SEO del tuo sito web per restare competitivi."
-            },
-            "8": {
-              "title": "Aggiornamenti di Conformità",
-              "text": "Mantieni il tuo sito web aggiornato con le normative legali e di settore."
-            },
-            "9": {
-              "title": "Supporto Tecnico",
-              "text": "Forniamo supporto tecnico continuo per risolvere i problemi in modo efficiente ed efficace."
-            }
-          }
-        },
-        "7": {
-          "title": "Design UX/UI",
-          "text": "Offriamo esperienze utente eccezionali attraverso interfacce utente intuitive e progettate su misura.",
-          "includes": {
-            "0": {
-              "title": "Ricerca sugli Utenti",
-              "text": "Conduciamo ricerche sugli utenti per comprendere ciò di cui i tuoi visitatori hanno bisogno e come interagiscono con il tuo sito web."
-            },
-            "1": {
-              "title": "Wireframing e Prototipazione",
-              "text": "Creiamo wireframe e prototipi dettagliati per visualizzare i concetti di design prima dello sviluppo."
-            },
-            "2": {
-              "title": "Design UI Responsivo",
-              "text": "Assicurati che la tua interfaccia funzioni perfettamente su tutte le dimensioni dello schermo, offrendo un'esperienza utente fluida."
-            },
-            "3": {
-              "title": "Design Interattivo",
-              "text": "Sviluppa elementi UI coinvolgenti e interattivi che mantengono gli utenti coinvolti e motivati."
-            },
-            "4": {
-              "title": "Test di Usabilità",
-              "text": "Conduciamo test di usabilità per affinare l'esperienza utente e garantire la facilità d'uso."
-            },
-            "5": {
-              "title": "Integrazione dell'Identità del Brand",
-              "text": "Progetta interfacce in linea con il tuo stile, la tua identità e la tua presenza online."
-            },
-            "6": {
-              "title": "UI Cross-Platform",
-              "text": "Garantisci coerenza nel design e nelle funzionalità su più piattaforme."
-            },
-            "7": {
-              "title": "Navigazione Intuitiva",
-              "text": "Crea design facili da navigare che migliorano l'esperienza utente e riducono la frequenza di rimbalzo."
-            },
-            "8": {
-              "title": "Design Orientato alla Conversione",
-              "text": "Progetta interfacce che guidano gli utenti verso le azioni desiderate, come l'acquisto o l'iscrizione."
-            },
-            "9": {
-              "title": "Ottimizzazione UI per le Prestazioni",
-              "text": "Assicurati che tutti gli elementi UI siano ottimizzati per le prestazioni e tempi di caricamento rapidi."
+              "title": "Production-Ready Files",
+              "text": "Deliver assets prepared for print, digital, or partner use."
             }
           }
         }
       }
     },
     "downloadPrice": {
-      "title": "Vuoi i Nostri Prezzi in PDF?",
-      "text": "Sebbene tutti i nostri prezzi siano disponibili sul sito web, comprendiamo che potresti preferire una comoda versione scaricabile. Ottieni i dettagli completi dei nostri prezzi in formato PDF, organizzati in modo ordinato per una consultazione e un confronto semplici.",
-      "button": "Scarica il PDF Completo dei Prezzi"
+      "title": "Need Our Pricing in PDF?",
+      "text": "Our Marketing & Communications price list is also available in a convenient PDF format, including package descriptions, typical deliverables, and indicative pricing.",
+      "button": "Download Full Pricing PDF"
     },
     "webPackages": {
-      "title": "I Nostri Pacchetti di Sviluppo Web",
-      "text": "Scopri la nostra gamma completa di pacchetti di sviluppo web, ciascuno pensato per soddisfare diversi obiettivi del sito web, requisiti di progetto e ambizioni online. Dai piani semplici ed economici ai pacchetti avanzati e ricchi di funzionalità, abbiamo tutto ciò di cui hai bisogno per creare un sito web straordinario e ad alte prestazioni.",
+      "title": "Our Marketing & Communications Packages",
+      "text": "Structured Packages for Strategy, Research, Communication and Creative Support",
       "items": {
         "0": {
-          "title": "Piano Spark Starter",
-          "description": "Ideale per piccoli progetti o siti web che necessitano di una base solida. Questo pacchetto copre gli elementi essenziali per portare il tuo sito web online con un aspetto professionale.",
+          "title": "Marketing Strategy Starter",
+          "price": "€2,500",
+          "description": "A focused strategic package for businesses that need clearer marketing direction before starting new activities.",
           "includes": {
-            "0": "Design del sito web su misura",
-            "1": "Responsività mobile",
-            "2": "Ottimizzazione SEO",
-            "3": "Sistema di gestione dei contenuti (CMS) di base",
-            "4": "1 anno di hosting",
-            "5": "Configurazione analitica di base",
-            "6": "Sicurezza del sito web di base",
-            "7": "Caricamento dei contenuti (fino a 10 pagine)",
-            "8": "Integrazione dei social media",
-            "9": "Integrazione del modulo di contatto"
+            "0": "Business & marketing review",
+            "1": "Audience and priority mapping",
+            "2": "Positioning recommendations",
+            "3": "Core messaging outline",
+            "4": "Channel priorities",
+            "5": "Actionable next-step plan"
           }
         },
         "1": {
-          "title": "Piano Growth Accelerator",
-          "description": "Questo piano è perfetto per i proprietari di siti web che desiderano ampliare la propria presenza online con funzionalità avanzate e maggiore flessibilità. Include personalizzazioni pensate per migliorare il coinvolgimento degli utenti e le prestazioni complessive.",
+          "title": "Market Insight Package",
+          "price": "€4,500",
+          "description": "For businesses that need stronger market and audience understanding before making strategic, product, positioning, or communication decisions.",
           "includes": {
-            "0": "Design del sito web su misura avanzato",
-            "1": "Funzionalità e-commerce",
-            "2": "Ottimizzazione SEO potenziata",
-            "3": "CMS con funzionalità avanzate",
-            "4": "Design dell'esperienza utente (UX)",
-            "5": "2 anni di hosting",
-            "6": "Configurazione di analisi e tracciamento",
-            "7": "Certificato SSL e sicurezza di base",
-            "8": "Caricamento dei contenuti (fino a 25 pagine)",
-            "9": "Integrazione di condivisione e analisi dei social media"
+            "0": "Audience insight summary",
+            "1": "Competitor communication review",
+            "2": "Market context analysis",
+            "3": "Opportunity mapping",
+            "4": "Strategic implications",
+            "5": "Research presentation"
           }
         },
         "2": {
-          "title": "Piano Powerhouse Pro",
-          "description": "Per siti web in crescita, negozi online e progetti digitali ambiziosi, questo piano offre funzionalità complete, integrazioni e un'applicazione web ottimizzata per offrire un'esperienza digitale di livello mondiale.",
+          "title": "Brand Communications Package",
+          "price": "€7,500",
+          "description": "Designed for businesses that need a clearer and more consistent way to present their brand across communication channels.",
           "includes": {
-            "0": "Sviluppo di applicazioni web su misura",
-            "1": "Negozio e-commerce completo con integrazione dei pagamenti",
-            "2": "SEO completa e ottimizzazione mobile",
-            "3": "Design UX/UI avanzato",
-            "4": "Integrazioni API",
-            "5": "3 anni di hosting",
-            "6": "Suite di sicurezza completa e protezione anti-malware",
-            "7": "Dashboard di analisi e reportistica del sito web",
-            "8": "Caricamento dei contenuti (fino a 50 pagine)",
-            "9": "Integrazione dell'email marketing"
+            "0": "Messaging framework",
+            "1": "Brand voice guidelines",
+            "2": "Channel message adaptation",
+            "3": "Key narrative development",
+            "4": "Communication guidelines",
+            "5": "Sample content templates"
           }
         },
         "3": {
-          "title": "Piano Digital Empire",
-          "price": "Personalizzato",
-          "description": "La nostra soluzione di altissimo livello e su misura è pensata per siti web di grandi dimensioni, applicazioni web avanzate e piattaforme online complesse. Questo pacchetto offre tutto ciò di cui hai bisogno, dalle applicazioni web all'avanguardia alle integrazioni di digital marketing complete. Ideale per chi cerca una soluzione completamente personalizzata con funzionalità avanzate, scalabilità e supporto a lungo termine.",
+          "title": "PR & Communication Growth",
+          "price": "€12,000",
+          "description": "An integrated package for businesses that want to strengthen their external communication, visibility, messaging, and stakeholder presence.",
           "includes": {
-            "0": "Sviluppo di applicazioni web completamente su misura",
-            "1": "E-commerce su larga scala con funzionalità personalizzate",
-            "2": "Design avanzato dell'esperienza e dell'interfaccia utente",
-            "3": "Integrazione con API e strumenti di terze parti",
-            "4": "Hosting su server dedicato e bilanciamento del carico",
-            "5": "5+ anni di hosting e manutenzione continua",
-            "6": "Ottimizzazione SEO, delle prestazioni e delle conversioni",
-            "7": "Supporto dedicato 24/7 e monitoraggio della sicurezza",
-            "8": "Dashboard dettagliata di analisi e approfondimenti sui visitatori",
-            "9": "Caricamenti di contenuti illimitati e funzionalità per i social media"
+            "0": "PR strategy & narrative",
+            "1": "Press materials package",
+            "2": "Media outreach support",
+            "3": "External messaging system",
+            "4": "Visibility recommendations",
+            "5": "Review & next-step plan"
+          }
+        },
+        "4": {
+          "title": "Integrated Marketing & Communications Partnership",
+          "price": "€20,000",
+          "description": "Our most comprehensive package for businesses requiring coordinated marketing strategy, research, PR, content, and visual communication support.",
+          "includes": {
+            "0": "Full marketing & communications strategy",
+            "1": "Research and insight support",
+            "2": "PR and external communications",
+            "3": "Content and messaging development",
+            "4": "Visual communication support",
+            "5": "Coordinated delivery across workstreams",
+            "6": "Progress reviews and recommendations"
           }
         }
       }
+    },
+    "needHelp": {
+      "title": "Need Help Choosing a Marketing & Communications Package?",
+      "subtitle": "Tell us what challenge you are trying to solve.",
+      "text": "Whether you need to understand a market, refine your positioning, develop a PR strategy, improve corporate communication, create stronger branded materials, or coordinate several activities within one project, our team can recommend a suitable scope.",
+      "button": "Get in Touch"
     }
   },
   "webDevCard": {
@@ -1079,87 +890,87 @@
   "ourApproach": {
     "hero": {
       "title": {
-        "0": "Il Nostro Approccio:",
-        "1": "Costruiamo il Tuo",
-        "2": "Futuro Digitale"
+        "0": "Our Approach:",
+        "1": "Turning Insight",
+        "2": "Into Impact"
       },
-      "subtitle": "Un Processo Collaborativo e Orientato ai Risultati per Trasformare le Tue Idee e i Tuoi Obiettivi Online in Soluzioni Fluide e Scalabili",
-      "text": "Crediamo che ogni sito web, progetto e idea online sia unico e meriti un approccio personalizzato. Il nostro processo si concentra sulla collaborazione, sull'innovazione e sulla realizzazione di risultati eccezionali. Lavoriamo a stretto contatto con te in ogni fase, garantendo che il tuo sito web o la tua applicazione non solo raggiunga i tuoi obiettivi, ma superi anche le tue aspettative. Ecco uno sguardo più approfondito su come affrontiamo ogni progetto che intraprendiamo."
+      "subtitle": "A Strategic and Collaborative Process That Connects Research, Creativity, Advertising, and Communication",
+      "text": "We combine research, strategic thinking, creative development, media planning, communication, and performance analysis to create solutions aligned with each client’s business objectives. From an individual advertising campaign to broader brand communication, our team works closely with you at every stage to keep strategy, creativity, and execution connected."
     },
     "ourPhilosophy": {
-      "title": "La Nostra Filosofia",
-      "subtitle": "Costruiamo Relazioni Solide e Durature",
-      "text": "Non realizziamo solo progetti; costruiamo partnership. La nostra filosofia si fonda sulla comprensione dei tuoi obiettivi e sulla collaborazione per raggiungerli. Diamo priorità a collaborazione, creatività e impegno, creando soluzioni web che sono al tempo stesso efficaci e ispiranti. La tua visione ci guida e ci assicuriamo di darle vita nel modo più incisivo possibile."
+      "title": "Our Philosophy",
+      "subtitle": "Building Partnerships Around Shared Goals",
+      "text": "We do more than deliver individual campaigns or creative materials — we aim to build productive, long-term partnerships. Collaboration, transparency, creativity, and strategic thinking guide every project. Your business goals shape the direction, while our team provides the research, planning, communication, and creative expertise required to bring that direction to life."
     },
     "ourStepByStep": {
-      "title": "Il Nostro Processo Passo dopo Passo",
-      "subtitle": "Un Percorso Trasparente verso il Successo",
-      "text": "Il nostro processo è progettato per garantirti un'esperienza fluida, trasparente e collaborativa. Ecco come ti guidiamo in ogni fase:",
+      "title": "Our Step-by-Step Process",
+      "subtitle": "A Clear Journey From Discovery to Results",
+      "text": "Our process is designed to make each project structured, transparent, and collaborative from beginning to end.",
       "cards": {
         "0": {
-          "title": "Scoperta e Mappatura della Visione",
-          "text": "Iniziamo comprendendo i tuoi obiettivi, le tue idee e le tue sfide. La tua visione guida la direzione del progetto — nessuna sorpresa, solo passi chiari e concreti."
+          "title": "Discovery & Goal Mapping",
+          "text": "We begin by understanding your business, brand, objectives, audience, current market position, and communication challenges."
         },
         "1": {
-          "title": "Creazione di un Piano Strategico",
-          "text": "Dopo aver compreso i tuoi requisiti, progettiamo una roadmap personalizzata per il successo, definendo design, funzionalità e tempistiche."
+          "title": "Research & Strategic Planning",
+          "text": "We review relevant market information, audience insights, competitors, communication opportunities, and available channels before defining the strategic direction."
         },
         "2": {
-          "title": "Progettazione del Tuo Capolavoro Digitale",
-          "text": "I nostri designer e sviluppatori collaborano per costruire un sito web visivamente straordinario, intuitivo e ottimizzato per un'esperienza utente fluida."
+          "title": "Creative & Communication Development",
+          "text": "Our team develops concepts, key messages, campaign materials, visual assets, media recommendations, and communication elements aligned with the approved strategy."
         },
         "3": {
-          "title": "Lancio con Sicurezza",
-          "text": "Testiamo accuratamente ogni elemento per garantire che il tuo sito web funzioni alla perfezione su tutti i dispositivi e le piattaforme, per poi lanciarlo con precisione."
+          "title": "Campaign Execution & Media Coordination",
+          "text": "We prepare and coordinate campaign activities across selected channels, ensuring that messaging, visuals, media placement, and timing remain consistent."
         },
         "4": {
-          "title": "Evoluzione Continua",
-          "text": "Il nostro impegno non finisce con il lancio. Con supporto, manutenzione e monitoraggio delle prestazioni continui, garantiamo che il tuo sito web resti sempre al top."
+          "title": "Analysis & Continuous Improvement",
+          "text": "We evaluate campaign performance and audience response, identify useful insights, and refine future advertising and communication activities where needed."
         }
       }
     },
     "flatCards": {
       "0": {
-        "title": "Collaborazione e Comunicazione",
-        "subtitle": "Ti Teniamo Aggiornato in Ogni Fase del Percorso",
-        "text": "Dall'inizio alla fine, diamo valore alla comunicazione aperta e al feedback. Il nostro processo prevede aggiornamenti regolari sui progressi, garantendo che tu sia sempre informato. Puoi contare su di noi per essere trasparenti, reattivi e collaborativi, assicurandoci di offrirti esattamente ciò di cui hai bisogno."
+        "title": "Collaboration & Communication",
+        "subtitle": "Keeping You Involved at Every Stage",
+        "text": "From the initial consultation to final delivery, we maintain regular communication with our clients through project updates, feedback rounds, strategic discussions, and approval stages."
       },
       "1": {
-        "title": "Innovazione e Miglioramento Continuo",
-        "subtitle": "Sempre un Passo Avanti",
-        "text": "Spingiamo continuamente i confini con le tecnologie e le tendenze più recenti. Che si tratti di adottare nuovi strumenti di sviluppo web o di sfruttare tecnologie emergenti, integriamo l'innovazione in ogni progetto. Il nostro impegno verso il miglioramento continuo garantisce che il tuo sito web resti competitivo e funzionale a lungo dopo il lancio."
+        "title": "Research & Strategic Thinking",
+        "subtitle": "Building Decisions on Relevant Insights",
+        "text": "Depending on the scope, our work may include market research, public opinion insights, audience segmentation, competitor analysis, positioning review, communication planning, and media evaluation. These insights help us determine what should be communicated, who should receive the message, and which channels may be most suitable."
       },
       "2": {
-        "title": "Personalizzazione Incentrata sul Cliente",
-        "subtitle": "Soluzioni su Misura per le Tue Esigenze",
-        "text": "Comprendiamo che ogni sito web, progetto e obiettivo online è unico. Per questo personalizziamo ogni soluzione in base ai tuoi obiettivi specifici, al tuo pubblico e ai requisiti del tuo sito web. Non esistono due progetti uguali e ci assicuriamo che il tuo sito web sia progettato per soddisfare le tue esatte esigenze, il tuo budget e le tue tempistiche."
+        "title": "Creativity & Continuous Improvement",
+        "subtitle": "Combining Fresh Ideas With Strategic Purpose",
+        "text": "Our team combines strategic thinking with creative experimentation to develop advertising concepts, communication materials, graphic assets, and campaign approaches that remain distinctive, relevant, and purposeful."
       },
       "3": {
-        "title": "Gestione del Progetto",
-        "subtitle": "Collaborazione Senza Sforzo con la Metodologia Agile",
-        "text": "Adottiamo un approccio agile alla gestione dei progetti, che ci consente di rimanere flessibili e di adattarci rapidamente alle tue esigenze in evoluzione. Il nostro team lavora in cicli brevi e iterativi, consegnando regolarmente parti funzionanti del progetto, il che permette facili aggiustamenti in base al feedback. Questo garantisce che restiamo concentrati nel fornire la soluzione della massima qualità, nei tempi previsti."
+        "title": "Client-Centered Customization",
+        "subtitle": "Solutions Built Around Your Business",
+        "text": "Whether you require an advertising campaign, media placement, market research, PR support, marketing consulting, or graphic design, we adapt the scope and process around the specific needs of the project. This allows us to create solutions that feel relevant to your business rather than relying on standardized packages or generic approaches."
       },
       "4": {
-        "title": "Controllo Qualità e Test",
-        "subtitle": "Garantiamo Prestazioni Impeccabili",
-        "text": "Siamo impegnati a consegnare un prodotto impeccabile. Il nostro team dedicato di QA testa rigorosamente ogni aspetto del tuo sito web per garantire che funzioni alla perfezione su tutti i browser e dispositivi. Dai test sulle prestazioni ai controlli di usabilità, non lasciamo nulla al caso per offrire un sito web privo di bug e pienamente funzionante."
+        "title": "Project Management",
+        "subtitle": "Keeping Strategy, Creativity, and Execution Connected",
+        "text": "Advertising and communication projects often involve several moving parts — research, strategy, copy, design, approvals, media planning, production, and campaign coordination. Our project management process brings these elements together within a clear workflow."
       },
       "5": {
-        "title": "Supporto Post-Lancio",
-        "subtitle": "Il Tuo Successo è la Nostra Priorità",
-        "text": "Non costruiamo solo siti web — offriamo supporto continuo per aiutare il tuo sito web a crescere e a rendere al meglio. Dopo il lancio, forniamo monitoraggio, aggiornamenti e supporto tecnico continui per garantire che il tuo sito web funzioni in modo ottimale. Che tu abbia bisogno di aggiornamenti dei contenuti, patch di sicurezza o ottimizzazioni delle prestazioni, ci pensiamo noi."
+        "title": "Creative Review & Quality Control",
+        "subtitle": "Maintaining Consistency Across Every Deliverable",
+        "text": "Before advertising or communication materials are finalized, we review them carefully for quality, clarity, consistency, and alignment with the agreed strategy. Our quality-control process may include reviewing messaging and tone of voice, advertising concepts, graphic materials, brand consistency, media specifications, communication assets, campaign formats, content accuracy, and visual presentation."
       },
       "6": {
-        "title": "Metriche di Successo e Reportistica",
-        "subtitle": "Misuriamo l'Impatto del Nostro Lavoro",
-        "text": "Misuriamo il successo attraverso i risultati. Monitoriamo i KPI più importanti per il tuo progetto, tra cui il traffico e le conversioni del sito web, il coinvolgimento degli utenti e la velocità del sito. Dopo il lancio, forniamo report completi che dimostrano le prestazioni del tuo sito web e individuano le aree di miglioramento."
+        "title": "Ongoing Campaign & Communication Support",
+        "subtitle": "Supporting Your Brand Beyond the Initial Delivery",
+        "text": "Depending on your needs, we can provide ongoing support with advertising activities, media coordination, campaign updates, communication materials, visual content, market research, PR initiatives, and strategic consulting."
       }
     },
     "contactUs": {
-      "title": "Contattaci Oggi!",
-      "subtitle": "Hai domande o sei pronto a dare il via al tuo sito web?",
-      "text": "Il nostro team è qui per assisterti in ogni fase del percorso. Che tu voglia saperne di più sul nostro approccio o discutere le tue idee, siamo pronti a dare vita alla tua visione. Diamo vita al tuo sito web!",
-      "button": "Realizziamolo Insieme"
+      "title": "Contact Us Today!",
+      "subtitle": "Do You Have a Campaign, Communication Challenge, or New Idea in Mind?",
+      "text": "Our team is here to assist you every step of the way. Whether you want to launch an advertising campaign, improve your brand communication, understand your market, or plan media placements, we can help you turn your objectives into a clear, structured project.",
+      "button": "Let’s Make It Happen"
     }
   },
   "requestForm": {
@@ -1204,143 +1015,136 @@
   },
   "companyOverview": {
     "letsStart": {
-      "title": "Avviamo una Conversazione",
-      "subtitle": "Pronto a fare il prossimo passo?",
-      "text": "Hai domande sul tuo sito web o progetto online? Mettiti in contatto e discutiamo di come possiamo creare la soluzione web perfetta per te.",
-      "button": "Realizziamolo Insieme"
+      "title": "Let’s Start a Conversation",
+      "subtitle": "Ready to take the next step?",
+      "text": "If you are planning a campaign, researching a market, developing your brand communication, or looking for fresh creative direction, our team is ready to discuss your goals.",
+      "button": "Let’s Make It Happen"
     },
     "hero": {
       "title": {
-        "0": "Chi Siamo:",
-        "1": "Aiutiamo le Idee",
-        "2": "a Crescere Online"
+        "0": "Helping Brands Communicate",
+        "1": "With Purpose"
       },
-      "subtitle": "Hosting Affidabile e Sviluppo Web per Siti Web, Creator e Progetti Online",
-      "text": "In Hostixie uniamo competenza tecnica e tecnologia moderna per creare siti web, negozi online ed esperienze digitali affidabili. Che tu stia lanciando un sito personale, un portfolio, un blog o un progetto online, siamo qui per aiutarti a costruire una solida presenza online. Ecco uno sguardo più da vicino su chi siamo, cosa facciamo e come aiutiamo a dare vita alle idee online."
+      "subtitle": "Advertising, Marketing & Communication Solutions Built Around Strategy, Insight, and Creativity",
+      "text": "At Hostixie, we bring together advertising, marketing strategy, business consulting, market research, media planning, PR, communications, and graphic design to help businesses communicate more clearly and connect with the audiences that matter."
     },
     "ourStory": {
       "0": {
-        "title": "La Nostra Storia",
-        "subtitle": "Da Umili Origini a Leader del Digitale",
-        "text": "Ogni percorso ha un inizio. La nostra visione era offrire soluzioni web affidabili a chi desiderava siti web veloci, sicuri e professionali. Negli anni abbiamo aiutato proprietari di siti web, creator e imprenditori a portare le loro idee online, adattandoci continuamente a un panorama digitale in costante evoluzione. Il nostro percorso è stato alimentato da dedizione, innovazione e da una incessante ricerca dell'eccellenza. Oggi siamo orgogliosi di offrire servizi affidabili di web hosting e sviluppo web per siti di ogni dimensione."
+        "title": "Our Story",
+        "subtitle": "From Ideas to Meaningful Brand Communication",
+        "text": "Every business has something worth communicating. Hostixie was created around a simple idea: help brands express that value in a clearer, more relevant, and more engaging way. As audiences, media channels, and market expectations continue to evolve, so do we. Our approach combines strategic thinking, creativity, and research, allowing us to support businesses across industries and address diverse communication challenges."
       },
       "1": {
-        "title": "La Nostra Missione e Visione",
-        "subtitle": "Aiutiamo le Idee a Prosperare Online",
-        "text": "La nostra missione è semplice: dare alle aziende soluzioni web all'avanguardia che favoriscano la crescita, migliorino il coinvolgimento degli utenti e costruiscano una presenza digitale duratura. Il nostro obiettivo è essere il fornitore di riferimento di servizi di sviluppo web e hosting che non solo soddisfano, ma superano le aspettative dei nostri clienti. La nostra visione è plasmare il futuro del mondo digitale offrendo soluzioni innovative, scalabili e sicure che aiutano i nostri clienti ad avere successo."
+        "title": "Our Mission & Vision",
+        "subtitle": {
+          "0": "Helping Brands",
+          "1": "Build Stronger Connections"
+        },
+        "text": ""
       }
     },
     "coreValues": {
-      "title": "Valori Fondamentali",
-      "subtitle": "Il Cuore Pulsante del Nostro Successo",
-      "text": "In Hostixie i nostri valori non sono solo principi — sono il fondamento di tutto ciò che facciamo. Ci guidano nel fornire risultati eccezionali, costruire relazioni solide ed evolvere continuamente nel mondo digitale. Ecco cosa ci spinge:",
+      "title": "Core Values",
+      "subtitle": "The Principles Behind Our Work",
+      "text": "At Hostixie, our values shape how we approach every campaign, research project, communication strategy, and creative assignment. They help us build productive relationships, make better decisions, and deliver work with purpose.",
       "cards": {
         "0": {
-          "title": "Le Fondamenta della Fiducia",
-          "text": "Crediamo nell'onestà, nella trasparenza e nel fare la cosa giusta, anche quando nessuno ci guarda. La fiducia è la pietra angolare di ogni partnership."
+          "title": "Trust Through Transparency",
+          "text": "We believe strong partnerships depend on openness, clear communication, and responsible decision-making throughout every project."
         },
         "1": {
-          "title": "Superare i Limiti, Dettare le Tendenze",
-          "text": "Non ci limitiamo a stare al passo con le tendenze — le creiamo. Spingiamo i limiti della tecnologia per offrire soluzioni rivoluzionarie che ti mantengono davanti alla concorrenza."
+          "title": "Curiosity Drives Better Ideas",
+          "text": "We question assumptions, explore markets, study audiences, and look for new perspectives that can strengthen both strategy and creative thinking."
         },
         "2": {
-          "title": "Costruiamo Insieme, Abbiamo Successo Insieme",
-          "text": "Non siamo semplici fornitori di servizi; siamo partner. Lavorando a stretto contatto con te, diamo vita alla tua visione, creando soluzioni che riflettono davvero i tuoi obiettivi."
+          "title": "Collaboration Creates Stronger Results",
+          "text": "We work closely with our clients, combining their knowledge of their business with our advertising, research, communication, and creative expertise."
         },
         "3": {
-          "title": "I Tuoi Obiettivi Sono Importanti per Noi",
-          "text": "Il tuo successo è il nostro successo. Ci impegniamo a comprendere le tue esigenze e a garantire che ogni progetto sia su misura per aiutarti a realizzare la tua visione."
+          "title": "Objectives Come First",
+          "text": "Every campaign, message, visual, and recommendation starts with a clear understanding of what the client wants to achieve."
         },
         "4": {
-          "title": "Puntare alla Perfezione in Ogni Dettaglio",
-          "text": "La mediocrità non ha posto qui. Offriamo un'esecuzione impeccabile in ogni dettaglio, creando lavori non solo funzionali, ma eccezionali sotto ogni aspetto."
+          "title": "Quality in Every Detail",
+          "text": "From research and strategic planning to copy, design, and media execution, we pay close attention to consistency, clarity, and quality."
         }
       }
     },
     "whatWeDo": {
-      "title": "Cosa Facciamo",
-      "subtitle": "Soluzioni di Sviluppo Web e Hosting su Misura per Ogni Sito Web",
-      "text": "Offriamo una suite completa di servizi web, tra cui soluzioni di sviluppo web e hosting, progettati per soddisfare diversi obiettivi del sito web e requisiti di progetto online. I nostri servizi includono:",
+      "title": "What We Do",
+      "subtitle": "Integrated Advertising, Marketing & Communication Solutions",
+      "text": "We provide a broad range of services that help businesses better understand their markets, develop stronger communication strategies, reach relevant audiences, and create consistent brand experiences.",
+      "text2": "Each service can be delivered individually or combined within a broader project. If you need research before entering a new market, a complete advertising campaign, media placement support, PR communications, strategic consulting, or new graphic materials, we tailor the scope to your business, audience, objectives, budget, and timeline.",
       "cards": {
-        "0": {
-          "0": "Soluzioni",
-          "1": "E-commerce"
-        },
-        "1": {
-          "0": "Sviluppo di Siti Web",
-          "1": "su Misura"
-        },
-        "2": {
-          "0": "SEO e Digital",
-          "1": "Marketing"
-        },
-        "3": {
-          "0": "Sviluppo di Applicazioni",
-          "1": "Web"
-        },
-        "4": {
-          "0": "Manutenzione e Supporto",
-          "1": "del Sito Web"
-        },
-        "5": {
-          "0": "Sistemi di Gestione",
-          "1": "dei Contenuti (CMS)"
-        },
-        "6": "Design Mobile-First",
-        "7": "Integrazioni API",
-        "8": "Soluzioni di Web Hosting",
-        "9": "Design UX/UI"
-      },
-      "text2": "Ogni soluzione è realizzata con cura per aiutarti a costruire una solida presenza online, migliorare le prestazioni del tuo sito web e ampliare la tua portata online. Che tu abbia bisogno di un hosting affidabile o di un sito web su misura, siamo qui per aiutarti a dare vita alle tue idee online."
+        "0": "Advertising Campaign Strategy",
+        "1": "Marketing & Business Consulting",
+        "2": "Media Planning & Placement",
+        "3": "Market & Audience Research",
+        "4": "PR & Communications",
+        "5": "Communication & Media Planning",
+        "6": "Public Opinion Research",
+        "7": "Creative Advertising",
+        "8": "Brand Communication Strategy",
+        "9": "Graphic Design",
+        "10": "Visual Communications",
+        "11": "Campaign Performance Analysis"
+      }
     },
     "ourTeam": {
-      "title": "Il Nostro Team",
-      "subtitle": "Le Persone Dietro Hostixie",
-      "text": "In Hostixie abbiamo un team di esperti di talento che mettono conoscenza, creatività e passione in ogni progetto. Da abili sviluppatori web e designer innovativi a specialisti del marketing e professionisti del supporto clienti, il nostro team lavora in perfetta sintonia per offrire soluzioni di alta qualità e su misura. Siamo impegnati a spingere i confini di ciò che è possibile, garantendo che ogni proprietario di sito web riceva un servizio personalizzato e risultati di alta qualità."
+      "title": "Our Team",
+      "subtitle": "The People Behind Hostixie",
+      "text": "Hostixie brings together professionals with expertise across advertising, marketing strategy, research, communications, media, consulting, and graphic design.",
+      "bullets": {
+        "0": "Strategists help define the direction",
+        "1": "Researchers turn market and audience information into useful insights",
+        "2": "Communication specialists shape messages and PR approaches",
+        "3": "Creative professionals transform ideas into compelling visual materials",
+        "4": "Media specialists help determine how and where those messages should appear"
+      }
     },
     "ourImpact": {
-      "title": "Il Nostro Impatto",
+      "title": "Our Impact",
       "subtitle": {
-        "0": "Plasmiamo il Mondo Digitale,",
-        "1": "un Progetto alla Volta"
+        "0": "Helping Businesses Turn",
+        "1": "Communication Into Opportunity"
       },
-      "text": "Non costruiamo solo siti web. Aiutiamo i proprietari di siti web a costruire, far crescere e migliorare la propria presenza online. Dall'aumento del traffico e delle conversioni al miglioramento del coinvolgimento degli utenti e alla realizzazione di soluzioni digitali a lungo termine, il nostro lavoro aiuta i proprietari di siti web a ottenere risultati concreti online. Siamo orgogliosi di sapere che le nostre soluzioni aiutano le persone a raggiungere i propri obiettivi online, a migliorare le prestazioni del sito web e a creare esperienze digitali migliori."
+      "text": "Our work goes beyond creating advertisements or visual materials. We help businesses better understand their audiences, clarify their positioning, communicate their ideas, and build more consistent relationships with the people they want to reach. That is the impact we aim to create: communication that is informed, intentional, consistent, and connected to real business objectives."
     },
     "achievments": {
-      "title": "Risultati e Traguardi",
-      "subtitle": "Riflettiamo sulla Nostra Crescita e sui Nostri Progressi",
-      "text": "Nel corso del nostro percorso abbiamo raggiunto diversi traguardi chiave che dimostrano il nostro impegno nel fornire soluzioni di sviluppo web eccezionali. Questi risultati sottolineano il nostro costante impegno nel creare esperienze digitali di valore e nel coltivare relazioni durature. Ecco alcuni dei traguardi di cui siamo orgogliosi:",
+      "title": "Achievements & Milestones",
+      "subtitle": "Reflecting Our Growth and Progress",
+      "text": "Our progress is shaped by the campaigns, strategies, research projects, and creative work we deliver for businesses across different industries. Some of the milestones that reflect our journey include:",
       "cards": {
-        "0": "500+ progetti completati con successo",
-        "1": "Oltre 50+ siti web sviluppati da zero",
-        "2": "Scelti da proprietari di siti web in molteplici settori",
-        "3": "Riconoscimenti in report e pubblicazioni di settore",
-        "4": "Soluzioni web innovative offerte con costanza"
+        "0": "500+ Advertising, Marketing & Communication Projects Delivered",
+        "1": "Over 50+ Brand & Visual Communication Projects Completed",
+        "2": "Businesses Supported Across Multiple Industries",
+        "3": "Experience Across Advertising, Research, PR, Media & Consulting",
+        "4": "Continuous Development of New Creative and Strategic Approaches"
       }
     },
     "whyChooseUs": {
-      "title": "Perché Sceglierci?",
-      "text": "Hostixie crede nell'offrire molto più che semplici siti web — creiamo esperienze digitali che aiutano i siti a crescere e a rendere al meglio. Ecco perché i proprietari di siti web ci scelgono:",
+      "title": "Why Choose Us?",
+      "text": "Hostixie combines several disciplines into a single strategic approach, enabling clients to coordinate advertising, communications, research, media, and creative work more effectively.",
       "cards": {
         "0": {
-          "title": "Comprovata Esperienza",
-          "text": "Un'agenzia dinamica e giovane con oltre 10 anni di esperienza combinata nel fornire soluzioni web di alta qualità che producono risultati."
+          "title": "Multidisciplinary Expertise",
+          "text": "Our team combines experience across advertising, consulting, research, communications, media, and graphic design."
         },
         "1": {
-          "title": "Soluzioni su Misura",
-          "text": "Servizi su misura progettati attorno ai tuoi obiettivi, alle tue idee e ai requisiti del tuo sito web."
+          "title": "Tailored Strategies",
+          "text": "Every project is developed around your specific goals, audience, market, requirements, and available resources."
         },
         "2": {
-          "title": "Supporto Dedicato",
-          "text": "Manutenzione e supporto continui per garantire che il tuo sito web resti sempre ottimale."
+          "title": "Research-Informed Decisions",
+          "text": "We use relevant market, audience, competitor, and campaign information to support strategic and creative decisions."
         },
         "3": {
-          "title": "Tecnologia All'Avanguardia",
-          "text": "Sfruttiamo gli strumenti e le tecnologie più recenti per restare sempre un passo avanti."
+          "title": "Integrated Communication",
+          "text": "We connect strategy, messaging, media, PR, and visual communication to create a more consistent brand presence."
         },
         "4": {
-          "title": "Processo Collaborativo",
-          "text": "Lavoriamo a stretto contatto con te per garantire che la tua visione prenda vita."
+          "title": "Collaborative Process",
+          "text": "We work closely with clients throughout research, planning, creative development, execution, and review."
         }
       }
     }
@@ -1348,152 +1152,191 @@
   "careers": {
     "hero": {
       "title": {
-        "0": "Lavora con Noi:",
-        "1": "Sii il Primo",
-        "2": "a Candidarti"
+        "0": "Careers:",
+        "1": "Be the First",
+        "2": "to Apply"
       },
-      "subtitle": "Risveglia il Potenziale del Tuo Sito Web con Hostixie",
-      "text": "In Hostixie crediamo che il tuo lavoro debba dare valore alla tua vita. Che tu stia costruendo piattaforme, scrivendo codice, supportando i clienti o gestendo le operazioni — le tue idee plasmano il modo in cui cresciamo. Unisciti a noi e crea qualcosa di significativo, con spazio per esplorare, costruire e guidare."
+      "subtitle": "Join Hostixie",
+      "text": "At Hostixie, we believe strong ideas come from people who understand audiences, ask the right questions, communicate clearly, and challenge familiar approaches. Join a collaborative team where you can develop your expertise, contribute to meaningful projects, and take ownership of the work you do."
     },
     "whyJoinUs": {
-      "title": "Perché Unirti a Noi",
+      "title": "Why Join Us",
       "cards": {
         "0": {
-          "title": "Crescita Professionale e Sviluppo di Carriera",
-          "text": "Sosteniamo l'apprendimento continuo attraverso programmi di formazione, mentorship e opportunità per far crescere il tuo ruolo man mano che avanzi."
+          "title": "Professional Growth & Career Development",
+          "text": "We support continuous learning through training programs, mentorship, and opportunities to grow your role as you advance."
         },
         "1": {
-          "title": "Supporto al Benessere Mentale",
-          "text": "Accedi a risorse e strumenti che promuovono un sano equilibrio tra lavoro e vita privata, incluso il supporto alla salute mentale e iniziative di benessere."
+          "title": "Mental Wellbeing Support",
+          "text": "Access resources and tools that promote a healthy work-life balance, including mental health support and wellness initiatives."
         },
         "2": {
-          "title": "Benefit Flessibili e Moderni",
-          "text": "I nostri benefit sono pensati per adattarsi al tuo stile di vita, con policy che favoriscono il lavoro da remoto, orari flessibili e opzioni sanitarie complete."
+          "title": "Flexible & Modern Benefits",
+          "text": "Our benefits are designed to adapt to your lifestyle, with remote-friendly policies, flexible scheduling, and comprehensive health options."
         },
         "3": {
-          "title": "Vantaggi Esclusivi e Sconti Lifestyle",
-          "text": "Goditi vantaggi per il team, accesso a strumenti software e sconti dei partner per rendere il lavoro (e la vita) più piacevole, equilibrato, appagante e gratificante."
+          "title": "Professional Tools & Resources",
+          "text": "Team members receive access to the research, communication, project-management, and tools required to do their work effectively."
         },
         "4": {
-          "title": "Risparmio Intelligente e Piani Pensionistici",
-          "text": "Ti aiutiamo a pianificare il futuro con programmi di risparmio per i dipendenti e opzioni di supporto pensionistico a lungo termine su misura per i tuoi obiettivi."
+          "title": "Smart Savings & Retirement Plans",
+          "text": "We help you plan ahead with employee savings programs and long-term retirement support options tailored to your goals."
         },
         "5": {
-          "title": "Riconoscimenti e Bonus Basati sui Risultati",
-          "text": "Premiamo l'impatto. I membri del team che producono risultati e vanno oltre le aspettative vengono riconosciuti attraverso bonus sulle prestazioni."
+          "title": "Performance-Based Recognition & Bonuses",
+          "text": "We reward impact. Team members who drive results and go above and beyond are recognized through performance bonuses."
         }
       }
     },
     "jobs": {
       "title": {
-        "0": "Posizioni",
-        "1": "Aperte"
+        "0": "Current",
+        "1": "Openings"
       },
-      "subtitle": "Se non trovi una posizione aperta adatta a te, non esitare a contattarci — apprezziamo lo spirito d'iniziativa.",
-      "button": "Contattaci",
-      "applyNow": "Candidati Ora",
-      "showMore": "Mostra di più",
-      "responsibilities": "Responsabilità",
-      "requirements": "Requisiti",
+      "subtitle": "If you don't see an open role that fits, feel free to reach out — we welcome initiative.",
+      "button": "Contact Us",
+      "applyNow": "Apply Now",
+      "showMore": "Show more",
+      "showLess": "Show less",
+      "responsibilities": "Responsibilities",
+      "requirements": "Requirements",
       "items": {
         "0": {
-          "type": "(Da remoto - Tempo pieno)",
-          "name": "Frontend Developer",
+          "type": "(Remote - Full Time)",
+          "name": "Advertising Account Manager",
           "description": {
-            "0": "Come nostro Frontend Developer, trasformerai i design di Figma in applicazioni React pixel-perfect realizzate con Tailwind CSS. Lavorerai a stretto contatto con i nostri designer UX e ingegneri backend per utilizzare API RESTful e GraphQL, costruire librerie di componenti riutilizzabili e garantire che il tuo lavoro funzioni alla perfezione su Chrome, Firefox, Safari ed Edge.",
-            "1": "La tua quotidianità include scrivere markup pulito e accessibile, ottimizzare la dimensione dei bundle, implementare test end-to-end e unitari e seguire le migliori pratiche di branching Git e pull-request. Se hai una solida padronanza del JavaScript moderno (ES6+), esperienza nel rilascio di codice in produzione in un team distribuito e una passione per l'ottimizzazione delle prestazioni, ti vogliamo nella nostra squadra."
+            "0": "As an Advertising Account Manager, you will be a key link between our clients and internal project teams. You will work closely with businesses to understand their campaign objectives, audiences, priorities, timelines, and expectations. Internally, you will coordinate strategists, designers, copywriters, media specialists, and other contributors to ensure projects remain organized and aligned with the agreed scope.",
+            "1": "This role requires strong communication skills, commercial awareness, attention to detail, and the ability to manage several projects without losing sight of the bigger picture."
           },
           "responsibilities": {
-            "0": "Costruire e mantenere componenti React utilizzando Tailwind CSS",
-            "1": "Integrare API REST e GraphQL nella logica frontend",
-            "2": "Ottimizzare le prestazioni dell'applicazione e la dimensione dei bundle",
-            "3": "Scrivere HTML accessibile e markup semantico",
-            "4": "Implementare strategie di test (unitari ed end-to-end)",
-            "5": "Collaborare con i designer UX e gli sviluppatori backend",
-            "6": "Seguire gli standard di code review e di workflow Git"
+            "0": "Manage day-to-day communication with assigned clients",
+            "1": "Understand campaign briefs and business objectives",
+            "2": "Coordinate advertising and communication projects",
+            "3": "Prepare project timelines and internal briefs",
+            "4": "Organize feedback and approval rounds",
+            "5": "Coordinate work between strategy, creative, research, and media teams",
+            "6": "Track project deliverables and deadlines",
+            "7": "Prepare status updates and client presentations",
+            "8": "Identify additional client requirements and opportunities",
+            "9": "Support campaign reporting and post-project reviews",
+            "10": "Maintain clear internal project documentation",
+            "11": "Build productive long-term client relationships"
           },
           "requirements": {
-            "0": "3+ anni di esperienza con React e JavaScript (ES6+)",
-            "1": "Solide competenze CSS, in particolare con Tailwind",
-            "2": "Esperienza nell'utilizzo di API REST e GraphQL",
-            "3": "Familiarità con l'ottimizzazione delle prestazioni frontend",
-            "4": "Dimestichezza con Git, GitHub e pipeline CI/CD",
-            "5": "Esperienza con librerie di test come Jest o Playwright",
-            "6": "Forte attenzione ai dettagli e allineamento con l'UX/UI"
+            "0": "2+ years of experience in account management, advertising, marketing, or client services",
+            "1": "Strong written and verbal communication skills",
+            "2": "Excellent organizational and project-management abilities",
+            "3": "Ability to manage several active projects",
+            "4": "Understanding of advertising and marketing processes",
+            "5": "Confidence presenting ideas and recommendations to clients",
+            "6": "Strong attention to detail",
+            "7": "Experience with project-management or CRM tools",
+            "8": "Ability to work effectively with creative and strategic teams"
           }
         },
         "1": {
-          "type": "(Da remoto - Tempo pieno)",
-          "name": "Customer Support Manager",
+          "type": "(Remote - Full Time)",
+          "name": "Marketing & Research Specialist",
           "description": {
-            "0": "Nel ruolo di Customer Support Manager, sei il consulente di fiducia per i nostri clienti di hosting e sviluppo. Gestirai l'intero ciclo di vita del cliente, dalle sessioni di onboarding personalizzate e dalla formazione sulla piattaforma fino al triage dei ticket e al supporto basato sugli SLA. Gestirai la nostra coda Zendesk (o equivalente), inoltrerai i problemi complessi al team di ingegneria e terrai i clienti aggiornati con chiari aggiornamenti di stato.",
-            "1": "Oltre al supporto reattivo, guiderai sessioni proattive di feedback dei clienti per identificare le esigenze dei clienti, raccogliere feedback per i miglioramenti del prodotto e mantenere la nostra knowledge base self-service. Eccezionali capacità di comunicazione scritta e verbale, forti abitudini organizzative e un autentico desiderio di costruire relazioni durature con i clienti sono fondamentali per avere successo in questa posizione."
+            "0": "As a Marketing & Research Specialist, you will help turn market information into useful strategic insights. You will work on projects involving audience research, competitor analysis, market trends, brand perception, customer needs, communication opportunities, and marketing strategy.",
+            "1": "Your role will involve gathering information from multiple sources, structuring research findings, identifying patterns, and translating data into conclusions that can support client decisions."
           },
           "responsibilities": {
-            "0": "Essere il principale punto di contatto per gli account attivi",
-            "1": "Erogare sessioni di onboarding e demo del prodotto",
-            "2": "Gestire i ticket di supporto clienti e monitorare gli SLA",
-            "3": "Inoltrare i problemi tecnici al team di sviluppo con il contesto completo",
-            "4": "Condurre sessioni periodiche di feedback e check-in con i clienti",
-            "5": "Aggiornare e mantenere la documentazione interna e le FAQ",
-            "6": "Raccogliere e condividere feedback per i miglioramenti del prodotto"
+            "0": "Conduct audience, competitor, and market research",
+            "1": "Analyze brand perception and customer needs",
+            "2": "Identify communication and marketing opportunities",
+            "3": "Structure findings into clear research summaries",
+            "4": "Translate data into actionable strategic insights",
+            "5": "Support marketing strategy with evidence-based recommendations",
+            "6": "Track market trends relevant to client projects",
+            "7": "Collaborate with account, strategy, and creative teams"
           },
           "requirements": {
-            "0": "2+ anni in customer success, account management o supporto tecnico",
-            "1": "Solide capacità di comunicazione scritta e verbale",
-            "2": "Esperienza con strumenti di helpdesk come Zendesk, Intercom o Freshdesk",
-            "3": "Buona comprensione degli ambienti di sviluppo web o hosting",
-            "4": "Eccellenti capacità di multitasking e di definizione delle priorità",
-            "5": "Empatia, pazienza e professionalità sotto pressione"
+            "0": "2+ years in marketing research, insights, or strategy roles",
+            "1": "Strong analytical and synthesis skills",
+            "2": "Ability to turn complex information into clear conclusions",
+            "3": "Familiarity with research methods and market analysis tools",
+            "4": "Excellent written communication skills",
+            "5": "Attention to detail and structured thinking",
+            "6": "Comfort collaborating across multidisciplinary teams"
           }
         },
         "2": {
-          "type": "(Da remoto - Part Time)",
-          "name": "Hosting Infrastructure Engineer",
+          "type": "(Remote - Full Time)",
+          "name": "PR & Communications Specialist",
           "description": {
-            "0": "Il nostro Hosting Infrastructure Engineer garantisce che ogni sito web che ospitiamo resti veloce, sicuro e online. Progetterai e manterrai server Linux — ottimizzando le configurazioni di NGINX e Apache, automatizzando i deployment con Docker o strumenti simili e configurando monitoraggio e avvisi per uptime e prestazioni.",
-            "1": "Gestirai lo stack di sicurezza per gli ambienti WordPress, implementando pratiche di hardening, scansioni automatiche anti-malware e una gestione regolare delle patch. Quando si verificano incidenti, guiderai l'analisi delle cause profonde e implementerai correzioni in script gestiti tramite controllo di versione. Questo ruolo part-time è perfetto se possiedi approfondite competenze di sysadmin Linux, esperienza pratica con containerizzazione o IaC (Terraform/Ansible) e una comprovata capacità di mantenere efficienti i siti ad alto traffico sotto pressione."
+            "0": "Our PR & Communications Specialist helps clients communicate clearly with customers, stakeholders, media, partners, and wider audiences. You will contribute to communication strategies, messaging frameworks, press materials, company announcements, thought leadership content, corporate communications, and PR planning.",
+            "1": "The right candidate understands that good communication is not simply about writing well — it is about identifying the right message for the right audience and context."
           },
           "responsibilities": {
-            "0": "Configurare, monitorare e mantenere server web basati su Linux",
-            "1": "Gestire NGINX/Apache, certificati SSL e strategie di caching",
-            "2": "Automatizzare deployment e backup utilizzando Docker o strumenti CI",
-            "3": "Implementare strumenti di monitoraggio di uptime e prestazioni",
-            "4": "Eseguire la gestione degli incidenti e l'analisi delle cause profonde",
-            "5": "Garantire la sicurezza del server con pratiche di hardening best-practice",
-            "6": "Mantenere gli script dell'infrastruttura sotto controllo di versione"
+            "0": "Develop communication strategies and messaging frameworks",
+            "1": "Write press materials, announcements, and thought leadership content",
+            "2": "Support corporate communications and PR planning",
+            "3": "Adapt messages for customers, media, partners, and stakeholders",
+            "4": "Coordinate communication projects with internal teams",
+            "5": "Maintain consistency of tone and brand voice",
+            "6": "Monitor media and communication opportunities",
+            "7": "Prepare briefing documents and content calendars"
           },
           "requirements": {
-            "0": "4+ anni di esperienza come sysadmin Linux o ingegnere DevOps",
-            "1": "Solida conoscenza di NGINX, Apache e sicurezza dei server",
-            "2": "Dimestichezza con Docker, shell scripting e strumenti di automazione",
-            "3": "Esperienza con infrastructure-as-code (Terraform, Ansible)",
-            "4": "Comprensione delle esigenze di hosting specifiche di WordPress",
-            "5": "Capacità di lavorare in autonomia e di gestire incidenti fuori orario se necessario"
+            "0": "2+ years in PR, communications, or corporate messaging",
+            "1": "Excellent writing and editing skills",
+            "2": "Understanding of media and stakeholder communication",
+            "3": "Ability to craft messages for different audiences",
+            "4": "Strong organizational and planning skills",
+            "5": "Comfort working under deadlines",
+            "6": "Collaborative approach with strategy and creative teams"
+          }
+        },
+        "3": {
+          "type": "(Remote - Full Time)",
+          "name": "Graphic Designer",
+          "description": {
+            "0": "As a Graphic Designer at Hostixie, you will turn strategies, messages, and ideas into clear visual communication. You will work across advertising campaigns, presentations, reports, marketing collateral, PR materials, digital assets, social graphics, media kits, and other branded communication materials.",
+            "1": "The role requires both strong design skills and the ability to understand the communication purpose behind every piece of work."
+          },
+          "responsibilities": {
+            "0": "Design visual assets for advertising and communication projects",
+            "1": "Create presentations, reports, and marketing collateral",
+            "2": "Produce digital assets, social graphics, and media kits",
+            "3": "Apply brand guidelines consistently across deliverables",
+            "4": "Collaborate with strategists, copywriters, and account teams",
+            "5": "Refine designs based on feedback and project objectives",
+            "6": "Prepare production-ready files for print and digital use",
+            "7": "Support visual storytelling across campaigns"
+          },
+          "requirements": {
+            "0": "2+ years of professional graphic design experience",
+            "1": "Strong portfolio across print and digital communication",
+            "2": "Proficiency in industry-standard design tools",
+            "3": "Ability to interpret briefs and communication goals",
+            "4": "Attention to typography, layout, and visual hierarchy",
+            "5": "Experience working in agency or client-service environments",
+            "6": "Clear communication and collaborative mindset"
           }
         }
       }
     },
     "ourCulture": {
       "0": {
-        "title": "Scopo e Persone",
-        "text": "Crediamo che il miglior lavoro nasca da persone valorizzate che lavorano verso obiettivi condivisi. Per questo diamo valore alla comunicazione chiara, alla trasparenza e a un sano equilibrio tra il raggiungere risultati e il rimanere umani. Sosteniamo inoltre attivamente la diversità nel settore tech e incoraggiamo le candidature di persone provenienti da contesti sottorappresentati."
+        "title": "Purpose & People",
+        "text": "We believe the best work comes from empowered people working toward shared goals. That's why we value clear communication, transparency, and a healthy balance between delivering results and staying human. We also actively support diversity in tech and encourage applicants from underrepresented backgrounds."
       },
       "1": {
-        "title": "La Nostra Cultura",
-        "text": "Come si confronta la vita lavorativa qui rispetto ad altrove?",
+        "title": "Our Culture",
+        "text": "How does work life here compare to elsewhere?",
         "list": {
-          "0": "Gerarchia minima, massima responsabilità",
-          "1": "Standup settimanali del team, comunicazione async-first",
-          "2": "Progetti di cui andare fieri",
-          "3": "Nessun micromanagement — solo supporto e chiarezza"
+          "0": "Minimal hierarchy, maximum accountability",
+          "1": "Weekly team standups, async-first communication",
+          "2": "Projects you can be proud of",
+          "3": "No micromanagement — just support and clarity"
         }
       }
     },
     "getInTouch": {
-      "title": "Mettiti in Contatto con Hostixie",
-      "text": "Anche se non sei ancora pronto a candidarti ma desideri entrare in contatto, ci farebbe piacere sentirti. Hai un'idea, un insieme di competenze o una domanda? Avviamo una conversazione.",
-      "button": "Scrivici"
+      "title": "Get in Touch with Hostixie",
+      "text": "Even if you're not ready to apply but want to connect, we'd love to hear from you. Have an idea, a skillset, or a question? Let's start a conversation.",
+      "button": "Email us"
     }
   },
   "applicationForm": {
@@ -1532,9 +1375,10 @@
     },
     "submit": "Invia la Candidatura",
     "jobs": {
-      "0": "Frontend Developer",
-      "1": "Customer Support Manager",
-      "2": "Hosting Infrastructure Engineer"
+      "0": "Advertising Account Manager",
+      "1": "Marketing & Research Specialist",
+      "2": "PR & Communications Specialist",
+      "3": "Graphic Designer"
     },
     "submitting": "Invio in corso...",
     "cancel": "Annulla",
@@ -1723,16 +1567,28 @@
       "text": "I clienti spesso scelgono di combinare:",
       "cards": {
         "0": {
-          "values": ["Strategia SEO", "Hosting"]
+          "values": [
+            "Strategia SEO",
+            "Hosting"
+          ]
         },
         "1": {
-          "values": ["Sviluppo E-commerce", "Manutenzione"]
+          "values": [
+            "Sviluppo E-commerce",
+            "Manutenzione"
+          ]
         },
         "2": {
-          "values": ["Configurazione WordPress", "Supporto Continuo"]
+          "values": [
+            "Configurazione WordPress",
+            "Supporto Continuo"
+          ]
         },
         "3": {
-          "values": ["CMS su Misura", "Formazione alla Gestione del Sito"]
+          "values": [
+            "CMS su Misura",
+            "Formazione alla Gestione del Sito"
+          ]
         }
       }
     },

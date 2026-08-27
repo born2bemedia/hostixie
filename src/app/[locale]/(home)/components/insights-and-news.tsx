@@ -13,11 +13,11 @@ const getNews = (t: ReturnType<typeof useTranslations>) => [
   {
     title: t('news.0.title', {
       fallback:
-        'New Hosting Features Launched – Faster Speeds & Improved Reliability',
+        'Why Audience Insight Should Come Before the Campaign Idea',
     }),
     text: t('news.0.text', {
       fallback:
-        'We’ve rolled out new hosting features that guarantee faster page load times, enhanced server reliability, and a smoother overall experience for your website visitors.',
+        'We explore how audience research can uncover motivations, preferences, and behaviors that shape stronger campaign decisions.',
     }),
     href: '/news',
     imgUrl: '/images/home/news-1.jpg',
@@ -25,11 +25,11 @@ const getNews = (t: ReturnType<typeof useTranslations>) => [
   {
     title: t('news.1.title', {
       fallback:
-        'Introducing Our New Web Development Framework – Built for Performance',
+        'Building Consistent Brand Communication Across Multiple Channels',
     }),
     text: t('news.1.text', {
       fallback:
-        'Our latest framework is optimized to create faster, more secure websites, ensuring improved performance, scalability, and better user experiences.',
+        'We look at why consistent messaging and visual communication matter across every customer touchpoint.',
     }),
     href: '/news',
     imgUrl: '/images/home/news-2.jpg',
@@ -48,16 +48,16 @@ export const InsightsAndNews = () => {
           color="black"
           title={t('title', { fallback: 'Insights & News' })}
           subtitle={t('subtitle', {
-            fallback: 'Stay Updated with the Latest from Hostixie',
+            fallback: 'Ideas, Research & Perspectives from Hostixie',
           })}
           text={t('text', {
             fallback:
-              'We believe in sharing valuable insights and updates with our clients. Our blog covers a wide range of topics, from web development trends to best practices for hosting solutions.',
+              'Our News section explores advertising trends, audience behavior, media strategy, market research, public relations, brand communication, graphic design, and other developments that shape how businesses connect with people.',
           })}
         />
         <section className="flex gap-8 max-md:flex-col max-md:gap-10">
-          {news.map(news => (
-            <Card key={news.title} {...news} />
+          {news.map(item => (
+            <Card key={item.title} {...item} />
           ))}
         </section>
       </section>

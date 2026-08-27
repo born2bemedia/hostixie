@@ -6,19 +6,19 @@ import { PageHero } from '@/shared/ui/components/page-hero';
 import { GetInTouch, Jobs, OurCulture, WhyJoinUs } from './components';
 
 export const metadata: Metadata = {
-  title: 'Careers in Web Hosting & Development – Join Hostixie | Hostixie',
+  title: 'Careers – Join Hostixie | Hostixie',
   description:
-    'Explore career opportunities at Hostixie. Join a growing team in hosting, development, and client success with flexible benefits.',
+    'Explore career opportunities at Hostixie. Join a collaborative advertising and communications team where you can grow your expertise and own meaningful work.',
   openGraph: {
-    title: 'Careers in Web Hosting & Development – Join Hostixie | Hostixie',
+    title: 'Careers – Join Hostixie | Hostixie',
     description:
-      'Explore career opportunities at Hostixie. Join a growing team in hosting, development, and client success with flexible benefits.',
+      'Explore career opportunities at Hostixie. Join a collaborative advertising and communications team where you can grow your expertise and own meaningful work.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Careers in Web Hosting & Development – Join Hostixie | Hostixie',
+    title: 'Careers – Join Hostixie | Hostixie',
     description:
-      'Explore career opportunities at Hostixie. Join a growing team in hosting, development, and client success with flexible benefits.',
+      'Explore career opportunities at Hostixie. Join a collaborative advertising and communications team where you can grow your expertise and own meaningful work.',
   },
 };
 
@@ -31,18 +31,13 @@ export default async function Careers() {
         title={
           <>
             <span className="text-[40px] leading-[48px] max-md:text-base max-md:leading-[120%]">
-              {t('title.0', { fallback: 'Careers:' })}
+              {t('title.0')}
             </span>{' '}
-            <br /> {t('title.1', { fallback: 'Be the First' })} <br />
-            <span className="text-primary">
-              {t('title.2', { fallback: 'to Apply' })}
-            </span>
+            <br /> {t('title.1')} <br />
+            <span className="text-primary">{t('title.2')}</span>
           </>
         }
-        text={t('text', {
-          fallback:
-            "At Hostixie, we believe your work should empower your life. Whether you're building platforms, writing code, supporting clients, or managing operations — your ideas shape how we grow. Join us and create something meaningful, with room to explore, build, and lead.",
-        })}
+        text={t('text')}
       />
       <WhyJoinUs />
       <Jobs />
