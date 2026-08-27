@@ -1,4 +1,4 @@
-export { AdvertisingServices } from './services';
+export { DownloadPrice } from './download-price';
 export { FullRange } from './full-range';
 export { AdvertisingPackages } from './packages';
-export { DownloadPrice } from './download-price';
+export { AdvertisingServices } from './services';
