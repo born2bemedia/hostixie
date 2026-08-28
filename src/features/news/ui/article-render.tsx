@@ -8,16 +8,21 @@ import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
 import { getTechNews } from '../model/previews';
-import type { Article } from '../model/types';
 import { NewsList } from './news-list';
 
 export const ArticleRender = async ({
   title,
   imgUrl,
   date,
-  description,
+  sidebar,
   children,
-}: Article) => {
+}: {
+  title: string;
+  imgUrl: string;
+  date: string;
+  sidebar: string[];
+  children: React.ReactNode;
+}) => {
   const t = await getTranslations('articles');
   const translationsTechNews = await getTranslations('news');
 
@@ -50,9 +55,17 @@ export const ArticleRender = async ({
               <Text size="xs" color="primary" weight={700}>
                 {date}
               </Text>
-              <Text size="xl" color="black" weight={500} className="opacity-80">
-                {description}
-              </Text>
+              {sidebar.map((paragraph, index) => (
+                <Text
+                  key={index}
+                  size="xl"
+                  color="black"
+                  weight={500}
+                  className="opacity-80"
+                >
+                  {paragraph}
+                </Text>
+              ))}
             </div>
           </section>
           <main className="flex max-w-183.5 flex-col gap-5">{children}</main>
@@ -60,7 +73,9 @@ export const ArticleRender = async ({
       </main>
       <footer className="mt-[-1px] bg-[#fff4e1] py-[60px] max-md:pt-0 max-md:pb-10">
         <NewsList
-          heading={t('heading', { fallback: 'More Tech & Team Updates' })}
+          heading={t('heading', {
+            fallback: 'More Capabilities & Team Updates',
+          })}
           items={techNews}
         />
       </footer>

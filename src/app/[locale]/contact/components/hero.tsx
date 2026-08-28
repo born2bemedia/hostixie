@@ -10,8 +10,10 @@ export const Hero = () => {
   const t = useTranslations('contact.hero');
 
   return (
-    <section className="relative h-[440px] max-[1280px]:h-[600px] max-md:h-[400px]">
-      <div className="z-10 container flex flex-col gap-[80px]">
+    <section
+      className="relative min-h-[612px] pb-[160px] pt-10 max-[1280px]:min-h-[640px] max-md:min-h-[520px] max-md:pb-[140px]"
+    >
+      <div className="z-10 container flex flex-col gap-[80px] max-md:gap-10">
         <Title
           as="h1"
           className="text-[112px] leading-[80%] tracking-[1.12px] max-md:text-[60px] max-md:leading-[54px] max-md:tracking-[1.12px]"

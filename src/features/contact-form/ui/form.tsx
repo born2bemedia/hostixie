@@ -5,19 +5,50 @@ import ReCaptcha from 'react-google-recaptcha';
 import { useTranslations } from 'next-intl';
 import { useForm } from '@tanstack/react-form';
 
+import { cn } from '@/shared/lib/utils/cn';
 import { FormColumn } from '@/shared/ui/components/form-column';
 import { Button } from '@/shared/ui/kit/button';
 import { useDialogStore } from '@/shared/ui/kit/dialog';
 import { PhoneField } from '@/shared/ui/kit/phone-field';
-import { Select } from '@/shared/ui/kit/select';
+import { Text } from '@/shared/ui/kit/text';
 import { TextField } from '@/shared/ui/kit/text-field';
 
 import { sendContactForm } from '../api/send-contact-form';
 import { contactFormSchema } from '../model/schema';
 import { ThankYou } from './thank-you';
 
+const BUDGET_VALUES = [
+  '€500 - €2,000',
+  '€2,001 - €5,000',
+  '€5,001 - €10,000',
+  '€10,000+',
+  'To Be Discussed',
+] as const;
+
+const TIMELINE_VALUES = [
+  '1-3 months',
+  '3-6 months',
+  '6+ months',
+  'ongoing',
+] as const;
+
+const SERVICE_VALUES = [
+  'Advertising Services',
+  'Marketing & Business Consulting',
+  'Media Planning & Placement',
+  'Market Research',
+  'PR & Communications',
+  'Brand Communication',
+  'Graphic Design & Visual Communications',
+  'Custom Solutions',
+] as const;
+
+const RECAPTCHA_SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY ?? '';
+
 export const ContactForm = () => {
-  const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
+  const [isCaptchaVerified, setIsCaptchaVerified] = useState(
+    !RECAPTCHA_SITE_KEY,
+  );
 
   const { setIsOpen, registerContent } = useDialogStore();
 
@@ -30,7 +61,7 @@ export const ContactForm = () => {
       email: '',
       phone: '',
       companyName: '',
-      projectType: '',
+      services: [] as string[],
       budget: '',
       timeline: '',
     },
@@ -69,10 +100,8 @@ export const ContactForm = () => {
             {field => (
               <TextField
                 name={field.name}
-                label={t('firstName.label', { fallback: 'First Name:' })}
-                placeholder={t('firstName.placeholder', {
-                  fallback: 'Enter your first name',
-                })}
+                label={t('firstName.label')}
+                placeholder={t('firstName.placeholder')}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -87,10 +116,8 @@ export const ContactForm = () => {
             {field => (
               <TextField
                 name={field.name}
-                label={t('lastName.label', { fallback: 'Last Name:' })}
-                placeholder={t('lastName.placeholder', {
-                  fallback: 'Enter your last name',
-                })}
+                label={t('lastName.label')}
+                placeholder={t('lastName.placeholder')}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -105,11 +132,9 @@ export const ContactForm = () => {
             {field => (
               <TextField
                 name={field.name}
-                label={t('email.label', { fallback: 'Email:' })}
+                label={t('email.label')}
                 type="email"
-                placeholder={t('email.placeholder', {
-                  fallback: 'Enter your email',
-                })}
+                placeholder={t('email.placeholder')}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -124,10 +149,8 @@ export const ContactForm = () => {
             {field => (
               <PhoneField
                 name={field.name}
-                label={t('phone.label', { fallback: 'Phone:' })}
-                placeholder={t('phone.placeholder', {
-                  fallback: 'Enter your phone',
-                })}
+                label={t('phone.label')}
+                placeholder={t('phone.placeholder')}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={value => field.handleChange(value)}
@@ -138,16 +161,56 @@ export const ContactForm = () => {
               />
             )}
           </Field>
+          <Field name="budget">
+            {field => (
+              <fieldset className="flex flex-col gap-1">
+                <Text size="xs" color="muted" weight={500}>
+                  {t('budget.label')}
+                </Text>
+                <div className="flex flex-col gap-1">
+                  {BUDGET_VALUES.map((value, index) => {
+                    const selected = field.state.value === value;
+                    return (
+                      <button
+                        key={value}
+                        type="button"
+                        role="radio"
+                        aria-checked={selected}
+                        onClick={() => field.handleChange(value)}
+                        className="flex items-center gap-2 text-left"
+                      >
+                        <span
+                          className={cn(
+                            'size-6 shrink-0 rounded-md border border-[#A4A189]',
+                            selected && 'bg-primary',
+                          )}
+                          aria-hidden
+                        />
+                        <Text size="sm" color="muted" weight={500}>
+                          {t(`budgetValues.${index}`, { fallback: value })}
+                        </Text>
+                      </button>
+                    );
+                  })}
+                </div>
+                {field.state.meta.errors.length > 0 && (
+                  <Text size="xs" color="danger">
+                    {field.state.meta.errors
+                      .map(error => error?.message)
+                      .join(', ')}
+                  </Text>
+                )}
+              </fieldset>
+            )}
+          </Field>
         </FormColumn>
         <FormColumn>
           <Field name="companyName">
             {field => (
               <TextField
                 name={field.name}
-                label={t('companyName.label', { fallback: 'Company Name:' })}
-                placeholder={t('companyName.placeholder', {
-                  fallback: 'Enter your company name',
-                })}
+                label={t('companyName.label')}
+                placeholder={t('companyName.placeholder')}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -158,107 +221,111 @@ export const ContactForm = () => {
               />
             )}
           </Field>
-          <Field name="projectType">
+          <Field name="services">
             {field => (
-              <Select
-                label={t('projectType.label', { fallback: 'Project Type:' })}
-                placeholder={t('projectType.placeholder', {
-                  fallback: 'Choose your project type',
-                })}
-                values={[
-                  {
-                    label: t('projectTypeValues.0', {
-                      fallback: 'Web Hosting',
-                    }),
-                    value: 'Web Hosting',
-                  },
-                  {
-                    label: t('projectTypeValues.1', {
-                      fallback: 'Web Development',
-                    }),
-                    value: 'Web Development',
-                  },
-                  {
-                    label: t('projectTypeValues.2', {
-                      fallback: 'Custom Solutions',
-                    }),
-                    value: 'Custom Solutions',
-                  },
-                ]}
-                onSelect={value => field.handleChange(value)}
-                hint={field.state.meta.errors
-                  .map(error => error?.message)
-                  .join(', ')}
-              />
-            )}
-          </Field>
-          <Field name="budget">
-            {field => (
-              <Select
-                label={t('budget.label', { fallback: 'Budget:' })}
-                placeholder={t('budget.placeholder', {
-                  fallback: 'Choose your budget',
-                })}
-                values={[
-                  {
-                    label: t('budgetValues.0', { fallback: '€500 - €2,000' }),
-                    value: '€500 - €2,000',
-                  },
-                  {
-                    label: t('budgetValues.1', { fallback: '€2,001 - €5,000' }),
-                    value: '€2,001 - €5,000',
-                  },
-                  {
-                    label: t('budgetValues.2', {
-                      fallback: '€5,001 - €10,000',
-                    }),
-                    value: '€5,001 - €10,000',
-                  },
-                ]}
-                onSelect={value => field.handleChange(value)}
-                hint={field.state.meta.errors
-                  .map(error => error?.message)
-                  .join(', ')}
-              />
+              <fieldset className="flex flex-col gap-1">
+                <Text size="xs" color="muted" weight={500}>
+                  {t('services.label')}
+                </Text>
+                <div
+                  className="flex min-h-[238px] flex-col justify-between gap-1 max-md:min-h-0"
+                >
+                  {SERVICE_VALUES.map((value, index) => {
+                    const selected = field.state.value.includes(value);
+                    return (
+                      <button
+                        key={value}
+                        type="button"
+                        role="checkbox"
+                        aria-checked={selected}
+                        onClick={() => {
+                          const current = field.state.value;
+                          field.handleChange(
+                            selected
+                              ? current.filter(item => item !== value)
+                              : [...current, value],
+                          );
+                        }}
+                        className="flex items-center gap-2 text-left"
+                      >
+                        <span
+                          className={cn(
+                            'size-6 shrink-0 rounded-md border border-[#A4A189]',
+                            selected && 'bg-primary',
+                          )}
+                          aria-hidden
+                        />
+                        <Text size="sm" color="muted" weight={500}>
+                          {t(`servicesValues.${index}`, { fallback: value })}
+                        </Text>
+                      </button>
+                    );
+                  })}
+                </div>
+                {field.state.meta.errors.length > 0 && (
+                  <Text size="xs" color="danger">
+                    {field.state.meta.errors
+                      .map(error => error?.message)
+                      .join(', ')}
+                  </Text>
+                )}
+              </fieldset>
             )}
           </Field>
           <Field name="timeline">
             {field => (
-              <Select
-                label={t('timeline.label', { fallback: 'Timeline:' })}
-                placeholder={t('timeline.placeholder', {
-                  fallback: 'Select your timeline',
-                })}
-                values={[
-                  {
-                    label: t('timelineValues.0', {
-                      fallback: 'Short Term (1-3 months)',
-                    }),
-                    value: '1-3 months',
-                  },
-                  {
-                    label: t('timelineValues.1', {
-                      fallback: 'Medium Term (3-6 months)',
-                    }),
-                    value: '3-6 months',
-                  },
-                  {
-                    label: t('timelineValues.2', {
-                      fallback: 'Long Term (6+ months)',
-                    }),
-                    value: '6+ months',
-                  },
-                ]}
-                onSelect={value => field.handleChange(value)}
-                hint={field.state.meta.errors
-                  .map(error => error?.message)
-                  .join(', ')}
-              />
+              <fieldset className="flex flex-col gap-1">
+                <Text size="xs" color="muted" weight={500}>
+                  {t('timeline.label')}
+                </Text>
+                <div className="flex flex-col gap-1">
+                  {TIMELINE_VALUES.map((value, index) => {
+                    const selected = field.state.value === value;
+                    return (
+                      <button
+                        key={value}
+                        type="button"
+                        role="radio"
+                        aria-checked={selected}
+                        onClick={() => field.handleChange(value)}
+                        className="flex items-center gap-2 text-left"
+                      >
+                        <span
+                          className={cn(
+                            'size-6 shrink-0 rounded-md border border-[#A4A189]',
+                            selected && 'bg-primary',
+                          )}
+                          aria-hidden
+                        />
+                        <Text size="sm" color="muted" weight={500}>
+                          {t(`timelineValues.${index}`, {
+                            fallback:
+                              index === 0
+                                ? 'Short Term (1-3 months)'
+                                : index === 1
+                                  ? 'Medium Term (3-6 months)'
+                                  : index === 2
+                                    ? 'Long Term (6+ months)'
+                                    : 'Ongoing Support',
+                          })}
+                        </Text>
+                      </button>
+                    );
+                  })}
+                </div>
+                {field.state.meta.errors.length > 0 && (
+                  <Text size="xs" color="danger">
+                    {field.state.meta.errors
+                      .map(error => error?.message)
+                      .join(', ')}
+                  </Text>
+                )}
+              </fieldset>
             )}
           </Field>
         </FormColumn>
       </div>
-      <div className="flex items-center justify-between max-md:flex-col-reverse max-md:items-start max-md:gap-2">
+      <div className="flex flex-col gap-4">
         <Subscribe selector={state => [state.canSubmit, state.isSubmitting]}>
           {([canSubmit, isSubmitting]) => (
             <Button
@@ -266,17 +333,18 @@ export const ContactForm = () => {
               size="lg"
               type="submit"
               disabled={!canSubmit || !isCaptchaVerified}
+              className="font-bold"
             >
-              {isSubmitting
-                ? t('submitting', { fallback: 'Submitting...' })
-                : t('submit', { fallback: 'Submit Application' })}
+              {isSubmitting ? t('submitting') : t('submit')}
             </Button>
           )}
         </Subscribe>
-        <ReCaptcha
-          sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY ?? ''}
-          onChange={handleCaptchaChange}
-        />
+        {RECAPTCHA_SITE_KEY && (
+          <ReCaptcha
+            sitekey={RECAPTCHA_SITE_KEY}
+            onChange={handleCaptchaChange}
+          />
+        )}
       </div>
     </form>
   );

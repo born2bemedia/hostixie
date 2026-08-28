@@ -1,57 +1,57 @@
 export const metadata: Record<string, { title: string; description: string }> =
   {
-    'clean-portfolio-site-for-a-visual-artist': {
+    'b2b-brand-positioning-project-completed-for-a-professional-services-firm': {
       title:
-        'Portfolio Website Case Study – Clean, Fast, Mobile-Friendly Design | Hostixie',
+        'B2B Brand Positioning Case Study – Professional Services Firm | Hostixie',
       description:
-        'Discover how Hostixie built a sleek, mobile-optimized portfolio website for a visual artist. Improved performance, professional design, and 3 new clients in the first week.',
+        'How Hostixie refined positioning, value proposition, and corporate communication for a professional services firm expanding into larger corporate clients.',
     },
-    'hosting-just-got-faster-again': {
+    'market-research-programme-shapes-expansion-strategy-for-a-manufacturing-client': {
       title:
-        'Hosting Upgrade Case Study – Faster Speeds & Improved Reliability | Hostixie',
+        'Market Research Case Study – Manufacturing Expansion Strategy | Hostixie',
       description:
-        'Hostixie upgraded its hosting with NVMe SSDs, smarter caching, and HTTP/3. Load times improved by 36% across hosted websites.',
+        'Market and competitor research for a manufacturing client evaluating expansion into new B2B segments. Three priority market segments identified.',
     },
-    'e-commerce-makeover-2x-sales-in-90-days': {
+    'integrated-b2b-campaign-supports-a-new-service-launch': {
       title:
-        'E-commerce Website Redesign Case Study – 2x Sales in 90 Days | Hostixie',
+        'Integrated B2B Campaign Case Study – New Service Launch | Hostixie',
       description:
-        'See how Hostixie redesigned a handmade goods store with faster checkout, mobile optimization, and improved UX — boosting sales by 2x in 3 months.',
+        'Hostixie developed an integrated B2B campaign for a business services company introducing a new solution to corporate buyers.',
     },
-    'we-launched-managed-wordpress-hosting': {
+    'new-market-intelligence-research-framework-introduced': {
       title:
-        'Managed WordPress Hosting Launch – Secure, Fast & Hassle-Free Plans | Hostixie',
+        'New Market Intelligence & Research Framework | Hostixie',
       description:
-        'Discover Hostixie’s new Managed WordPress Hosting: daily backups, malware scans, speed tuning, and seamless performance for creators, website owners, and online projects.',
+        'Hostixie introduced a structured research framework for market entry, competitor intelligence, audience analysis, and brand perception projects.',
     },
-    'invoices-upgraded': {
+    'client-reporting-campaign-visibility-upgraded': {
       title:
-        'Smart Invoicing System Launch – Simple, Secure Account Billing | Hostixie',
+        'Client Reporting & Campaign Visibility Upgrade | Hostixie',
       description:
-        'Hostixie introduces upgraded invoicing: secure dashboard access, easy plan renewals, and downloadable PDFs. Transparent, automated billing with no delays.',
+        'Improved project updates, campaign reporting, deliverable status, and research findings visibility for Hostixie clients.',
     },
-    'partnerships-people': {
+    'new-partnership-with-a-business-marketing-programme': {
       title:
-        'Developer Bootcamp Partnership – Mentorship & Real Projects | Hostixie',
+        'Business Marketing Programme Partnership | Hostixie',
       description:
-        'Hostixie partners with a local dev bootcamp to mentor junior developers on live client projects. Real-world experience meets production-quality solutions.',
+        'Hostixie partners with a business and marketing education programme to give emerging professionals practical agency experience.',
     },
-    'regional-dev-workshop-hosted': {
+    'regional-b2b-marketing-workshop-hosted': {
       title:
-        'Regional Web Development Workshop – Hands-On Training for Developers | Hostixie',
+        'Regional B2B Marketing Workshop | Hostixie',
       description:
-        'Hostixie hosted a regional dev workshop, giving emerging developers real-world experience with coding, teamwork, and client project challenges.',
+        'Hostixie hosted a practical workshop on B2B positioning, audience segmentation, and communication planning.',
     },
-    'open-source-sprint-participation': {
+    'industry-research-roundtable-participation': {
       title:
-        'Open-Source CMS Sprint – Hostixie Contributions to Performance & Reliability | Hostixie',
+        'Industry Research Roundtable Participation | Hostixie',
       description:
-        'Hostixie developers contributed key improvements to a popular open-source CMS, enhancing speed, reliability, and scalability for the global community.',
+        'Hostixie participated in an industry roundtable on B2B buying behavior, communication preferences, and research in marketing.',
     },
-    'senior-ux-expertise-added': {
+    'senior-communications-strategy-expertise-added': {
       title:
-        'Senior UX Designer Joins Hostixie – Enhancing Usability & User Experience | Hostixie',
+        'Senior Communications Strategy Expertise Added | Hostixie',
       description:
-        'Hostixie strengthens its team by adding a senior UX specialist to lead user experience and interface design across all projects.',
+        'Hostixie strengthened its communications capability with senior expertise in corporate messaging, PR, and brand positioning.',
     },
   };

@@ -11,16 +11,16 @@ export const ThankYou = ({ onClose }: { onClose: () => void }) => {
   const t = useTranslations('contactForm.thankYou');
 
   return (
-    <section className="relative flex flex-col gap-10 px-20 pt-[100px] pb-10 max-md:px-4">
+    <section className="relative flex flex-col gap-10 px-20 py-10 max-md:px-4 max-md:pt-16">
       <Image
         className="absolute top-0 left-0 z-0 opacity-50"
         src="/images/thanks.svg"
-        alt="thanks"
+        alt=""
         width={743}
         height={743}
         unoptimized
       />
-      <div className="flex flex-col gap-2">
+      <div className="relative z-10 flex flex-col gap-2">
         <Title
           as="h3"
           size="5xl"
@@ -28,22 +28,19 @@ export const ThankYou = ({ onClose }: { onClose: () => void }) => {
           color="black"
           weight={500}
         >
-          {t('title', { fallback: 'We’re Excited to Connect!' })}
+          {t('title')}
         </Title>
-        <Text size="xl" color="black" weight={400}>
-          {t('text', {
-            fallback:
-              'We appreciate you taking the time to share your details with us. We’re excited to work together and start the journey toward achieving your digital goals. One of our team members will be in touch with you shortly.',
-          })}
+        <Text size="xl" color="black" weight={500}>
+          {t('text')}
         </Text>
       </div>
       <Button
         variant="flat"
         size="lg"
         onClick={onClose}
-        className="ml-auto max-md:w-full max-md:justify-center"
+        className="relative z-10 ml-auto font-bold max-md:w-full max-md:justify-center"
       >
-        {t('close', { fallback: 'Close' })}
+        {t('close')}
       </Button>
     </section>
   );

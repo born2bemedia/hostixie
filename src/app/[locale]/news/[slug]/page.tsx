@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getTranslations } from 'next-intl/server';
 
 import { getArticle } from '@/features/news/model/articles';
+import { ArticleBody } from '@/features/news/ui/article-body';
 import { ArticleRender } from '@/features/news/ui/article-render';
 
 import { metadata } from './meta';
@@ -15,19 +15,25 @@ export async function generateMetadata({
   }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const { title, description } = metadata[slug];
+  const articleMeta = metadata[slug];
+
+  if (!articleMeta) {
+    return {};
+  }
+
+  const { title, description } = articleMeta;
 
   return {
-    title: title,
-    description: description,
+    title,
+    description,
     openGraph: {
-      title: title,
-      description: description,
+      title,
+      description,
     },
     twitter: {
       card: 'summary_large_image',
-      title: title,
-      description: description,
+      title,
+      description,
     },
   };
 }
@@ -38,9 +44,7 @@ export default async function NewsSlug({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const t = await getTranslations('articles');
-
-  const article = getArticle(slug, t);
+  const article = getArticle(slug);
 
   if (!article) {
     notFound();
@@ -51,9 +55,9 @@ export default async function NewsSlug({
       title={article.title}
       imgUrl={article.imgUrl}
       date={article.date}
-      description={article.description}
+      sidebar={article.sidebar}
     >
-      {article.children}
+      <ArticleBody sections={article.sections} />
     </ArticleRender>
   );
 }

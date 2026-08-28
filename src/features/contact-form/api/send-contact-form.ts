@@ -15,11 +15,13 @@ export async function sendContactForm({
   firstName,
   lastName,
   phone,
-  projectType,
+  services,
   timeline,
 }: ContactFormSchema) {
   try {
     sgMail.setApiKey(SENDGRID_API_KEY);
+
+    const servicesList = services.join(', ');
 
     const msg = {
       to: 'info@hostixie.com',
@@ -27,14 +29,13 @@ export async function sendContactForm({
       subject: `New Contact Request`,
       html: `
       <h2>New Contact Request</h2>
-      <p><strong>First Name:</strong> ${firstName}}</p>
-      <p><strong>Last Name:</strong> ${lastName}}</p>
+      <p><strong>First Name:</strong> ${firstName}</p>
+      <p><strong>Last Name:</strong> ${lastName}</p>
       <p><strong>Email:</strong> ${email}</p>
-      <p><strong>Business:</strong> ${companyName}</p>
       <p><strong>Phone:</strong> ${phone}</p>
+      <p><strong>Company / Brand Name:</strong> ${companyName}</p>
+      <p><strong>Services Required:</strong> ${servicesList}</p>
       <p><strong>Budget:</strong> ${budget}</p>
-      <p><strong>Company Name:</strong> ${companyName}</p>
-      <p><strong>Project Type:</strong> ${projectType}</p>
       <p><strong>Timeline:</strong> ${timeline}</p>
     `,
     };
@@ -49,13 +50,13 @@ export async function sendContactForm({
     await sgMail.send(msg);
     await sgMail.send(userMsg);
 
-    return { message: 'Fund access request sent successfully.', success: true };
+    return { message: 'Contact request sent successfully.', success: true };
   } catch (error) {
     const errorMessage =
       error instanceof Error ? error.message : 'Unknown error occurred';
-    console.error('Error sending fund access request:', errorMessage);
+    console.error('Error sending contact form:', errorMessage);
     return {
-      message: 'Failed to send fund access request.',
+      message: 'Failed to send contact request.',
       error: errorMessage,
       success: false,
     };

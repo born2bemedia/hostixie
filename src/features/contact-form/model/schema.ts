@@ -10,7 +10,10 @@ export const contactFormSchema = v.object({
   ),
   phone: v.pipe(v.string(), v.minLength(5, 'Phone is required')),
   companyName: v.pipe(v.string(), v.minLength(1, 'Company name is required')),
-  projectType: v.pipe(v.string(), v.minLength(1, 'Project type is required')),
+  services: v.pipe(
+    v.array(v.string()),
+    v.minLength(1, 'At least one service is required'),
+  ),
   budget: v.pipe(v.string(), v.minLength(1, 'Budget is required')),
   timeline: v.pipe(v.string(), v.minLength(1, 'Timeline is required')),
 });
