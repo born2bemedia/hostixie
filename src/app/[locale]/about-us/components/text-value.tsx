@@ -40,7 +40,7 @@ export const TextValue = ({
             lineUpClassName,
           )}
         />
-        <section className="flex items-end gap-5">
+        <section className="flex items-start gap-5">
           <LineUp
             className={cn('hidden shrink-0 max-lg:block', lineUpClassName)}
           />
@@ -59,9 +59,13 @@ export const TextValue = ({
               </Text>
             </div>
             {bullets?.length ? (
-              <ul className="list-disc space-y-1 pl-[30px]">
+              <ul className="flex flex-col gap-1">
                 {bullets.map(bullet => (
-                  <li key={bullet}>
+                  <li key={bullet} className="flex items-start gap-2.5">
+                    <span
+                      className="mt-2.5 size-1 shrink-0 rounded-full bg-white/50"
+                      aria-hidden
+                    />
                     <Text
                       size="xl"
                       color="white"

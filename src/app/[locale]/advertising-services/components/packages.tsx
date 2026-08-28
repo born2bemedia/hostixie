@@ -51,7 +51,7 @@ export const AdvertisingPackages = () => {
         </Text>
       </div>
       <div className="flex flex-col gap-5">
-        <div className="flex items-start gap-5 max-lg:flex-col">
+        <div className="grid grid-cols-3 gap-5 max-lg:grid-cols-1">
           {PACKAGE_KEYS.slice(0, 3).map(key => (
             <PackageCard
               key={key}
@@ -61,7 +61,7 @@ export const AdvertisingPackages = () => {
             />
           ))}
         </div>
-        <div className="flex items-start gap-5 max-lg:flex-col">
+        <div className="grid grid-cols-2 gap-5 max-lg:grid-cols-1">
           {PACKAGE_KEYS.slice(3).map(key => (
             <PackageCard
               key={key}
@@ -107,7 +107,7 @@ const PackageCard = ({
   };
 
   return (
-    <article className="flex flex-1 flex-col gap-5 rounded-xl border border-[#A4A189] p-6">
+    <article className="flex min-h-full flex-col gap-5 rounded-xl border border-[#A4A189] p-6">
       <div className="relative flex h-[216px] flex-col items-center justify-center rounded-xl border border-[#A4A189]/20 p-6 text-center">
         <GreyDot className="absolute top-6 right-6" />
         <GreyDot className="absolute top-6 left-6" />
@@ -136,16 +136,17 @@ const PackageCard = ({
         <Text weight={700}>{t('choosePackage')}</Text>
       </button>
 
-      <Text size="base" color="grey">
-        {description}
-      </Text>
+      <div className="flex flex-1 flex-col justify-between gap-5">
+        <Text size="base" color="grey">
+          {description}
+        </Text>
 
-      <div
-        className={cn(
-          'flex flex-col rounded',
-          isOpen && 'bg-[rgba(255,244,225,0.10)]',
-        )}
-      >
+        <div
+          className={cn(
+            'flex flex-col rounded',
+            isOpen && 'bg-[rgba(255,244,225,0.10)]',
+          )}
+        >
         <Button
           variant="glass"
           fullWidth
@@ -182,6 +183,7 @@ const PackageCard = ({
               </span>
             ))}
           </div>
+        </div>
         </div>
       </div>
     </article>

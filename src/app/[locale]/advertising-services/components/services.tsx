@@ -20,6 +20,10 @@ const getItems = (
   return items;
 };
 
+const SERVICE_LEFT_COLUMN_COUNTS: Partial<Record<string, number>> = {
+  '3': 7,
+};
+
 export const AdvertisingServices = () => {
   const t = useTranslations('webHosting');
 
@@ -27,7 +31,8 @@ export const AdvertisingServices = () => {
     <section className="container flex flex-col gap-10 py-[60px] max-md:py-10">
       {SERVICE_KEYS.map(key => {
         const items = getItems(t, key);
-        const mid = Math.ceil(items.length / 2);
+        const mid =
+          SERVICE_LEFT_COLUMN_COUNTS[key] ?? Math.ceil(items.length / 2);
 
         return (
           <article

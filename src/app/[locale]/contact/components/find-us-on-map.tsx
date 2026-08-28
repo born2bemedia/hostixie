@@ -42,7 +42,7 @@ export const FindUsOnMap = () => {
               value={
                 <Link
                   href={`mailto:${EMAIL}`}
-                  className="transition hover:opacity-70"
+                  className="text-black underline decoration-black underline-offset-[6px] transition hover:opacity-70"
                 >
                   {EMAIL}
                 </Link>

@@ -1238,6 +1238,65 @@
   "requestForm": {
     "title": "Let’s Turn Your Goals Into a Clear Strategy",
     "text": "Please fill out the form below, and our team will contact you to discuss your business, communication goals, project requirements, and how Hostixie can support your next initiative.",
+    "firstStep": {
+      "firstName": {
+        "label": "Nome:",
+        "placeholder": "Inserisci il tuo nome"
+      },
+      "lastName": {
+        "label": "Cognome:",
+        "placeholder": "Inserisci il tuo cognome"
+      },
+      "email": {
+        "label": "Email:",
+        "placeholder": "Inserisci la tua email"
+      },
+      "phone": {
+        "label": "Telefono:",
+        "placeholder": "Inserisci il tuo numero di telefono"
+      },
+      "companyName": {
+        "label": "Nome del progetto:",
+        "placeholder": "Inserisci il nome del progetto"
+      },
+      "projectType": {
+        "label": "Servizio richiesto:",
+        "placeholder": "Scegli il servizio"
+      },
+      "budget": {
+        "label": "Budget:",
+        "placeholder": "Scegli il budget"
+      },
+      "timeline": {
+        "label": "Tempistiche:",
+        "placeholder": "Scegli le tempistiche"
+      },
+      "timelineValues": {
+        "0": "Breve termine (1-3 mesi)",
+        "1": "Medio termine (3-6 mesi)",
+        "2": "Lungo termine (6+ mesi)",
+        "3": "Supporto continuo"
+      },
+      "budgetValues": {
+        "0": "€500 - €2.000",
+        "1": "€2.001 - €5.000",
+        "2": "€5.001 - €10.000",
+        "3": "Da discutere"
+      },
+      "projectTypeValues": {
+        "0": "Servizi pubblicitari",
+        "1": "Marketing & Communications",
+        "2": "Pianificazione e placement media",
+        "3": "Ricerche di mercato",
+        "4": "PR & Comunicazione",
+        "5": "Business & Marketing Consulting",
+        "6": "Graphic design e comunicazione visiva",
+        "7": "Soluzioni personalizzate"
+      },
+      "cancel": "Annulla",
+      "nextStep": "Next step",
+      "submitting": "Invio in corso..."
+    },
     "secondStep": {
       "projectGoals": {
         "title": "Project Goals:",
@@ -1741,7 +1800,7 @@
             "2": "Created audience-specific key messages"
           },
           "review": "Our services had evolved, but the way we described the business had not. Hostixie helped us simplify the message and create a communication framework that our entire team could actually use.",
-          "author": "— Sophie Bennett, Managing Partner"
+          "author": "— Sophie Whitmore, Managing Partner"
         },
         "3": {
           "type": "Business Services",
@@ -1858,7 +1917,7 @@
           "text": "We gather relevant information and define the recommended direction."
         },
         "2": {
-          "title": "Development & Execution",
+          "title": "Execution",
           "text": "We create the required campaign, communication, research, or visual deliverables."
         },
         "3": {
@@ -1885,6 +1944,22 @@
         "3": {
           "text": "The PR materials sounded like our company rather than generic corporate copy. That was important to us.",
           "from": "— Business Services CEO"
+        },
+        "4": {
+          "text": "Our presentations had accumulated years of different styles and formats. The new visual system made them much easier for our team to use.",
+          "from": "— Manufacturing Commercial Director"
+        },
+        "5": {
+          "text": "We initially contacted them for research, but the findings ended up changing how we approached our communication strategy as well.",
+          "from": "— Financial Services Strategy Director"
+        },
+        "6": {
+          "text": "Communication throughout the project was straightforward. We always knew what stage we were at, what needed approval, and what would happen next.",
+          "from": "— Hospitality Group Co-Founder"
+        },
+        "7": {
+          "text": "They understood that entering a new market was not simply a translation exercise. The positioning and messaging needed to work differently, and the team approached it that way.",
+          "from": "— Technology Company Co-Founder"
         }
       }
     },

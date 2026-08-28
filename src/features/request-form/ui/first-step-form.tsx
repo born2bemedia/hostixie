@@ -14,6 +14,31 @@ import type { FirstStepFormSchema } from '../model/schema';
 import { firstStepFormSchema } from '../model/schema';
 import { FormHeader } from './form-header';
 
+const PROJECT_TYPE_VALUES = [
+  'Advertising Services',
+  'Marketing & Communications',
+  'Media Planning & Placement',
+  'Market Research',
+  'PR & Communications',
+  'Business & Marketing Consulting',
+  'Graphic Design & Visual Communications',
+  'Custom Solutions',
+] as const;
+
+const BUDGET_VALUES = [
+  '€500 - €2,000',
+  '€2,001 - €5,000',
+  '€5,001 - €10,000',
+  'To Be Discussed',
+] as const;
+
+const TIMELINE_VALUES = [
+  '1-3 months',
+  '3-6 months',
+  '6+ months',
+  'ongoing',
+] as const;
+
 export const FirstStepForm = ({
   onSubmit,
 }: {
@@ -21,7 +46,7 @@ export const FirstStepForm = ({
 }) => {
   const { setIsOpen } = useDialogStore();
 
-  const t = useTranslations('contactForm');
+  const t = useTranslations('requestForm.firstStep');
 
   const { Field, Subscribe, handleSubmit } = useForm({
     defaultValues: {
@@ -58,10 +83,8 @@ export const FirstStepForm = ({
             {field => (
               <TextField
                 name={field.name}
-                label={t('firstName.label', { fallback: 'First Name:' })}
-                placeholder={t('firstName.placeholder', {
-                  fallback: 'Enter your first name',
-                })}
+                label={t('firstName.label')}
+                placeholder={t('firstName.placeholder')}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -76,10 +99,8 @@ export const FirstStepForm = ({
             {field => (
               <TextField
                 name={field.name}
-                label={t('lastName.label', { fallback: 'Last Name:' })}
-                placeholder={t('lastName.placeholder', {
-                  fallback: 'Enter your last name',
-                })}
+                label={t('lastName.label')}
+                placeholder={t('lastName.placeholder')}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -94,11 +115,9 @@ export const FirstStepForm = ({
             {field => (
               <TextField
                 name={field.name}
-                label={t('email.label', { fallback: 'Email:' })}
+                label={t('email.label')}
                 type="email"
-                placeholder={t('email.placeholder', {
-                  fallback: 'Enter your email',
-                })}
+                placeholder={t('email.placeholder')}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -113,10 +132,8 @@ export const FirstStepForm = ({
             {field => (
               <PhoneField
                 name={field.name}
-                label={t('phone.label', { fallback: 'Phone:' })}
-                placeholder={t('phone.placeholder', {
-                  fallback: 'Enter your phone number',
-                })}
+                label={t('phone.label')}
+                placeholder={t('phone.placeholder')}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={value => field.handleChange(value)}
@@ -133,10 +150,8 @@ export const FirstStepForm = ({
             {field => (
               <TextField
                 name={field.name}
-                label={t('companyName.label', { fallback: 'Company Name:' })}
-                placeholder={t('companyName.placeholder', {
-                  fallback: 'Enter your company name',
-                })}
+                label={t('companyName.label')}
+                placeholder={t('companyName.placeholder')}
                 value={String(field.state.value)}
                 onBlur={field.handleBlur}
                 onChange={e => field.handleChange(e.target.value)}
@@ -150,50 +165,12 @@ export const FirstStepForm = ({
           <Field name="projectType">
             {field => (
               <Select
-                label={t('projectType.label', {
-                  fallback: 'Service Required:',
-                })}
-                placeholder={t('projectType.placeholder', {
-                  fallback: 'Choose your service',
-                })}
-                values={[
-                  {
-                    label: t('projectTypeValues.0', {
-                      fallback: 'Advertising',
-                    }),
-                    value: 'Advertising',
-                  },
-                  {
-                    label: t('projectTypeValues.1', {
-                      fallback: 'Marketing & Communications',
-                    }),
-                    value: 'Marketing & Communications',
-                  },
-                  {
-                    label: t('projectTypeValues.2', {
-                      fallback: 'Media Planning & Placement',
-                    }),
-                    value: 'Media Planning & Placement',
-                  },
-                  {
-                    label: t('projectTypeValues.3', {
-                      fallback: 'Market & Audience Research',
-                    }),
-                    value: 'Market & Audience Research',
-                  },
-                  {
-                    label: t('projectTypeValues.4', {
-                      fallback: 'PR & Communications',
-                    }),
-                    value: 'PR & Communications',
-                  },
-                  {
-                    label: t('projectTypeValues.5', {
-                      fallback: 'Graphic Design',
-                    }),
-                    value: 'Graphic Design',
-                  },
-                ]}
+                label={t('projectType.label')}
+                placeholder={t('projectType.placeholder')}
+                values={PROJECT_TYPE_VALUES.map((value, index) => ({
+                  label: t(`projectTypeValues.${index}`, { fallback: value }),
+                  value,
+                }))}
                 onSelect={value => field.handleChange(value)}
                 hint={field.state.meta.errors
                   .map(error => error?.message)
@@ -204,26 +181,12 @@ export const FirstStepForm = ({
           <Field name="budget">
             {field => (
               <Select
-                label={t('budget.label', { fallback: 'Budget:' })}
-                placeholder={t('budget.placeholder', {
-                  fallback: 'Choose your budget',
-                })}
-                values={[
-                  {
-                    label: t('budgetValues.0', { fallback: '€500 - €2,000' }),
-                    value: '€500 - €2,000',
-                  },
-                  {
-                    label: t('budgetValues.1', { fallback: '€2,001 - €5,000' }),
-                    value: '€2,001 - €5,000',
-                  },
-                  {
-                    label: t('budgetValues.2', {
-                      fallback: '€5,001 - €10,000',
-                    }),
-                    value: '€5,001 - €10,000',
-                  },
-                ]}
+                label={t('budget.label')}
+                placeholder={t('budget.placeholder')}
+                values={BUDGET_VALUES.map((value, index) => ({
+                  label: t(`budgetValues.${index}`, { fallback: value }),
+                  value,
+                }))}
                 onSelect={value => field.handleChange(value)}
                 hint={field.state.meta.errors
                   .map(error => error?.message)
@@ -234,30 +197,21 @@ export const FirstStepForm = ({
           <Field name="timeline">
             {field => (
               <Select
-                label={t('timeline.label', { fallback: 'Timeline:' })}
-                placeholder={t('timeline.placeholder', {
-                  fallback: 'Choose your timeline',
-                })}
-                values={[
-                  {
-                    label: t('timelineValues.0', {
-                      fallback: 'Short Term (1-3 months)',
-                    }),
-                    value: '1-3 months',
-                  },
-                  {
-                    label: t('timelineValues.1', {
-                      fallback: 'Medium Term (3-6 months)',
-                    }),
-                    value: '3-6 months',
-                  },
-                  {
-                    label: t('timelineValues.2', {
-                      fallback: 'Long Term (6+ months)',
-                    }),
-                    value: '6+ months',
-                  },
-                ]}
+                label={t('timeline.label')}
+                placeholder={t('timeline.placeholder')}
+                values={TIMELINE_VALUES.map((value, index) => ({
+                  label: t(`timelineValues.${index}`, {
+                    fallback:
+                      index === 0
+                        ? 'Short Term (1-3 months)'
+                        : index === 1
+                          ? 'Medium Term (3-6 months)'
+                          : index === 2
+                            ? 'Long Term (6+ months)'
+                            : 'Ongoing Support',
+                  }),
+                  value,
+                }))}
                 onSelect={value => field.handleChange(value)}
                 hint={field.state.meta.errors
                   .map(error => error?.message)
@@ -274,7 +228,7 @@ export const FirstStepForm = ({
           onClick={() => setIsOpen(false)}
           className="font-bold max-md:w-full max-md:justify-center"
         >
-          {t('cancel', { fallback: 'Cancel' })}
+          {t('cancel')}
         </Button>
         <Subscribe selector={state => [state.canSubmit, state.isSubmitting]}>
           {([canSubmit, isSubmitting]) => (
@@ -285,9 +239,7 @@ export const FirstStepForm = ({
               className="font-bold max-md:w-full max-md:justify-center"
               disabled={!canSubmit}
             >
-              {!isSubmitting
-                ? t('nextStep', { fallback: 'Next step' })
-                : t('submitting', { fallback: 'Submitting...' })}
+              {!isSubmitting ? t('nextStep') : t('submitting')}
             </Button>
           )}
         </Subscribe>

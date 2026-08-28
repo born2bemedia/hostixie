@@ -34,9 +34,8 @@ export default async function TermsAndConditions() {
     <>
       <PolicyHeader
         name={t('title', { fallback: 'Terms and Conditions' })}
-        subtitle="Last Updated: August 28, 2026"
       />
-      <PolicyBody sections={sections} />
+      <PolicyBody sections={sections} policyId="terms-and-conditions" />
     </>
   );
 }

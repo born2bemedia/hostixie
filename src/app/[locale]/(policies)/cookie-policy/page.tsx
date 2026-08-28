@@ -32,11 +32,8 @@ export default async function CookiePolicy() {
 
   return (
     <>
-      <PolicyHeader
-        name={t('name', { fallback: 'Cookie Policy' })}
-        subtitle="Last Updated: August 28, 2026"
-      />
-      <PolicyBody sections={sections} sticky />
+      <PolicyHeader name={t('name', { fallback: 'Cookie Policy' })} />
+      <PolicyBody sections={sections} sticky policyId="cookie-policy" />
     </>
   );
 }

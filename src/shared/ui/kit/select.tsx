@@ -66,7 +66,9 @@ export const Select = ({
         <ArrowDown />
       </button>
       {open && (
-        <div className="absolute top-full left-0 z-[999] mt-2 flex max-w-[226px] flex-col rounded-[6px] border border-[#A4A189] bg-[#FFF4E1] shadow-[0px_10px_25px_0px_rgba(0,0,0,0.10)]">
+        <div
+          className="absolute top-full left-0 z-[999] mt-2 flex w-full min-w-[226px] max-h-[min(280px,calc(100dvh-8rem))] flex-col overflow-y-auto overscroll-contain rounded-[6px] border border-[#A4A189] bg-[#FFF4E1] shadow-[0px_10px_25px_0px_rgba(0,0,0,0.10)] [scrollbar-color:#A4A189_transparent] [scrollbar-width:thin]"
+        >
           {values.map(v => (
             <div
               key={v.value}

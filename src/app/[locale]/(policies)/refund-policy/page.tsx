@@ -32,11 +32,8 @@ export default async function RefundPolicy() {
 
   return (
     <>
-      <PolicyHeader
-        name={t('title', { fallback: 'Refund Policy' })}
-        subtitle="Last Updated: August 28, 2026"
-      />
-      <PolicyBody sections={sections} />
+      <PolicyHeader name={t('title', { fallback: 'Refund Policy' })} />
+      <PolicyBody sections={sections} policyId="refund-policy" />
     </>
   );
 }

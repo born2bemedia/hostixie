@@ -679,8 +679,16 @@
   {
     "title": "Personal Data Breaches",
     "id": "personal-data-breaches",
-    "paragraphs": [],
-    "bullets": []
+    "paragraphs": [
+      "Where Hostixie becomes aware of a Personal Data breach, we will assess the circumstances and take appropriate measures.",
+      "Where legally required, we may notify:",
+      "Where Hostixie acts as a Processor, we will notify the relevant Client in accordance with applicable contractual and legal obligations."
+    ],
+    "bullets": [
+      "The appropriate supervisory authority;",
+      "An affected Client;",
+      "Affected individuals."
+    ]
   },
   {
     "title": "Payment Information",

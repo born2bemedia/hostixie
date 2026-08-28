@@ -32,11 +32,8 @@ export default async function PrivacyPolicy() {
 
   return (
     <>
-      <PolicyHeader
-        name={t('title', { fallback: 'Privacy Policy' })}
-        subtitle="Last Updated: August 28, 2026"
-      />
-      <PolicyBody sections={sections} />
+      <PolicyHeader name={t('title', { fallback: 'Privacy Policy' })} />
+      <PolicyBody sections={sections} policyId="privacy-policy" />
     </>
   );
 }

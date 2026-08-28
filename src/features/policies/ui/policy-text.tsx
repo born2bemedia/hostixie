@@ -7,3 +7,9 @@ export const PolicyText = ({ children }: { children: React.ReactNode }) => (
     {children}
   </Text>
 );
+
+export const PolicySubtitle = ({ children }: { children: React.ReactNode }) => (
+  <Text size="xl" color="black" weight={700} className="opacity-80">
+    {children}
+  </Text>
+);

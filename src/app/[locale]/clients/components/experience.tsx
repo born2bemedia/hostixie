@@ -8,11 +8,18 @@ import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const getReviews = (t: ReturnType<typeof useTranslations>) =>
-  [0, 1, 2, 3].map(index => ({
-    text: t(`reviews.${index}.text`),
-    from: t(`reviews.${index}.from`),
-  }));
+const getReviews = (t: ReturnType<typeof useTranslations>) => {
+  const reviews: { text: string; from: string }[] = [];
+
+  for (let index = 0; t.has(`reviews.${index}.text`); index++) {
+    reviews.push({
+      text: t(`reviews.${index}.text`),
+      from: t(`reviews.${index}.from`),
+    });
+  }
+
+  return reviews;
+};
 
 export const Experience = () => {
   const t = useTranslations('clients.experience');
@@ -86,9 +93,9 @@ export const Experience = () => {
           </div>
           <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex items-stretch gap-5">
-              {reviews.map(review => (
+              {reviews.map((review, index) => (
                 <div
-                  key={review.from}
+                  key={index}
                   className="flex flex-[0_0_25%] px-2 max-md:flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.3333%]"
                 >
                   <Card {...review} />
