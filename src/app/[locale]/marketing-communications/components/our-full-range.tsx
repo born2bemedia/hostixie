@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, type Dispatch, type SetStateAction } from 'react';
+import { type Dispatch, type SetStateAction,useEffect, useState } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import useEmblaCarousel from 'embla-carousel-react';

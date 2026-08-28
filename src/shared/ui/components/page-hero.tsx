@@ -14,6 +14,10 @@ export const PageHero = ({
   layoutClassName,
   additionalContent,
   textFirst = false,
+  innerClassName,
+  containerClassName,
+  contentRowClassName,
+  contentColumnClassName,
 }: {
   title: ReactNode;
   subtitle?: string;
@@ -21,6 +25,10 @@ export const PageHero = ({
   layoutClassName?: string;
   additionalContent?: ReactNode;
   textFirst?: boolean;
+  innerClassName?: string;
+  containerClassName?: string;
+  contentRowClassName?: string;
+  contentColumnClassName?: string;
 }) => (
   <section
     className={cn(
@@ -28,8 +36,15 @@ export const PageHero = ({
       layoutClassName,
     )}
   >
-    <section className="relative flex h-full flex-col">
-      <div className="container !mt-[40px] flex flex-col gap-20 max-md:gap-10">
+    <section
+      className={cn('relative flex h-full min-h-0 flex-col', innerClassName)}
+    >
+      <div
+        className={cn(
+          'container !mt-[40px] flex flex-col gap-20 max-md:gap-10',
+          containerClassName,
+        )}
+      >
         <Title
           as="h1"
           weight={400}
@@ -38,9 +53,19 @@ export const PageHero = ({
         >
           {title}
         </Title>
-        <div className="flex items-end justify-between max-md:gap-10">
+        <div
+          className={cn(
+            'flex items-end justify-between max-md:gap-10',
+            contentRowClassName,
+          )}
+        >
           <LineUpIcon />
-          <div className="flex w-[70%] flex-col gap-2 max-[1300px]:w-full">
+          <div
+            className={cn(
+              'flex w-[70%] flex-col gap-2 max-[1300px]:w-full',
+              contentColumnClassName,
+            )}
+          >
             {textFirst ? (
               <>
                 <Text size="xl" weight={500}>
@@ -64,7 +89,9 @@ export const PageHero = ({
                 </Text>
               </>
             )}
-            {additionalContent}
+            {additionalContent && (
+              <div className="mt-4">{additionalContent}</div>
+            )}
           </div>
         </div>
       </div>

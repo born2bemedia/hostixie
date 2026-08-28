@@ -1728,6 +1728,34 @@
           "author": "— Laura Bennett, Managing Director"
         },
         "2": {
+          "type": "Consulting",
+          "title": "Professional Services Repositioning",
+          "client": "Professional Services Firm",
+          "project": "Brand Communication Strategy",
+          "services": "Positioning, Messaging Framework, Corporate Communications",
+          "outcomes": {
+            "0": "Refined the company's market positioning",
+            "1": "Developed a clearer value proposition",
+            "2": "Created audience-specific key messages"
+          },
+          "review": "Our services had evolved, but the way we described the business had not. Hostixie helped us simplify the message and create a communication framework that our entire team could actually use.",
+          "author": "— Sophie Bennett, Managing Partner"
+        },
+        "3": {
+          "type": "Business Services",
+          "title": "Corporate PR Programme",
+          "client": "Business Services Company",
+          "project": "PR & External Communications",
+          "services": "PR Strategy, Press Materials, Thought Leadership, Communication Planning",
+          "outcomes": {
+            "0": "Developed a structured PR plan",
+            "1": "Defined priority topics and key messages",
+            "2": "Prepared corporate announcements and press materials"
+          },
+          "review": "Before the project, our external communication was quite reactive. We now have a much clearer structure for what we communicate, when we communicate it, and who each message is intended for.",
+          "author": "— Mark Ellis, Chief Executive Officer"
+        },
+        "4": {
           "type": "Manufacturing",
           "title": "Visual Communication Refresh",
           "client": "Manufacturing Company",
@@ -1741,7 +1769,7 @@
           "review": "The difference was not about making everything look more decorative. The team made our materials easier to understand and much more consistent, which was exactly what we needed.",
           "author": "— Thomas Weber, Commercial Director"
         },
-        "3": {
+        "5": {
           "type": "Hospitality",
           "title": "Hospitality Brand Campaign",
           "client": "Independent Hospitality Group",
@@ -1754,6 +1782,34 @@
           },
           "review": "The campaign finally felt like one campaign instead of several unrelated promotions. The messaging and visuals were consistent, and the whole process was much easier to manage.",
           "author": "— Emily Carter, Co-Founder"
+        },
+        "6": {
+          "type": "Financial Services",
+          "title": "Customer Perception Study",
+          "client": "Financial Services Provider",
+          "project": "Brand Perception Research",
+          "services": "Research Planning, Audience Survey, Findings Analysis",
+          "outcomes": {
+            "0": "Defined research questions and audience groups",
+            "1": "Developed the survey structure",
+            "2": "Analyzed customer attitudes and perceptions"
+          },
+          "review": "Some of the findings confirmed what we expected, but others challenged our assumptions. That made the research genuinely useful rather than simply reassuring.",
+          "author": "— Richard Hall, Strategy Director"
+        },
+        "7": {
+          "type": "Technology",
+          "title": "New Market Communication Strategy",
+          "client": "Technology Company",
+          "project": "Communication Strategy for Market Entry",
+          "services": "Market Research, Positioning, Messaging, Communication Planning",
+          "outcomes": {
+            "0": "Researched the new market and relevant competitors",
+            "1": "Reviewed target audience expectations",
+            "2": "Adapted positioning for the local context"
+          },
+          "review": "Entering a new market forced us to reconsider how we explained the business. Hostixie helped us adapt the message without losing what made the brand recognizable.",
+          "author": "— Michael Grant, Co-Founder"
         }
       }
     },

@@ -8,7 +8,8 @@ export const applicationFormSchema = v.object({
     v.email('Invalid email address'),
   ),
   linkedinProfile: v.pipe(v.string()),
-  coverLetter: v.optional(
+  coverLetter: v.union([
+    v.undefined(),
     v.pipe(
       v.file(),
       v.mimeType(
@@ -20,10 +21,12 @@ export const applicationFormSchema = v.object({
         'Cover letter must be PDF, DOC, or DOCX format',
       ),
     ),
-  ),
+  ]),
   position: v.pipe(v.string(), v.minLength(1, 'Position is required')),
   resume: v.pipe(
-    v.file('Resume is required'),
+    v.union([v.file(), v.undefined()]),
+    v.check(value => value instanceof File, 'Resume is required'),
+    v.transform(value => value as File),
     v.mimeType(['application/pdf'], 'Resume must be in PDF format'),
   ),
   message: v.pipe(v.string()),

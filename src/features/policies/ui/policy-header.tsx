@@ -2,7 +2,13 @@
 
 import { Title } from '@/shared/ui/kit/title';
 
-export const PolicyHeader = ({ name }: { name: string }) => {
+export const PolicyHeader = ({
+  name,
+  subtitle,
+}: {
+  name: string;
+  subtitle?: string;
+}) => {
   return (
     <header className="py-10">
       <div className="container flex flex-col gap-2.5">
@@ -13,6 +19,11 @@ export const PolicyHeader = ({ name }: { name: string }) => {
         >
           {name}
         </Title>
+        {subtitle && (
+          <p className="text-primary text-base font-bold leading-[140%] tracking-[0.32px]">
+            {subtitle}
+          </p>
+        )}
       </div>
     </header>
   );

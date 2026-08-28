@@ -22,7 +22,11 @@ export const Hero = () => {
         </>
       }
       subtitle={t('subtitle')}
-      layoutClassName="h-[620px] max-[1295px]:h-[820px] max-md:h-[620px]"
+      layoutClassName="h-[700px] max-[1295px]:h-[880px] max-md:h-[680px]"
+      innerClassName="pb-[132px] max-md:pb-[150px]"
+      containerClassName="flex-1 min-h-0"
+      contentRowClassName="mt-auto"
+      contentColumnClassName="pb-10 max-md:pb-8"
       text={t('text')}
       additionalContent={
         <Button variant="primary" onClick={openRequestForm}>
