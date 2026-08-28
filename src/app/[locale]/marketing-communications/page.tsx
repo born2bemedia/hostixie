@@ -13,22 +13,19 @@ import {
 } from './components';
 
 export const metadata: Metadata = {
-  title:
-    'Marketing & Communications – Strategy, Research, PR & Design | Hostixie',
+  title: 'B2B Marketing & Communications Services | Hostixie',
   description:
-    'Hostixie marketing and communications services cover consulting, market research, PR, brand communication, and visual solutions built around your business goals.',
+    'Marketing, market research, PR, communications, and creative services helping companies strengthen their positioning and communicate with their audiences.',
   openGraph: {
-    title:
-      'Marketing & Communications – Strategy, Research, PR & Design | Hostixie',
+    title: 'B2B Marketing & Communications Services | Hostixie',
     description:
-      'Hostixie marketing and communications services cover consulting, market research, PR, brand communication, and visual solutions built around your business goals.',
+      'Marketing, market research, PR, communications, and creative services helping companies strengthen their positioning and communicate with their audiences.',
   },
   twitter: {
     card: 'summary_large_image',
-    title:
-      'Marketing & Communications – Strategy, Research, PR & Design | Hostixie',
+    title: 'B2B Marketing & Communications Services | Hostixie',
     description:
-      'Hostixie marketing and communications services cover consulting, market research, PR, brand communication, and visual solutions built around your business goals.',
+      'Marketing, market research, PR, communications, and creative services helping companies strengthen their positioning and communicate with their audiences.',
   },
 };
 

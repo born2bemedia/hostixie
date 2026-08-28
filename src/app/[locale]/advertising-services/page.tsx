@@ -12,19 +12,19 @@ import {
 import { ReadyChoosePlan } from './ready-choose-plan';
 
 export const metadata: Metadata = {
-  title: 'Advertising Services – Strategy, Creative & Media | Hostixie',
+  title: 'B2B Advertising Services | Hostixie',
   description:
-    'Hostixie advertising services cover campaign strategy, creative advertising, digital media, media planning, multi-channel campaigns, and performance optimization.',
+    'Strategic advertising services covering campaign planning, creative development, media placement, campaign management, and performance optimization.',
   openGraph: {
-    title: 'Advertising Services – Strategy, Creative & Media | Hostixie',
+    title: 'B2B Advertising Services | Hostixie',
     description:
-      'Hostixie advertising services cover campaign strategy, creative advertising, digital media, media planning, multi-channel campaigns, and performance optimization.',
+      'Strategic advertising services covering campaign planning, creative development, media placement, campaign management, and performance optimization.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Advertising Services – Strategy, Creative & Media | Hostixie',
+    title: 'B2B Advertising Services | Hostixie',
     description:
-      'Hostixie advertising services cover campaign strategy, creative advertising, digital media, media planning, multi-channel campaigns, and performance optimization.',
+      'Strategic advertising services covering campaign planning, creative development, media placement, campaign management, and performance optimization.',
   },
 };
 

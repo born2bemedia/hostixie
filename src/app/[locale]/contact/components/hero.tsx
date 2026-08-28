@@ -19,7 +19,7 @@ export const Hero = () => {
           className="text-[112px] leading-[80%] tracking-[1.12px] max-md:text-[60px] max-md:leading-[54px] max-md:tracking-[1.12px]"
           uppercase
         >
-          {t('title', { fallback: 'Let’s Connect' })}
+          {t('title', { fallback: "Let's Talk About Your Business Goals" })}
         </Title>
         <section className="flex items-end justify-between gap-10">
           <svg

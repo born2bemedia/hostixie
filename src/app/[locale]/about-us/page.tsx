@@ -15,19 +15,19 @@ import {
 } from './components';
 
 export const metadata: Metadata = {
-  title: 'About Hostixie | Helping Brands Communicate With Purpose',
+  title: 'About Hostixie | Advertising & Marketing Agency',
   description:
-    'Hostixie brings together advertising, marketing strategy, research, media, PR, communications, and graphic design to help brands communicate with purpose.',
+    'Hostixie is an agency providing advertising, marketing, research, public relations, communications, and graphic design services for businesses and organizations.',
   openGraph: {
-    title: 'About Hostixie | Helping Brands Communicate With Purpose',
+    title: 'About Hostixie | Advertising & Marketing Agency',
     description:
-      'Hostixie brings together advertising, marketing strategy, research, media, PR, communications, and graphic design to help brands communicate with purpose.',
+      'Hostixie is an agency providing advertising, marketing, research, public relations, communications, and graphic design services for businesses and organizations.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About Hostixie | Helping Brands Communicate With Purpose',
+    title: 'About Hostixie | Advertising & Marketing Agency',
     description:
-      'Hostixie brings together advertising, marketing strategy, research, media, PR, communications, and graphic design to help brands communicate with purpose.',
+      'Hostixie is an agency providing advertising, marketing, research, public relations, communications, and graphic design services for businesses and organizations.',
   },
 };
 

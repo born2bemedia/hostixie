@@ -12,19 +12,19 @@ import {
 } from './components';
 
 export const metadata: Metadata = {
-  title: 'Projects That Made an Impact | Hostixie',
+  title: 'Our Clients & Marketing Projects | Hostixie',
   description:
-    'See how Hostixie helps brands solve advertising, marketing, research, communication, and visual challenges.',
+    'Explore selected Hostixie projects across advertising, marketing strategy, market research, communications, PR, and creative services.',
   openGraph: {
-    title: 'Projects That Made an Impact | Hostixie',
+    title: 'Our Clients & Marketing Projects | Hostixie',
     description:
-      'See how Hostixie helps brands solve advertising, marketing, research, communication, and visual challenges.',
+      'Explore selected Hostixie projects across advertising, marketing strategy, market research, communications, PR, and creative services.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Projects That Made an Impact | Hostixie',
+    title: 'Our Clients & Marketing Projects | Hostixie',
     description:
-      'See how Hostixie helps brands solve advertising, marketing, research, communication, and visual challenges.',
+      'Explore selected Hostixie projects across advertising, marketing strategy, market research, communications, PR, and creative services.',
   },
 };
 

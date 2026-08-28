@@ -12,19 +12,19 @@ import {
 } from './components';
 
 export const metadata: Metadata = {
-  title: 'Advertising, Marketing & Communications | Hostixie',
+  title: 'Advertising & Marketing Services for Businesses | Hostixie',
   description:
-    'Hostixie helps brands get noticed with advertising, marketing strategy, communications, research, and creative design built around clear business goals.',
+    'Hostixie helps businesses with advertising, marketing strategy, research, PR, communications, and creative services designed around clear objectives.',
   openGraph: {
-    title: 'Advertising, Marketing & Communications | Hostixie',
+    title: 'Advertising & Marketing Services for Businesses | Hostixie',
     description:
-      'Hostixie helps brands get noticed with advertising, marketing strategy, communications, research, and creative design built around clear business goals.',
+      'Hostixie helps businesses with advertising, marketing strategy, research, PR, communications, and creative services designed around clear objectives.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Advertising, Marketing & Communications | Hostixie',
+    title: 'Advertising & Marketing Services for Businesses | Hostixie',
     description:
-      'Hostixie helps brands get noticed with advertising, marketing strategy, communications, research, and creative design built around clear business goals.',
+      'Hostixie helps businesses with advertising, marketing strategy, research, PR, communications, and creative services designed around clear objectives.',
   },
 };
 

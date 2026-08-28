@@ -11,19 +11,19 @@ import {
 } from './components';
 
 export const metadata: Metadata = {
-  title: 'Our Approach – Turning Insight Into Impact | Hostixie',
+  title: 'Our Approach to Advertising & Marketing | Hostixie',
   description:
-    'Discover Hostixie’s strategic process connecting research, creativity, advertising, and communication — from discovery to continuous improvement.',
+    'A structured, collaborative approach to advertising, marketing, research, PR, and communications projects, from initial strategy through delivery and evaluation.',
   openGraph: {
-    title: 'Our Approach – Turning Insight Into Impact | Hostixie',
+    title: 'Our Approach to Advertising & Marketing | Hostixie',
     description:
-      'Discover Hostixie’s strategic process connecting research, creativity, advertising, and communication — from discovery to continuous improvement.',
+      'A structured, collaborative approach to advertising, marketing, research, PR, and communications projects, from initial strategy through delivery and evaluation.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Our Approach – Turning Insight Into Impact | Hostixie',
+    title: 'Our Approach to Advertising & Marketing | Hostixie',
     description:
-      'Discover Hostixie’s strategic process connecting research, creativity, advertising, and communication — from discovery to continuous improvement.',
+      'A structured, collaborative approach to advertising, marketing, research, PR, and communications projects, from initial strategy through delivery and evaluation.',
   },
 };
 
@@ -36,11 +36,8 @@ export default async function OurApproach() {
         layoutClassName="h-225 max-[1300px]:h-300"
         title={
           <>
-            <span className="text-[40px] leading-[48px] max-md:text-base max-md:leading-[120%]">
-              {t('title.0')}
-            </span>{' '}
-            <br /> {t('title.1')}{' '}
-            <span className="text-primary">{t('title.2')}</span>
+            {t('title.0')}{' '}
+            <span className="text-primary">{t('title.1')}</span>
           </>
         }
         subtitle={t('subtitle')}

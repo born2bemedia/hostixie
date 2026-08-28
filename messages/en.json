@@ -35,7 +35,7 @@
   },
   "home": {
     "hero": {
-      "title": "Ideas That Get Brands Noticed",
+      "title": "Hostixie Advertising, Marketing & Communications",
       "subtitle": "Advertising, Marketing & Communication Solutions Built to Connect Brands with the Right Audiences",
       "button": "Start Your Project Today"
     },
@@ -211,7 +211,7 @@
   },
   "webHosting": {
     "hero": {
-      "title": "Advertising That Moves Brands Forward",
+      "title": "Hostixie Advertising Services",
       "subtitle": "Strategic Campaign Planning, Creative Advertising & Media Placement Built Around Your Business Goals",
       "text": "Advertising works best when strategy, creativity, media, and execution work together. At Hostixie, we develop advertising solutions designed to help businesses reach relevant audiences, communicate clear messages, and build stronger brand presence across selected channels."
     },
@@ -616,7 +616,7 @@
   },
   "webDevelopment": {
     "hero": {
-      "title": "Strategy That Gives Your Brand a Clearer Voice",
+      "title": "Hostixie Marketing & Communications",
       "subtitle": "Marketing Consulting, Market Research, PR, Brand Communication & Visual Solutions Built Around Your Business Goals",
       "text": "At Hostixie, we combine marketing strategy, business consulting, market research, public relations, communications, and visual design to help businesses make informed decisions and communicate more clearly and consistently."
     },
@@ -1065,7 +1065,7 @@
   },
   "contact": {
     "hero": {
-      "title": "Let’s Connect",
+      "title": "Let's Talk About Your Business Goals",
       "text": "Hostixie provides advertising, marketing, communications, market research, PR, media placement, consulting, and visual communication services tailored to your business goals"
     },
     "findUsOnMap": {
@@ -1152,9 +1152,8 @@
   "ourApproach": {
     "hero": {
       "title": {
-        "0": "Our Approach:",
-        "1": "Turning Insight",
-        "2": "Into Impact"
+        "0": "Hostixie",
+        "1": "Approach"
       },
       "subtitle": "A Strategic and Collaborative Process That Connects Research, Creativity, Advertising, and Communication",
       "text": "We combine research, strategic thinking, creative development, media planning, communication, and performance analysis to create solutions aligned with each client’s business objectives. From an individual advertising campaign to broader brand communication, our team works closely with you at every stage to keep strategy, creativity, and execution connected."
@@ -1281,8 +1280,8 @@
     },
     "hero": {
       "title": {
-        "0": "Helping Brands Communicate",
-        "1": "With Purpose"
+        "0": "About",
+        "1": "Hostixie"
       },
       "subtitle": "Advertising, Marketing & Communication Solutions Built Around Strategy, Insight, and Creativity",
       "text": "At Hostixie, we bring together advertising, marketing strategy, business consulting, market research, media planning, PR, communications, and graphic design to help businesses communicate more clearly and connect with the audiences that matter."
@@ -1411,9 +1410,8 @@
   "careers": {
     "hero": {
       "title": {
-        "0": "Careers:",
-        "1": "Be the First",
-        "2": "to Apply"
+        "0": "Careers at",
+        "1": "Hostixie"
       },
       "subtitle": "Join Hostixie",
       "text": "At Hostixie, we believe strong ideas come from people who understand audiences, ask the right questions, communicate clearly, and challenge familiar approaches. Join a collaborative team where you can develop your expertise, contribute to meaningful projects, and take ownership of the work you do."
@@ -1652,8 +1650,8 @@
   "clients": {
     "hero": {
       "title": {
-        "0": "Projects That",
-        "1": "Made an Impact"
+        "0": "Hostixie Clients &",
+        "1": "Projects"
       },
       "subtitle": "Have a challenge you want to discuss?",
       "text": "Every successful project begins with understanding the business behind it. We work with companies across different sectors to solve advertising, marketing, research, communication, and visual challenges.",

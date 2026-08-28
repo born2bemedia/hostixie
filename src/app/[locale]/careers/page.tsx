@@ -6,19 +6,19 @@ import { PageHero } from '@/shared/ui/components/page-hero';
 import { GetInTouch, Jobs, OurCulture, WhyJoinUs } from './components';
 
 export const metadata: Metadata = {
-  title: 'Careers – Join Hostixie | Hostixie',
+  title: 'Careers at Hostixie | Advertising & Communications',
   description:
-    'Explore career opportunities at Hostixie. Join a collaborative advertising and communications team where you can grow your expertise and own meaningful work.',
+    'Explore opportunities to work across advertising, marketing, communications, market research, PR, and creative projects at Hostixie.',
   openGraph: {
-    title: 'Careers – Join Hostixie | Hostixie',
+    title: 'Careers at Hostixie | Advertising & Communications',
     description:
-      'Explore career opportunities at Hostixie. Join a collaborative advertising and communications team where you can grow your expertise and own meaningful work.',
+      'Explore opportunities to work across advertising, marketing, communications, market research, PR, and creative projects at Hostixie.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Careers – Join Hostixie | Hostixie',
+    title: 'Careers at Hostixie | Advertising & Communications',
     description:
-      'Explore career opportunities at Hostixie. Join a collaborative advertising and communications team where you can grow your expertise and own meaningful work.',
+      'Explore opportunities to work across advertising, marketing, communications, market research, PR, and creative projects at Hostixie.',
   },
 };
 
@@ -30,11 +30,8 @@ export default async function Careers() {
       <PageHero
         title={
           <>
-            <span className="text-[40px] leading-[48px] max-md:text-base max-md:leading-[120%]">
-              {t('title.0')}
-            </span>{' '}
-            <br /> {t('title.1')} <br />
-            <span className="text-primary">{t('title.2')}</span>
+            {t('title.0')}{' '}
+            <span className="text-primary">{t('title.1')}</span>
           </>
         }
         text={t('text')}

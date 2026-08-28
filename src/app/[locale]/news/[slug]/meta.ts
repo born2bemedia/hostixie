@@ -2,56 +2,49 @@ export const metadata: Record<string, { title: string; description: string }> =
   {
     'b2b-brand-positioning-project-completed-for-a-professional-services-firm': {
       title:
-        'B2B Brand Positioning Case Study – Professional Services Firm | Hostixie',
+        'Brand Positioning Project for a Professional Services Firm | Hostixie',
       description:
-        'How Hostixie refined positioning, value proposition, and corporate communication for a professional services firm expanding into larger corporate clients.',
+        'Hostixie completes a brand positioning project helping a professional services company clarify its market position and strengthen its communications.',
     },
     'market-research-programme-shapes-expansion-strategy-for-a-manufacturing-client': {
       title:
-        'Market Research Case Study – Manufacturing Expansion Strategy | Hostixie',
+        'Market Research Supports Manufacturing Expansion Strategy | Hostixie',
       description:
-        'Market and competitor research for a manufacturing client evaluating expansion into new B2B segments. Three priority market segments identified.',
+        'A structured market research programme provides a manufacturing client with insights to evaluate opportunities and support its expansion planning.',
     },
     'integrated-b2b-campaign-supports-a-new-service-launch': {
-      title:
-        'Integrated B2B Campaign Case Study – New Service Launch | Hostixie',
+      title: 'Integrated Campaign Supports New Service Launch | Hostixie',
       description:
-        'Hostixie developed an integrated B2B campaign for a business services company introducing a new solution to corporate buyers.',
+        'Hostixie develops an integrated advertising campaign supporting a new service launch through coordinated messaging, creative assets, and media activity.',
     },
     'new-market-intelligence-research-framework-introduced': {
-      title:
-        'New Market Intelligence & Research Framework | Hostixie',
+      title: 'New Market Intelligence & Research Framework | Hostixie',
       description:
-        'Hostixie introduced a structured research framework for market entry, competitor intelligence, audience analysis, and brand perception projects.',
+        'Hostixie introduces a structured research framework designed to help companies organize market information and make more informed strategic decisions.',
     },
     'client-reporting-campaign-visibility-upgraded': {
-      title:
-        'Client Reporting & Campaign Visibility Upgrade | Hostixie',
+      title: 'Campaign Reporting & Performance Visibility Upgraded | Hostixie',
       description:
-        'Improved project updates, campaign reporting, deliverable status, and research findings visibility for Hostixie clients.',
+        'Hostixie enhances client reporting processes to provide clearer campaign information, performance insights, and greater visibility into advertising activity.',
     },
     'new-partnership-with-a-business-marketing-programme': {
-      title:
-        'Business Marketing Programme Partnership | Hostixie',
+      title: 'New Partnership with a Business Marketing Programme | Hostixie',
       description:
-        'Hostixie partners with a business and marketing education programme to give emerging professionals practical agency experience.',
+        'Hostixie announces a new partnership supporting a marketing programme focused on practical strategy, communications, and business development.',
     },
     'regional-b2b-marketing-workshop-hosted': {
-      title:
-        'Regional B2B Marketing Workshop | Hostixie',
+      title: 'Regional Marketing Workshop Hosted by Hostixie',
       description:
-        'Hostixie hosted a practical workshop on B2B positioning, audience segmentation, and communication planning.',
+        'Hostixie hosts a regional marketing workshop exploring practical approaches to advertising, brand positioning, communications, and market development.',
     },
     'industry-research-roundtable-participation': {
-      title:
-        'Industry Research Roundtable Participation | Hostixie',
+      title: 'Hostixie Participates in Industry Research Roundtable',
       description:
-        'Hostixie participated in an industry roundtable on B2B buying behavior, communication preferences, and research in marketing.',
+        'Hostixie joins an industry research roundtable to exchange perspectives on market developments, business challenges, communications, and emerging opportunities.',
     },
     'senior-communications-strategy-expertise-added': {
-      title:
-        'Senior Communications Strategy Expertise Added | Hostixie',
+      title: 'Senior Communications Strategy Expertise Added | Hostixie',
       description:
-        'Hostixie strengthened its communications capability with senior expertise in corporate messaging, PR, and brand positioning.',
+        'Hostixie strengthens its communications capabilities with senior expertise in corporate messaging, strategic communications, brand positioning, and stakeholder engagement.',
     },
   };

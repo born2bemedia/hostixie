@@ -11,21 +11,19 @@ import { NewsList } from '@/features/news/ui/news-list';
 import { GotProject, Hero } from './components';
 
 export const metadata: Metadata = {
-  title: 'Hostixie Newsroom – Advertising, Marketing & Communications | Hostixie',
+  title: 'Advertising & Marketing News | Hostixie',
   description:
-    'Explore recent client projects, market research initiatives, campaign developments, new capabilities, team updates, and industry activities from Hostixie.',
+    'Read the latest Hostixie updates, campaign developments, research initiatives, partnerships, and news from our advertising and marketing work.',
   openGraph: {
-    title:
-      'Hostixie Newsroom – Advertising, Marketing & Communications | Hostixie',
+    title: 'Advertising & Marketing News | Hostixie',
     description:
-      'Explore recent client projects, market research initiatives, campaign developments, new capabilities, team updates, and industry activities from Hostixie.',
+      'Read the latest Hostixie updates, campaign developments, research initiatives, partnerships, and news from our advertising and marketing work.',
   },
   twitter: {
     card: 'summary_large_image',
-    title:
-      'Hostixie Newsroom – Advertising, Marketing & Communications | Hostixie',
+    title: 'Advertising & Marketing News | Hostixie',
     description:
-      'Explore recent client projects, market research initiatives, campaign developments, new capabilities, team updates, and industry activities from Hostixie.',
+      'Read the latest Hostixie updates, campaign developments, research initiatives, partnerships, and news from our advertising and marketing work.',
   },
 };
 
