@@ -5,7 +5,6 @@ import { getTranslations } from 'next-intl/server';
 import { FeatureHero } from '@/shared/ui/components/feature-hero';
 
 import {
-  DownloadPrice,
   NeedHelp,
   OurFullRange,
   OurPath,
@@ -41,7 +40,6 @@ export default async function WebDevelopment() {
       />
       <OurPath />
       <OurFullRange />
-      <DownloadPrice />
       <section className="relative h-[1200px] max-md:h-[800px]">
         <Image
           className="object-cover"

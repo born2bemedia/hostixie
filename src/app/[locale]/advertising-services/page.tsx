@@ -6,7 +6,6 @@ import { FeatureHero } from '@/shared/ui/components/feature-hero';
 import {
   AdvertisingPackages,
   AdvertisingServices,
-  DownloadPrice,
   FullRange,
 } from './components';
 import { ReadyChoosePlan } from './ready-choose-plan';
@@ -40,7 +39,6 @@ export default async function WebHosting() {
       />
       <AdvertisingServices />
       <FullRange />
-      <DownloadPrice />
       <AdvertisingPackages />
       <ReadyChoosePlan />
     </main>
